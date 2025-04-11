@@ -261,5 +261,90 @@ Nuestra visión es ofrecer una solución IoT integral, accesible y de fácil imp
 
 Nos enfocamos inicialmente en comunidades rurales con acceso limitado al agua y en entidades (municipalidades, ONGs, programas sociales) que gestionan el suministro hídrico en estas zonas. Estas comunidades suelen carecer de infraestructura moderna y requieren soluciones tecnológicas asequibles, adaptables y de fácil implementación para enfrentar los desafíos diarios relacionados con la disponibilidad y seguridad del agua.
 
+x
+
+#### 1.2.2.2. Lean UX Assumptions.
+
+En esta sección, veremos los Assumptions que podemos esperar de nuestra solución, desde los Features que debe tener, hasta los Outcomes en nuestra perspectiva y la de los usuarios.
+
+**Features:**
+
+Aqui veremos las herramientas que planeamos implementar en nuestra solución.
+
+- Monitoreo en Tiempo Real de Calidad y Cantidad de Agua: Sensores IoT que recopilan datos sobre el caudal, presión, nivel de cloro, turbidez, entre otros parámetros del agua, enviando la información a una plataforma centralizada.
+- Alertas Automatizadas: Notificaciones en tiempo real sobre anomalías en la calidad del agua o interrupciones en el suministro, dirigidas a autoridades locales, técnicos o responsables comunitarios.
+- Dashboard Centralizado de Datos: Plataforma accesible desde dispositivos móviles o PC para visualizar gráficamente el estado del suministro, históricos y predicciones de comportamiento hídrico.
+- Reportes Automáticos para Toma de Decisiones: Generación de reportes periódicos para los tomadores de decisiones, con métricas claves para planificación y mejora de la infraestructura.
+
+**Business Outcomes:**
+
+Aqui nos centraremos en, tanto lo que queremos lograr como solución de la gestión hotelera, como lo que debemos ver para saber que nuestra solución fue exitosa y tuvo el impacto que deseamos.
+
+- Posicionamiento como Referente en Soluciones IoT para Comunidades Rurales: Ser reconocidos como un socio estratégico confiable para proyectos de gestión de agua a nivel rural, gracias a nuestra innovación tecnológica y compromiso social.
+- Reducción de Interrupciones de Suministro: Disminución del 40% en el tiempo de respuesta ante problemas con la distribución del agua, gracias a la detección temprana de fallas.
+- Mejora de la Calidad del Agua Distribuida: Aumento del cumplimiento de los estándares de calidad en un 25% en zonas donde se implementa el sistema, gracias a una supervisión constante y medidas correctivas inmediatas.
+- Ahorro en Costos Operativos: Reducción del 30% en los gastos asociados al mantenimiento reactivo, debido al uso de datos predictivos para prevención de fallas.
+- Mayor Transparencia y Confianza Comunitaria: Acceso público o restringido a información transparente que fortalezca la confianza entre los gestores de agua y las comunidades beneficiadas.
+
+**Users:**
+
+Estos son los usuarios a los que van dirigido nuestra solución.
+
+- Gestores de Agua Rurales (municipalidades, juntas de usuarios, ONG): Requieren una solución que les brinde visibilidad completa sobre el sistema de distribución y calidad del agua.
+- Personas que viven en zonas vulnerables 
+
+**User Outcomes & Benefits:**
+
+Estos son los beneficios inmediatos que obtendran los usuarios con nuestra solución.
+
+- Visibilidad Total sobre la Red de Agua: Acceso a información detallada, en tiempo real, sobre el estado del recurso hídrico.
+- Decisiones Rápidas y Basadas en Datos: Reducción del tiempo de respuesta ante incidentes, gracias a alertas automáticas y datos actualizados.
+- Menor Riesgo Sanitario: La identificación oportuna de contaminación permite tomar acciones inmediatas para evitar enfermedades relacionadas con el agua.
+- Facilitación de la Gestión Técnica y Comunitaria: Simplificación de tareas rutinarias mediante herramientas visuales y reportes automáticos.
+- Empoderamiento Comunitario: Promueve la participación ciudadana informada y la corresponsabilidad en el cuidado del recurso.
+- Aumento de la Transparencia: Facilita auditorías, fiscalización y comunicación efectiva entre todas las partes involucradas.
+
+**Business Assumptions:**
+
+Estos son los puntos que podemos asumir de nuestro negocio.
+
+1. Existe una necesidad urgente de mejorar la gestión del agua en zonas rurales, especialmente en lugaers en vías de desarrollo.
+2. Esta necesidad puede resolverse con una solución IoT accesible, autónoma y fácil de usar por personal técnico o líderes comunitarios.
+3. El valor principal que buscan los clientes es una forma confiable y económica de monitorear y mejorar el sistema hídrico sin requerir grandes inversiones.
+4. Nuestros clientes potenciales serán principalmente gobiernos locales, ONGs, cooperativas y empresas sociales con foco en desarrollo rural.
+5. Obtendremos ingresos a través de un modelo mixto: venta de kits IoT + suscripción a la plataforma de monitoreo, con opciones de personalización e integración.
+6. Aunque existen soluciones similares, muchas son costosas o complejas. Nuestra ventaja está en la adaptabilidad, escalabilidad y soporte local.
+7. El mayor riesgo es la falta de conectividad o acceso a tecnologías en zonas remotas.
+8. Planeamos mitigar este riesgo mediante tecnologías de bajo consumo energético, almacenamiento offline y comunicación vía redes alternativas (LoRa, GSM, etc.).
 
 
+
+#### 1.2.2.3. Lean UX Hypothesis Statements.
+
+Hipótesis 1:
+
+Creemos que lograremos el posicionamiento como referentes en soluciones IoT para comunidades rurales, si los gestores de agua obtienen una experiencia clara y visualmente intuitiva mediante el uso del dashboard centralizado de datos.
+
+Hipótesis 2:
+
+Creemos que obtendremos una mejora significativa en la eficiencia operativa, si los técnicos de mantenimiento reciben alertas automatizadas en tiempo real ante problemas en el sistema de distribución de agua.
+
+Hipótesis 3:
+
+Creemos que se logrará una mejora en la calidad del agua distribuida, si los gestores de agua pueden monitorear constantemente parámetros como turbidez, cloro y presión a través de los sensores IoT instalados.
+
+Hipótesis 4:
+
+Creemos que se reducirá el tiempo de respuesta ante incidentes, si los técnicos y responsables locales reciben notificaciones inmediatas mediante el sistema de alertas inteligentes.
+
+Hipótesis 5:
+
+Creemos que la transparencia y la confianza comunitaria aumentarán, si los líderes comunitarios tienen acceso a reportes automáticos y comprensibles sobre la calidad y cantidad de agua disponible.
+
+Hipótesis 6:
+
+Creemos que se logrará una reducción en los costos operativos del sistema de agua, si los responsables de gestión pueden planificar mantenimientos preventivos usando datos históricos y predicciones del sistema.
+
+Hipótesis 7:
+
+Creemos que podremos expandir la adopción de nuestra solución en comunidades rurales diversas, si ofrecemos una plataforma adaptable a distintos niveles tecnológicos y conectividad, gracias al uso de tecnologías como LoRa y GSM.
