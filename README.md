@@ -348,3 +348,97 @@ Creemos que se logrará una reducción en los costos operativos del sistema de a
 Hipótesis 7:
 
 Creemos que podremos expandir la adopción de nuestra solución en comunidades rurales diversas, si ofrecemos una plataforma adaptable a distintos niveles tecnológicos y conectividad, gracias al uso de tecnologías como LoRa y GSM.
+
+
+#### 1.2.2.4. Lean UX Canvas.
+
+A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
+
+
+<TABLE BORDER> <TR> <TD ROWSPAN=2><strong>Lean UX Canvas</strong></TD> <TD ROWSPAN=2></TD> <TD></TD> </TR> <TR></TR>
+
+
+<TR>
+	<TD ROWSPAN>
+		<strong>1. Business Problem:</strong><br><br>
+		En muchas zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Actualmente, no existen mecanismos efectivos que permitan monitorear en tiempo real tanto la cantidad como la calidad del agua distribuida, lo que impide tomar decisiones informadas para mejorar su distribución y asegurar su salubridad.
+	</TD>
+	<TD ROWSPAN=2>
+		<strong>5. Solutions</strong><br>
+		<ul>
+			<li><strong>Monitoreo en Tiempo Real:</strong> Uso de sensores IoT para medir caudal, presión, turbidez, niveles de cloro, etc.</li>
+			<li><strong>Alertas Automatizadas:</strong> Notificaciones en tiempo real sobre anomalías o interrupciones del servicio.</li>
+			<li><strong>Dashboard Centralizado:</strong> Plataforma accesible desde dispositivos móviles o PC para visualizar datos y generar reportes.</li>
+			<li><strong>Reportes para la Toma de Decisiones:</strong> Informes periódicos con métricas clave para autoridades y líderes comunitarios.</li>
+		</ul>
+	</TD>
+	<TD ROWSPAN=2>
+		<strong>2. Business Outcomes:</strong><br>
+		<ul>
+			<li>Ser reconocidos como referentes en soluciones IoT para comunidades rurales.</li>
+			<li>Reducción del 40% en el tiempo de respuesta ante problemas de suministro.</li>
+			<li>Mejora del 25% en estándares de calidad del agua en zonas intervenidas.</li>
+			<li>Reducción del 30% en gastos de mantenimiento gracias al análisis predictivo.</li>
+			<li>Mayor transparencia y confianza por parte de la comunidad.</li>
+		</ul>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<strong>3. Users:</strong><br><br>
+		<ul>
+			<li>Gestores de agua en municipalidades, juntas rurales, ONG y cooperativas.</li>
+			<li>Líderes comunitarios en zonas vulnerables.</li>
+			<li>Proyectos de investigación, sostenibilidad y desarrollo social.</li>
+		</ul>
+	</TD>
+</TR>
+
+<TR>
+	<TD ROWSPAN=2>
+		<strong>6. Hypotheses</strong><br><br>
+		<ul>
+			<li>Creemos que lograremos reconocimiento como referentes IoT si los usuarios obtienen una experiencia clara con el dashboard.</li>
+			<li>Creemos que aumentará la eficiencia si los técnicos reciben alertas en tiempo real.</li>
+			<li>Creemos que mejorará la calidad del agua si los parámetros son monitoreados constantemente.</li>
+			<li>Creemos que se reducirá el tiempo de respuesta si las alertas llegan al instante a los responsables.</li>
+			<li>Creemos que aumentará la confianza comunitaria si se generan reportes automáticos comprensibles.</li>
+			<li>Creemos que se reducirán costos operativos si se planifican mantenimientos con base en datos históricos.</li>
+			<li>Creemos que lograremos expansión si ofrecemos una solución adaptable con tecnologías como LoRa y GSM.</li>
+		</ul>
+	</TD>
+	<TD ROWSPAN=2>
+		<strong>7. What’s the Most Important Thing We Need to Learn First?</strong><br><br>
+		<ul>
+			<li>Validar que los gestores de agua necesitan visibilidad en tiempo real del recurso.</li>
+			<li>Determinar qué parámetros de calidad son prioritarios para los usuarios.</li>
+			<li>Confirmar la viabilidad técnica en zonas con conectividad limitada.</li>
+			<li>Comprender cómo se toman actualmente las decisiones y qué datos se utilizan.</li>
+		</ul>
+	</TD>
+	<TD>
+		<strong>4. User Outcomes & Benefits:</strong><br><br>
+		<ul>
+			<li>Acceso a datos en tiempo real sobre calidad y cantidad del agua.</li>
+			<li>Toma de decisiones informadas y rápidas ante emergencias.</li>
+			<li>Menor riesgo sanitario mediante acciones preventivas.</li>
+			<li>Simplificación de la gestión técnica y operativa.</li>
+			<li>Empoderamiento y corresponsabilidad ciudadana en la gestión del agua.</li>
+			<li>Mayor confianza entre comunidad y entidades gestoras.</li>
+		</ul>
+	</TD>
+</TR>
+
+<TR>
+	<TD>
+		<strong>8. What's the least amount of work we need to do to learn the next most important thing?</strong><br><br>
+		<ul>
+			<li><strong>Encuestas Rápidas:</strong> A líderes comunitarios y técnicos sobre sus prioridades y retos actuales.</li>
+			<li><strong>Pruebas de Concepto:</strong> Implementar un piloto con sensores y dashboard básico en una comunidad.</li>
+			<li><strong>Análisis de Factibilidad Técnica:</strong> Validar la cobertura de conectividad en zonas objetivo.</li>
+			<li><strong>Recolección de Feedback:</strong> Iterar con base en la experiencia inicial de los usuarios.</li>
+		</ul>
+	</TD>
+</TR>
+</TABLE>
