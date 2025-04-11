@@ -20,6 +20,7 @@
 ## **Integrantes:**
 
 *  **Rodrigo Aguilar Castillo**
+*  **Piero Periche Quiroga**
 
 -----
 
@@ -35,7 +36,7 @@
 
 | **Versión** | **Fecha** | **Autor** | **Descripción de modificación** |
 |-------------|-----------|-----------|--------------------------------|
-| 0.1         | 5/04/25  | R |  R
+| 0.1         | 10/04/25  | R |  R
 
 
 
@@ -79,7 +80,9 @@
   - [1.1.1. Descripción de la Startup](/docs/chapter-I.md/#111-descripción-de-la-startup)  
   - [1.1.2. Perfiles de Integrantes del equipo](/docs/chapter-I.md/#112-perfiles-de-integrantes-del-equipo)  
 - [1.2. Solution Profile](/docs/chapter-I.md/#12-solution-profile)  
-  - [1.2.1. Antecedentes y problemática](/docs/chapter-I.md/#121-antecedentes-y-problemática)  
+  - [1.2.1. Antecedentes y problemática](/docs/chapter-I.md/#121-antecedentes-y-problemática)
+
+    
   - [1.2.2. Lean UX Process](/docs/chapter-I.md/#122-lean-ux-process)  
     - [1.2.2.1. Lean UX Problem Statements](/docs/chapter-I.md/#1221-lean-ux-problem-statements)  
     - [1.2.2.2. Lean UX Assumptions](/docs/chapter-I.md/#1222-lean-ux-assumptions)  
@@ -217,5 +220,46 @@
 
 ## Student Outcome
 
-| **Criterio Específico** | **Acciones Realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+| **Criterio Específico** | **Acciones Realizadas**  
+
+
+
+                                                                                                                                                                                                                                                                              
+### 1.2.2 Lean UX Process.
+
+El proceso Lean UX aborda la visión del modelo de negocio que respalda nuestro proyecto, siendo el producto principal nuestro software. A lo largo de este documento y en este capítulo, exploramos varios elementos clave de este proceso.
+
+Comenzamos con los "Problem Statements", que abarcan aspectos como el dominio, los segmentos de clientes, los puntos de dolor, las brechas, la visión/estrategia y el segmento inicial. Siguiendo la metodología Lean UX, también consideramos las "Assumptions Statements" y las "Hypothesis Statements".
+
+#### 1.2.2.1. Lean UX Problem Statements.
+
+**Problem Statement:**
+
+En muchas zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Esta situación pone en riesgo la salud de las personas y dificulta una adecuada gestión del recurso hídrico. Actualmente, no existen mecanismos efectivos que permitan monitorear en tiempo real tanto la cantidad como la calidad del agua distribuida, lo que impide tomar decisiones informadas para mejorar su distribución y asegurar su salubridad.
+
+**Dominio:**
+
+Nos centramos en el acceso y la gestión del agua en zonas rurales. Reconocemos la urgencia y complejidad de garantizar un suministro seguro y equitativo del recurso hídrico, especialmente en comunidades con infraestructura limitada y condiciones de alta vulnerabilidad.
+
+**Segmentos de Clientes:**
+
+Nos dirigimos a organizaciones no gubernamentales, entidades estatales, municipalidades rurales y líderes comunitarios responsables de la distribución y control del agua en comunidades con acceso limitado. Nuestra solución también puede ser útil para proyectos sociales, ambientales y de sostenibilidad liderados por instituciones académicas o empresas privadas.
+
+**Puntos de Dolor:**
+
+- Falta de información precisa sobre la cantidad de agua distribuida: La inexistencia de sistemas de monitoreo impide conocer el consumo real, identificar fugas o pérdidas y tomar decisiones basadas en datos.
+
+- Riesgo para la salud por desconocimiento de la calidad del agua: La población puede estar consumiendo agua contaminada sin saberlo, lo cual representa un grave riesgo sanitario.
+
+- Dificultades en la gestión y distribución del recurso: La falta de herramientas tecnológicas limita la eficiencia en la asignación del agua disponible, afectando la equidad entre usuarios y generando conflictos comunitarios.
+
+**Visión/Estrategia:**
+
+Nuestra visión es ofrecer una solución IoT integral, accesible y de fácil implementación que permita monitorear en tiempo real tanto la calidad como la cantidad de agua distribuida en zonas rurales. Nos esforzamos por empoderar a comunidades vulnerables, autoridades locales y organizaciones sociales con datos precisos que faciliten una gestión más eficiente, segura y equitativa del recurso hídrico.
+
+**Segmento Inicial:**
+
+Nos enfocamos inicialmente en comunidades rurales con acceso limitado al agua y en entidades (municipalidades, ONGs, programas sociales) que gestionan el suministro hídrico en estas zonas. Estas comunidades suelen carecer de infraestructura moderna y requieren soluciones tecnológicas asequibles, adaptables y de fácil implementación para enfrentar los desafíos diarios relacionados con la disponibilidad y seguridad del agua.
+
+
 
