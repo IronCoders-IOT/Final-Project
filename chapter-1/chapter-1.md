@@ -266,9 +266,7 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
 		<li>El monitoreo constante de parámetros mejora realmente la calidad del agua distribuida.</li>
 		<li>Los reportes automáticos generan confianza en la comunidad al ser claros y comprensibles.</li>
 	</ul>
-</TD>
-
-	<TD>
+   	<TD>
 		<strong>4. User Outcomes & Benefits:</strong><br><br>
 		<ul>
 			<li>Acceso a datos en tiempo real sobre calidad y cantidad del agua.</li>
@@ -279,6 +277,10 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
 			<li>Mayor confianza entre comunidad y entidades gestoras.</li>
 		</ul>
 	</TD>
+   
+</TD>
+
+
 </TR>
 
 <TR>
