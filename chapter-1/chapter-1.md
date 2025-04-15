@@ -84,7 +84,7 @@ El problema se origina por la falta de visibilidad sobre el nivel y la calidad d
 
 ##### ¿How much? - ¿Cuánto dinero está implicado?
 
-AquaConecta ofrece planes mensuales entre S/500 y S/1,000, según la cantidad de usuarios que la empresa de agua gestione, e incluye monitoreo y gestión en tiempo real.
+AquaConecta ofrece planes mensuales que van desde S/500 hasta S/1,000, dependiendo de la cantidad de dispositivos IoT activos que la empresa de agua desee gestionar. Cada plan incluye acceso al sistema de monitoreo y gestión en tiempo real, con funcionalidades como alertas automáticas, reportes periódicos y paneles personalizados. Esto permite a las empresas proveedoras de agua supervisar la cantidad y calidad del agua en múltiples ubicaciones de forma eficiente y centralizada.
  
 ---                                                                                            
 ### 1.2.2 Lean UX Process.
@@ -212,7 +212,7 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
 <TR>
 	<TD ROWSPAN>
 		<strong>1. Business Problem:</strong><br><br>
-		En muchas zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Actualmente, no existen mecanismos efectivos que permitan monitorear en tiempo real tanto la cantidad como la calidad del agua distribuida, lo que impide tomar decisiones informadas para mejorar su distribución y asegurar su salubridad.
+		En  zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Actualmente, no existen mecanismos efectivos que permitan monitorear en tiempo real tanto la cantidad como la calidad del agua distribuida, lo que impide tomar decisiones informadas para mejorar su distribución y asegurar su salubridad.
 	</TD>
 	<TD ROWSPAN=2>
 		<strong>5. Solutions</strong><br>
