@@ -192,16 +192,112 @@ El canal de distribución será completamente digital, mediante una plataforma w
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+**Preguntas Generales**
+
+1. ¿Cuál es su nombre? 
+2. ¿Qué edad tiene? 
+3. ¿A qué se dedica? 
+4. ¿Que navegador usa?
+5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
+6. ¿En que distrito se encuentra?
+
+
+1. ¿Cómo obtienen actualmente el agua para el consumo diario?
+2. ¿Sienten que el agua que reciben es segura? ¿Por qué?
+3. ¿Han tenido problemas de salud relacionados con el agua en los últimos años?
+4. ¿Qué hacen cuando sospechan que el agua está contaminada?
+5. ¿Con qué frecuencia reciben información sobre la calidad del agua?
+6. ¿Quién les informa actualmente sobre el estado del agua?
+7. ¿Confían en la información que reciben sobre la calidad del agua?
+8. ¿Les gustaría recibir alertas si el agua no es apta para el consumo?
+9. ¿Qué tan importante consideran la calidad del agua en su bienestar diario?
+10. ¿Estarían dispuestos a participar en el cuidado o monitoreo del sistema si eso ayudara a su comunidad?
+
+**Entrevistas usuario segmento (Proveedores de agua)**
+1. ¿Cuáles son los principales retos que enfrentan en la supervisión de la calidad del agua?
+2. ¿Qué procesos siguen actualmente para analizar el agua en zonas rurales?
+3. ¿Con qué frecuencia se realiza el control de calidad del agua?
+4. ¿Qué tipo de datos les gustaría poder monitorear en tiempo real (pH, turbidez, cloro, etc.)?
+5. ¿Qué herramientas utilizan para almacenar y analizar los datos del agua?
+6. ¿Cómo actúan cuando detectan un problema de calidad en alguna zona?
+7. ¿Qué costos están asociados actualmente al monitoreo de agua?
+8. ¿Cuánto tiempo tardan en detectar y responder a una posible contaminación?
+9. ¿Qué impacto creen que tendría un sistema IoT en su trabajo y en la comunidad?
+10. ¿Qué funcionalidades consideran imprescindibles en una solución como esta?
 
 ### 2.2.2. Registro de entrevistas
+**Entrevistas usuario segmento (Habitantes)**
+
+**Segmento Doméstico**  
+
+Nombre: Rodrigo Noreña Nuñez
+<br>
+Edad: 20
+<br>
+Ocupación: Estudiante de Arquitectura
+<br>
+Browser: Google Chrome
+<br>
+Device: Teléfono Iphone
+<br>
+Distrito: Chincha Alta
+<br>
+Timing: 0:00
+<br>
+<img src="../assets/images-interviews/domestico/interview-domestico-2.png"
+alt="Entrevista 1 Segmento habitantes" width="500"/> 
+
+Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
+
+
 
 ### 2.2.3. Análisis de entrevistas
+**Segmento 1: (...):**
+
+Estadisticas y Aspectos comunes:
+
+
+Caracteristicas Objetivas:
+
+Caracteristicas Subjetivas:
+
+
+**Segmento 2: (...)**
+Estadisticas y Aspectos comunes:
+
+Caracteristicas Objetivas:
+
+Caracteristicas Subjetivas:
+
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+Los user persona nos permiten entender el perfil y comportamiento de cada segmento, ayudando a identificar sus necesidades técnicas y objetivos de forma general.
+
+**Segmento 1:** ...
+
+<img src="../assets/user-personas/segmento-domestico.png"/>
+
+**Segmento 2:** <img src="../assets/user-personas/segmento-negocio.png"/>
+
+
 ### 2.3.2. User Task Matrix
+El user task matrix permite identificar y comparar los procesos clave de cada segmento, destacando sus similitudes en cuanto a frecuencia e importancia.
+
+| **Necesidad / Función**                                | **Importancia (Habitantes)** | **Frecuencia (Habitantes)** | **Importancia (Proveedores de Agua)** | **Frecuencia (Proveedores de Agua)** |
+|--------------------------------------------------------|------------------------------|-----------------------------|----------------------------------------|---------------------------------------|
+| Ver estado actual del nivel y calidad del agua         | Alta                         | Media                       | Alta                                   | Alta                                  |
+| Recibir alertas por bajo nivel o agua no apta          | Alta                         | Alta                        | Alta                                   | Alta                                  |
+| Consultar historial de consumo y calidad               | Media                        | Baja                        | Alta                                   | Alta                                  |
+| Configurar o gestionar múltiples sensores IoT          | Baja                         | Baja                        | Alta                                   | Alta                                  |
+| Medir impacto en distribución y eficiencia del reparto | Baja                         | Nula                        | Alta                                   | Alta                                  |
+| Compartir información o generar reportes               | Media                        | Baja                        | Alta                                   | Media                                 |
+| Acceder a la plataforma desde app móvil o web          | Alta                         | Alta                        | Media                                  | Media                                 |
+
+
+El User Task Matrix nos permite identificar qué tareas son más importantes y frecuentes para nuestros usuarios según su segmento.
 
 ### 2.3.3. User Journey Mapping
 
