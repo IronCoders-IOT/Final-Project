@@ -297,12 +297,79 @@ El user task matrix permite identificar y comparar los procesos clave de cada se
 | Acceder a la plataforma desde app móvil o web          | Alta                         | Alta                        | Media                                  | Media                                 |
 
 
-El User Task Matrix nos permite identificar qué tareas son más importantes y frecuentes para nuestros usuarios según su segmento.
+En la matriz presentada, se pueden observar las siguientes tareas con mayor frecuencia e importancia:
+
+- **Habitantes**:
+
+  - **Recibir alertas por bajo nivel o agua no apta**  
+    Funcionalidad **más crítica**, con **alta importancia y frecuencia**. Necesitan estar informados para actuar ante situaciones de riesgo.
+
+  - **Ver el estado actual del agua** y **acceder a la plataforma móvil/web**  
+    Funcionalidades altamente valoradas. Aunque el monitoreo no es constante, desean tener la información disponible de forma accesible.
+
+  - **Consultar historial**, **generar reportes** o **gestionar sensores**  
+    Tienen **baja o media relevancia y baja frecuencia**. No forman parte de su rutina diaria, por lo que pueden ofrecerse como funciones secundarias u opcionales.
+
+
+- **Proveedores de Agua**:
+
+  - **Ver estado actual del nivel y calidad del agua** y **recibir alertas por bajo nivel o agua no apta**  
+    Tareas **críticas y frecuentes**, esenciales para el monitoreo constante y la respuesta inmediata ante situaciones de riesgo o emergencia.
+
+  - **Consultar historial de consumo y calidad** y **gestionar múltiples sensores IoT**  
+    Funcionalidades con **alta importancia y frecuencia**, necesarias para la supervisión técnica, análisis de patrones y mantenimiento del sistema.
+
+  - **Medir impacto en la distribución y eficiencia del reparto** y **generar reportes**  
+    Actividades de **alta importancia**, aunque de **frecuencia moderada**, ya que están orientadas a la planificación estratégica y cumplimiento de normativas.
+
+  - **Acceder a la plataforma desde app móvil o web**  
+    Tiene una **importancia y frecuencia media**, ya que suelen utilizar herramientas más especializadas o integradas en sus sistemas operativos diarios.
+
+
 
 ### 2.3.3. User Journey Mapping
+El User Journey Mapping se desarrolló para comprender la experiencia de los usuarios al interactuar con nuestra plataforma. Este mapeo detalla cada paso que el usuario realiza, los obstáculos que puede encontrar, y las emociones que surgen en el proceso. Así, nos ayuda a identificar oportunidades para mejorar la usabilidad y satisfacción del usuario.
+
+### Segmento 1: Habitantes
+
+
+### Segmento 2: Proveedores
 
 ### 2.3.4. Empathy Mapping
 
+Para la creación del Empathy Map, hemos utilizado la información obtenida de nuestros dos User Personas que representan nuestro segmento objetivo. Este mapa nos permite profundizar en la comprensión de las necesidades, pensamientos, emociones y comportamientos de los usuarios, ayudándonos a diseñar soluciones más alineadas con sus expectativas y experiencias reales.
+
+
+### Segmento 1: Habitantes
+
+
+### Segmento 2: Proveedores
+
+
 ### 2.3.5. As-is Scenario Mapping
+### Segmento 1: Habitantes
+
+
+### Segmento 2: Proveedores
+
 
 ## 2.4. Ubiquitous Languange
+| **Término**                           | **Definición** |
+|--------------------------------------|----------------|
+| **Habitante**                        | Usuario final que consume agua en su hogar y utiliza la plataforma para informarse sobre la calidad, nivel y alertas del servicio. |
+| **Proveedor de Agua**                | Entidad responsable del monitoreo, gestión y distribución del agua en una comunidad o localidad. |
+| **Sensor IoT**                       | Dispositivo instalado en puntos estratégicos que mide parámetros como nivel, calidad o presión del agua en tiempo real. |
+| **Calidad del Agua**                 | Valor que indica si el agua es apta para el consumo, basado en parámetros químicos, físicos y biológicos. |
+| **Nivel del Agua**                   | Altura del agua almacenada o distribuida, medida por sensores para prever escasez o exceso. |
+| **Alerta**                           | Notificación automática enviada a usuarios cuando se detecta un nivel bajo o agua no apta para consumo. |
+| **Historial de Consumo y Calidad**   | Registro de los niveles y calidad del agua a lo largo del tiempo, útil para análisis y seguimiento. |
+| **Reporte**                          | Documento generado automáticamente con datos históricos, alertas, consumos y condiciones del agua. |
+| **Panel de Control (Dashboard)**     | Vista personalizada (para habitantes o proveedores) que muestra datos relevantes, gráficas y alertas. |
+| **Distribución del Agua**            | Proceso logístico y técnico mediante el cual el agua es repartida desde su fuente hasta los hogares. |
+| **Impacto en la Distribución**       | Medición del efecto de las condiciones del sistema (fugas, presión, consumo alto) en la eficiencia del reparto. |
+| **Plataforma Web/App Móvil**        | Interfaz digital accesible desde computadora o smartphone, donde usuarios visualizan y gestionan información relacionada al servicio de agua. |
+| **Gestión de Sensores**              | Funcionalidad que permite a los proveedores configurar, monitorear o solucionar problemas con sensores IoT instalados. |
+| **Visualización en Tiempo Real**     | Representación dinámica y continua de datos actuales sobre el sistema de agua. |
+| **Usuarios Registrados**             | Personas con acceso autenticado a la plataforma, que pueden ser habitantes o proveedores, con funcionalidades diferenciadas. |
+| **Zona de Cobertura**                | Área geográfica donde AquaConecta presta servicios y donde están ubicados los sensores. |
+
