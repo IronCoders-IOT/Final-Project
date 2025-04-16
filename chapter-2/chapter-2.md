@@ -272,15 +272,30 @@ Caracteristicas Subjetivas:
 
 ## 2.3. Needfinding
 
+Para crear una solución que responda a las necesidades específicas de los usuarios, realizaremos la identificación del User persona, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping.
+
 ### 2.3.1. User Personas
+
+Se han elaborado los User Persona correspondientes a cada uno de nuestros segmentos objetivos. Estos segmentos incluyen, por un lado, a los pobladores de zonas urbanas y rurales que enfrentan dificultades para acceder y gestionar un suministro de agua potable; y por otro lado, a los proveedores de agua. La construcción de estos perfiles se ha basado en los datos obtenidos a partir de las entrevistas realizadas. 
 
 Los user persona nos permiten entender el perfil y comportamiento de cada segmento, ayudando a identificar sus necesidades técnicas y objetivos de forma general.
 
-**Segmento 1:** ...
+### Segmento 1: Habitantes
+
+Presentamos a Mario López, un joven que reside en una zona urbana y enfrenta serias dificultades con el abastecimiento de agua. Este user persona representa a otro de nuestros segmentos objetivos, y fue creado a partir del análisis de problemáticas reales identificadas durante el proceso de entrevistas.
+
+**Enlace para visualizar el User Persona de Habitantes realizado en UXPressia:**
+[https://uxpressia.com/w/mDdvz/p/mIlB8](https://uxpressia.com/w/mDdvz/p/mIlB8)
 
 <img src="../assets/user-personas/segmento-domestico.png"/>
 
-**Segmento 2:** <img src="../assets/user-personas/segmento-negocio.png"/>
+### Segmento 2: Proveedores
+
+Presentamos a Gabriel Gonzales, un user persona construido a partir de la información recopilada durante las entrevistas. Gracias a este proceso, fue posible identificar sus habilidades, motivaciones, frustraciones, canales de comunicación, permitiendo así una comprensión más profunda del perfil correspondiente a uno de nuestros segmentos objetivos.
+
+**Enlace para visualizar el User Persona de Proveedores realizado en UXPressia:** [https://uxpressia.com/w/mDdvz/p/SLYog](https://uxpressia.com/w/mDdvz/p/SLYog)
+
+<img src="../assets/user-personas/segmento-negocio.png"/>
 
 
 ### 2.3.2. User Task Matrix
