@@ -347,8 +347,21 @@ El User Journey Mapping se desarrolló para comprender la experiencia de los usu
 
 ### Segmento 1: Habitantes
 
+En este User Journey Map se muestra la experiencia actual del habitante responsable de gestionar el agua en su hogar. El proceso incluye la detección manual del nivel de agua, la solicitud de abastecimiento, la recepción y el almacenamiento. Identificamos problemas como la falta de precisión, comunicación ineficiente y riesgos de contaminación, lo que genera frustración e incertidumbre en el usuario.
+
+**Enlace para visualizar el User Journey Map de Habitantes realizado en UXPressia:** [https://uxpressia.com/w/mDdvz/m/Q2oFD](https://uxpressia.com/w/mDdvz/m/Q2oFD)
+
+<img src="../assets/user-journey-mapping/segmento-domestico.png"/>
+
 
 ### Segmento 2: Proveedores
+
+En este User Journey Map decribimos el recorrido actual del proveedor responsable de coordinar y supervisar la distribución de agua. Desde la planificación de rutas hasta la presentación de informes a las autoridades, el proveedor enfrenta limitaciones como la falta de información en tiempo real, baja eficiencia en la comunicación y poca visibilidad operativa. Estas dificultades afectan la toma de decisiones, el seguimiento de entregas y el cumplimiento con las normas.
+
+**Enlace para visualizar el User Journey Mapping de Proveedores realizado en UXPressia:** 
+[https://uxpressia.com/w/mDdvz/m/wtXHH](https://uxpressia.com/w/mDdvz/m/wtXHH)
+
+<img src="../assets/user-journey-mapping/segmento-negocio.png"/>
 
 ### 2.3.4. Empathy Mapping
 
