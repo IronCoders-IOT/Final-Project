@@ -30,7 +30,6 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 | EP09   | Visualización Personalizada (Dashboard)     | Como usuario, quiero tener un panel adaptado a mi rol con la información más relevante y actualizada.              | - El dashboard debe cambiar según el tipo de usuario.<br>- Debe mostrar alertas, gráficas e indicadores claves en la pantalla inicial. | EP09   |
 
 
-**Epics y User Stories de AquaConecta**
 
 |**Epic / Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
 | - | - | - | - | - |
