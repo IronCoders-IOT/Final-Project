@@ -358,7 +358,7 @@ En este User Journey Map se muestra la experiencia actual del habitante responsa
 
 En este User Journey Map decribimos el recorrido actual del proveedor responsable de coordinar y supervisar la distribución de agua. Desde la planificación de rutas hasta la presentación de informes a las autoridades, el proveedor enfrenta limitaciones como la falta de información en tiempo real, baja eficiencia en la comunicación y poca visibilidad operativa. Estas dificultades afectan la toma de decisiones, el seguimiento de entregas y el cumplimiento con las normas.
 
-**Enlace para visualizar el User Journey Mapping de Proveedores realizado en UXPressia:** 
+**Enlace para visualizar el User Journey Map de Proveedores realizado en UXPressia:** 
 [https://uxpressia.com/w/mDdvz/m/wtXHH](https://uxpressia.com/w/mDdvz/m/wtXHH)
 
 <img src="../assets/user-journey-mapping/segmento-negocio.png"/>
@@ -369,10 +369,19 @@ Para la creación del Empathy Map, hemos utilizado la información obtenida de n
 
 
 ### Segmento 1: Habitantes
+En el siguiente Empathy Map tenemos a Mario Lopez, un joven que vive en una zona urbana en Chincha. Él lucha diariamente por garantizar agua segura para su familia y su comunidad. Podemos observar su experencia, la cual refleja los desafíos de miles de personas que dependen de camiones cisterna.
 
+**Enlace para visualizar el Empathy Map de Proveedores realizado en UXPressia:**
+[https://uxpressia.com/w/mDdvz/p/ZQOfG](https://uxpressia.com/w/mDdvz/p/ZQOfG) 
+<img src="../assets/empathy-mapping/segmento-domestico.png"/>
 
 ### Segmento 2: Proveedores
+En el siguiente Empathy Map observamos la perspectiva de Gabriel Gonzales, encargado del
+área principal de la proveedora de agua más grande Chincha. Dentro de su perfil podemos observar los desafíos sa los que se enfrenta como gestionar de recursos limitados mientrasse cumplen regulaciones estrictas y demandas de usuarios insatisfechos.
 
+**Enlace para visualizar el Empathy Map de Proveedores realizado en UXPressia:**
+[https://uxpressia.com/w/mDdvz/p/wA0jm](https://uxpressia.com/w/mDdvz/p/wA0jm) 
+<img src="../assets/empathy-mapping/segmento-negocio.png"/>
 
 ### 2.3.5. As-is Scenario Mapping
 ### Segmento 1: Habitantes
