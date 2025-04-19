@@ -1,12 +1,16 @@
 # Capítulo III: Introducción
 
 ## 3.1. To-Be Scenario Mapping
+
 En To-Be se usaran los mismos escenarios, pero aplicando la solución que ofrecemos como equipo  
 
-### Segmento Habitantes:
+### Segmento Habitantes: 
+
+![to be](../img/TO-BE-HABITANTES.jfif)
 
 ### Segmento Proveedores:
 
+![to be](../img/TO-BE-PROVEEDORES.jfif)
 
 ## 3.2. User Stories
 
