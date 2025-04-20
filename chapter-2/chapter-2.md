@@ -384,10 +384,50 @@ En el siguiente Empathy Map observamos la perspectiva de Gabriel Gonzales, encar
 <img src="../assets/empathy-mapping/segmento-negocio.png"/>
 
 ### 2.3.5. As-is Scenario Mapping
-### Segmento 1: Habitantes
 
+
+### Segmento 1: Habitantes
+**Enlace para visualizar el As-is Scenario Map de Proveedores realizado en Miro:** 
+[https://miro.com/app/board/uXjVMhdPpY8=/?share_link_id=712775907835](https://miro.com/app/board/uXjVMhdPpY8=/?share_link_id=712775907835)
+
+
+**Brainstorming:**
+<img src="../assets/as-is-scenario-mapping/brainstorming/segmento-domestico.png"/>
+
+**Identify the highs and lows:**
+<img src="../assets/as-is-scenario-mapping/segmento-domestico.png"/>
+
+**Positive Areas:**
+* Alivio si le toca temprano.
+
+**Negative Areas:**
+* Rabia ante respuestas automáticas.
+* Vergüenza al pedir ayuda.
+
+**Blank Areas:**
+* Podría ser útil explorar cómo es el flujo de la comunicación al solicitar agua.
 
 ### Segmento 2: Proveedores
+**Enlace para visualizar el As-is Scenario Map de Proveedores realizado en Miro:** 
+[https://miro.com/app/board/uXjVMhdPpY8=/?share_link_id=712775907835](https://miro.com/app/board/uXjVMhdPpY8=/?share_link_id=712775907835)
+
+
+**Brainstorming:**
+<img src="../assets/as-is-scenario-mapping/brainstorming/segmento-negocio.png"/>
+
+
+**Identify the highs and lows:**
+<img src="../assets/as-is-scenario-mapping/segmento-negocio.png"/>
+
+**Positive Areas:**
+* ***“El operario nuevo no sabe mentir”*** (esto nos indica tranparecia en su trabajo).
+
+**Negative Areas:**
+* Destruye evidencias de errores.
+* ***“Los datos antiguos son mi coartada”***
+
+**Blank Areas:**
+* Profundizar en la carga emocional que conlleva manipular reportes.
 
 
 ## 2.4. Ubiquitous Languange
