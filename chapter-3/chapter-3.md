@@ -57,6 +57,24 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 
 ## 3.3. Impact Mapping
 
+### Segmento 1: Habitantes
+
+Para el segmento del usuario final se elaboró un Impact Mapping con el objetivo de aumentar la participación activa en la plataforma y reducir la incertidumbre sobre la calidad del agua. Esta herramienta nos permitió identificar los comportamientos clave que se desean promover en los usuarios, como consultar el estado del agua y configurar alertas personalizadas. A partir de ello, se definieron deliverables y user stories que guían el desarrollo de funcionalidades útiles y alineadas con las necesidades reales de los habitantes.
+**Enlace para visualizar el Impact Map de Habitantes realizado en UXPressia:**
+[https://uxpressia.com/w/mDdvz/i/0Fem9](https://uxpressia.com/w/mDdvz/i/0Fem9)
+
+<img src="../assets/impact-mapping/segmento-domestico.png"/>
+
+
+### Segmento 2: Proveedores
+
+En el caso del proveedor, el Impact Mapping se enfocó en facilitar la gestión de sensores y la producción de reportes para la toma de decisiones. Gracias a ello se establecieron los impacts esperados, como registrar y monitorear sensores activos, así como generar estadísticas clave del sistema. Esto permitió definir deliverables específicos y user stories que aseguran un desarrollo enfocado en la eficiencia operativa y el control del servicio por parte del proveedor.
+**Enlace para visualizar el Impact Map de Proveedores realizado en UXPressia:**
+[https://uxpressia.com/w/mDdvz/i/Ue2yy](https://uxpressia.com/w/mDdvz/i/Ue2yy)
+
+<img src="../assets/impact-mapping/segmento-negocio.png"/>
+
+
 ## 3.4. Product Backlog
 
 El Product Backlog es una lista priorizada de tareas, funcionalidades y requisitos necesarios para el desarrollo del proyecto, asegurando que se trabaje en los elementos más importantes y alineados con los objetivos del proyecto. Cada ítem del backlog incluye una descripción, prioridad y título.
