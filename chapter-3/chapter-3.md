@@ -78,3 +78,178 @@ En el caso del proveedor, el Impact Mapping se enfocó en facilitar la gestión 
 ## 3.4. Product Backlog
 
 El Product Backlog es una lista priorizada de tareas, funcionalidades y requisitos necesarios para el desarrollo del proyecto, asegurando que se trabaje en los elementos más importantes y alineados con los objetivos del proyecto. Cada ítem del backlog incluye una descripción, prioridad y título.
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Orden</th>
+            <th>User Story Id</th>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Story Points</th>
+            <th>Justificación de Prioridad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>HT01</td>
+            <td>API para recepción de datos</td>
+            <td>Endpoint REST para integración con sensores IoT</td>
+            <td>8</td>
+            <td>Base técnica sin la cual el sistema no funciona</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>HU01</td>
+            <td>Ver nivel actual</td>
+            <td>Visualización del nivel de agua en tiempo real</td>
+            <td>5</td>
+            <td>Función principal para todos los usuarios</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>HU02</td>
+            <td>Ver calidad del agua</td>
+            <td>Indicadores de potabilidad del agua</td>
+            <td>5</td>
+            <td>Segunda métrica esencial para la salud pública</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>HT04</td>
+            <td>Alertas automáticas</td>
+            <td>Servicio que detecta condiciones críticas</td>
+            <td>5</td>
+            <td>Mecanismo de prevención clave</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>HU08</td>
+            <td>Alertas por nivel bajo</td>
+            <td>Notificaciones cuando el agua escasea</td>
+            <td>3</td>
+            <td>Primera línea de defensa contra desabastecimiento</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>HU03</td>
+            <td>Actualización automática</td>
+            <td>Datos que se refrescan sin recarga</td>
+            <td>5</td>
+            <td>Nueva: Experiencia en tiempo real esencial</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>HU11</td>
+            <td>Registrar sensores</td>
+            <td>Alta de nuevos dispositivos IoT</td>
+            <td>5</td>
+            <td>Base para la escalabilidad del sistema</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>HU14</td>
+            <td>Estado de sensores</td>
+            <td>Monitoreo de conectividad IoT</td>
+            <td>3</td>
+            <td>Mantenimiento preventivo básico</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>HU12</td>
+            <td>Edición de sensores</td>
+            <td>Ajustar parámetros de dispositivos</td>
+            <td>3</td>
+            <td>Nueva: Complemento necesario tras el registro</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>HU13</td>
+            <td>Desactivar sensores</td>
+            <td>Gestión de dispositivos inactivos</td>
+            <td>2</td>
+            <td>Nueva: Cierre del ciclo de gestión IoT</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>HU04</td>
+            <td>Consultar historial</td>
+            <td>Datos históricos por fechas</td>
+            <td>5</td>
+            <td>Primera capa de analítica</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>HT03</td>
+            <td>Endpoint reportes</td>
+            <td>API para exportación de datos</td>
+            <td>8</td>
+            <td>Infraestructura para análisis avanzado</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>HU05</td>
+            <td>Exportar historial</td>
+            <td>Descarga en formatos procesables</td>
+            <td>3</td>
+            <td>Nueva: Valor añadido para análisis externo</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>HU06</td>
+            <td>Configurar alertas</td>
+            <td>Selección de tipos de notificaciones</td>
+            <td>3</td>
+            <td>Adaptación a necesidades específicas</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>HU07</td>
+            <td>Medios de notificación</td>
+            <td>Elección de canales (email/SMS/push)</td>
+            <td>2</td>
+            <td>Mejora la efectividad de las alertas</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>HU09</td>
+            <td>Historial de alertas</td>
+            <td>Registro de eventos notificados</td>
+            <td>2</td>
+            <td>Nueva: Contexto para patrones recurrentes</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>HU15</td>
+            <td>Métricas por sensor</td>
+            <td>Indicadores técnicos detallados</td>
+            <td>5</td>
+            <td>Para usuarios técnicos/proveedores</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>HU16</td>
+            <td>Reportes PDF</td>
+            <td>Documentos formales para autoridades</td>
+            <td>3</td>
+            <td>Cumplimiento normativo</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>HU19</td>
+            <td>Acceso móvil</td>
+            <td>Plataforma responsive</td>
+            <td>5</td>
+            <td>Accesibilidad en terreno</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>HU20</td>
+            <td>Dashboard personalizado</td>
+            <td>Vistas adaptadas por rol</td>
+            <td>3</td>
+            <td>Optimización de flujos de trabajo</td>
+        </tr>
+    </tbody>
+</table>
