@@ -21,12 +21,15 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 ### 4.1.3. Software Architecture.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
-
+![alt text](<../img/Software Architecture Context Level Diagrams..png>)
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
+![alt text](<../img/Software Architecture Context Level Diagrams..png>)
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams.
+#### 4.1.3.3. Software Architecture Container Level Diagrams.
+![alt text](<../img/Software Architecture Container Level Diagrams.png>)
+#### 4.1.3.4. Software Architecture Deployment Diagrams.
 
-#### 4.1.3.3. Software Architecture Deployment Diagrams.
+
 
 
 ## 4.2. Tactical-Level Domain-Driven Design
@@ -118,7 +121,7 @@ Los siguientes enumerados (enums) representan valores fijos que controlan el est
 
 ## `Commands` 
 
-### Subscription Commands
+### `Subscription Commands` 
 
 | Comando                         | Descripción                                                         |
 |--------------------------------|----------------------------------------------------------------------|
@@ -129,7 +132,7 @@ Los siguientes enumerados (enums) representan valores fijos que controlan el est
 | `ActivateSubscriptionCommand`  | Cambia el estado de una suscripción a `ACTIVE`                      |
 
 
-### Payment Commands
+### `Payment Commands` 
 | Comando                     | Descripción                                                       |
 |----------------------------|--------------------------------------------------------------------|
 | `CreatePaymentCommand`     | Registra un nuevo pago asociado a una suscripción                 |
@@ -139,7 +142,7 @@ Los siguientes enumerados (enums) representan valores fijos que controlan el est
 ## `Queries` 
 
 
-### Subscription Queries
+### `Subscription Queries` 
 | Query                                | Descripción                                                                      |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | `GetSubscriptionByIdQuery`          | Obtiene una suscripción específica por su ID                                    |
@@ -148,7 +151,7 @@ Los siguientes enumerados (enums) representan valores fijos que controlan el est
 | `GetAllActiveSubscriptionsQuery`    | Lista todas las suscripciones activas del sistema                               |
 
 
-### Payment Queries
+### `Payment Queries` 
 | Query                              | Descripción                                                    |
 |-----------------------------------|----------------------------------------------------------------|
 | `GetPaymentByIdQuery`             | Obtiene los detalles de un pago específico por su ID          |
@@ -163,14 +166,14 @@ Los siguientes enumerados (enums) representan valores fijos que controlan el est
 
 
 ## `Services` 
-### Subscription
+### `Subscription` 
 
 | Archivo                          | Descripción breve                                                                 |
 |----------------------------------|-------------------------------------------------------------------------------------|
 | ISubscriptionCommandService.cs  | Define comandos como crear, cancelar o renovar suscripciones.                     |
 | ISubscriptionQueryService.cs    | Define consultas para obtener suscripciones (por residente, por sensor, por estado, por id). |
 
-### Payment
+### `Payment` 
 
 | Archivo                      | Descripción breve                                                                 |
 |------------------------------|-------------------------------------------------------------------------------------|
@@ -181,9 +184,6 @@ Los siguientes enumerados (enums) representan valores fijos que controlan el est
 #### 4.2.1.2. Interface Layer.
 
 La carpeta `Interfaces/REST` expone los endpoints HTTP que permiten a clientes externos interactuar con la aplicación transformando solicitudes en comandos o queries y devolviendo respuestas.
-
-
-
 
 ## `Resources` 
 Las clases `Resource` actúan como intermediarias que trasladan datos entre la API REST y la capa de aplicación.
@@ -213,7 +213,7 @@ Las clases ubicadas en la carpeta **Transform** (o también conocidas como **Ass
 
 
 ## `Controllers` 
-Cada entidad principal dentro del Bounded Context *Reservations* dispone de un **REST Controller**, encargado de exponer los endpoints públicos y coordinar la lógica de ejecución de la aplicación.
+Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispone de un **REST Controller**, encargado de exponer los endpoints públicos y coordinar la lógica de ejecución de la aplicación.
 
 | Controlador              | Ruta base típica | Responsabilidad principal                                                                 |
 |--------------------------|------------------|--------------------------------------------------------------------------------------------|
@@ -279,15 +279,284 @@ Cada entidad principal dentro del Bounded Context *Reservations* dispone de un *
 | subscription_id  | int        | Relación con la suscripción a la que corresponde el pago   |
 
 
-### 4.2.2. Bounded Context: BoundedContext
+### 4.2.2. Bounded Context: User & Profile Managment
 -
 #### 4.2.2.1. Domain Layer.
--
+-En el núcleo del dominio se han definido los siguientes Agregados, que representan los conceptos más importantes del Bounded Context de usuarios y perfiles.
+
+
+## `Aggregates`
+
+### `User`
+
+Representa una cuenta de usuario dentro del sistema, asociada a un perfil y un rol.
+
+#### Atributos principales:
+
+| Atributo     | Tipo        | Descripción                                                   |
+|--------------|-------------|---------------------------------------------------------------|
+| `id`         | `Int`       | Identificador único del usuario                               |
+| `username`   | `String`    | Nombre de usuario utilizado para autenticación                |
+| `password`   | `String`    | Contraseña cifrada del usuario                                |
+| `role`       | `UserRole`  | Rol del usuario dentro del sistema (`ADMIN`, `PROVIDER`, etc.)|
+| `createdAt`  | `Date`      | Fecha de creación de la cuenta                                |
+| `profileId`  | `Int`       | Relación con el perfil de usuario (`Profile`)                 |
+
+#### Constructores:
+
+- Por parámetros individuales  
+- A partir de `RegisterUserCommand`  
+- A partir de `UpdateUserPasswordCommand`
+
+
+### `Profile`
+
+Representa la información personal complementaria de un usuario dentro del sistema.
+
+#### Atributos principales:
+
+| Atributo         | Tipo     | Descripción                                      |
+|------------------|----------|--------------------------------------------------|
+| `id`             | `Int`    | Identificador único del perfil                  |
+| `documentType`   | `String` | Tipo de documento de identidad (DNI, CE, etc.)  |
+| `documentNumber` | `String` | Número del documento de identidad               |
+| `address`        | `String` | Dirección del usuario                           |
+| `phone`          | `String` | Número de teléfono del usuario                  |
+
+#### Constructores:
+
+- Por parámetros individuales  
+- A partir de `CreateProfileCommand`  
+- A partir de `UpdateProfileInfoCommand`
+
+
+### `Provider`
+
+Representa un proveedor del servicio que puede gestionar sensores, suscripciones y residentes.
+
+#### Atributos principales:
+
+| Atributo   | Tipo     | Descripción                                          |
+|------------|----------|------------------------------------------------------|
+| `id`       | `Int`    | Identificador único del proveedor                    |
+| `userId`   | `Int`    | Relación con el usuario asociado (`User`)           |
+| `taxName`  | `String` | Nombre comercial o razón social del proveedor        |
+| `ruc`      | `String` | Registro Único de Contribuyentes (identificación fiscal) |
+
+#### Constructores:
+
+- Por parámetros individuales  
+- A partir de `RegisterProviderCommand`  
+- A partir de `UpdateProviderInfoCommand`
+
+
+
+### `Resident`
+
+Representa a un habitante asociado a un proveedor, que recibe el servicio a través de sensores.
+
+#### Atributos principales:
+
+| Atributo     | Tipo     | Descripción                                          |
+|--------------|----------|------------------------------------------------------|
+| `id`         | `Int`    | Identificador único del residente                    |
+| `firstName`  | `String` | Nombre del residente                                 |
+| `lastName`   | `String` | Apellido del residente                               |
+| `userId`     | `Int`    | Relación con el usuario asociado (`User`)           |
+| `providerId` | `Int`    | Relación con el proveedor que gestiona al residente  |
+
+#### Constructores:
+
+- Por parámetros individuales  
+- A partir de `RegisterResidentCommand`  
+- A partir de `UpdateResidentInfoCommand`
+
+---
+
+Los siguientes enumerados (enums) representan valores fijos que definen el comportamiento y las características de las entidades dentro del contexto de gestión de usuarios, perfiles, proveedores y residentes. Su uso permite mantener la consistencia del sistema, facilitar las validaciones y mejorar la legibilidad del código, evitando el uso de valores literales o cadenas sueltas.
+
+### `UserRole (Enum)` 
+
+| Valor     | Descripción                                                    |
+|-----------|----------------------------------------------------------------|
+| ADMIN     | Usuario con permisos de administración sobre todo el sistema   |
+| PROVIDER  | Usuario que gestiona sensores, residentes y suscripciones      |
+| RESIDENT  | Usuario final que recibe el servicio y visualiza información   |
+
+## `Commands`
+## `User Commands`
+
+| Comando                      | Descripción                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| `RegisterUserCommand`       | Registra un nuevo usuario en el sistema con su rol y datos de acceso       |
+| `UpdateUserPasswordCommand` | Permite actualizar la contraseña de un usuario existente                   |
+
+
+## `Profile Commands`
+| Comando                      | Descripción                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| `CreateProfileCommand`      | Crea el perfil personal asociado a un usuario                               |
+| `UpdateProfileInfoCommand`  | Actualiza la información de documento, dirección o teléfono del perfil      |
+
+## `Provider Commands`
+| Comando                         | Descripción                                                              |
+|--------------------------------|---------------------------------------------------------------------------|
+| `RegisterProviderCommand`       | Registra un nuevo proveedor del servicio asociado a un usuario            |
+| `UpdateProviderInfoCommand`     | Actualiza la razón social (`taxName`) o el RUC del proveedor              |
+| `RegisterResidentCommand` | Comando que se ejecuta cuando un proveedor registra a un nuevo residente asociado a él |
+
+## `Resident Commands`
+| Comando                          | Descripción                                                              |
+|---------------------------------|---------------------------------------------------------------------------|
+| `RegisterResidentCommand`       | Registra un nuevo residente asociado a un proveedor                      |
+| `UpdateResidentInfoCommand`     | Actualiza el nombre o apellido de un residente                           |
+
+
+## `Queries` 
+
+### `User Queries`
+| Query                     | Descripción                                                                |
+|--------------------------|----------------------------------------------------------------------------|
+| `GetUserByIdQuery`       | Obtiene los datos de un usuario específico por su ID                       |
+| `GetUsersByRoleQuery`    | Lista todos los usuarios que tienen un rol específico (`ADMIN`, `PROVIDER`, etc.) |
+
+### `Profile Queries`
+| Query                      | Descripción                                                              |
+|---------------------------|---------------------------------------------------------------------------|
+| `GetProfileByUserIdQuery` | Obtiene el perfil asociado a un usuario específico                       |
+| `GetProfileByIdQuery`     | Recupera el perfil directamente por su identificador único               |
+
+### `Provider  Queries`
+
+| Query                      | Descripción                                                               |
+|---------------------------|----------------------------------------------------------------------------|
+| `GetProviderByIdQuery`    | Recupera la información de un proveedor por su ID                         |
+| `GetProviderByUserIdQuery`| Obtiene los datos del proveedor asociado a un usuario                     |
+| `GetAllProvidersQuery`    | Lista todos los proveedores registrados en el sistema                     |
+
+### `Resident   Queries`
+| Query                         | Descripción                                                            |
+|------------------------------|-------------------------------------------------------------------------|
+| `GetResidentByIdQuery`       | Recupera un residente específico por su ID                             |
+| `GetResidentsByProviderIdQuery` | Lista todos los residentes registrados bajo un proveedor              |
+| `GetResidentByUserIdQuery`   | Obtiene el residente vinculado a un usuario determinado                |
+
+## `Services` 
+
+### `User`
+| Archivo                      | Descripción breve                                                                 |
+|-----------------------------|-------------------------------------------------------------------------------------|
+| IUserCommandService.cs      | Define comandos para registrar usuarios, cambiar rol o actualizar contraseña.      |
+| IUserQueryService.cs        | Permite consultas de usuarios por ID o por rol.                                   |
+
+### `Profile`
+| Archivo                      | Descripción breve                                                                   |
+|-----------------------------|---------------------------------------------------------------------------------------|
+| IProfileCommandService.cs   | Maneja la creación y actualización de perfiles personales.                          |
+| IProfileQueryService.cs     | Permite obtener perfiles por ID o por usuario asociado.                             |
+
+### `Provider`
+| Archivo                        | Descripción breve                                                                   |
+|-------------------------------|---------------------------------------------------------------------------------------|
+| IProviderCommandService.cs     | Define comandos para registrar o actualizar información de proveedores.             |
+| IProviderQueryService.cs       | Permite consultar proveedores por ID o por usuario asociado.                        |
+
+### `Resident`
+| Archivo                        | Descripción breve                                                                   |
+|-------------------------------|---------------------------------------------------------------------------------------|
+| IResidentCommandService.cs     | Gestiona el registro y actualización de datos personales de los residentes.         |
+| IResidentQueryService.cs       | Consulta residentes por ID, usuario o proveedor al que están asociados.             |
+
+
+
+
 #### 4.2.2.2. Interface Layer.
--
+La carpeta `Interfaces/REST` expone los endpoints HTTP que permiten a clientes externos interactuar con la aplicación transformando solicitudes en comandos o queries y devolviendo respuestas.
+
+## `Resources`
+Las clases `Resource` actúan como intermediarias que trasladan datos entre la API REST y la capa de aplicación.
+
+| Archivo                           | Función                                                                 |
+|----------------------------------|-------------------------------------------------------------------------|
+| `RegisterUserResource.cs`        | Recibe los datos necesarios para registrar un nuevo usuario.           |
+| `UpdateUserPasswordResource.cs`  | Permite actualizar la contraseña del usuario.                          |
+| `UserResource.cs`                | Devuelve la información del usuario (GET).                             |
+| `CreateProfileResource.cs`       | Recibe los datos para crear un perfil de usuario.                      |
+| `UpdateProfileResource.cs`       | Permite actualizar dirección, documento o teléfono del perfil.         |
+| `ProfileResource.cs`             | Devuelve los datos de perfil asociados a un usuario.                   |
+| `RegisterProviderResource.cs`    | Recibe datos para registrar un nuevo proveedor.                        |
+| `UpdateProviderInfoResource.cs`  | Permite actualizar la razón social o el RUC de un proveedor.           |
+| `ProviderResource.cs`            | Devuelve información pública de un proveedor (GET).                    |
+| `RegisterResidentResource.cs`    | Recibe los datos necesarios para registrar un residente.               |
+| `UpdateResidentInfoResource.cs`  | Permite modificar los datos personales del residente.                  |
+| `ResidentResource.cs`            | Devuelve la información de un residente (GET).                         |
+
+## `Transform/Assemblers` 
+Las clases ubicadas en la carpeta **Transform** (o también conocidas como **Assemblers**) se encargan de:
+
+- Traducir los objetos **Resource** en **Command Objects** que serán procesados por la capa de aplicación.  
+- Convertir las entidades del dominio en objetos **Resource** que se utilizarán para construir las respuestas de la API.
+
+| Archivo                                               | Función                                                                 |
+|-------------------------------------------------------|-------------------------------------------------------------------------|
+| `RegisterUserCommandFromResourceAssembler.cs`         | Transforma `RegisterUserResource` en `RegisterUserCommand`.            |
+| `UpdateUserPasswordCommandFromResourceAssembler.cs`   | Transforma `UpdateUserPasswordResource` en `UpdateUserPasswordCommand`.|
+| `UserResourceFromEntityAssembler.cs`                  | Convierte una entidad `User` en un `UserResource` limpio.              |
+| `CreateProfileCommandFromResourceAssembler.cs`        | Transforma `CreateProfileResource` en `CreateProfileCommand`.          |
+| `UpdateProfileCommandFromResourceAssembler.cs`        | Transforma `UpdateProfileResource` en `UpdateProfileInfoCommand`.      |
+| `ProfileResourceFromEntityAssembler.cs`               | Convierte una entidad `Profile` en un `ProfileResource`.               |
+| `RegisterProviderCommandFromResourceAssembler.cs`     | Transforma `RegisterProviderResource` en `RegisterProviderCommand`.    |
+| `UpdateProviderCommandFromResourceAssembler.cs`       | Transforma `UpdateProviderInfoResource` en `UpdateProviderInfoCommand`.|
+| `ProviderResourceFromEntityAssembler.cs`              | Convierte una entidad `Provider` en un `ProviderResource`.             |
+| `RegisterResidentCommandFromResourceAssembler.cs`     | Transforma `RegisterResidentResource` en `RegisterResidentCommand`.    |
+| `UpdateResidentCommandFromResourceAssembler.cs`       | Transforma `UpdateResidentInfoResource` en `UpdateResidentInfoCommand`.|
+| `ResidentResourceFromEntityAssembler.cs`              | Convierte una entidad `Resident` en un `ResidentResource`.             |
+
+
+## `Controllers` 
+Cada entidad principal dentro del Bounded Context User & Identity Management dispone de un **REST Controller**, encargado de exponer los endpoints públicos y coordinar la lógica de ejecución de la aplicación.
+
+| Controlador               | Ruta base típica     | Responsabilidad principal                                                                   |
+|---------------------------|----------------------|----------------------------------------------------------------------------------------------|
+| `UserController.cs`       | `/api/users`         | Gestiona el registro, autenticación, y actualización del usuario.                           |
+| `ProfileController.cs`    | `/api/profiles`      | Permite la creación, modificación y consulta del perfil de un usuario.                      |
+| `ProviderController.cs`   | `/api/providers`     | Gestiona el registro de proveedores y la actualización de su información fiscal.            |
+| `ResidentController.cs`   | `/api/residents`     | Maneja el registro de residentes y sus datos personales asociados al proveedor.             |
+
+
 #### 4.2.2.3. Application Layer.
--
+
+### Servicios de Aplicación – Gestión de Flujos de Negocio
+
+## `CommandServices` 
+
+| Clase                             | Descripción                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------|
+| `UserCommandService.cs`          | Gestiona el registro de usuarios, cambio de rol y actualización de contraseña.                   |
+| `ProfileCommandService.cs`       | Maneja la creación y actualización de perfiles personales.                                       |
+| `ProviderCommandService.cs`      | Administra el registro de proveedores y edición de su información fiscal (razón social y RUC).   |
+| `ResidentCommandService.cs`      | Gestiona el registro de residentes y la modificación de sus datos personales.                    |yaya 
+
+## `QueryServices` 
+
+| Clase                             | Descripción                                                                                     |
+|----------------------------------|-------------------------------------------------------------------------------------------------|
+| `UserQueryService.cs`            | Permite consultar usuarios por ID o por rol.                                                    |
+| `ProfileQueryService.cs`         | Recupera perfiles asociados a usuarios o directamente por ID.                                   |
+| `ProviderQueryService.cs`        | Obtiene la información de proveedores por ID o usuario asociado.                                |
+| `ResidentQueryService.cs`        | Permite listar residentes por proveedor o consultar uno específico por ID o usuario.            |
+
 #### 4.2.2.4. Infrastructure Layer.
+### Implementación de Repositories
+
+| Clase                        | Interfaz implementada       | Función principal                                                                 |
+|-----------------------------|------------------------------|-----------------------------------------------------------------------------------|
+| `UserRepository.cs`         | `IUserRepository`           | Gestiona la persistencia y consultas de usuarios, incluyendo búsquedas por ID o rol. |
+| `ProfileRepository.cs`      | `IProfileRepository`        | Administra el acceso a datos de perfiles, permitiendo crear, editar y consultar por usuario. |
+| `ProviderRepository.cs`     | `IProviderRepository`       | Implementa la lógica para registrar y actualizar información fiscal de proveedores. |
+| `ResidentRepository.cs`     | `IResidentRepository`       | Permite almacenar y recuperar información de residentes asociados a un proveedor.  |
+
+
 -
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 -
@@ -296,7 +565,45 @@ Cada entidad principal dentro del Bounded Context *Reservations* dispone de un *
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 -
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+![alt text](<../img/db user bc.png>)
 
+## `users` 
+
+| Atributo     | Tipo       | Descripción                                  |
+|--------------|------------|----------------------------------------------|
+| id           | int        | Identificador único del usuario              |
+| username     | string     | Nombre de usuario del sistema                |
+| password     | string     | Contraseña cifrada del usuario               |
+| role         | string     | Rol del usuario (`ADMIN`, `PROVIDER`, etc.) |
+| createdAt    | datetime   | Fecha de creación del usuario                |
+| profile_id   | int        | FK al perfil asociado                        |
+
+## `profiles` 
+| Atributo         | Tipo     | Descripción                            |
+|------------------|----------|----------------------------------------|
+| id               | int      | Identificador único del perfil         |
+| documentType     | string   | Tipo de documento (DNI, CE, etc.)      |
+| documentNumber   | string   | Número del documento                   |
+| address          | string   | Dirección del usuario                  |
+| phone            | string   | Número telefónico                      |
+
+## `providers` 
+| Atributo     | Tipo     | Descripción                               |
+|--------------|----------|-------------------------------------------|
+| id           | int      | Identificador único del proveedor         |
+| tax_name     | string   | Nombre tributario del proveedor           |
+| ruc          | string   | RUC del proveedor                         |
+| user_id      | int      | FK al usuario asociado                    |
+
+## `residents` 
+
+| Atributo     | Tipo     | Descripción                                  |
+|--------------|----------|----------------------------------------------|
+| id           | int      | Identificador único del residente            |
+| first_name   | string   | Nombres del residente                        |
+| last_name    | string   | Apellidos del residente                      |
+| user_id      | int      | FK al usuario asociado                       |
+| provider_id  | int      | FK al proveedor que administra al residente  |
 
 ### 4.2.3. Bounded Context: BoundedContext
 -
