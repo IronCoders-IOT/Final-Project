@@ -225,15 +225,26 @@ Cada entidad principal dentro del Bounded Context *Reservations* dispone de un *
 ### Servicios de Aplicación – Gestión de Flujos de Negocio
 
 ## `CommandServices` 
+| Clase                             | Descripción                                                                                              |
+|----------------------------------|----------------------------------------------------------------------------------------------------------|
+| `SubscriptionCommandService.cs`  | Gestiona la lógica para crear nuevas suscripciones, actualizar su estado o renovarlas.                   |
+| `PaymentCommandService.cs`       | Maneja los procesos de creación de pagos, validación del estado y aplicación del método de pago.         |
 
 ## `QueryServices` 
-
+| Clase                             | Descripción                                                                                              |
+|----------------------------------|----------------------------------------------------------------------------------------------------------|
+| `SubscriptionQueryService.cs`    | Permite consultar suscripciones por estado, residente, fechas o sensor asociado.                         |
+| `PaymentQueryService.cs`         | Proporciona consultas sobre los pagos realizados, incluyendo filtros por suscripción,
 
 
 #### 4.2.1.4. Infrastructure Layer.
 
+### Implementación de Repositories
 
-
+| Clase                      | Interfaz implementada       | Función principal |
+|---------------------------|------------------------------|-------------------|
+| `SubscriptionRepository.cs` | `ISubscriptionRepository`   | Implementa la lógica de persistencia y consultas sobre suscripciones (`Subscription`), permitiendo operaciones como buscar por residente, sensor o estado. |
+| `PaymentRepository.cs`      | `IPaymentRepository`        | Gestiona el acceso a datos y operaciones sobre pagos (`Payment`), incluyendo la creación, actualización y consultas por suscripción o estado del pago. |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -242,7 +253,30 @@ Cada entidad principal dentro del Bounded Context *Reservations* dispone de un *
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
 
+
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+![alt text](<../img/db design diagram subsc.png>)
+
+## `subscriptions` 
+| Atributo     | Tipo       | Descripción                                              |
+|--------------|------------|----------------------------------------------------------|
+| id           | int        | Identificador único de la suscripción                    |
+| start_date   | datetime   | Fecha de inicio de la suscripción                        |
+| end_date     | datetime   | Fecha de finalización de la suscripción                  |
+| status       | string     | Estado actual (ACTIVE, EXPIRED, CANCELLED, etc.)         |
+| sensor_id    | int        | Relación con el sensor asignado                          |
+| resident_id  | int        | Relación con el residente al que pertenece la suscripción|
+
+## `payments` 
+| Atributo         | Tipo       | Descripción                                                |
+|------------------|------------|------------------------------------------------------------|
+| id               | int        | Identificador único del pago                               |
+| amount           | decimal    | Monto total del pago realizado                             |
+| status           | string     | Estado del pago (PENDING, SUCCESS, FAILED, CANCELLED)      |
+| paid_at          | datetime   | Fecha en la que se efectuó el pago                         |
+| method           | string     | Método de pago (YAPE, PLIN, BANK_TRANSFER, CARD, etc.)     |
+| subscription_id  | int        | Relación con la suscripción a la que corresponde el pago   |
 
 
 ### 4.2.2. Bounded Context: BoundedContext
