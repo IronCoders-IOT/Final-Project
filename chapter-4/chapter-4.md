@@ -31,49 +31,209 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 ## 4.2. Tactical-Level Domain-Driven Design
 -
-### 4.2.1. Bounded Context: Subscription
+### 4.2.1. Bounded Context: Subscription & Payment
 
 #### 4.2.1.1. Domain Layer.
+En el núcleo del dominio se han definido los siguientes Agregados, que representan los conceptos más importantes del Bounded Context de Suscripciones.
 
-Dentro del dominio de Subscription, se encuentran las entidades y servicios esenciales para administrar las suscripciones y sus pagos asociados en la plataforma. Este dominio se encarga de gestionar el ciclo de vida completo de una suscripción, incluyendo su creación, activación, renovación, cancelación y expiración, así como el procesamiento y seguimiento de los pagos correspondientes. Las entidades clave, como Subscription y Payment, definen la estructura y comportamiento de las suscripciones (fechas, estado, sensores vinculados) y los pagos (métodos, montos y estados), mientras que los servicios de dominio garantizan operaciones seguras y consistentes, como la asignación de sensores, la confirmación de pagos o la renovación automática.
 
-<img src="../img/subscription.png">
+
+
+## `Aggregates` 
+
+
+### `Subscription` 
+
+Representa la suscripción de un sensor. 
+#### Atributos principales:
+
+| Atributo     | Tipo                | Descripción                                                 |
+|--------------|---------------------|-------------------------------------------------------------|
+| `id`         | `Int`               | Identificador único de la suscripción                       |
+| `startDate`  | `Date`              | Fecha de inicio de la suscripción                           |
+| `endDate`    | `Date`              | Fecha de fin de la suscripción                              |
+| `status`     | `SubscriptionStatus`| Estado actual de la suscripción (`ACTIVE`, `EXPIRED`, etc.) |
+| `sensorId`   | `Int`               | Identificador del sensor asociado                           |
+| `residentId` | `Int`               | Identificador del residente asociado                        |
+
+#### Constructores:
+
+- Por parámetros individuales 
+- A partir de `CreateSubscriptionCommand`
+- A partir de `UpdateSubscriptionStatusCommand`
+- A partir de `UpdateSubscriptionEndDateCommand`
+---
+
+
+### `Payment` 
+
+Representa el pago de una suscripción. 
+#### Atributos principales:
+
+| Atributo         | Tipo              | Descripción                         |
+|------------------|-------------------|-------------------------------------|
+| `id`             | `Int`             | Identificador único del pago        |
+| `subscriptionId` | `Int`             | Relación con la suscripción asociada|
+| `amount`         | `Decimal`         | Monto del pago                      |
+| `status`         | `PaymentStatus`   | Estado del pago (PENDING, SUCCESS, etc.) |
+| `method`         | `PaymentMethod`   | Método de pago (CARD, YAPE, etc.)   |
+| `paidAt`         | `Date`            | Fecha en la que se realizó el pago  |    |
+
+#### Constructores:
+
+- Por parámetros individuales 
+- A partir de `CreatePaymentCommand`
+---
+
+Los siguientes enumerados (enums) representan valores fijos que controlan el estado y comportamiento de las entidades del sistema dentro del contexto de suscripciones y pagos. Se utilizan para asegurar consistencia, facilitar validaciones y mejorar la legibilidad del código, evitando el uso de strings sueltos o valores mágicos.
+
+
+### `SubscriptionStatus(Enum)` 
+
+| Valor       | Descripción                                                  |
+|-------------|--------------------------------------------------------------|
+| ACTIVE      | La suscripción está activa y el sensor está en funcionamiento |
+| EXPIRED     | La suscripción ha terminado su periodo de vigencia            |
+| CANCELLED   | La suscripción fue cancelada antes de su vencimiento          |
+| PENDING     | La suscripción ha sido creada pero aún no se ha activado      |
+
+### `PaymentStatus (Enum)` 
+
+ | Valor       | Descripción                                 |
+|-------------|----------------------------------------------|
+| PENDING     | El pago ha sido iniciado pero no completado  |
+| SUCCESS     | El pago se procesó correctamente             |
+| FAILED      | El intento de pago falló                     |
+| CANCELLED   | El pago fue cancelado por el usuario o sistema |
+
+### `PaymentMethod  (Enum)` 
+
+| Valor         | Descripción                             |
+|---------------|------------------------------------------|
+| CARD          | Pago realizado con tarjeta               |
+| YAPE          | Pago a través de la app Yape             |
+| PLIN          | Pago a través de la app Plin             |
+| BANK_TRANSFER | Transferencia bancaria                   |
+
+
+## `Commands` 
+
+### Subscription Commands
+
+| Comando                         | Descripción                                                         |
+|--------------------------------|----------------------------------------------------------------------|
+| `CreateSubscriptionCommand`    | Crea una nueva suscripción, asignando un sensor a un residente con fechas definidas |
+| `CancelSubscriptionCommand`    | Cancela una suscripción activa antes de su fecha de fin             |
+| `UpdateSubscriptionEndDateCommand` | Modifica la fecha de finalización de la suscripción                 |
+| `ExpireSubscriptionCommand`    | Marca una suscripción como expirada si ha superado su fecha de fin  |
+| `ActivateSubscriptionCommand`  | Cambia el estado de una suscripción a `ACTIVE`                      |
+
+
+### Payment Commands
+| Comando                     | Descripción                                                       |
+|----------------------------|--------------------------------------------------------------------|
+| `CreatePaymentCommand`     | Registra un nuevo pago asociado a una suscripción                 |
+| `UpdatePaymentStatusCommand` | Cambia el estado de un pago (`PENDING`, `SUCCESS`, `FAILED`, etc.) |
+
+
+## `Queries` 
+
+
+### Subscription Queries
+| Query                                | Descripción                                                                      |
+|-------------------------------------|----------------------------------------------------------------------------------|
+| `GetSubscriptionByIdQuery`          | Obtiene una suscripción específica por su ID                                    |
+| `GetSubscriptionsByResidentIdQuery`| Lista todas las suscripciones activas o históricas de un residente              |
+| `GetActiveSubscriptionBySensorIdQuery` | Devuelve la suscripción activa de un sensor determinado                         |
+| `GetAllActiveSubscriptionsQuery`    | Lista todas las suscripciones activas del sistema                               |
+
+
+### Payment Queries
+| Query                              | Descripción                                                    |
+|-----------------------------------|----------------------------------------------------------------|
+| `GetPaymentByIdQuery`             | Obtiene los detalles de un pago específico por su ID          |
+| `GetPaymentsBySubscriptionIdQuery`| Lista todos los pagos hechos para una suscripción dada        |
+| `GetRecentPaymentsByResidentIdQuery` | Devuelve los pagos recientes realizados por un residente      |
+
+## `Repositories (Interfaces)` 
+| Archivo                     | Descripción breve                                                                 |
+|----------------------------|-------------------------------------------------------------------------------------|
+| ISubscriptionRepository.cs | Define operaciones sobre suscripciones: `FindByIdAsync`, `FindByResidentIdAsync`, `FindActiveBySensorIdAsync`, `SaveAsync`, `UpdateStatusAsync` |
+| IPaymentRepository.cs      | Define operaciones sobre pagos: `FindByIdAsync`, `FindBySubscriptionIdAsync`, `SaveAsync`, `UpdateStatusAsync`             |
+
+
+## `Services` 
+### Subscription
+
+| Archivo                          | Descripción breve                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------------|
+| ISubscriptionCommandService.cs  | Define comandos como crear, cancelar o renovar suscripciones.                     |
+| ISubscriptionQueryService.cs    | Define consultas para obtener suscripciones (por residente, por sensor, por estado, por id). |
+
+### Payment
+
+| Archivo                      | Descripción breve                                                                 |
+|------------------------------|-------------------------------------------------------------------------------------|
+| IPaymentCommandService.cs   | Define comandos como registrar pago, actualizar estado o reintentar un pago.      |
+| IPaymentQueryService.cs     | Define consultas para obtener pagos (por suscripción, por estado, por método, por id). |
+
 
 #### 4.2.1.2. Interface Layer.
 
-En esta sección, se presenta la Capa de Interfaz de Subscription, la cual actúa como puente entre los usuarios y la lógica del dominio. Esta capa está compuesta por controladores que reciben solicitudes, las procesan y devuelven respuestas, facilitando una interacción clara y eficiente con la plataforma.
+La carpeta `Interfaces/REST` expone los endpoints HTTP que permiten a clientes externos interactuar con la aplicación transformando solicitudes en comandos o queries y devolviendo respuestas.
 
-Los controladores principales incluyen:
 
-SubscriptionController: Gestiona operaciones relacionadas con suscripciones, como creación, cancelación, renovación y asignación de sensores.
 
-PaymentController: Se encarga del procesamiento de pagos, consulta de estados y confirmación o cancelación de transacciones.
 
-<img src="../img/Controllers subsc.png">
+## `Resources` 
+Las clases `Resource` actúan como intermediarias que trasladan datos entre la API REST y la capa de aplicación.
+
+| Archivo                           | Función                                                                 |
+|----------------------------------|-------------------------------------------------------------------------|
+| `CreateSubscriptionResource.cs`  | Recibe datos para registrar una nueva suscripción desde el cliente.    |
+| `CancelSubscriptionResource.cs`  | Permite cancelar una suscripción existente.                            |
+| `SubscriptionResource.cs`        | Devuelve información de una suscripción (GET).                         |
+| `CreatePaymentResource.cs`       | Recibe datos para registrar un nuevo pago asociado a una suscripción.  |
+| `PaymentResource.cs`             | Devuelve detalles del pago realizado (GET).                            |
+
+
+## `Transform/Assemblers` 
+
+Las clases ubicadas en la carpeta **Transform** (o también conocidas como **Assemblers**) se encargan de:
+
+- Traducir los objetos **Resource** en **Command Objects** que serán procesados por la capa de aplicación.  
+- Convertir las entidades del dominio en objetos **Resource** que se utilizarán para construir las respuestas de la API.
+
+| Archivo                                             | Función                                                                 |
+|-----------------------------------------------------|-------------------------------------------------------------------------|
+| `CreateSubscriptionCommandFromResourceAssembler.cs` | Transforma `CreateSubscriptionResource` en `CreateSubscriptionCommand`. |
+| `CreatePaymentCommandFromResourceAssembler.cs`      | Transforma `CreatePaymentResource` en `CreatePaymentCommand`.           |
+| `SubscriptionResourceFromEntityAssembler.cs`        | Convierte una entidad `Subscription` en un `SubscriptionResource` limpio. |
+| `PaymentResourceFromEntityAssembler.cs`             | Convierte una entidad `Payment` en un `PaymentResource` limpio.         |
+
+
+## `Controllers` 
+Cada entidad principal dentro del Bounded Context *Reservations* dispone de un **REST Controller**, encargado de exponer los endpoints públicos y coordinar la lógica de ejecución de la aplicación.
+
+| Controlador              | Ruta base típica | Responsabilidad principal                                                                 |
+|--------------------------|------------------|--------------------------------------------------------------------------------------------|
+| `SubscriptionController.cs` | `/api/subscription` | Gestiona la creación, actualización y consulta de suscripciones.                          |
+| `PaymentController.cs`      | `/api/payment`      | Maneja operaciones de pagos: registrar, consultar historial y actualizar estado de pago.  |
 
 #### 4.2.1.3. Application Layer.
 
-En esta sección, se describe la Capa de Aplicación del sistema de Subscription, la cual actúa como intermediaria entre las solicitudes de la interfaz y la lógica de negocio del dominio. Esta capa se encarga de orquestar el flujo de operaciones, utilizando Command Handlers para ejecutar acciones específicas y coordinar los servicios necesarios.
+### Servicios de Aplicación – Gestión de Flujos de Negocio
 
-Los componentes principales incluyen:
+## `CommandServices` 
 
-CreateSubscriptionCommandHandler: Gestiona la creación de suscripciones, delegando la lógica al SubscriptionService para garantizar que se cumplan las reglas de negocio.
+## `QueryServices` 
 
-ProcessPaymentCommandHandler: Coordina el procesamiento de pagos, interactuando con el PaymentService para validar y ejecutar transacciones.
 
-<img src="../img/Application Layer subsc.png">
 
 #### 4.2.1.4. Infrastructure Layer.
 
-En esta sección, se detalla la Capa de Infraestructura del sistema de Subscription, la cual proporciona los componentes técnicos esenciales para la persistencia de datos y la integración con sistemas externos. Esta capa implementa los mecanismos de almacenamiento y recuperación de información, asegurando que el dominio y la aplicación operen sin preocuparse por los detalles técnicos subyacentes.
 
-Los repositorios clave incluyen:
 
-SubscriptionRepository: Encargado de gestionar las operaciones relacionadas con las suscripciones, como buscar por ID o residencial, guardar nuevos registros o eliminar suscripciones existentes.
-
-PaymentRepository: Responsable de manejar los datos de pagos, permitiendo consultar transacciones por ID o suscripción, así como almacenar o eliminar información de pagos.
-
-<img src="../img/Infrastructure Layer subsc.png">
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -81,11 +241,9 @@ PaymentRepository: Responsable de manejar los datos de pagos, permitiendo consul
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../img/Layer Class Diagrams.png">
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
-<img src="../img/db design diagram subsc.png">
 
 ### 4.2.2. Bounded Context: BoundedContext
 -
