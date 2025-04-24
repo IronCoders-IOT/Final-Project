@@ -246,8 +246,11 @@ Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispo
 | `PaymentRepository.cs`      | `IPaymentRepository`        | Gestiona el acceso a datos y operaciones sobre pagos (`Payment`), incluyendo la creación, actualización y consultas por suscripción o estado del pago. |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+![alt text](<../img/Subscription-Bounded-Context.png>)
+
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
