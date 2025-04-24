@@ -28,12 +28,11 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 #### 4.1.3.3. Software Architecture Container Level Diagrams.
 ![alt text](<../img/Software Architecture Container Level Diagrams.png>)
 #### 4.1.3.4. Software Architecture Deployment Diagrams.
-
+![alt text](<../img/deployment.jpeg>)
 
 
 
 ## 4.2. Tactical-Level Domain-Driven Design
--
 ### 4.2.1. Bounded Context: Subscription & Payment
 
 #### 4.2.1.1. Domain Layer.
