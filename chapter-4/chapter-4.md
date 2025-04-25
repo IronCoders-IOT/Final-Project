@@ -19,7 +19,7 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 ![Bounded Context](../img/BD_Analytics.png)
 
-- Bounded context Managment
+- Bounded context Request Managment
 
 ![Bounded Context](../img/BC_Canvas_Managment.png)
 
@@ -1019,7 +1019,7 @@ Representa la administración y configuración de un sensor en campo.
 | `SensorManagementRepository.cs` | `ISensorManagementRepository` | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
--
+![alt text](../img/structurizr-101355-dashboardAnalytics.png)
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 ![alt text](<../img/events.png>)
