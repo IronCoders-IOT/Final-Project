@@ -1017,3 +1017,28 @@ Representa la administración y configuración de un sensor en campo.
 ![alt text](<../img/events.png>)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
 ![alt text](<../img/dashboard.png>)
+
+## Bounded Context Database Design Diagram
+
+## Tabla: `events`
+| Columna    | Tipo    |
+|------------|---------|
+| id         | int     |
+| sensor_it  | int     |
+| value      | decimal |
+| type       | string  |
+| status     | string  |
+
+## Tabla: `sensors`
+| Columna     | Tipo    |
+|-------------|---------|
+| id          | int     |
+| type        | string  |
+| description | string  |
+| status      | string  |
+| resident_id | int     |
+| location    | string  |
+
+### Relación
+- Un `sensor` puede tener múltiples `events`.
+- La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
