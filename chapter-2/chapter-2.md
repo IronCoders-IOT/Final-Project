@@ -267,6 +267,25 @@ Timing: 5:00
 alt="Entrevista 2 Segmento habitantes" width="500"/>
 Jorge Medina, un agricultor de 34 años que vive en una zona rural de Ica, nos comenta que utiliza principalmente un celular Samsung y navega con Google Chrome. Él y su comunidad obtienen agua a través de camiones cisterna, aunque menciona que no siempre alcanza para todos y que muchas veces no parece segura. Nos comenta que su esposa tuvo problemas estomacales, posiblemente por el agua. Aunque suelen hervirla, sabe que eso no garantiza su limpieza. Casi no reciben información oficial sobre la calidad del agua y desconfían de lo poco que oyen. Para él, el agua potable es fundamental para vivir bien, y nos comenta que estaría dispuesto a participar en acciones comunitarias que ayuden a mejorar esta situación.
 
+**Entrevistas usuario segmento (Proveedor de agua)**
+- Nombre: Fabian Reyes Trujillano
+<br>
+Edad: 24
+<br>
+Ocupación: Empleado de Sedapal
+<br>
+Browser: Google Chrome
+<br>
+Device: Teléfono Samsung, Laptop Acer
+<br>
+Distrito: SMP
+<br>
+Timing: 3:
+<br>
+<img src="../assets/images-interviews/proveedor/entrevista-fabian-reyes.png"
+alt="Entrevista 2 Segmento habitantes" width="700"/>
+Fabian Reyes, un trabajador de sedapal de 24 años, que vive en SMP, utiliza como navegador Chrome como dispositivos frecuentes su celular y laptop de marca Samsumg y Acer. En su trabajo nos cuenta como es que según la zona en la que trabaje, puede variar el tiempo para poder sacar medidas de ciertos parámetros del agua. Aunque con los problemas que encuentre suele notificar a sus superiores, lo que nos comenta sobre los costos, están los de transporte, personal, entre otros. El problema principal es el tiempo que tardan para poder obtener datos o saber el estado del agua. Cree que nuestra solución sería increible y de mucho apoyo. Nos sugiere alertas en tiempo real sobre malesas u otras cosas sobre el agua.
+
 ### 2.2.3. Análisis de entrevistas
 **Segmento 1: (...):**
 
