@@ -4,13 +4,29 @@
 
 En To-Be se usaran los mismos escenarios, pero aplicando la solución que ofrecemos como equipo  
 
-### Segmento Habitantes: 
+### Segmento 1: Habitantes 
 
-![to be](../img/TO-BE-HABITANTES.jfif)
+Enlace para visualizar el As-is Scenario Map de Habitantes realizado en Miro: https://miro.com/app/board/uXjVIBKpWJQ=/?share_link_id=18556028670 
 
-### Segmento Proveedores:
+### Brainstorming:
 
-![to be](../img/TO-BE-PROVEEDORES.jfif)
+![Brainstorming](../img/Brain_Hab.png)
+
+### To-Be Scenario Mapping 
+
+![to be](../img/to-be-hab.png)
+
+### Segmento 2: Proveedores
+
+Enlace para visualizar el As-is Scenario Map de Proveedores realizado en Miro: https://miro.com/app/board/uXjVIBKpWJQ=/?share_link_id=18556028670
+
+### Brainstorming:
+
+![Brainstorming](../img/Brain_Prov.png)
+
+### To-Be Scenario Mapping 
+
+![to be](../img/to-be-prov.png)
 
 ## 3.2. User Stories
 
