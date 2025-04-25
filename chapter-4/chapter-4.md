@@ -19,6 +19,11 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 ![Bounded Context](../img/BD_Analytics.png)
 
+- Bounded context Managment
+
+![Bounded Context](../img/BC_Canvas_Managment.png)
+
+
 ### 4.1.2. Context Mapping.
 
 ### 4.1.3. Software Architecture.
