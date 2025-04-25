@@ -563,7 +563,9 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 ![alt text](../img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
--
+
+![alt text](<../img/AQUA (16).png>)
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 ![alt text](<../img/db user bc.png>)
 
@@ -605,7 +607,8 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 | user_id      | int      | FK al usuario asociado                       |
 | provider_id  | int      | FK al proveedor que administra al residente  |
 
-### 4.2.3. Bounded Context: Management 
+
+### 4.2.3. Bounded Context: Request Management 
 
 #### 4.2.3.1. Domain Layer.
 - Este bounded context abarca la gestión de solicitudes generales y de agua realizadas por los residentes a los proveedores dentro de una comunidad.
@@ -785,15 +788,18 @@ Constructores:
 
 -
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
--
+![alt text](<../img/structurizr-101355-RequestManagement.png>)
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
--
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
--
+![alt text](<../img/requests.png>)
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
+![alt text](<../img/requestDiagram.png>)
 
-### 4.2.4. Bounded Context: Analytics
+
+
+
+## 4.2.4. Bounded Context: Dashboard & Analytics
 - Este bounded context abarca la gestión de datos analíticos y reportes generados a partir de las interacciones entre residentes, proveedores y sensores. Su objetivo es proporcionar información valiosa para la toma de decisiones estratégicas y operativas.
 #### 4.2.4.1. Domain Layer.
 
@@ -805,7 +811,6 @@ Representa un evento individual registrado por un sensor de monitoreo ambiental.
 |----------------|----------|------------------------------------------------------------------------|
 | `id`           | Int      | Identificador único del evento                                        |
 | `sensorId`     | Int      | Identificador del sensor asociado                                     |
-| `timestamp`    | DateTime | Fecha y hora del evento registrado                                    |
 | `value`        | Float    | Valor registrado por el sensor (ej. nivel de agua)                    |
 | `type`         | Enum     | Tipo de evento: `WATER_LEVEL`, `WATER_QUALITY`, `PRESSURE`, etc.      |
 | `status`       | Enum     | Estado del evento: `NORMAL`, `ALERT`, `CRITICAL`                      |
@@ -1008,102 +1013,7 @@ Representa la administración y configuración de un sensor en campo.
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
--
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
--
+![alt text](<../img/events.png>)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
-
-
-### 4.2.5. Bounded Context: BoundedContext
--
-#### 4.2.5.1. Domain Layer.
--
-#### 4.2.5.2. Interface Layer.
--
-#### 4.2.5.3. Application Layer.
--
-#### 4.2.5.4. Infrastructure Layer.
--
-#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
--
-#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
--
-##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
--
-##### 4.2.5.6.2. Bounded Context Database Design Diagram.
-
-
-### 4.2.6. Bounded Context: BoundedContext
--
-#### 4.2.6.1. Domain Layer.
--
-#### 4.2.6.2. Interface Layer.
--
-#### 4.2.6.3. Application Layer.
--
-#### 4.2.6.4. Infrastructure Layer.
--
-#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
--
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
--
-##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
--
-##### 4.2.6.6.2. Bounded Context Database Design Diagram.
-
-
-### 4.2.7. Bounded Context: BoundedContext
--
-#### 4.2.7.1. Domain Layer.
--
-#### 4.2.7.2. Interface Layer.
--
-#### 4.2.7.3. Application Layer.
--
-#### 4.2.7.4. Infrastructure Layer.
--
-#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
--
-#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
--
-##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
--
-##### 4.2.7.6.2. Bounded Context Database Design Diagram.
-
-
-### 4.2.8. Bounded Context: BoundedContext
--
-#### 4.2.8.1. Domain Layer.
--
-#### 4.2.8.2. Interface Layer.
--
-#### 4.2.8.3. Application Layer.
--
-#### 4.2.8.4. Infrastructure Layer.
--
-#### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
--
-#### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
--
-##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
--
-##### 4.2.8.6.2. Bounded Context Database Design Diagram.
-
-
-### 4.2.9. Bounded Context: BoundedContext
--
-#### 4.2.9.1. Domain Layer.
--
-#### 4.2.9.2. Interface Layer.
--
-#### 4.2.9.3. Application Layer.
--
-#### 4.2.9.4. Infrastructure Layer.
--
-#### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
--
-#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
--
-##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
--
-##### 4.2.9.6.2. Bounded Context Database Design Diagram.
+![alt text](<../img/dashboard.png>)
