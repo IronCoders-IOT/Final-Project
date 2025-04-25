@@ -818,7 +818,7 @@ Representa un evento individual registrado por un sensor de monitoreo ambiental.
 
 ---
 
-#### `SensorManagement`
+## `SensorManagement`
 
 Representa la administración y configuración de un sensor en campo.
 
@@ -838,9 +838,9 @@ Representa la administración y configuración de un sensor en campo.
 
 ---
 
-### 🔁 Enumerados (Enums)
+##  Enumerados (Enums)
 
-#### `EventStatus`
+## `EventStatus`
 
 | Valor      | Descripción                                     |
 |------------|-------------------------------------------------|
@@ -848,7 +848,7 @@ Representa la administración y configuración de un sensor en campo.
 | `ALERT`    | Valores fuera del promedio, no críticos         |
 | `CRITICAL` | Riesgo de salud o impacto grave                 |
 
-#### `EventType`
+### `EventType`
 
 | Valor           | Descripción                      |
 |------------------|---------------------------------|
@@ -857,7 +857,7 @@ Representa la administración y configuración de un sensor en campo.
 | `PRESSURE`       | Presión                         |
 | `TEMPERATURE`    | Temperatura                     |
 
-#### `SensorStatus`
+## `SensorStatus`
 
 | Valor        | Descripción                                       |
 |--------------|---------------------------------------------------|
@@ -868,16 +868,16 @@ Representa la administración y configuración de un sensor en campo.
 
 ---
 
-### 💡 Commands
+##  Commands
 
-#### **Analytics Commands**
+## `Analytics Commands`
 
 | Comando                     | Descripción                                                |
 |-----------------------------|------------------------------------------------------------|
 | `RegisterEventCommand`      | Registra un nuevo evento generado por un sensor           |
 | `UpdateEventStatusCommand`  | Actualiza el estado de un evento específico               |
 
-#### **Management Commands**
+## `Management Commands`
 
 | Comando                     | Descripción                                                |
 |-----------------------------|------------------------------------------------------------|
@@ -886,9 +886,9 @@ Representa la administración y configuración de un sensor en campo.
 
 ---
 
-### 🔍 Queries
+## Queries
 
-#### **Analytics Queries**
+## `Analytics Queries`
 
 | Query                                  | Descripción                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------|
@@ -899,7 +899,7 @@ Representa la administración y configuración de un sensor en campo.
 | `GetEventsByDateRangeQuery`           | Lista eventos registrados entre dos fechas (`created_at`)                  |
 | `GetEventsByStatusAndSensorIdQuery`   | Lista eventos filtrados por estado (`status`) y sensor específico          |
 
-#### **Management Queries**
+## `Management Queries`
 
 | Query                             | Descripción                                                                 |
 |-----------------------------------|-----------------------------------------------------------------------------|
@@ -908,7 +908,7 @@ Representa la administración y configuración de un sensor en campo.
 
 ---
 
-### 🗂️ Repositories (Interfaces)
+## ` Repositories (Interfaces)`
 
 | Archivo                          | Descripción                                                                  |
 |----------------------------------|------------------------------------------------------------------------------|
@@ -922,16 +922,16 @@ Representa la administración y configuración de un sensor en campo.
 
 ---
 
-### ⚙️ Services
+## Services
 
-#### **Analytics Services**
+## `Analytics Services`
 
 | Archivo                    | Descripción                                                              |
 |----------------------------|--------------------------------------------------------------------------|
 | `IEventCommandService.cs`   | Comandos para registrar y modificar eventos                             |
 | `IEventQueryService.cs`     | Consultas de eventos: por sensor, por mes, por estado, por fechas, etc. |
 
-#### **Management Services**
+## `Management Services`
 
 | Archivo                      | Descripción                                                             |
 |------------------------------|-------------------------------------------------------------------------|
@@ -941,11 +941,70 @@ Representa la administración y configuración de un sensor en campo.
 ---
 
 #### 4.2.4.2. Interface Layer.
--
+## `Resources`
+
+| Archivo                          | Descripción                                                            |
+|----------------------------------|------------------------------------------------------------------------|
+| `RegisterEventResource.cs`       | Recurso para registrar nuevos eventos                                  |
+| `EventResource.cs`               | Recurso JSON para listar eventos                                       |
+| `MonthlyEventsResource.cs`       | Agrupación de eventos por mes                                          |
+| `SensorReportResource.cs`        | Resumen estadístico de sensor                                          |
+| `InstallSensorResource.cs`       | Recurso para registrar un sensor nuevo                                 |
+| `SensorManagementResource.cs`    | Estado, descripción y ubicación del sensor                             |
+
+---
+
+## `Transform / Assemblers`
+
+| Archivo                                           | Función                                                                  |
+|--------------------------------------------------|---------------------------------------------------------------------------|
+| `RegisterEventCommandFromResourceAssembler.cs`   | Transforma recurso en `RegisterEventCommand`                             |
+| `EventResourceFromEntityAssembler.cs`            | Convierte entidad `Event` a recurso JSON                                 |
+| `MonthlyEventsResourceFromEntityAssembler.cs`    | Agrupa eventos y los transforma a recurso mensual                        |
+| `SensorReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte                     |
+| `InstallSensorCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallSensorCommand`                             |
+| `SensorResourceFromEntityAssembler.cs`           | Convierte `SensorManagement` en recurso JSON                             |
+
+---
+
+## ` Controllers`
+
+| Controlador             | Ruta Base          | Descripción                                                      |
+|--------------------------|--------------------|------------------------------------------------------------------|
+| `EventController.cs`     | `/api/events`      | Registro, consulta, filtro por sensor, estado y fechas           |
+| `SensorController.cs`    | `/api/sensors`     | Instalación y gestión de sensores                                |
+
+---
 #### 4.2.4.3. Application Layer.
--
+## `Command Services`
+
+| Archivo                  | Descripción                                                         |
+|--------------------------|---------------------------------------------------------------------|
+| `EventCommandService.cs`  | Lógica para registrar y actualizar eventos                         |
+| `SensorCommandService.cs` | Lógica para instalación y modificación de sensores                 |
+
+## `Query Services`
+
+| Archivo                    | Descripción                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| `EventQueryService.cs`      | Consultas sobre eventos incluyendo:                                         |
+|                            | - Por sensorId                                                              |
+|                            | - Por rango de fechas                                                       |
+|                            | - Por estado y sensorId                                                     |
+|                            | - Agrupados por mes                                                         |
+|                            | - Generación de reporte                                                     |
+| `SensorQueryService.cs`     | Consultas por ubicación, ID o estado de sensor                             |
+
+---
 #### 4.2.4.4. Infrastructure Layer.
--
+
+## `Implementación de Repositories`
+
+| Clase                          | Interfaz implementada         | Función principal                                                                 |
+|-------------------------------|-------------------------------|------------------------------------------------------------------------------------|
+| `EventRepository.cs`          | `IEventRepository`            | Gestiona la persistencia de eventos generados por sensores, incluyendo búsqueda por sensor, fechas o estado. |
+| `SensorManagementRepository.cs` | `ISensorManagementRepository` | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
