@@ -794,9 +794,152 @@ Constructores:
 
 
 ### 4.2.4. Bounded Context: Analytics
--
+- Este bounded context abarca la gestión de datos analíticos y reportes generados a partir de las interacciones entre residentes, proveedores y sensores. Su objetivo es proporcionar información valiosa para la toma de decisiones estratégicas y operativas.
 #### 4.2.4.1. Domain Layer.
--
+
+## `Event`
+
+Representa un evento individual registrado por un sensor de monitoreo ambiental.
+
+| Atributo       | Tipo     | Descripción                                                           |
+|----------------|----------|------------------------------------------------------------------------|
+| `id`           | Int      | Identificador único del evento                                        |
+| `sensorId`     | Int      | Identificador del sensor asociado                                     |
+| `timestamp`    | DateTime | Fecha y hora del evento registrado                                    |
+| `value`        | Float    | Valor registrado por el sensor (ej. nivel de agua)                    |
+| `type`         | Enum     | Tipo de evento: `WATER_LEVEL`, `WATER_QUALITY`, `PRESSURE`, etc.      |
+| `status`       | Enum     | Estado del evento: `NORMAL`, `ALERT`, `CRITICAL`                      |
+| `created_at`   | DateTime | Fecha de creación del evento                                          |
+
+**Constructores:**
+
+- Por parámetros individuales
+- A partir de `RegisterEventCommand`
+
+---
+
+#### `SensorManagement`
+
+Representa la administración y configuración de un sensor en campo.
+
+| Atributo     | Tipo     | Descripción                                                |
+|--------------|----------|------------------------------------------------------------|
+| `id`         | Int      | Identificador único del sensor                             |
+| `type`       | Enum     | Tipo de sensor (ej. `WATER_LEVEL`, `PRESSURE`, etc.)       |
+| `status`     | Enum     | Estado del sensor: `INSTALLED`, `INACTIVE`, etc.           |
+| `description`| String   | Descripción general del sensor                             |
+| `residentId` | Int      | ID del residente o responsable asociado al sensor          |
+| `location`   | String   | Ubicación o comunidad donde está instalado el sensor       |
+
+**Constructores:**
+
+- Por parámetros individuales
+- A partir de `InstallSensorCommand`
+
+---
+
+### 🔁 Enumerados (Enums)
+
+#### `EventStatus`
+
+| Valor      | Descripción                                     |
+|------------|-------------------------------------------------|
+| `NORMAL`   | Valores dentro de lo aceptable                  |
+| `ALERT`    | Valores fuera del promedio, no críticos         |
+| `CRITICAL` | Riesgo de salud o impacto grave                 |
+
+#### `EventType`
+
+| Valor           | Descripción                      |
+|------------------|---------------------------------|
+| `WATER_LEVEL`    | Nivel de agua                   |
+| `WATER_QUALITY`  | Calidad del agua                |
+| `PRESSURE`       | Presión                         |
+| `TEMPERATURE`    | Temperatura                     |
+
+#### `SensorStatus`
+
+| Valor        | Descripción                                       |
+|--------------|---------------------------------------------------|
+| `INSTALLED`  | Sensor instalado y operativo                      |
+| `INACTIVE`   | Sensor fuera de servicio temporalmente            |
+| `MAINTENANCE`| Sensor en mantenimiento                           |
+| `FAULTY`     | Sensor con fallas                                 |
+
+---
+
+### 💡 Commands
+
+#### **Analytics Commands**
+
+| Comando                     | Descripción                                                |
+|-----------------------------|------------------------------------------------------------|
+| `RegisterEventCommand`      | Registra un nuevo evento generado por un sensor           |
+| `UpdateEventStatusCommand`  | Actualiza el estado de un evento específico               |
+
+#### **Management Commands**
+
+| Comando                     | Descripción                                                |
+|-----------------------------|------------------------------------------------------------|
+| `InstallSensorCommand`      | Instala un sensor en un lugar determinado                 |
+| `UpdateSensorStatusCommand` | Modifica el estado operativo de un sensor                 |
+
+---
+
+### 🔍 Queries
+
+#### **Analytics Queries**
+
+| Query                                  | Descripción                                                                 |
+|----------------------------------------|-----------------------------------------------------------------------------|
+| `GetEventsBySensorIdQuery`            | Lista todos los eventos registrados por un sensor específico               |
+| `GetRecentCriticalEventsQuery`        | Devuelve eventos recientes con estado crítico                              |
+| `GetMonthlyEventsBySensorQuery`       | Devuelve eventos agrupados por mes para un sensor                          |
+| `GenerateSensorReportQuery`           | Genera reporte consolidado con estadísticas de eventos de un sensor        |
+| `GetEventsByDateRangeQuery`           | Lista eventos registrados entre dos fechas (`created_at`)                  |
+| `GetEventsByStatusAndSensorIdQuery`   | Lista eventos filtrados por estado (`status`) y sensor específico          |
+
+#### **Management Queries**
+
+| Query                             | Descripción                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------|
+| `GetSensorsByLocationQuery`       | Lista sensores instalados en una ubicación específica                      |
+| `GetSensorStatusByIdQuery`        | Devuelve el estado actual de un sensor                                     |
+
+---
+
+### 🗂️ Repositories (Interfaces)
+
+| Archivo                          | Descripción                                                                  |
+|----------------------------------|------------------------------------------------------------------------------|
+| `IEventRepository.cs`            | Operaciones sobre eventos:                                                   |
+|                                  | - `FindBySensorIdAsync`                                                     |
+|                                  | - `FindByDateRangeAsync`                                                    |
+|                                  | - `FindByStatusAndSensorIdAsync`                                            |
+|                                  | - `FindMonthlyAsync`, `SaveAsync`                                           |
+| `ISensorManagementRepository.cs` | Operaciones sobre sensores:                                                 |
+|                                  | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
+
+---
+
+### ⚙️ Services
+
+#### **Analytics Services**
+
+| Archivo                    | Descripción                                                              |
+|----------------------------|--------------------------------------------------------------------------|
+| `IEventCommandService.cs`   | Comandos para registrar y modificar eventos                             |
+| `IEventQueryService.cs`     | Consultas de eventos: por sensor, por mes, por estado, por fechas, etc. |
+
+#### **Management Services**
+
+| Archivo                      | Descripción                                                             |
+|------------------------------|-------------------------------------------------------------------------|
+| `ISensorCommandService.cs`    | Comandos para instalación y actualización de sensores                   |
+| `ISensorQueryService.cs`      | Consultas por ubicación o ID del sensor                                |
+
+---
+
 #### 4.2.4.2. Interface Layer.
 -
 #### 4.2.4.3. Application Layer.
