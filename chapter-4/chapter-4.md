@@ -254,8 +254,7 @@ Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispo
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
-
-
+![alt text](../img/Subscription.png)
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 ![alt text](<../img/db design diagram subsc.png>)
@@ -561,9 +560,8 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 
 -
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
--
+![alt text](../img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
--
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 -
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
