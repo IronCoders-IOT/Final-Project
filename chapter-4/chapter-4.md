@@ -605,15 +605,184 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 | user_id      | int      | FK al usuario asociado                       |
 | provider_id  | int      | FK al proveedor que administra al residente  |
 
-### 4.2.3. Bounded Context: BoundedContext
--
+### 4.2.3. Bounded Context: Management 
+
 #### 4.2.3.1. Domain Layer.
--
-#### 4.2.3.2. Interface Layer.
--
-#### 4.2.3.3. Application Layer.
--
-#### 4.2.3.4. Infrastructure Layer.
+- Este bounded context abarca la gestión de solicitudes generales y de agua realizadas por los residentes a los proveedores dentro de una comunidad.
+
+---
+
+###  Aggregates
+
+## `WaterRequest`
+
+Representa una solicitud específica de agua realizada por un residente.
+
+| Atributo         | Tipo     | Descripción                                                    |
+|------------------|----------|----------------------------------------------------------------|
+| id             | Int      | Identificador único de la solicitud                           |
+| residentId     | Int      | ID del residente que solicita el agua                         |
+| providerId     | Int      | ID del proveedor que entregará el agua                        |
+| requestedLiters| Float    | Litros solicitados                                             |
+| status         | Enum     | Estado: PENDING, DELIVERED, CANCELLED                   |
+| deliveredAt    | DateTime | Fecha y hora de entrega del agua (si aplica)                  |
+
+Constructores:
+
+- Por parámetros individuales
+- A partir de CreateWaterRequestCommand
+
+---
+
+## `Request`
+
+Representa una solicitud general realizada por un residente a un proveedor.
+
+| Atributo       | Tipo     | Descripción                                                       |
+|----------------|----------|-------------------------------------------------------------------|
+| id           | Int      | Identificador único de la solicitud                               |
+| residentId   | Int      | ID del residente solicitante                                      |
+| providerId   | Int      | ID del proveedor al que se dirige la solicitud                    |
+| title        | String   | Título de la solicitud                                            |
+| description  | String   | Detalle de la solicitud                                           |
+| status       | Enum     | Estado: OPEN, IN_PROGRESS, RESOLVED, CLOSED               |
+
+Constructores:
+
+- Por parámetros individuales
+- A partir de CreateRequestCommand
+
+---
+
+## Enumerados (Enums)
+
+## `WaterRequestStatus`
+
+| Valor       | Descripción                                |
+|-------------|--------------------------------------------|
+| PENDING   | Solicitud pendiente de entrega             |
+| DELIVERED | Agua entregada                             |
+| CANCELLED | Solicitud cancelada                        |
+
+## `RequestStatus`
+
+| Valor         | Descripción                                  |
+|---------------|----------------------------------------------|
+| OPEN        | La solicitud fue creada y está pendiente     |
+| IN_PROGRESS | El proveedor está atendiendo la solicitud    |
+| RESOLVED    | La solicitud fue atendida satisfactoriamente |
+| CLOSED      | La solicitud fue cerrada manualmente         |
+
+---
+
+##  Commands
+
+## `Water Management Commands`
+
+| Comando                             | Descripción                                                        |
+|-------------------------------------|--------------------------------------------------------------------|
+| CreateWaterRequestCommand         | Crea una solicitud de agua                                         |
+| UpdateWaterRequestStatusCommand   | Actualiza el estado de una solicitud de agua                       |
+
+## `General Request Commands`
+
+| Comando                        | Descripción                                                        |
+|--------------------------------|--------------------------------------------------------------------|
+| CreateRequestCommand         | Crea una nueva solicitud general                                   |
+| UpdateRequestStatusCommand   | Cambia el estado de una solicitud general                          |
+
+---
+
+## `Queries`
+
+| Query                                  | Descripción                                                               |
+|----------------------------------------|---------------------------------------------------------------------------|
+| GetWaterRequestsByResidentIdQuery    | Solicitudes de agua por residente                                         |
+| GetPendingWaterRequestsQuery         | Solicitudes de agua pendientes                                            |
+| GetDeliveredWaterRequestsByDateQuery | Solicitudes de agua entregadas en un rango de fechas                     |
+| GetRequestsByStatusQuery             | Lista de solicitudes generales por estado                                |
+| GetRequestsByResidentIdQuery         | Solicitudes generales hechas por un residente                            |
+
+---
+
+##  `Repositories (Interfaces)`
+
+| Archivo                          | Descripción                                                         |
+|----------------------------------|---------------------------------------------------------------------|
+| IWaterRequestRepository.cs     | Persistencia y consultas sobre solicitudes de agua                 |
+| IRequestRepository.cs          | Persistencia y consultas sobre solicitudes generales               |
+
+---
+
+##  `Services`
+
+| Archivo                          | Descripción                                                         |
+|----------------------------------|---------------------------------------------------------------------|
+| IWaterRequestCommandService.cs | Comandos de solicitudes de agua                                    |
+| IWaterRequestQueryService.cs   | Consultas de solicitudes de agua                                   |
+| IRequestCommandService.cs      | Comandos de solicitudes generales                                  |
+| IRequestQueryService.cs        | Consultas de solicitudes generales                                 |
+
+---
+
+## 4.2.3.2. Interface Layer.
+
+## `Resources`
+
+| Archivo                          | Descripción                                                             |
+|----------------------------------|-------------------------------------------------------------------------|
+| CreateWaterRequestResource.cs | Para registrar solicitud de agua                                       |
+| WaterRequestResource.cs       | JSON de solicitud de agua                                              |
+| CreateRequestResource.cs      | Para registrar solicitud general                                       |
+| RequestResource.cs            | JSON de solicitud general                                              |
+
+---
+
+##  `Transform / Assemblers`
+
+| Archivo                                          | Función                                                              |
+|--------------------------------------------------|----------------------------------------------------------------------|
+| CreateWaterRequestCommandFromResourceAssembler.cs | De recurso a comando de agua                                     |
+| WaterRequestResourceFromEntityAssembler.cs     | De entidad WaterRequest a recurso JSON                          |
+| CreateRequestCommandFromResourceAssembler.cs   | De recurso a comando de solicitud general                          |
+| RequestResourceFromEntityAssembler.cs          | De entidad Request a recurso JSON                                |
+
+---
+
+## `Controllers`
+
+| Controlador              | Ruta Base             | Descripción                                                           |
+|--------------------------|-----------------------|-----------------------------------------------------------------------|
+| WaterRequestController.cs | /api/water-requests | Manejo de solicitudes de agua                                         |
+| RequestController.cs      | /api/requests       | Manejo de solicitudes generales                                       |
+
+---
+## 4.2.3.3. Application Layer.
+
+## `Command Services`
+
+| Archivo                      | Descripción                                                |
+|------------------------------|------------------------------------------------------------|
+| WaterRequestCommandService.cs | Implementa lógica de comandos para solicitudes de agua |
+| RequestCommandService.cs      | Implementa lógica de comandos para solicitudes generales|
+
+## `Query Services`
+
+| Archivo                     | Descripción                                                  |
+|-----------------------------|--------------------------------------------------------------|
+| WaterRequestQueryService.cs | Consultas específicas de agua                             |
+| RequestQueryService.cs      | Consultas generales de solicitudes                        |
+
+## 4.2.3.4. Infrastructure Layer.
+
+
+## `Implementación de Repositories`
+
+| Clase                    | Interfaz implementada      | Función principal                                                                 |
+|--------------------------|----------------------------|------------------------------------------------------------------------------------|
+| `WaterRequestRepository.cs` | `IWaterRequestRepository`   | Gestiona la persistencia y consultas de solicitudes de agua por residente, estado o fecha. |
+| `RequestRepository.cs`      | `IRequestRepository`        | Administra solicitudes generales, permitiendo crear, consultar y actualizar por residente o estado. |
+
 -
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 -
@@ -624,7 +793,7 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.4. Bounded Context: BoundedContext
+### 4.2.4. Bounded Context: Analytics
 -
 #### 4.2.4.1. Domain Layer.
 -
