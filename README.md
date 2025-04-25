@@ -21,6 +21,7 @@
 
 *  **Rodrigo Aguilar Castillo**
 *  **Piero Periche Quiroga**
+*  **Alexandra Belen Ramos Argüelles**
 
 -----
 
