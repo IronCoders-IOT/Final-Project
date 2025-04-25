@@ -229,8 +229,7 @@ El canal de distribución será completamente digital, mediante una plataforma w
 **Entrevistas usuario segmento (Habitantes)**
 
 **Segmento Doméstico**  
-
-Nombre: Rodrigo Noreña Nuñez
+- Nombre: Rodrigo Noreña Nuñez
 <br>
 Edad: 20
 <br>
@@ -247,9 +246,25 @@ Timing: 0:00
 <img src="../assets/images-interviews/domestico/interview-domestico-2.png"
 alt="Entrevista 1 Segmento habitantes" width="500"/> 
 
-Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
+    Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
 
-
+- Nombre: Jorge Medina Flores
+<br>
+Edad: 34
+<br>
+Ocupación: Agricultor
+<br>
+Browser: Google Chrome
+<br>
+Device: Teléfono Samsung
+<br>
+Distrito: Poblado cercade la ciudad (Ica)
+<br>
+Timing: 5:00
+<br>
+<img src="../assets/images-interviews/domestico/interview-domestico-3.jpg"
+alt="Entrevista 2 Segmento habitantes" width="500"/>
+Jorge Medina, un agricultor de 34 años que vive en una zona rural de Ica, nos comenta que utiliza principalmente un celular Samsung y navega con Google Chrome. Él y su comunidad obtienen agua a través de camiones cisterna, aunque menciona que no siempre alcanza para todos y que muchas veces no parece segura. Nos comenta que su esposa tuvo problemas estomacales, posiblemente por el agua. Aunque suelen hervirla, sabe que eso no garantiza su limpieza. Casi no reciben información oficial sobre la calidad del agua y desconfían de lo poco que oyen. Para él, el agua potable es fundamental para vivir bien, y nos comenta que estaría dispuesto a participar en acciones comunitarias que ayuden a mejorar esta situación.
 
 ### 2.2.3. Análisis de entrevistas
 **Segmento 1: (...):**
