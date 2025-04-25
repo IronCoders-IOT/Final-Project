@@ -201,6 +201,7 @@ El canal de distribución será completamente digital, mediante una plataforma w
 5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
 6. ¿En que distrito se encuentra?
 
+**Entrevistas usuario segmento (Habitantes)**
 
 1. ¿Cómo obtienen actualmente el agua para el consumo diario?
 2. ¿Sienten que el agua que reciben es segura? ¿Por qué?
