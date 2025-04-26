@@ -884,6 +884,11 @@ El canal de distribución será completamente digital, mediante una plataforma w
 10. ¿Qué funcionalidades consideran imprescindibles en una solución como esta?
 
 ### 2.2.2. Registro de entrevistas
+
+**Link del video de las entrevistas:**
+
+[Entrevistas-AquaConecta](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EQ2szUgizAFFlLb9ebCtKPAB0ZZNenUhn9z4QF3rskW70g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BQnFmi)
+
 **Entrevistas usuario segmento (Habitantes)**
 
 **Segmento Doméstico**  
@@ -922,7 +927,7 @@ Nombre: Jorge Medina Flores
 <br>
 - Distrito: Poblado cercade la ciudad (Ica)
 <br>
-- Timing: 5:00
+- Timing: 2:48
 <br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/domestico/interview-domestico-3.jpg" 
@@ -943,7 +948,7 @@ Nombre: Sergio Aguirre
 <br>
 - Distrito: Pueblo Libre
 <br>
-- Timing: 0:00
+- Timing: 7:10
 <br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/domestico/interview-domestico2.png" alt="Entrevista 3 Segmento habitantes" width="500"/>
@@ -966,7 +971,7 @@ Nombre: Fabian Reyes Trujillano
 <br>
 - Distrito: SMP
 <br>
-- Timing: 3:
+- Timing: 7:10
 <br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/proveedor/entrevista-fabian-reyes.png" 
@@ -990,7 +995,7 @@ Nombre: Tracy Cordova
 <br>
 - Distrito: Jesus Maria
 <br>
-- Timing: 3:30
+- Timing: 10:35
 <br>
 <div style="text-align: center;">
     
@@ -1013,7 +1018,7 @@ Nombre: Kamila Panduro
 <br>
 - Distrito: Santiago de Surco
 <br>
-- Timing: 3:30
+- Timing: 13:53
 <br>
 <div style="text-align: center;">
     
@@ -2662,3 +2667,5 @@ Representa la administración y configuración de un sensor en campo.
 ```
 
 # Anexos
+- **Link del video de exposición TB1:**
+  [Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
