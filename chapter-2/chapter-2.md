@@ -346,7 +346,6 @@ Distrito: Pueblo Libre
 <br>
 Timing: 0:00
 <br>
-<img s"
 ![image](https://github.com/user-attachments/assets/ffb5a2e5-e10d-4a38-ae6a-bc366b2faa3d)
 
 Tracy, trabajadora de Sedapal, explicó que uno de los principales retos en su labor es la falta de monitoreo en tiempo real, lo que retrasa la detección de problemas en la calidad del agua. Actualmente, el análisis de muestras puede demorar entre 3 y 7 días, dependiendo de la zona, lo cual limita la capacidad de respuesta.
