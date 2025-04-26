@@ -1499,7 +1499,26 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 #### 4.1.1.1 Candidate Context Discovery.
 
-- 
+El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
+
+![alt text](candidate-context-discovery.png)
+
+* Management
+
+  Gestiona y supervisa el estado del agua en los tanques de los habitantes. Permite a usuarios visualizar estos datos en tiempo real y generar alertas o solicitudes de recarga. También habilita a los proveedores a monitorear las condiciones del agua y responder a situaciones críticas.  
+
+* Analytics
+
+  Permite visualizar reportes históricos y actuales sobre el estado del agua (nivel, calidad, consumo), tanto en tiempo real como en reportes agregados semanales o mensuales, facilitando la toma de decisiones y el monitoreo eficiente del servicio.  
+
+* User & Profile Management
+
+  Gestiona el registro y la autenticación de los proveedores y habitantes, así como la actualización de sus datos personales. Proporciona credenciales de acceso y asegura que los usuarios puedan interactuar con la plataforma.  
+
+* Subscription & Payment  
+
+  Gestiona la compra, registro y pago de sensores vinculados a usuarios, así como la suscripción al servicio mensual. Asegura que los sensores sean registrados correctamente, vinculados a un proveedor y que se registre el pago inicial y mensual de la suscripción.  
+
 #### 4.1.1.2 Domain Message Flows Modeling.
 
 
