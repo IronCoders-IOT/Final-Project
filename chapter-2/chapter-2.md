@@ -8,138 +8,130 @@
 
 ### 2.1.1. Análisis competitivo
 
-<table>
+<table> 
   <tr>
     <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
   </tr>
   <tr>
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
-
   </tr>
   <tr>
     <td colspan="5">Para proporcionar información valiosa acerca de los competidores, lo cual nos servirá para mejorar la calidad de nuestra aplicación.</td>
   </tr>
   <tr>
     <td colspan="3"></td>
-    <td colspan="1" valign="top" style="font-weight: bold;">
-        AquaConecta
-        <br>
-        <div style="text-align: center; margin-top: 10px;">
-                <img src="IMAGE" alt="AquaConecta" width="60px">
-        </div>
-    <td colspan="1" valign="top" style="font-weight: bold;">
-    AguaClara
-    <div style="text-align: center; margin-top: 30px;">
-                <img src="AguaClara" alt="AguaClara" width="60px">
-        </div>
-    </td>
-    <td colspan="1" valign="top" style="font-weight: bold;">
-      Ingeniería Ambiental SAC
-      <div style="text-align: center; margin-top: 10px;">
-                <img src="Ingeniería Ambiental SAC" alt="Ingeniería Ambiental SAC" width="60px">
-            </div>
-      </td>
-    <td colspan="1" valign="top" style="font-weight: bold;" >
-      Transporte de Agua Potable Espinoza
-      <div style="text-align: center; margin-top: 10px;">
-                <img src="Transporte de Agua Potable Espinoza" alt="Transporte de Agua Potable Espinoza" width="60px">
-            </div>
-    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">AquaConecta</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">AguaClara</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">Ingeniería Ambiental SAC</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">Transporte de Agua Potable Espinoza</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil</p></td>
     <td colspan="2">Overview</td>
     <td colspan="1" valign="top">
-AquaConecta optimiza la distribución de agua potable conectando proveedores con comunidades sin acceso continuo, mediante monitoreo en tiempo real usando un enfoque tecnológico (IoT).
+      AquaConecta optimiza la distribución de agua potable conectando proveedores con comunidades sin acceso continuo, mediante monitoreo en tiempo real usando un enfoque tecnológico (IoT).
     </td>
     <td colspan="1" valign="top">
-AguaClara mejora el acceso al agua potable en comunidades rurales mediante un sistema de distribución eficiente, coordinado con gobiernos y ONGs. 
+      AguaClara mejora el acceso al agua potable en comunidades rurales mediante un sistema de distribución eficiente, coordinado con gobiernos y ONGs. 
     </td>
     <td colspan="1" valign="top">
-La empresa se especializa en el abastecimiento de agua potable e industrial. Proporcionan cisternas adecuadamente equipadas para el transporte de agua hacia ubicaciones remotas
+      La empresa se especializa en el abastecimiento de agua potable e industrial. Proporcionan cisternas adecuadamente equipadas para el transporte de agua hacia ubicaciones remotas.
     </td>
     <td colspan="1" valign="top">
-La empresa se dedica a la venta y distribución de agua potable para consumo. Cuenta con una flota moderna de camiones cisterna
+      La empresa se dedica a la venta y distribución de agua potable para consumo. Cuenta con una flota moderna de camiones cisterna.
     </td>
   </tr>
   <tr>
     <td colspan="2">Ventaja competitiva</td>
     <td colspan="1" valign="top">
-Brinda distribución eficiente, monitoreo inteligente y mayor transparencia en el acceso al agua potable.
+      Brinda distribución eficiente, monitoreo inteligente y mayor transparencia en el acceso al agua potable.
     </td>
     <td colspan="1" valign="top">
-Ofrece acceso continuo a agua segura en zonas rurales mediante una distribución organizada y siguiendo un modelo de bajo costo
+      Ofrece acceso continuo a agua segura en zonas rurales mediante una distribución organizada y siguiendo un modelo de bajo costo.
     </td>
     <td colspan="1" valign="top">
-Brinda abastecimiento de agua para una variedad de aplicaciones y brinda precios personalizados basados en las necesidades del cliente
+      Brinda abastecimiento de agua para una variedad de aplicaciones y brinda precios personalizados basados en las necesidades del cliente.
     </td>
     <td colspan="1" valign="top">
-Ofrece el servicio de distribución de agua potable en zonas donde el suministro puede ser intermitente o limitado
+      Ofrece el servicio de distribución de agua potable en zonas donde el suministro puede ser intermitente o limitado.
     </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
     <td colspan="2">Mercado objetivo</td>
     <td colspan="1" valign="top">
-    Comunidades en zonas urbanos y rurales con servicio intermitente de agua potable.
-    Empresas proveedoras de agua
+      Comunidades en zonas urbanas y rurales con servicio intermitente de agua potable. Empresas proveedoras de agua.
     </td>
     <td colspan="1" valign="top">
-Comunidades rurales con acceso limitado a agua potable. Instituciones públicas o ONG’s interesada en desarrollos de proyectos sostenibles    
-</td>
+      Comunidades rurales con acceso limitado a agua potable. Instituciones públicas o ONG’s interesadas en desarrollos de proyectos sostenibles.
+    </td>
     <td colspan="1" valign="top">
-Proyectos industriales que necesitan gran volumen de agua
-</td>
+      Proyectos industriales que necesitan gran volumen de agua.
+    </td>
     <td colspan="1" valign="top">
-Hogares que carecen de suministro de agua potable. Proyectos comerciales o industriales 
+      Hogares que carecen de suministro de agua potable. Proyectos comerciales o industriales.
     </td>
   </tr>
   <tr>
     <td colspan="2">Estrategias de marketing</td>
-    <td colspan="1" valign="top">Alianzas estratégicas con municipalidades y ONG’s, además de una fuerte presencia en las redes sociales</td>
-    <td colspan="1" valign="top">Cuenta con alianzas estratégicas con municipalidades y ONG’s. Además, comunidades beneficiadas recomiendan el servicio a través del boca a boca</td>
-    <td colspan="1" valign="top">Ofrece tarifas ajustadas a las necesidades especificas de cada cliente. Por otro lado, Cuenta con atención disponible las 24 horas a través de canales como WhatsApp, teléfono y correo</td>
-    <td colspan="1" valign="top">Brindan confiabilidad, puntualidad y se centrar en la satisfacción del cliente</td>
+    <td colspan="1" valign="top">
+      Alianzas estratégicas con municipalidades y ONG’s, además de una fuerte presencia en las redes sociales.
+    </td>
+    <td colspan="1" valign="top">
+      Cuenta con alianzas estratégicas con municipalidades y ONG’s. Además, comunidades beneficiadas recomiendan el servicio a través del boca a boca.
+    </td>
+    <td colspan="1" valign="top">
+      Ofrece tarifas ajustadas a las necesidades específicas de cada cliente. Además, cuenta con atención disponible las 24 horas a través de canales como WhatsApp, teléfono y correo.
+    </td>
+    <td colspan="1" valign="top">
+      Brindan confiabilidad, puntualidad y se centran en la satisfacción del cliente.
+    </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Productos & Servicios</td>
     <td colspan="1" valign="top">
-Distribución de agua potable y monitoreo en tiempo real del nivel y calidad del agua a través de sensores 
+      Distribución de agua potable y monitoreo en tiempo real del nivel y calidad del agua a través de sensores.
     </td>
     <td colspan="1" valign="top">
-Servicio de distribución de agua potable mediante rutas planificas para camiones cisterna
+      Servicio de distribución de agua potable mediante rutas planificadas para camiones cisterna.
     </td>
     <td colspan="1" valign="top">
-Alquiler de cisternas y abastecimiento de agua potable para proyectos mineros, laboratorios, comedores, etc. 
+      Alquiler de cisternas y abastecimiento de agua potable para proyectos mineros, laboratorios, comedores, etc.
     </td>
     <td colspan="1" valign="top">
-Distribución de agua potable para consumo humano, obras civiles, agrícolas o eventos especiales
+      Distribución de agua potable para consumo humano, obras civiles, agrícolas o eventos especiales.
     </td>
   </tr>
   <tr>
     <td colspan="2">Precios & Costos</td>
     <td colspan="1" valign="top">
-    Precios personalizados que se ajustan a las necesidades específicas de cada cliente
+      Precios personalizados que se ajustan a las necesidades específicas de cada cliente.
     </td>
     <td colspan="1" valign="top">
-Costo bajo o subsidiado ya que trabajan junto a gobiernos o ONG’s
+      Costo bajo o subsidiado ya que trabajan junto a gobiernos o ONG’s.
     </td>
     <td colspan="1" valign="top">
-    Precios personalizados que se ajustan a las necesidades especificas de cada cliente
+      Precios personalizados que se ajustan a las necesidades específicas de cada cliente.
     </td>
     <td colspan="1" valign="top">
-    Precios personalizados que se ajustan a las necesidades específicas de cada cliente
+      Precios personalizados que se ajustan a las necesidades específicas de cada cliente.
     </td>
   </tr>
   <tr>
-    <td colspan="2">
-    Canales de distribución (Web y/o Móvil)
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top">
+      Sitio web con información esencial para nuestros usuarios, además de una aplicación web y móvil.
     </td>
-    <td colspan="1" valign="top">Sitio web con información esencial para nuestros usuarios, además de una aplicación web y móvil</td>
-    <td colspan="1" valign="top">Implementación física directa del equipo técnico, no posee una plataforma web comercial</td>
-    <td colspan="1" valign="top">Canales de comunicación por correo telefonía. Asimismo, cuanta con un sitio web para gestionar solicitudes</td>
-    <td colspan="1" valign="top">Canales de comunicación por correo telefonía y redes sociales</td>
+    <td colspan="1" valign="top">
+      Implementación física directa del equipo técnico, no posee una plataforma web comercial.
+    </td>
+    <td colspan="1" valign="top">
+      Canales de comunicación por correo y telefonía. Asimismo, cuenta con un sitio web para gestionar solicitudes.
+    </td>
+    <td colspan="1" valign="top">
+      Canales de comunicación por correo, telefonía y redes sociales.
+    </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
@@ -148,38 +140,65 @@ Costo bajo o subsidiado ya que trabajan junto a gobiernos o ONG’s
   <tr>
     <td colspan="2">Fortalezas</td>
     <td colspan="1" valign="top">
-    implementación de tecnologías IoT propia el monitoreo en tiempo real del agua
+      Implementación de tecnologías IoT para el monitoreo en tiempo real del agua.
     </td>
     <td colspan="1" valign="top">
-    Fuerte colaboración con gobiernos locales y ONG’s. Presencia en zonas rurales
+      Fuerte colaboración con gobiernos locales y ONG’s. Presencia en zonas rurales.
     </td>
     <td colspan="1" valign="top">
-    Monitoreo de camiones cisterna por GPS, servicio personalizado y solida experiencia en el sector
+      Monitoreo de camiones cisterna por GPS, servicio personalizado y sólida experiencia en el sector.
     </td>
-    <td colspan="1" valign="top">Experiencia en el rubro de distribución de agua y atención las 24 horas del día</td>
+    <td colspan="1" valign="top">
+      Experiencia en el rubro de distribución de agua y atención las 24 horas del día.
+    </td>
   </tr>
   <tr>
     <td colspan="2">Debilidades</td>
-    <td colspan="1" valign="top"> Alta dependencia de la conectividad a internet para operar</td>
-    <td colspan="1" valign="top"> Limitada incorporación de tecnologías IoT</td>
-    <td colspan="1" valign="top"> Costos variables pueden generar incertidumbre en los costos finales</td>
-    <td colspan="1" valign="top"> Falta de presencia digital sólida y poca innovación tecnología</td>
+    <td colspan="1" valign="top">
+      Alta dependencia de la conectividad a internet para operar.
+    </td>
+    <td colspan="1" valign="top">
+      Limitada incorporación de tecnologías IoT.
+    </td>
+    <td colspan="1" valign="top">
+      Costos variables pueden generar incertidumbre en los costos finales.
+    </td>
+    <td colspan="1" valign="top">
+      Falta de presencia digital sólida y poca innovación tecnológica.
+    </td>
   </tr>
   <tr>
     <td colspan="2">Oportunidades</td>
-    <td colspan="1" valign="top"> Aprovechamiento de la baja penetración de tecnologías similares en el sector hídrico</td>
-    <td colspan="1" valign="top"> Aumento del alcance con plataforma web e implementar soluciones digitales como aplicaciones móviles</td>
-    <td colspan="1" valign="top"> Implementación de soluciones tecnológicas como aplicaciones móviles</td>
-    <td colspan="1" valign="top"> Integración de tecnologías IoT para monitoreo en tiempo real de entregas </td>
+    <td colspan="1" valign="top">
+      Aprovechamiento de la baja penetración de tecnologías similares en el sector hídrico.
+    </td>
+    <td colspan="1" valign="top">
+      Aumento del alcance con plataforma web e implementación de soluciones digitales como aplicaciones móviles.
+    </td>
+    <td colspan="1" valign="top">
+      Implementación de soluciones tecnológicas como aplicaciones móviles.
+    </td>
+    <td colspan="1" valign="top">
+      Integración de tecnologías IoT para monitoreo en tiempo real de entregas.
+    </td>
   </tr>
   <tr>
     <td colspan="2">Amenazas</td>
-    <td colspan="1" valign="top"> Posible resistencia al cambio por parte proveedores convencionales</td>
-    <td colspan="1" valign="top"> Dificultar para operar sistemas en zonas remotas sin soporte técnico constante </td>
-    <td colspan="1" valign="top"> Aparición de soluciones tecnológicas mas eficientes </td>
-    <td colspan="1" valign="top">Problemas logísticos por tráfico o escasez de agua</td>
+    <td colspan="1" valign="top">
+      Posible resistencia al cambio por parte de proveedores convencionales.
+    </td>
+    <td colspan="1" valign="top">
+      Dificultad para operar sistemas en zonas remotas sin soporte técnico constante.
+    </td>
+    <td colspan="1" valign="top">
+      Aparición de soluciones tecnológicas más eficientes.
+    </td>
+    <td colspan="1" valign="top">
+      Problemas logísticos por tráfico o escasez de agua.
+    </td>
   </tr>
 </table>
+
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -244,8 +263,8 @@ Distrito: Chincha Alta
 <br>
 Timing: 0:00
 <br>
-<img src="../assets/images-interviews/domestico/interview-domestico-2.png"
-alt="Entrevista 1 Segmento habitantes" width="500"/> 
+<img src="../assets/images-interviews/domestico/interview-domestico1.png"
+alt="Entrevista 1 Segmento habitantes" width="500"/>
 
     Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
 
@@ -265,7 +284,28 @@ Timing: 5:00
 <br>
 <img src="../assets/images-interviews/domestico/interview-domestico-3.jpg"
 alt="Entrevista 2 Segmento habitantes" width="500"/>
+
 Jorge Medina, un agricultor de 34 años que vive en una zona rural de Ica, nos comenta que utiliza principalmente un celular Samsung y navega con Google Chrome. Él y su comunidad obtienen agua a través de camiones cisterna, aunque menciona que no siempre alcanza para todos y que muchas veces no parece segura. Nos comenta que su esposa tuvo problemas estomacales, posiblemente por el agua. Aunque suelen hervirla, sabe que eso no garantiza su limpieza. Casi no reciben información oficial sobre la calidad del agua y desconfían de lo poco que oyen. Para él, el agua potable es fundamental para vivir bien, y nos comenta que estaría dispuesto a participar en acciones comunitarias que ayuden a mejorar esta situación.
+
+- Nombre: Sergio Aguirre
+<br>
+Edad: 22
+<br>
+Ocupación: Estudiante de Arquitectura
+<br>
+Browser: Google Chrome
+<br>
+Device: Teléfono Iphone
+<br>
+Distrito: Pueblo Libre
+<br>
+Timing: 0:00
+<br>
+<img src="../assets/images-interviews/domestico/interview-domestico2.png"
+alt="Entrevista 3 Segmento habitantes" width="500"/>
+
+    Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
+
 
 **Entrevistas usuario segmento (Proveedor de agua)**
 - Nombre: Fabian Reyes Trujillano
@@ -284,25 +324,51 @@ Timing: 3:
 <br>
 <img src="../assets/images-interviews/proveedor/entrevista-fabian-reyes.png"
 alt="Entrevista 2 Segmento habitantes" width="700"/>
+
 Fabian Reyes, un trabajador de sedapal de 24 años, que vive en SMP, utiliza como navegador Chrome como dispositivos frecuentes su celular y laptop de marca Samsumg y Acer. En su trabajo nos cuenta como es que según la zona en la que trabaje, puede variar el tiempo para poder sacar medidas de ciertos parámetros del agua. Aunque con los problemas que encuentre suele notificar a sus superiores, lo que nos comenta sobre los costos, están los de transporte, personal, entre otros. El problema principal es el tiempo que tardan para poder obtener datos o saber el estado del agua. Cree que nuestra solución sería increible y de mucho apoyo. Nos sugiere alertas en tiempo real sobre malesas u otras cosas sobre el agua.
 
 ### 2.2.3. Análisis de entrevistas
-**Segmento 1: (...):**
+**Segmento 1: Habitantes**
 
-Estadisticas y Aspectos comunes:
+**Estadísticas y Aspectos comunes:**
+- Edades entre 20 y 34 años.
+- Uso principal de teléfonos móviles (iPhone y Samsung).
+- Navegadores más usados: Google Chrome.
+- Procedencia de zonas urbanas marginales y rurales (Chincha Alta, Ica, Pueblo Libre).
 
+**Características Objetivas:**
+- Consumo de agua proveniente de camiones cisterna.
+- Bajo acceso a información oficial sobre calidad del agua.
+- Métodos caseros como hervir el agua para intentar garantizar su consumo.
+- Uso activo de dispositivos móviles para la comunicación y búsqueda de información.
 
-Caracteristicas Objetivas:
+**Características Subjetivas:**
+- Preocupación constante por la calidad del agua.
+- Desconfianza hacia las fuentes oficiales de información sobre el estado del agua.
+- Disposición a participar en iniciativas comunitarias que busquen mejorar el acceso y control del agua.
+- Alta valoración de la transparencia y la información en tiempo real para mejorar su calidad de vida.
 
-Caracteristicas Subjetivas:
+---
 
+**Segmento 2: Proveedores**
 
-**Segmento 2: (...)**
-Estadisticas y Aspectos comunes:
+**Estadísticas y Aspectos comunes:**
+- Edad promedio de 24 años.
+- Profesionales técnicos relacionados al sector hídrico.
+- Uso de dispositivos móviles y laptops (Samsung, Acer).
+- Trabajo basado en mediciones físicas y reportes manuales en zonas urbanas como SMP.
 
-Caracteristicas Objetivas:
+**Características Objetivas:**
+- Dificultad para obtener datos rápidos sobre calidad del agua.
+- Dependencia de procedimientos manuales y supervisión técnica tradicional.
+- Costos logísticos relevantes asociados al monitoreo de agua (transporte, personal, tiempo).
+- Uso de tecnologías básicas (correo, teléfono) para comunicación.
 
-Caracteristicas Subjetivas:
+**Características Subjetivas:**
+- Alta apertura a soluciones tecnológicas que agilicen la toma de decisiones.
+- Reconocimiento de la necesidad de alertas en tiempo real sobre problemas de calidad del agua.
+- Interés por optimizar procesos de medición y respuesta a través de tecnologías IoT.
+- Valoración de herramientas que mejoren la eficiencia y reduzcan costos operativos.
 
 
 ## 2.3. Needfinding
@@ -448,10 +514,12 @@ En el siguiente Empathy Map observamos la perspectiva de Gabriel Gonzales, encar
 
 
 **Brainstorming:**
+
 <img src="../assets/as-is-scenario-mapping/brainstorming/segmento-negocio.png"/>
 
 
 **Identify the highs and lows:**
+
 <img src="../assets/as-is-scenario-mapping/segmento-negocio.png"/>
 
 **Positive Areas:**
