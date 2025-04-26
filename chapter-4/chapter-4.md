@@ -566,7 +566,6 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 | `ResidentRepository.cs`     | `IResidentRepository`       | Permite almacenar y recuperar información de residentes asociados a un proveedor.  |
 
 
--
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 ![alt text](../img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -663,11 +662,10 @@ Constructores:
 - Por parámetros individuales
 - A partir de CreateRequestCommand
 
----
 
-## Enumerados (Enums)
+## `Enumerados (Enums)`
 
-## `WaterRequestStatus`
+### `WaterRequestStatus`
 
 | Valor       | Descripción                                |
 |-------------|--------------------------------------------|
@@ -675,7 +673,7 @@ Constructores:
 | DELIVERED | Agua entregada                             |
 | CANCELLED | Solicitud cancelada                        |
 
-## `RequestStatus`
+### `RequestStatus`
 
 | Valor         | Descripción                                  |
 |---------------|----------------------------------------------|
@@ -686,16 +684,16 @@ Constructores:
 
 ---
 
-##  Commands
+##  `Commands`
 
-## `Water Management Commands`
+### `Water Management Commands`
 
 | Comando                             | Descripción                                                        |
 |-------------------------------------|--------------------------------------------------------------------|
 | CreateWaterRequestCommand         | Crea una solicitud de agua                                         |
 | UpdateWaterRequestStatusCommand   | Actualiza el estado de una solicitud de agua                       |
 
-## `General Request Commands`
+### `General Request Commands`
 
 | Comando                        | Descripción                                                        |
 |--------------------------------|--------------------------------------------------------------------|
@@ -704,7 +702,7 @@ Constructores:
 
 ---
 
-## `Queries`
+## `Query`
 
 | Query                                  | Descripción                                                               |
 |----------------------------------------|---------------------------------------------------------------------------|
@@ -716,7 +714,7 @@ Constructores:
 
 ---
 
-##  `Repositories (Interfaces)`
+###  `Repositories (Interfaces)`
 
 | Archivo                          | Descripción                                                         |
 |----------------------------------|---------------------------------------------------------------------|
@@ -725,7 +723,7 @@ Constructores:
 
 ---
 
-##  `Services`
+###  `Services`
 
 | Archivo                          | Descripción                                                         |
 |----------------------------------|---------------------------------------------------------------------|
@@ -736,7 +734,7 @@ Constructores:
 
 ---
 
-## 4.2.3.2. Interface Layer.
+#### 4.2.3.2. Interface Layer.
 
 ## `Resources`
 
@@ -768,7 +766,7 @@ Constructores:
 | RequestController.cs      | /api/requests       | Manejo de solicitudes generales                                       |
 
 ---
-## 4.2.3.3. Application Layer.
+##### 4.2.3.3. Application Layer.
 
 ## `Command Services`
 
@@ -784,7 +782,7 @@ Constructores:
 | WaterRequestQueryService.cs | Consultas específicas de agua                             |
 | RequestQueryService.cs      | Consultas generales de solicitudes                        |
 
-## 4.2.3.4. Infrastructure Layer.
+#### 4.2.3.4. Infrastructure Layer.
 
 
 ## `Implementación de Repositories`
@@ -794,7 +792,7 @@ Constructores:
 | `WaterRequestRepository.cs` | `IWaterRequestRepository`   | Gestiona la persistencia y consultas de solicitudes de agua por residente, estado o fecha. |
 | `RequestRepository.cs`      | `IRequestRepository`        | Administra solicitudes generales, permitiendo crear, consultar y actualizar por residente o estado. |
 
--
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 ![alt text](<../img/structurizr-101355-RequestManagement.png>)
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -849,11 +847,10 @@ Representa la administración y configuración de un sensor en campo.
 - Por parámetros individuales
 - A partir de `InstallSensorCommand`
 
----
 
-##  Enumerados (Enums)
+## ` Enumerados (Enums)`
 
-## `EventStatus`
+### `EventStatus`
 
 | Valor      | Descripción                                     |
 |------------|-------------------------------------------------|
@@ -870,7 +867,7 @@ Representa la administración y configuración de un sensor en campo.
 | `PRESSURE`       | Presión                         |
 | `TEMPERATURE`    | Temperatura                     |
 
-## `SensorStatus`
+### `SensorStatus`
 
 | Valor        | Descripción                                       |
 |--------------|---------------------------------------------------|
@@ -879,29 +876,27 @@ Representa la administración y configuración de un sensor en campo.
 | `MAINTENANCE`| Sensor en mantenimiento                           |
 | `FAULTY`     | Sensor con fallas                                 |
 
----
 
-##  Commands
+##  `Commands`
 
-## `Analytics Commands`
+### `Analytics Commands`
 
 | Comando                     | Descripción                                                |
 |-----------------------------|------------------------------------------------------------|
 | `RegisterEventCommand`      | Registra un nuevo evento generado por un sensor           |
 | `UpdateEventStatusCommand`  | Actualiza el estado de un evento específico               |
 
-## `Management Commands`
+### `Management Commands`
 
 | Comando                     | Descripción                                                |
 |-----------------------------|------------------------------------------------------------|
 | `InstallSensorCommand`      | Instala un sensor en un lugar determinado                 |
 | `UpdateSensorStatusCommand` | Modifica el estado operativo de un sensor                 |
 
----
 
-## Queries
+## `Queries`
 
-## `Analytics Queries`
+### `Analytics Queries`
 
 | Query                                  | Descripción                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------|
@@ -912,16 +907,15 @@ Representa la administración y configuración de un sensor en campo.
 | `GetEventsByDateRangeQuery`           | Lista eventos registrados entre dos fechas (`created_at`)                  |
 | `GetEventsByStatusAndSensorIdQuery`   | Lista eventos filtrados por estado (`status`) y sensor específico          |
 
-## `Management Queries`
+### `Management Queries`
 
 | Query                             | Descripción                                                                 |
 |-----------------------------------|-----------------------------------------------------------------------------|
 | `GetSensorsByLocationQuery`       | Lista sensores instalados en una ubicación específica                      |
 | `GetSensorStatusByIdQuery`        | Devuelve el estado actual de un sensor                                     |
 
----
 
-## ` Repositories (Interfaces)`
+### ` Repositories (Interfaces)`
 
 | Archivo                          | Descripción                                                                  |
 |----------------------------------|------------------------------------------------------------------------------|
@@ -933,28 +927,26 @@ Representa la administración y configuración de un sensor en campo.
 | `ISensorManagementRepository.cs` | Operaciones sobre sensores:                                                 |
 |                                  | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
 
----
 
-## Services
+## `Services`
 
-## `Analytics Services`
+### `Analytics Services`
 
 | Archivo                    | Descripción                                                              |
 |----------------------------|--------------------------------------------------------------------------|
 | `IEventCommandService.cs`   | Comandos para registrar y modificar eventos                             |
 | `IEventQueryService.cs`     | Consultas de eventos: por sensor, por mes, por estado, por fechas, etc. |
 
-## `Management Services`
+### `Management Services`
 
 | Archivo                      | Descripción                                                             |
 |------------------------------|-------------------------------------------------------------------------|
 | `ISensorCommandService.cs`    | Comandos para instalación y actualización de sensores                   |
 | `ISensorQueryService.cs`      | Consultas por ubicación o ID del sensor                                |
 
----
 
 #### 4.2.4.2. Interface Layer.
-## `Resources`
+### `Resources`
 
 | Archivo                          | Descripción                                                            |
 |----------------------------------|------------------------------------------------------------------------|
@@ -965,9 +957,8 @@ Representa la administración y configuración de un sensor en campo.
 | `InstallSensorResource.cs`       | Recurso para registrar un sensor nuevo                                 |
 | `SensorManagementResource.cs`    | Estado, descripción y ubicación del sensor                             |
 
----
 
-## `Transform / Assemblers`
+### `Transform / Assemblers`
 
 | Archivo                                           | Función                                                                  |
 |--------------------------------------------------|---------------------------------------------------------------------------|
@@ -980,7 +971,7 @@ Representa la administración y configuración de un sensor en campo.
 
 ---
 
-## ` Controllers`
+### ` Controllers`
 
 | Controlador             | Ruta Base          | Descripción                                                      |
 |--------------------------|--------------------|------------------------------------------------------------------|
@@ -989,14 +980,14 @@ Representa la administración y configuración de un sensor en campo.
 
 ---
 #### 4.2.4.3. Application Layer.
-## `Command Services`
+### `Command Services`
 
 | Archivo                  | Descripción                                                         |
 |--------------------------|---------------------------------------------------------------------|
 | `EventCommandService.cs`  | Lógica para registrar y actualizar eventos                         |
 | `SensorCommandService.cs` | Lógica para instalación y modificación de sensores                 |
 
-## `Query Services`
+### `Query Services`
 
 | Archivo                    | Descripción                                                                 |
 |----------------------------|-----------------------------------------------------------------------------|
@@ -1011,7 +1002,7 @@ Representa la administración y configuración de un sensor en campo.
 ---
 #### 4.2.4.4. Infrastructure Layer.
 
-## `Implementación de Repositories`
+### `Implementación de Repositories`
 
 | Clase                          | Interfaz implementada         | Función principal                                                                 |
 |-------------------------------|-------------------------------|------------------------------------------------------------------------------------|
@@ -1028,7 +1019,7 @@ Representa la administración y configuración de un sensor en campo.
 
 ## Bounded Context Database Design Diagram
 
-## Tabla: `events`
+## `events`
 | Columna    | Tipo    |
 |------------|---------|
 | id         | int     |
@@ -1037,7 +1028,7 @@ Representa la administración y configuración de un sensor en campo.
 | type       | string  |
 | status     | string  |
 
-## Tabla: `sensors`
+### `sensors`
 | Columna     | Tipo    |
 |-------------|---------|
 | id          | int     |
@@ -1050,3 +1041,5 @@ Representa la administración y configuración de un sensor en campo.
 ### Relación
 - Un `sensor` puede tener múltiples `events`.
 - La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
+## Conclusiones
+**TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
