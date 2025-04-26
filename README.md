@@ -6,32 +6,55 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>Desarrollo de Soluciones IOT - 2947</strong><br>
     <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
-    <br>INFORME
+    <br><strong>INFORME</strong>
 </p>
+<h4 style="text-align: center;"><strong>Startup: IronCoders</strong></h4>
+
+<h4 style="text-align: center;"><strong>Product: AquaConecta</strong></h4>
 
 
-<center>
+<div style="text-align: center;">
 
-#### Startup: **IronCoders**
 
-#### Product: **AquaConecta**
-#####  Team Members:
+<h5 style="text-align: center;"> Team Members</h5>
 
-</center>
-
-<div align="center">
-
-|             Member                        |    Code      |
-|:------------------------------------------|:------------:|
-| Aguilar Castillo, Rodrigo                 | U202210584   |
-| Carmelino Dueñas, Michael Stefano         | U202212760   |
-| Cortez Quezada, Joaquin Antonio           | U202212648   |
-| Párraga Gamarra, Paolo Gonzalo            | U202219186   |
-| Periche Quiroga, Piero                    | U202210192   |
-| Ramos Argüelles, Alexandra Belen          | U202215164   |
-
+<table style="margin-left: auto; margin-right: auto; text-align: center;">
+  <thead>
+    <tr>
+      <th>Member</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aguilar Castillo, Rodrigo</td>
+      <td>U202210584</td>
+    </tr>
+    <tr>
+      <td>Carmelino Dueñas, Michael Stefano</td>
+      <td>U202212760</td>
+    </tr>
+    <tr>
+      <td>Cortez Quezada, Joaquin Antonio</td>
+      <td>U202212648</td>
+    </tr>
+    <tr>
+      <td>Párraga Gamarra, Paolo Gonzalo</td>
+      <td>U202219186</td>
+    </tr>
+    <tr>
+      <td>Periche Quiroga, Piero</td>
+      <td>U202210192</td>
+    </tr>
+    <tr>
+      <td>Ramos Argüelles, Alexandra Belen</td>
+      <td>U202215164</td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
+
 
 # Registro de Versiones del Informe
 
@@ -539,96 +562,19 @@ Estos son los puntos que podemos asumir de nuestro negocio.
 
 A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
 
+# Lean UX Canvas
 
-<TABLE BORDER> <TR> <TD ROWSPAN=2><strong>Lean UX Canvas</strong></TD> <TD ROWSPAN=2></TD> <TD></TD> </TR> <TR></TR>
+| **Sección** | **Contenido** |
+|:------------|:--------------|
+| **1. Business Problem** | En muchas zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Actualmente, no existen mecanismos efectivos que permitan monitorear en tiempo real tanto la cantidad como la calidad del agua distribuida, lo que impide tomar decisiones informadas para mejorar su distribución y asegurar su salubridad. |
+| **2. Business Outcomes** | - Ser reconocidos como referentes en soluciones IoT para comunidades rurales.<br>- Reducción del 40% en el tiempo de respuesta ante problemas de suministro.<br>- Mejora del 25% en estándares de calidad del agua en zonas intervenidas.<br>- Reducción del 30% en gastos de mantenimiento gracias al análisis predictivo.<br>- Mayor transparencia y confianza por parte de la comunidad. |
+| **3. Users** | - **Proveedores locales de agua:** encargados de distribuir, gestionar y mantener el servicio.<br>- **Habitantes de viviendas:** consumidores de agua que podrían recibir alertas y monitorear calidad básica. |
+| **4. User Outcomes & Benefits** | - Acceso a datos en tiempo real sobre calidad y cantidad del agua.<br>- Toma de decisiones informadas ante emergencias.<br>- Menor riesgo sanitario mediante acciones preventivas.<br>- Simplificación de la gestión técnica.<br>- Empoderamiento ciudadano en la gestión del recurso.<br>- Mayor confianza entre comunidad y proveedores. |
+| **5. Solutions** | - **Monitoreo en Tiempo Real:** uso de sensores IoT (caudal, presión, turbidez, cloro).<br>- **Alertas Automatizadas:** notificaciones ante anomalías.<br>- **Dashboard Centralizado:** visualización y reportes desde PC o móvil.<br>- **Reportes para Toma de Decisiones:** informes periódicos para autoridades y líderes. |
+| **6. Hypotheses** | - Creemos que lograremos reconocimiento como referentes IoT si los usuarios obtienen una experiencia clara en el dashboard.<br>- Creemos que aumentará la eficiencia si los técnicos reciben alertas en tiempo real.<br>- Creemos que mejorará la calidad del agua mediante monitoreo constante.<br>- Creemos que se reducirá el tiempo de respuesta si las alertas llegan instantáneamente.<br>- Creemos que se aumentará la confianza comunitaria si los reportes son comprensibles.<br>- Creemos que se reducirán costos si los mantenimientos son planificados con base en datos. |
+| **7. What’s the Most Important Thing We Need to Learn First?** | - Los usuarios comprenden y valoran el dashboard como herramienta útil.<br>- Las alertas en tiempo real llegan de forma adecuada y ayudan a técnicos.<br>- El monitoreo de parámetros mejora efectivamente la calidad del agua.<br>- Los reportes automáticos generan confianza en la comunidad. |
+| **8. What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?** | - **Encuestas Rápidas:** a líderes comunitarios y técnicos.<br>- **Pruebas de Concepto:** piloto básico con sensores y dashboard.<br>- **Análisis de Factibilidad Técnica:** validar conectividad en zonas objetivo.<br>- **Recolección de Feedback:** iterar con base en la experiencia de usuarios. |
 
-
-<TR>
-  <TD ROWSPAN>
-    <strong>1. Business Problem:</strong><br><br>
-    En muchas zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Actualmente, no existen mecanismos efectivos que permitan monitorear en tiempo real tanto la cantidad como la calidad del agua distribuida, lo que impide tomar decisiones informadas para mejorar su distribución y asegurar su salubridad.
-  </TD>
-  <TD ROWSPAN=2>
-    <strong>5. Solutions</strong><br>
-    <ul>
-      <li><strong>Monitoreo en Tiempo Real:</strong> Uso de sensores IoT para medir caudal, presión, turbidez, niveles de cloro, etc.</li>
-      <li><strong>Alertas Automatizadas:</strong> Notificaciones en tiempo real sobre anomalías o interrupciones del servicio.</li>
-      <li><strong>Dashboard Centralizado:</strong> Plataforma accesible desde dispositivos móviles o PC para visualizar datos y generar reportes.</li>
-      <li><strong>Reportes para la Toma de Decisiones:</strong> Informes periódicos con métricas clave para autoridades y líderes comunitarios.</li>
-    </ul>
-  </TD>
-  <TD ROWSPAN=2>
-    <strong>2. Business Outcomes:</strong><br>
-    <ul>
-      <li>Ser reconocidos como referentes en soluciones IoT para comunidades rurales.</li>
-      <li>Reducción del 40% en el tiempo de respuesta ante problemas de suministro.</li>
-      <li>Mejora del 25% en estándares de calidad del agua en zonas intervenidas.</li>
-      <li>Reducción del 30% en gastos de mantenimiento gracias al análisis predictivo.</li>
-      <li>Mayor transparencia y confianza por parte de la comunidad.</li>
-    </ul>
-  </TD>
-</TR>
-
-<TR>
-  <TD>
-    <strong>3. Users:</strong><br><br>
-    <ul>
-      <li><strong>Proveedores locales de agua:</strong> Encargados de distribuir, gestionar y mantener el servicio de agua en la comunidad.</li>
-      <li><strong>Habitantes de las viviendas:</strong> Personas que consumen el agua y podrían recibir alertas o visualizar información básica (ej. calidad del agua).</li>
-    </ul>
-  </TD>
-</TR>
-
-
-<TR>
-  <TD ROWSPAN=2>
-    <strong>6. Hypotheses</strong><br><br>
-    <ul>
-      <li>Creemos que lograremos reconocimiento como referentes IoT si los usuarios obtienen una experiencia clara con el dashboard.</li>
-      <li>Creemos que aumentará la eficiencia si los técnicos reciben alertas en tiempo real.</li>
-      <li>Creemos que mejorará la calidad del agua si los parámetros son monitoreados constantemente.</li>
-      <li>Creemos que se reducirá el tiempo de respuesta si las alertas llegan al instante a los responsables.</li>
-      <li>Creemos que aumentará la confianza comunitaria si se generan reportes automáticos comprensibles.</li>
-      <li>Creemos que se reducirán costos operativos si se planifican mantenimientos con base en datos históricos.</li>
-    </ul>
-  </TD>
-  <TD ROWSPAN=2>
-  <strong>7. What’s the Most Important Thing We Need to Learn First?</strong><br><br>
-  <ul>
-    <li>Los usuarios comprenden y valoran el dashboard como una herramienta útil para el monitoreo del agua.</li>
-    <li>Las alertas en tiempo real llegan correctamente y son útiles para los técnicos de campo.</li>
-    <li>El monitoreo constante de parámetros mejora realmente la calidad del agua distribuida.</li>
-    <li>Los reportes automáticos generan confianza en la comunidad al ser claros y comprensibles.</li>
-  </ul>
-    <TD>
-    <strong>4. User Outcomes & Benefits:</strong><br><br>
-    <ul>
-      <li>Acceso a datos en tiempo real sobre calidad y cantidad del agua.</li>
-      <li>Toma de decisiones informadas y rápidas ante emergencias.</li>
-      <li>Menor riesgo sanitario mediante acciones preventivas.</li>
-      <li>Simplificación de la gestión técnica y operativa.</li>
-      <li>Empoderamiento y corresponsabilidad ciudadana en la gestión del agua.</li>
-      <li>Mayor confianza entre comunidad y entidades gestoras.</li>
-    </ul>
-  </TD>
-   
-</TD>
-
-
-</TR>
-
-<TR>
-  <TD>
-    <strong>8. What's the least amount of work we need to do to learn the next most important thing?</strong><br><br>
-    <ul>
-      <li><strong>Encuestas Rápidas:</strong> A líderes comunitarios y técnicos sobre sus prioridades y retos actuales.</li>
-      <li><strong>Pruebas de Concepto:</strong> Implementar un piloto con sensores y dashboard básico en una comunidad.</li>
-      <li><strong>Análisis de Factibilidad Técnica:</strong> Validar la cobertura de conectividad en zonas objetivo.</li>
-      <li><strong>Recolección de Feedback:</strong> Iterar con base en la experiencia inicial de los usuarios.</li>
-    </ul>
-  </TD>
-</TR>
-</TABLE>
 
 ## 1.3. Segmentos objetivo.
 | Variables    | Segmento 1 - Habitantes | Segmento 2 - Proveedores |
