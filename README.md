@@ -1552,10 +1552,17 @@ El proveedor modifica la cantidad de tanques y sensores asociados al habitante. 
 
 ![Bounded Context](./img/BD_Analytics.png)
 
-- Bounded context Request Managment
+- Bounded context Request Management
 
 ![Bounded Context](./img/BC_Canvas_Managment.png)
 
+- Bounded context User & Profile Management
+
+![Bounded Context](img/user-and-profile-management.png)
+
+Bounded context Subscription & Payment
+
+![Bounded Context](img/subscription-and-paymnet.png)
 
 ### 4.1.2. Context Mapping.
 
