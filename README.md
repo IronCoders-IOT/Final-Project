@@ -67,8 +67,10 @@ Se muestran evidencias de los commits realizados en la entrega de la TB1 en el i
 
 
 [Colaboraciones del repositorio]
+![alt text](image-1.png)
 
 [Registro de los commits donde se realizaron la mayor cantidad]
+![alt text](image.png)
 
 En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
 
