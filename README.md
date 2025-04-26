@@ -1566,9 +1566,9 @@ Bounded context Subscription & Payment
 
 ### 4.1.2. Context Mapping.
 
-- 
+En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema, destacando la colaboración entre User & Profile Management, Subscription & Payment, Management Context y Analytics Context, aplicando patrones DDD como Anti-Corruption Layer y Customer/Supplier (contratos claros en pagos) para garantizar una integración eficiente y escalable.
 
-
+![Context Mapping](img/context-mapping.png)
 
 
 ### 4.1.3. Software Architecture.
