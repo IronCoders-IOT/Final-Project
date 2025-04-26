@@ -4,17 +4,36 @@
 
 En To-Be se usaran los mismos escenarios, pero aplicando la solución que ofrecemos como equipo  
 
-### Segmento Habitantes: 
+### Segmento 1: Habitantes 
 
-![to be](../img/TO-BE-HABITANTES.jfif)
+Enlace para visualizar el As-is Scenario Map de Habitantes realizado en Miro: https://miro.com/app/board/uXjVIBKpWJQ=/?share_link_id=18556028670 
 
-### Segmento Proveedores:
+### Brainstorming:
 
-![to be](../img/TO-BE-PROVEEDORES.jfif)
+![Brainstorming](../img/Brain_Hab.png)
+
+### To-Be Scenario Mapping 
+
+![to be](../img/to-be-hab.png)
+
+### Segmento 2: Proveedores
+
+Enlace para visualizar el As-is Scenario Map de Proveedores realizado en Miro: https://miro.com/app/board/uXjVIBKpWJQ=/?share_link_id=18556028670
+
+### Brainstorming:
+
+![Brainstorming](../img/Brain_Prov.png)
+
+### To-Be Scenario Mapping 
+
+![to be](../img/to-be-prov.png)
 
 ## 3.2. User Stories
 
 El apartado de User Stories permite identificar las diversas situaciones que experimenta el usuario al interactuar con las diferentes áreas del proyecto, desde la página de inicio de sesión hasta las funcionalidades técnicas implementadas por el equipo de desarrollo. Su relevancia radica en que facilita la creación de un product backlog y, mediante los criterios de aceptación, podemos comprobar si estas historias se han cumplido correctamente.
+
+
+**Epics y User Stories de AquaConecta**
 
 |**Epic / Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
 | - | - | - | - | - |
@@ -49,6 +68,14 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 |**HT03**|Endpoint para reportes históricos|**Como** desarrollador,<br>**Quiero** exponer un endpoint que permita consultar y exportar datos históricos<br>**Para** que los usuarios puedan generar reportes por fechas desde la plataforma.|**Escenario 1: Exportación de datos históricos vía API<br>Dado** que el usuario autenticado realiza una solicitud al endpoint con un rango de fechas<br>**Cuando** el sistema valida los parámetros<br>**Entonces** devuelve los datos históricos correspondientes en formato JSON, CSV o PDF según lo solicitado.|**EP06**|
 |**HT04**|Servicio de alertas automáticas|**Como** desarrollador,<br>**Quiero** implementar un servicio que detecte condiciones críticas y dispare alertas automáticas<br>**Para** que el sistema notifique al usuario en tiempo real.|**Escenario 1: Generación automática de alertas<br>Dado** que el sistema monitorea en segundo plano los valores de sensores<br>**Cuando** detecta que el valor supera un umbral crítico<br>**Entonces** se genera una alerta y se envía al usuario por el canal configurado.|**EP06**|
 |**HT05**|Registro y auditoría de accesos API|**Como** desarrollador,<br>**Quiero** registrar todas las solicitudes a los endpoints protegidos<br>**Para** mantener un control y detectar posibles accesos indebidos.|**Escenario 1: Registro de accesos a la API<br>Dado** que un usuario autenticado realiza una solicitud a un endpoint protegido<br>**Cuando** el sistema procesa la solicitud<br>**Entonces** guarda en los registros la hora, IP, usuario y tipo de operación realizada.|**EP06**|
+|**EP07**|Landing Page informativa y funcional|<p>**Como** usuario interesado en soluciones de acceso a agua,</p><p>**Quiero** navegar por una página clara, informativa y responsiva,                  **Para** comprender los beneficios de Aqua Conecta, explorar planes y contactar al equipo fácilmente.</p>|<p>` `**Escenario 1: Visualización de beneficios principales Dado** que un visitante accede a la landing page desde cualquier dispositivo,                               **Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,                    **Entonces** puede visualizar de forma clara los beneficios como monitoreo en tiempo real, alertas, rutas e inventario.</p><p>**Escenario 2: Comprensión de públicos objetivos**</p><p>**Dado** que un visitante desea saber a quién está dirigida la solución,<br>` `**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>` `**Entonces** puede leer y diferenciar los beneficios tanto para usuarios como para proveedores de agua.</p><p>**Escenario 3: Explicación clara del problema y solución**</p><p>**Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>` `**Cuando** llega a la sección “La problemática del agua”,<br>` `**Entonces** puede comparar fácilmente el “desafío actual” con “nuestra solución”.</p><p>**Escenario 4: Visualización de planes y precios**</p><p>**Dado** que un visitante desea conocer los servicios disponibles,<br>` `**Cuando** navega a la sección “Nuestros Servicios”**,<br>` `Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p><p>**Escenario 5: Contacto mediante formulario**</p><p>**Dado** que un visitante tiene preguntas o desea más información,<br>` `**Cuando** completa el formulario en la sección “Contacta con nosotros”,<br>**Entonces** puede enviar su consulta correctamente y visualizar los datos de contacto de la empresa.</p><p></p>||
+|**HU21**|Presentación clara de beneficios de valor|<p>**Como** visitante del sitio web,</p><p>**Quiero** visualizar claramente los beneficios de la plataforma Aqua Conecta,</p><p>**Para** entender cómo puede mejorar el acceso y control del agua en mi comunidad.</p>|**Escenario 1: Visualización de beneficios principales <br>Dado** que un visitante accede a la landing page desde cualquier dispositivo,                               **Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,                    **Entonces** puede visualizar de forma clara los beneficios como monitoreo en tiempo real, alertas, rutas e inventario.|**EP07**|
+|**HU22**|Segmentación de perfiles de usuario|<p>**Como** usuario potencial**,**</p><p>**Quiero** identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad (usuario final o proveedor),</p><p>**Para** saber si puedo beneficiarme directamente de sus servicios.</p>|<p>**Escenario 2: Comprensión de públicos objetivos**</p><p>**Dado** que un visitante desea saber a quién está dirigida la solución,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios tanto para usuarios como para proveedores de agua.</p>|**EP07**|
+|**HU23**|Comunicación del problema y la solución|<p>**Como** visitante interesado,</p><p>**Quiero** entender el contexto del problema del acceso al agua y cómo Aqua Conecta lo resuelve,</p><p>**Para** evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</p>|<p>**Escenario 3: Explicación clara del problema y solución**</p><p>**Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>**Cuando** llega a la sección “La problemática del agua”,<br>**Entonces** puede comparar fácilmente el “desafío actual” con “nuestra solución”.</p><p></p>|**EP07**|
+|**HU24**|Comparación de planes y acciones de compra|<p>**Como** visitante interesado en adquirir un servicio,</p><p>**Quiero** revisar los planes, precios y características de AquaConecta,</p><p>**Para** decidir si deseo solicitar un plan o contactar por asesoría.</p>|<p>**Escenario 4: Visualización de planes y precios**</p><p>**Dado** que un visitante desea conocer los servicios disponibles,<br>` `**Cuando** navega a la sección “Nuestros Servicios”**,<br>` `Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p>|**EP07**|
+|**HU25**|` `Envío efectivo de consultas por formulario|<p>**Como** usuario con preguntas o interés en Aqua Conecta,</p><p>**Quiero** poder llenar y enviar un formulario de contacto,</p><p>**Para** recibir asistencia, cotización o más información directamente del equipo**.**</p>|<p>**Escenario 5: Contacto mediante formulario**</p><p>**Dado** que un visitante tiene preguntas o desea más información,<br>` `**Cuando** completa el formulario en la sección “Contacta con nosotros”,<br>` `**Entonces** puede enviar su consulta correctamente y visualizar los datos de contacto de la empresa.</p>|**EP07**|
+
+
 
 
 
