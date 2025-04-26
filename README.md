@@ -1523,6 +1523,27 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
+En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded contexts colaboran mediante flujos de mensajes, resolviendo los casos de uso del negocio. Esta técnica nos permitió visualizar las interacciones entre actores (usuarios, sistemas y servicios), secuenciar los pasos clave y validar el modelo con expertos del dominio. Estos diagramas clarifican dependencias, identifican riesgos y facilitan la alineación entre equipos técnicos y de negocio, asegurando una arquitectura coherente con las necesidades del dominio. 
+
+- **Scenario 1: Habitante revisa el estado del agua de su tanque**
+  
+El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container Management Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
+![alt text](img/scenario-1.png)
+
+- **Scenario 2: Habitante gestiona su plan de subscripción.**
+  
+El habitante se registra en la plataforma y el sistema IAM le asigna credenciales. Luego, el Subscription Context activa un plan de suscripción vinculado a su vivienda (NCasa), registrando la constancia del plan seleccionado.
+![alt text](img/scenario-2.png)
+
+- **Scenario 3: Subscripción y Pago**
+
+El proveedor programa una suscripción en la aplicación, seleccionando un habitante. El Payment Context procesa el pago (por el sensor y el servicio mensual), confirmando la activación del plan y vinculándolo al Subscription Context.
+![alt text](img/scenario-3.png)
+
+- **Scenario 4: Proveedor actualiza la cantidad de sensores y tanques del habitante**
+
+El proveedor modifica la cantidad de tanques y sensores asociados al habitante. El sistema actualiza estos datos en cascada, reflejando los cambios en los registros y generando eventos para sincronizar la información en otros contextos, como análisis de seguridad o grupos de datos.
+![alt text](img/scenario-4.png)
 
 
 #### 4.1.1.3 Bounded Context Canvases. 
@@ -1537,6 +1558,11 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
 
 ### 4.1.2. Context Mapping.
+
+- 
+
+
+
 
 ### 4.1.3. Software Architecture.
 
