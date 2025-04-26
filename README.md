@@ -977,6 +977,55 @@ Nombre: Fabian Reyes Trujillano
 
 Fabian Reyes, un trabajador de sedapal de 24 años, que vive en SMP, utiliza como navegador Chrome como dispositivos frecuentes su celular y laptop de marca Samsumg y Acer. En su trabajo nos cuenta como es que según la zona en la que trabaje, puede variar el tiempo para poder sacar medidas de ciertos parámetros del agua. Aunque con los problemas que encuentre suele notificar a sus superiores, lo que nos comenta sobre los costos, están los de transporte, personal, entre otros. El problema principal es el tiempo que tardan para poder obtener datos o saber el estado del agua. Cree que nuestra solución sería increible y de mucho apoyo. Nos sugiere alertas en tiempo real sobre malesas u otras cosas sobre el agua.
 
+
+Nombre: Tracy Cordova
+<br>
+- Edad: 34
+<br>
+- Ocupación: Trabajadora de Sedapal
+<br>
+- Browser: Google Chrome
+<br>
+- Device: Teléfono Samsung
+<br>
+- Distrito: Jesus Maria
+<br>
+- Timing: 3:30
+<br>
+<div style="text-align: center;">
+    
+![image](https://github.com/user-attachments/assets/0d69bec6-92cc-4777-8801-7e17d4432b3e)
+
+</div>
+
+Tracy, trabajadora de Sedapal, explicó que uno de los principales retos en su labor es la falta de monitoreo en tiempo real, lo que retrasa la detección de problemas en la calidad del agua. Actualmente, el análisis de muestras puede demorar entre 3 y 7 días, dependiendo de la zona, lo cual limita la capacidad de respuesta.
+Mencionó que usan herramientas básicas como hojas de cálculo y GIS, pero no cuentan con un sistema automatizado. Los costos logísticos son altos, especialmente en zonas rurales. Tracy considera que una solución IoT sería de gran ayuda, ya que permitiría detectar problemas al instante y proteger a la población. Sugiere incluir alertas automáticas, monitoreo constante y facilidad de uso.
+
+Nombre: Kamila Panduro
+<br>
+- Edad: 20
+<br>
+- Ocupación: Trabajadora de Sedapal
+<br>
+- Browser: Google Chrome
+<br>
+- Device: Teléfono Samsung
+<br>
+- Distrito: Santiago de Surco
+<br>
+- Timing: 3:30
+<br>
+<div style="text-align: center;">
+    
+![image](https://github.com/user-attachments/assets/6ef23f17-1237-4248-82eb-8016f7965f8a)
+
+
+</div>
+
+Kamila, trabajadora de una empresa proveedora de agua, señaló que los principales retos que enfrentan son la falta de equipos modernos, personal capacitado y los altos costos logísticos para llegar a zonas rurales. El proceso de análisis actual es lento, ya que deben recolectar muestras y enviarlas a laboratorios, lo que puede tomar varios días.
+Indicó que utilizan principalmente hojas de cálculo y registros físicos, y en algunos casos herramientas como QGIS, pero no cuentan con un sistema digital integrado. Kamila considera que un sistema IoT sería clave para mejorar su trabajo, ya que permitiría una detección inmediata de problemas, reduciría costos y fortalecería la confianza de la comunidad. Sugiere que la solución incluya alertas automáticas, acceso a datos históricos y sensores que funcionen sin conexión constante.
+
+
 ### 2.2.3. Análisis de entrevistas
 **Segmento 1: Habitantes**
 
