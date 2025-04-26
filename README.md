@@ -15,9 +15,9 @@
 #### Startup: **IronCoders**
 
 #### Product: **AquaConecta**
+#####  Team Members:
 
 </center>
-# Team Members:
 
 <div align="center">
 
@@ -357,8 +357,6 @@ Comenzamos con los "Problem Statements", que abarcan aspectos como el dominio, l
 
 #### 1.2.2.1. Lean UX Problem Statements.
 
-**Problem Statement:**
-### Lean UX Problem Statement – AquaConecta
 
 En muchas zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Esta situación pone en riesgo la salud de las personas y dificulta una adecuada gestión del recurso hídrico. Sin un monitoreo continuo y preciso, se vuelve imposible identificar fugas, optimizar el suministro o tomar decisiones informadas para garantizar un servicio equitativo y seguro.
 
@@ -887,83 +885,93 @@ El canal de distribución será completamente digital, mediante una plataforma w
 **Entrevistas usuario segmento (Habitantes)**
 
 **Segmento Doméstico**  
-- Nombre: Rodrigo Noreña Nuñez
+Nombre: Rodrigo Noreña Nuñez
 <br>
-Edad: 20
+- Edad: 20
 <br>
-Ocupación: Estudiante de Arquitectura
+- Ocupación: Estudiante de Arquitectura
 <br>
-Browser: Google Chrome
+- Browser: Google Chrome
 <br>
-Device: Teléfono Iphone
+- Device: Teléfono Iphone
 <br>
-Distrito: Chincha Alta
+- Distrito: Chincha Alta
 <br>
-Timing: 0:00
+- Timing: 0:00
 <br>
-<img src="./assets/images-interviews/domestico/interview-domestico1.png"
-alt="Entrevista 1 Segmento habitantes" width="500"/>
+<div style="text-align: center;">
+  <img src="./assets/images-interviews/domestico/interview-domestico1.png" 
+       alt="Entrevista 1 Segmento habitantes" 
+       width="500"/>
+</div>
 
 
 Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
 
-- Nombre: Jorge Medina Flores
+Nombre: Jorge Medina Flores
 <br>
-Edad: 34
+- Edad: 34
 <br>
-Ocupación: Agricultor
+- Ocupación: Agricultor
 <br>
-Browser: Google Chrome
+- Browser: Google Chrome
 <br>
-Device: Teléfono Samsung
+- Device: Teléfono Samsung
 <br>
-Distrito: Poblado cercade la ciudad (Ica)
+- Distrito: Poblado cercade la ciudad (Ica)
 <br>
-Timing: 5:00
+- Timing: 5:00
 <br>
-<img src="./assets/images-interviews/domestico/interview-domestico-3.jpg"
-alt="Entrevista 2 Segmento habitantes" width="500"/>
-
+<div style="text-align: center;">
+  <img src="./assets/images-interviews/domestico/interview-domestico-3.jpg" 
+       alt="Entrevista 2 Segmento habitantes" 
+       width="500"/>
+</div>
 Jorge Medina, un agricultor de 34 años que vive en una zona rural de Ica, nos comenta que utiliza principalmente un celular Samsung y navega con Google Chrome. Él y su comunidad obtienen agua a través de camiones cisterna, aunque menciona que no siempre alcanza para todos y que muchas veces no parece segura. Nos comenta que su esposa tuvo problemas estomacales, posiblemente por el agua. Aunque suelen hervirla, sabe que eso no garantiza su limpieza. Casi no reciben información oficial sobre la calidad del agua y desconfían de lo poco que oyen. Para él, el agua potable es fundamental para vivir bien, y nos comenta que estaría dispuesto a participar en acciones comunitarias que ayuden a mejorar esta situación.
 
-- Nombre: Sergio Aguirre
+Nombre: Sergio Aguirre
 <br>
-Edad: 22
+- Edad: 22
 <br>
-Ocupación: Estudiante de Arquitectura
+- Ocupación: Estudiante de Arquitectura
 <br>
-Browser: Google Chrome
+- Browser: Google Chrome
 <br>
-Device: Teléfono Iphone
+- Device: Teléfono Iphone
 <br>
-Distrito: Pueblo Libre
+- Distrito: Pueblo Libre
 <br>
-Timing: 0:00
+- Timing: 0:00
 <br>
-<img src="./assets/images-interviews/domestico/interview-domestico2.png"
-alt="Entrevista 3 Segmento habitantes" width="500"/>
+<div style="text-align: center;">
+  <img src="./assets/images-interviews/domestico/interview-domestico2.png" alt="Entrevista 3 Segmento habitantes" width="500"/>
+</div>
 
 Sergio Aguirre, un joven residente de Ica, relata que en su comunidad el acceso al agua potable ha sido un desafío constante. En muchas ocasiones, el servicio es irregular y las personas deben almacenar agua durante varios días sin conocer realmente su calidad. Sergio comenta que su familia ha tenido que tomar precauciones básicas, como hervir el agua o filtrarla, pero aún así permanece la incertidumbre sobre si es realmente segura para el consumo. Además, menciona que nunca ha recibido alertas ni informes de las autoridades sobre posibles riesgos de contaminación. Considera que un sistema de monitoreo en tiempo real sería fundamental para brindar tranquilidad a las familias y permitir que la comunidad gestione mejor el cuidado del recurso. Para Sergio, el agua no solo es vital, sino que también representa un derecho que debe ser protegido mediante el uso de la tecnología.
 
 
 
 **Entrevistas usuario segmento (Proveedor de agua)**
-- Nombre: Fabian Reyes Trujillano
+Nombre: Fabian Reyes Trujillano
 <br>
-Edad: 24
+- Edad: 24
 <br>
-Ocupación: Empleado de Sedapal
+- Ocupación: Empleado de Sedapal
 <br>
-Browser: Google Chrome
+- Browser: Google Chrome
 <br>
-Device: Teléfono Samsung, Laptop Acer
+- Device: Teléfono Samsung, Laptop Acer
 <br>
-Distrito: SMP
+- Distrito: SMP
 <br>
-Timing: 3:
+- Timing: 3:
 <br>
-<img src="./assets/images-interviews/proveedor/entrevista-fabian-reyes.png"
-alt="Entrevista 2 Segmento habitantes" width="700"/>
+<div style="text-align: center;">
+  <img src="./assets/images-interviews/proveedor/entrevista-fabian-reyes.png" 
+       alt="Entrevista 2 Segmento habitantes" 
+       width="700"/>
+</div>
+
 
 Fabian Reyes, un trabajador de sedapal de 24 años, que vive en SMP, utiliza como navegador Chrome como dispositivos frecuentes su celular y laptop de marca Samsumg y Acer. En su trabajo nos cuenta como es que según la zona en la que trabaje, puede variar el tiempo para poder sacar medidas de ciertos parámetros del agua. Aunque con los problemas que encuentre suele notificar a sus superiores, lo que nos comenta sobre los costos, están los de transporte, personal, entre otros. El problema principal es el tiempo que tardan para poder obtener datos o saber el estado del agua. Cree que nuestra solución sería increible y de mucho apoyo. Nos sugiere alertas en tiempo real sobre malesas u otras cosas sobre el agua.
 
@@ -1100,7 +1108,9 @@ En este User Journey Map se muestra la experiencia actual del habitante responsa
 En este User Journey Map decribimos el recorrido actual del proveedor responsable de coordinar y supervisar la distribución de agua. Desde la planificación de rutas hasta la presentación de informes a las autoridades, el proveedor enfrenta limitaciones como la falta de información en tiempo real, baja eficiencia en la comunicación y poca visibilidad operativa. Estas dificultades afectan la toma de decisiones, el seguimiento de entregas y el cumplimiento con las normas.
 
 **Enlace para visualizar el User Journey Map de Proveedores realizado en UXPressia:** 
+
 [https://uxpressia.com/w/mDdvz/m/wtXHH](https://uxpressia.com/w/mDdvz/m/wtXHH)
+
 
 <img src="./assets/user-journey-mapping/segmento-negocio.png"/>
 
@@ -1770,7 +1780,6 @@ Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispo
 
 
 ### 4.2.2. Bounded Context: User & Profile Managment
--
 #### 4.2.2.1. Domain Layer.
 -En el núcleo del dominio se han definido los siguientes Agregados, que representan los conceptos más importantes del Bounded Context de usuarios y perfiles.
 
@@ -1874,7 +1883,7 @@ Los siguientes enumerados (enums) representan valores fijos que definen el compo
 | RESIDENT  | Usuario final que recibe el servicio y visualiza información   |
 
 ## `Commands`
-## `User Commands`
+### `User Commands`
 
 | Comando                      | Descripción                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
@@ -1882,20 +1891,20 @@ Los siguientes enumerados (enums) representan valores fijos que definen el compo
 | `UpdateUserPasswordCommand` | Permite actualizar la contraseña de un usuario existente                   |
 
 
-## `Profile Commands`
+### `Profile Commands`
 | Comando                      | Descripción                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
 | `CreateProfileCommand`      | Crea el perfil personal asociado a un usuario                               |
 | `UpdateProfileInfoCommand`  | Actualiza la información de documento, dirección o teléfono del perfil      |
 
-## `Provider Commands`
+### `Provider Commands`
 | Comando                         | Descripción                                                              |
 |--------------------------------|---------------------------------------------------------------------------|
 | `RegisterProviderCommand`       | Registra un nuevo proveedor del servicio asociado a un usuario            |
 | `UpdateProviderInfoCommand`     | Actualiza la razón social (`taxName`) o el RUC del proveedor              |
 | `RegisterResidentCommand` | Comando que se ejecuta cuando un proveedor registra a un nuevo residente asociado a él |
 
-## `Resident Commands`
+### `Resident Commands`
 | Comando                          | Descripción                                                              |
 |---------------------------------|---------------------------------------------------------------------------|
 | `RegisterResidentCommand`       | Registra un nuevo residente asociado a un proveedor                      |
@@ -2103,9 +2112,9 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 
 ---
 
-###  Aggregates
+##  `Aggregates`
 
-## `WaterRequest`
+### `WaterRequest`
 
 Representa una solicitud específica de agua realizada por un residente.
 
@@ -2125,7 +2134,7 @@ Constructores:
 
 ---
 
-## `Request`
+### `Request`
 
 Representa una solicitud general realizada por un residente a un proveedor.
 
@@ -2522,5 +2531,31 @@ Representa la administración y configuración de un sensor en campo.
 ### Relación
 - Un `sensor` puede tener múltiples `events`.
 - La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
+
+
 ## Conclusiones
 **TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
+# Bibliografía
+
+``` 
+## Referencias
+
+- Infobae. (2024, septiembre 8). *Alarma por la falta de acceso continuo a agua potable en Ica: solo el 13.3% de los hogares cuenta con el servicio las 24 horas*. Infobae. [https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/](https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/)
+
+- Superintendencia Nacional de Servicios de Saneamiento (Sunass). (2025, enero 17). *Chincha: Sunass monitoreó camiones cisterna para verificar abastecimiento alternativo de agua potable*. Gobierno del Perú. [https://www.gob.pe/institucion/sunass/noticias/1091902-chincha-sunass-monitoreo-camiones-cisterna-para-verificar-abastecimiento-alternativo-de-agua-potable](https://www.gob.pe/institucion/sunass/noticias/1091902-chincha-sunass-monitoreo-camiones-cisterna-para-verificar-abastecimiento-alternativo-de-agua-potable)
+
+- Diario Correo. (2025, febrero 21). *Más de 20 mil vecinos de Pueblo Nuevo y Chincha Alta tendrán acceso al agua y alcantarillado*. Diario Correo. [https://diariocorreo.pe/edicion/ica/mas-de-20-mil-vecinos-de-pueblo-nuevo-y-chincha-alta-tendran-acceso-al-agua-y-alcantarillado-noticia/](https://diariocorreo.pe/edicion/ica/mas-de-20-mil-vecinos-de-pueblo-nuevo-y-chincha-alta-tendran-acceso-al-agua-y-alcantarillado-noticia/)
+
+- Infobae. (2025, febrero 14). *Ica en peligro de quedarse sin agua potable: EPS activa planes de contingencia por intensas lluvias en la región*. Infobae. [https://www.infobae.com/peru/2025/02/14/ica-en-peligro-de-quedarse-sin-agua-potable-eps-activa-planes-de-contingencia-por-intensas-lluvias-en-la-region/](https://www.infobae.com/peru/2025/02/14/ica-en-peligro-de-quedarse-sin-agua-potable-eps-activa-planes-de-contingencia-por-intensas-lluvias-en-la-region/)
+
+- Superintendencia Nacional de Servicios de Saneamiento (Sunass). (2025, febrero 28). *Sunass monitorea abastecimiento y continuidad del agua potable en más de 200 colegios de Ica*. Gobierno del Perú. [https://www.gob.pe/institucion/sunass/noticias/1118140-sunass-monitorea-abastecimiento-y-continuidad-del-agua-potable-en-mas-de-200-colegios-de-ica](https://www.gob.pe/institucion/sunass/noticias/1118140-sunass-monitorea-abastecimiento-y-continuidad-del-agua-potable-en-mas-de-200-colegios-de-ica)
+
+- Perú Construye. (2024, agosto 21). *Chincha: Pozo de agua potable en Alto Larán incrementará la producción de agua para más de 9 mil pobladores*. Perú Construye. [https://peruconstruye.net/2024/08/21/chincha-pozo-de-agua-potable-en-alto-laran/](https://peruconstruye.net/2024/08/21/chincha-pozo-de-agua-potable-en-alto-laran/)
+
+- Superintendencia Nacional de Servicios de Saneamiento (Sunass). (2025, enero 10). *Sunass fiscaliza a Semapach ante interrupción del servicio de agua potable en Chincha*. Gobierno del Perú. [https://www.gob.pe/institucion/sunass/noticias/886137-ica-sunass-fiscaliza-a-semapach-ante-interrupcion-del-servicio-de-agua-potable-en-chincha](https://www.gob.pe/institucion/sunass/noticias/886137-ica-sunass-fiscaliza-a-semapach-ante-interrupcion-del-servicio-de-agua-potable-en-chincha)
+
+- Infobae. (2024, mayo 9). *El 73.7% de peruanos no tiene acceso a agua de manera segura, según INEI*. Infobae. [https://www.infobae.com/peru/2024/05/09/el-737-de-peruanos-no-tiene-acceso-a-agua-de-manera-segura-segun-inei/](https://www.infobae.com/peru/2024/05/09/el-737-de-peruanos-no-tiene-acceso-a-agua-de-manera-segura-segun-inei/)
+
+```
+
+# Anexos
