@@ -391,31 +391,103 @@ Aqui veremos las herramientas que planeamos implementar en nuestra solución.
 
 **Business Outcomes:**
 
-Aqui nos centraremos en, tanto lo que queremos lograr como solución de la gestión hotelera, como lo que debemos ver para saber que nuestra solución fue exitosa y tuvo el impacto que deseamos.
+Acquisition (Base): [3,000 visitantes]
+Las comunidades rurales, organizaciones sociales y municipalidades se enteran de nuestra solución a través de campañas en redes sociales, ferias tecnológicas rurales, charlas con ONGs y contenido educativo. Además, se realizarán alianzas con entidades públicas y privadas que promuevan la transformación digital en zonas rurales. Estimamos alcanzar inicialmente a 3,000 personas interesadas en el tema de gestión del agua.
 
-- Posicionamiento como Referente en Soluciones IoT para Comunidades Rurales: Ser reconocidos como un socio estratégico confiable para proyectos de gestión de agua a nivel rural, gracias a nuestra innovación tecnológica y compromiso social.
-- Reducción de Interrupciones de Suministro: Disminución del 40% en el tiempo de respuesta ante problemas con la distribución del agua, gracias a la detección temprana de fallas.
-- Mejora de la Calidad del Agua Distribuida: Aumento del cumplimiento de los estándares de calidad en un 25% en zonas donde se implementa el sistema, gracias a una supervisión constante y medidas correctivas inmediatas.
-- Ahorro en Costos Operativos: Reducción del 30% en los gastos asociados al mantenimiento reactivo, debido al uso de datos predictivos para prevención de fallas.
-- Mayor Transparencia y Confianza Comunitaria: Acceso público o restringido a información transparente que fortalezca la confianza entre los gestores de agua y las comunidades beneficiadas.
+Activation (Plateau): [900 usuarios : 100%]
+De los visitantes, se espera que el 30% (900 usuarios) participen activamente en una demostración del sistema o soliciten un diagnóstico gratuito para su comunidad. En esta fase, los usuarios nos comparten información básica como ubicación de su sistema de agua, número de conexiones, tipo de infraestructura y principales problemas. También acceden por primera vez a nuestra plataforma con credenciales temporales.
 
-**Users:**
+Retention (Plateau + 1 level): [540 usuarios : 60%]
+Tras la activación, un 60% de las comunidades implementan el sistema de manera continua y lo usan para monitorear su infraestructura hídrica. Estas comunidades acceden regularmente a los datos del sistema, reciben alertas automáticas y visualizan mejoras progresivas en su servicio, lo que incentiva el uso constante. Aquí se empieza a notar la reducción del 40% en interrupciones y se ve reflejada la mejora del 25% en la calidad del agua, validando la funcionalidad del producto.
 
-Estos son los usuarios a los que van dirigido nuestra solución.
+Revenue (Plateau + 2 levels): [80 usuarios : ~15%]
+De los usuarios retenidos, se proyecta que al menos el 15% opte por un plan de monitoreo avanzado, que incluye mantenimiento predictivo, personalización de alertas y análisis más profundo de los datos. Este grupo valora la capacidad del sistema para reducir un 30% los costos de operación, y está dispuesto a pagar por estas funcionalidades premium.
 
-- Gestores de Agua Rurales (municipalidades, juntas de usuarios, ONG): Requieren una solución que les brinde visibilidad completa sobre el sistema de distribución y calidad del agua.
-- Personas que viven en zonas vulnerables 
+Referral (Top): [27 usuarios : 5% del total inicial]
+Un 5% de los usuarios referirán nuestra solución a otras comunidades, ONGs o municipios, gracias a su experiencia positiva. Estos promotores naturales ayudan a amplificar nuestro alcance de forma orgánica, aportando nuevas oportunidades de implementación y reforzando nuestra posición como referente en soluciones IoT para zonas rurales.
 
-**User Outcomes & Benefits:**
 
-Estos son los beneficios inmediatos que obtendran los usuarios con nuestra solución.
 
-- Visibilidad Total sobre la Red de Agua: Acceso a información detallada, en tiempo real, sobre el estado del recurso hídrico.
-- Decisiones Rápidas y Basadas en Datos: Reducción del tiempo de respuesta ante incidentes, gracias a alertas automáticas y datos actualizados.
-- Menor Riesgo Sanitario: La identificación oportuna de contaminación permite tomar acciones inmediatas para evitar enfermedades relacionadas con el agua.
-- Facilitación de la Gestión Técnica y Comunitaria: Simplificación de tareas rutinarias mediante herramientas visuales y reportes automáticos.
-- Empoderamiento Comunitario: Promueve la participación ciudadana informada y la corresponsabilidad en el cuidado del recurso.
-- Aumento de la Transparencia: Facilita auditorías, fiscalización y comunicación efectiva entre todas las partes involucradas.
+## Users
+
+En esta sección creamos un Proto-Persona como una suposición de cómo son nuestros usuarios, enfocándonos más en el aspecto de actitud.
+
+| Demográfica                                   | Comportamiento                                                                                          | Necesidades / Obstáculos                                                                                      |
+|----------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Gestores de Agua Rurales:                    | - Supervisan el sistema de distribución de agua de toda una comunidad                                     | - Necesitan visibilidad total del estado del sistema hídrico                                                   |
+| Municipalidad, ONG, Junta de usuarios        | - Tienen experiencia gestionando recursos públicos o sociales                                             | - Requieren reportes detallados para tomar decisiones técnicas y presupuestales                               |
+|                                              | - Se enfrentan constantemente a reclamos por fallas o baja calidad del agua                               | - Necesitan detectar fallas rápidamente para reducir tiempos de respuesta e interrupciones                    |
+|                                              | - Buscan optimizar los recursos disponibles y generar confianza con la comunidad                          | - Buscan fortalecer la transparencia y generar reportes públicos                                               |
+| Personas en zonas vulnerables:               | - Sufren cortes de agua frecuentes o reciben agua de baja calidad                                         | - Quieren saber si el agua que consumen es segura para su familia                                              |
+| Residentes de comunidades rurales            | - No cuentan con acceso directo a la gestión del agua                                                     | - Necesitan una forma accesible para reportar fallas o problemas                                                |
+|                                              | - Se enteran de las fallas solo cuando el problema ya está avanzado                                       | - Buscan tener más información sobre lo que sucede con el servicio de agua                                     |
+|                                              | - Participan en asambleas o reuniones comunales para expresar sus necesidades                             | - Necesitan confiar en los gestores del agua y saber que sus necesidades están siendo atendidas               |
+
+## User Outcomes & Benefits **
+
+
+En esta sección se busca el lado más emocional y empatizar con el usuario para darles los outcomes correctos.
+
+**¿Qué busca lograr el usuario?**
+Asegurar el acceso a agua segura y confiable para su comunidad, y mejorar la eficiencia en la gestión del recurso hídrico.
+
+**¿Cómo se quiere sentir el usuario en este proceso?**
+Tranquilo, empoderado y respaldado por información clara que le permita tomar decisiones oportunas sin depender únicamente de inspecciones manuales.
+
+**¿Cómo nuestro producto acerca al usuario a un logro personal?**
+La solución IoT le proporciona datos en tiempo real sobre la calidad del agua, lo que le permite anticiparse a problemas y demostrar su capacidad de liderazgo en la comunidad.
+
+**¿Por qué nuestro usuario buscaría nuestro producto?**
+Porque necesita una herramienta que le facilite detectar a tiempo problemas de contaminación o fallas en la red de distribución, sin requerir grandes conocimientos técnicos ni inversiones costosas.
+
+**¿Qué cambio de comportamiento podemos observar que nos cuente que lograron su objetivo?**
+El usuario consulta la plataforma con frecuencia, responde más rápido a eventos anómalos, informa mejor a su comunidad y optimiza el uso de recursos en la gestión del agua.
+
+Solutions
+A partir de los problemas detectados en las entrevistas y el contexto rural, proponemos las siguientes soluciones tecnológicas:
+
+
+- Monitoreo de calidad del agua (pH, turbidez, temperatura):
+
+Problema: Las comunidades no tienen forma de detectar a tiempo si el agua está contaminada.
+
+Solución: Sensores que miden en tiempo real parámetros como pH, turbidez y temperatura del agua.
+
+Resultado: El sistema emite alertas inmediatas si se detecta contaminación, lo que permite prevenir enfermedades y mejorar la salud pública.
+
+- Alertas automáticas ante condiciones críticas:
+
+Problema: La falta de monitoreo continuo genera respuestas tardías ante emergencias sanitarias.
+
+Solución: Plataforma que notifica automáticamente a los gestores mediante SMS o app cuando se detectan valores anómalos.
+
+Resultado: Reducción significativa del tiempo de reacción ante problemas, lo que minimiza riesgos sanitarios.
+
+- Panel de control comunitario:
+
+Problema: Los gestores y ciudadanos no tienen acceso a información visual y clara sobre el estado del agua.
+
+Solución: Dashboard con indicadores simples y accesibles (semáforo de calidad, gráficas por día, semana y mes).
+
+Resultado: Mejora de la transparencia, empoderamiento ciudadano y participación comunitaria en el cuidado del agua.
+
+- Historial de datos y reportes automáticos:
+
+Problema: No se cuenta con registros para evaluar tendencias o realizar auditorías.
+
+Solución: Almacenamiento de datos históricos accesibles en cualquier momento y generación de reportes descargables.
+
+Resultado: Mejora de la planificación, mantenimiento predictivo e informes técnicos para autoridades o donantes.
+
+- Funcionalidad offline y bajo consumo energético:
+
+Problema: En zonas remotas no hay conectividad constante ni acceso a energía eléctrica.
+
+Solución: Uso de sensores con batería solar, comunicación vía redes LoRa o GSM y almacenamiento local en el dispositivo.
+
+Resultado: Asegura la continuidad del monitoreo en cualquier entorno, incluso sin internet.
+
+
 
 **Business Assumptions:**
 
