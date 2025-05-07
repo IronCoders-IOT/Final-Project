@@ -1806,10 +1806,13 @@ Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispo
 
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+La imagen muestra un diagrama de clases que describe la interacción entre los servicios y repositorios de suscripciones y pagos. Incluye **ISubscriptionRepository**, que maneja las operaciones de suscripciones como búsqueda y actualización, y **ISubscriptionCommandService**, que gestiona comandos para crear, cancelar, activar o expirar suscripciones. **ISubscriptionQueryService** se encarga de consultar información de suscripciones, mientras que **Payment** representa los detalles de los pagos. **IPaymentRepository**, **IPaymentCommandService**, y **IPaymentQueryService** gestionan operaciones similares para los pagos, como su creación, actualización y consulta, garantizando que el sistema pueda manejar tanto suscripciones como pagos de manera independiente y eficiente.
 
 ![alt text](./img/Subscription.png)
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+El diagrama muestra las relaciones entre las tablas **sensors**, **subscriptions**, **payments** y **residents**. La tabla **sensors** contiene información sobre los sensores, como tipo, descripción y estado. La tabla **subscriptions** almacena los detalles de las suscripciones, incluyendo las fechas de inicio y fin, el estado de la suscripción, y las relaciones con los sensores y residentes. La tabla **payments** registra los pagos realizados, con datos como el monto, el método de pago, el estado, la fecha de pago y su relación con la suscripción correspondiente. Finalmente, **residents** contiene los datos de los residentes, como nombre, apellido y un ID de perfil relacionado.
+
 ![alt text](<./img/db design diagram subsc.png>)
 
 ## `subscriptions` 
@@ -2113,11 +2116,14 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 ![alt text](./img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+El diagrama muestra la estructura de un sistema que gestiona **proveedores**, **residentes**, **usuarios** y **perfiles**. Cada entidad tiene servicios de consulta, comando y repositorio para realizar operaciones como creación, actualización y consulta de datos. **Provider** y **Resident** están vinculados, permitiendo la gestión de información de proveedores y residentes, mientras que **User** maneja roles como ADMIN, PROVIDER y RESIDENT, permitiendo la administración de usuarios. **Profile** almacena información personal de los usuarios, como documentos y datos de contacto. Los servicios proporcionan la funcionalidad necesaria para gestionar estas entidades de manera eficiente.
 
 ![alt text](<./img/AQUA (16).png>)
 
-##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+#### 4.2.2.6.2. Bounded Context Database Design Diagram.
+El diagrama muestra las relaciones entre las tablas **providers**, **residents**, **users** y **profiles**. Los **providers** están asociados a un **user** mediante el campo `user_id`, y cada **user** tiene un **profile** relacionado, almacenado en la tabla **profiles**, que contiene información personal como tipo de documento, número de documento, dirección y teléfono. Los **residents** están vinculados tanto a un **user** a través del campo `user_id` como a un **provider** mediante el campo `provider_id`. Esta estructura permite gestionar tanto a los usuarios como a los residentes y proveedores, asociando información personal, de contacto y roles en el sistema.
+
 ![alt text](<./img/db user bc.png>)
 
 ## `users` 
@@ -2341,8 +2347,11 @@ Constructores:
 ![alt text](<./img/structurizr-101355-RequestManagement.png>)
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+El diagrama muestra cómo se gestionan las **solicitudes generales** y **solicitudes de agua** en el sistema. Las **Request** representan las solicitudes generales de los residentes, mientras que **WaterRequest** se refiere a las solicitudes específicas de agua. Los servicios de comando (**IRequestCommandService** y **IWaterRequestCommandService**) permiten crear y actualizar estas solicitudes, mientras que los repositorios (**IRequestRepository** y **IWaterRequestRepository**) gestionan su persistencia. También hay servicios de consulta (**IRequestQueryService** y **IWaterRequestQueryService**) para obtener solicitudes según diferentes criterios, como estado o residente.
+
 ![alt text](<./img/requests.png>)
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
+El diagrama muestra dos tablas: **requests** y **water\_requests**. La tabla **requests** almacena solicitudes generales de los residentes, incluyendo información como el `title`, `description`, y el `status`, junto con las relaciones a los residentes y proveedores. La tabla **water\_requests** contiene solicitudes específicas de agua, incluyendo el número de litros solicitados (`request_liters`), el estado de la solicitud y la fecha de entrega (`delivered_at`). Ambas tablas están relacionadas a través de los campos `resident_id` y `provider_id`.
 
 ![alt text](<./img/requestDiagram.png>)
 
@@ -2557,8 +2566,11 @@ Representa la administración y configuración de un sensor en campo.
 ![alt text](./img/structurizr-101355-dashboardAnalytics.png)
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
+Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **SensorManagement** y su **SensorStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
 ![alt text](<./img/events.png>)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
+Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
+
 ![alt text](<./img/dashboard.png>)
 
 ## Bounded Context Database Design Diagram
