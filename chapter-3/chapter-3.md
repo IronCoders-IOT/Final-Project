@@ -106,177 +106,32 @@ En el caso del proveedor, el Impact Mapping se enfocó en facilitar la gestión 
 
 El Product Backlog es una lista priorizada de tareas, funcionalidades y requisitos necesarios para el desarrollo del proyecto, asegurando que se trabaje en los elementos más importantes y alineados con los objetivos del proyecto. Cada ítem del backlog incluye una descripción, prioridad y título.
 
-<table border="1">
-    <thead>
-        <tr>
-            <th>Orden</th>
-            <th>User Story Id</th>
-            <th>Título</th>
-            <th>Descripción</th>
-            <th>Story Points</th>
-            <th>Justificación de Prioridad</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>HT01</td>
-            <td>API para recepción de datos</td>
-            <td>Endpoint REST para integración con sensores IoT</td>
-            <td>8</td>
-            <td>Base técnica sin la cual el sistema no funciona</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>HU01</td>
-            <td>Ver nivel actual</td>
-            <td>Visualización del nivel de agua en tiempo real</td>
-            <td>5</td>
-            <td>Función principal para todos los usuarios</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>HU02</td>
-            <td>Ver calidad del agua</td>
-            <td>Indicadores de potabilidad del agua</td>
-            <td>5</td>
-            <td>Segunda métrica esencial para la salud pública</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>HT04</td>
-            <td>Alertas automáticas</td>
-            <td>Servicio que detecta condiciones críticas</td>
-            <td>5</td>
-            <td>Mecanismo de prevención clave</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>HU08</td>
-            <td>Alertas por nivel bajo</td>
-            <td>Notificaciones cuando el agua escasea</td>
-            <td>3</td>
-            <td>Primera línea de defensa contra desabastecimiento</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>HU03</td>
-            <td>Actualización automática</td>
-            <td>Datos que se refrescan sin recarga</td>
-            <td>5</td>
-            <td>Nueva: Experiencia en tiempo real esencial</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>HU11</td>
-            <td>Registrar sensores</td>
-            <td>Alta de nuevos dispositivos IoT</td>
-            <td>5</td>
-            <td>Base para la escalabilidad del sistema</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>HU14</td>
-            <td>Estado de sensores</td>
-            <td>Monitoreo de conectividad IoT</td>
-            <td>3</td>
-            <td>Mantenimiento preventivo básico</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>HU12</td>
-            <td>Edición de sensores</td>
-            <td>Ajustar parámetros de dispositivos</td>
-            <td>3</td>
-            <td>Nueva: Complemento necesario tras el registro</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>HU13</td>
-            <td>Desactivar sensores</td>
-            <td>Gestión de dispositivos inactivos</td>
-            <td>2</td>
-            <td>Nueva: Cierre del ciclo de gestión IoT</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>HU04</td>
-            <td>Consultar historial</td>
-            <td>Datos históricos por fechas</td>
-            <td>5</td>
-            <td>Primera capa de analítica</td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>HT03</td>
-            <td>Endpoint reportes</td>
-            <td>API para exportación de datos</td>
-            <td>8</td>
-            <td>Infraestructura para análisis avanzado</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>HU05</td>
-            <td>Exportar historial</td>
-            <td>Descarga en formatos procesables</td>
-            <td>3</td>
-            <td>Nueva: Valor añadido para análisis externo</td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>HU06</td>
-            <td>Configurar alertas</td>
-            <td>Selección de tipos de notificaciones</td>
-            <td>3</td>
-            <td>Adaptación a necesidades específicas</td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td>HU07</td>
-            <td>Medios de notificación</td>
-            <td>Elección de canales (email/SMS/push)</td>
-            <td>2</td>
-            <td>Mejora la efectividad de las alertas</td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>HU09</td>
-            <td>Historial de alertas</td>
-            <td>Registro de eventos notificados</td>
-            <td>2</td>
-            <td>Nueva: Contexto para patrones recurrentes</td>
-        </tr>
-        <tr>
-            <td>17</td>
-            <td>HU15</td>
-            <td>Métricas por sensor</td>
-            <td>Indicadores técnicos detallados</td>
-            <td>5</td>
-            <td>Para usuarios técnicos/proveedores</td>
-        </tr>
-        <tr>
-            <td>18</td>
-            <td>HU16</td>
-            <td>Reportes PDF</td>
-            <td>Documentos formales para autoridades</td>
-            <td>3</td>
-            <td>Cumplimiento normativo</td>
-        </tr>
-        <tr>
-            <td>19</td>
-            <td>HU19</td>
-            <td>Acceso móvil</td>
-            <td>Plataforma responsive</td>
-            <td>5</td>
-            <td>Accesibilidad en terreno</td>
-        </tr>
-        <tr>
-            <td>20</td>
-            <td>HU20</td>
-            <td>Dashboard personalizado</td>
-            <td>Vistas adaptadas por rol</td>
-            <td>3</td>
-            <td>Optimización de flujos de trabajo</td>
-        </tr>
-    </tbody>
-</table>
+| Orden | User Story Id | Título                  | Descripción                              | Story Points |
+|-------|----------------|--------------------------|-------------------------------------------|--------------|---------------------------------------------------------------------|
+| 1     | HU19           | Acceso desde dispositivo móvil     | Como usuario, quiero acceder a la plataforma desde su celular para monitorear y gestionar información de forma práctica y en cualquier momento.                     | 5            |
+| 2     | HU21           | Presentación clara de beneficios de valor     | Como visitante del sitio web, quiero visualizar claramente los beneficios de la plataforma Aqua Conecta, para entender cómo puede ayudarme.     | 3            |
+| 3     | HU22           | Segmentación de perfiles de usuario           | Como usuario potencial, quiero identificar si la solución es para mí, para saber si puedo beneficiarme directamente de sus servicios.            | 3            |
+| 4     | HU23           | Comunicación del problema y la solución       | Como visitante interesado, quiero entender el problema del acceso al agua y cómo Aqua Conecta lo resuelve, para evaluar su utilidad.             | 5            |
+| 5     | HU24           | Comparación de planes y acciones de compra    | Como visitante interesado, quiero revisar los planes, precios y características, para decidir si solicitar un plan o contactar por asesoría.     | 5            |
+| 6     | HU25           | Envío efectivo de consultas por formulario    | Como usuario con preguntas o interés, quiero llenar y enviar un formulario de contacto, para recibir asistencia o cotización.                    | 2            |
+| 7     | HU01          | Ver nivel actual           | Como usuario, quiero visualizar el nivel actual del agua para conocer su disponibilidad. | 5            |
+| 8     | HU02          | Ver calidad del agua       | Como usuario, quiero consultar la calidad actual del agua para determinar si es apta para consumo. | 5            |
+| 9     | HU03          | Actualización automática   | Como usuario, quiero que los datos del agua se actualicen automáticamente para visualizarlos sin la necesidad de recargar la página. | 5            |
+| 10     | HU08          | Recibir alerta por nivel bajo     | Como usuario, quiero recibir alertas si el nivel de agua es bajo para comunicar de manera anticipada la necesidad de agua. | 3            |
+| 11     | HU04          | Consultar historial        | Como usuario, consultar el historial de datos por fechas para analizar el comportamiento del agua en distintos periodos. | 5            |
+| 12     | HU05          | Exportar historial         | Como usuario, quiero descargar datos históricos en Excel/CSV para analizar los datos dados. | 3            |
+| 13     | HU06          | Configurar tipo de alertas         | Como usuario, configurar qué tipo de alertas desea recibir para estar adecuadamente informado. | 3            |
+| 14     | HU07          | Elegir medio de notificación     | Como usuario, elegir si deseo recibir alertas por correo, SMS o push para estar informado. | 2            |
+| 15     | HU09          | Historial de alertas       | Como usuario, quiero revisar un historial de alertas para conocer eventos pasados y tomar decisiones informadas sobre el sistema. | 2            |
+| 16    | HU20          | Dashboard personalizado    | Como usuario, quiero ver un dashboard adaptado a su rol para acceder rápidamente a la información que necesito según mis responsabilidades. | 3            |
+| 17    | HU11          | Registrar sensores         | Como proveedor, registrar nuevos sensores en el sistema para ampliar la red de monitoreo. | 5            |
+| 18    | HU12          | Solicitar edición de sensor        | Como proveedor, modificar la configuración de sensores existentes para adaptar los parámetros a nuevas condiciones operativas. | 3            |
+| 19    | HU13          | Solicitar desactivación de sensor        | Como proveedor, desactivar temporalmente sensores fuera de servicio para evitar lecturas incorrectas. | 2            |
+| 20    | HU14          | Ver estado de sensores       | Como proveedor, quiero visualizar el estado online/offline de todos los sensores para monitorear la conectividad en tiempo real y detectar posibles fallos en la red. | 3            |
+| 21    | HU15          | Visualizar métricas por sensor        | Como proveedor, quiero acceder a indicadores clave (presión, cobertura, consumo) para evaluar el rendimiento del sistema | 5            |
+| 22    | HU16          | Generar reporte en PDF               | Como proveedor, quiero generar y exportar reportes sobre el servicio de agua para compartir información útil con autoridades o la comunidad. | 3            |
+| 23    | HT01          | API para recepción de datos| Como desarrollador, quiero implementar un endpoint REST para integrar datos de sensores IoT. | 8            |
+| 24    | HT03          | Endpoint para reportes históricos         | Como desarrollador, quiero exponer un endpoint para exportar datos históricos. | 8            |
+| 25    | HT04          | Servicio de alertas automáticas        | Como desarrollador, quiero implementar un servicio que detecte condiciones críticas. | 5            |
+| 26    | HT02          | Servicio de actualización automática de datos        | Como desarrollador, quiero desarrollar un servicio que procese y actualice datos de sensores cada minuto para mantener el monitoreo en tiempo real sin intervención del usuario. | 5            |
+| 27    | HT05          | Registro y auditoría de accesos API        | Como desarrollador, quiero registrar todas las solicitudes a los endpoints protegidos para mantener un control y detectar posibles accesos indebidos. | 5            |
