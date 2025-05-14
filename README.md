@@ -61,14 +61,31 @@
 <div align="center">
 
 
-| Versión | Fecha       | Autor                                     | Descripción de modificación                                                                                  |
-|---------|-------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| TB1     | 3/04/2025    | Rodrigo Aguilar Castillo                 | Redacción inicial de antecedentes del proyecto y estructura base del documento.                             |
-| TB1     | 5/04/2025    | Michael Stefano Carmelino Dueñas         | Desarrollo preliminar del modelo de arquitectura de componentes y flujos de usuarios.                       |
-| TB1     | 8/04/2025    | Joaquin Antonio Cortez Quezada           | Revisión del mapeo de User Personas y adaptación de flujos de experiencia de usuario.                        |
-| TB1     | 12/04/2025   | Paolo Gonzalo Párraga Gamarra             | Consolidación de entrevistas, hallazgos de usuarios y priorización de funcionalidades clave.                |
-| TB1     | 18/04/2025   | Piero Periche Quiroga                    | Revisión del Lean UX Canvas y definición de métricas de éxito para el MVP inicial.                           |
-| TB1     | 22/04/2025   | Alexandra Belen Ramos Argüelles          | Revisión final del documento, correcciones de redacción y generación de versión lista para entrega en PDF.   |
+|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
+| :-: | :-: | :-: | :-: |
+|1\.0|7/04/2025|Rodrigo Aguilar Castillo|Redacción del perfil de la Startup.|
+|1\.1|9/04/2025|Rodrigo Aguilar Castillo|Actualización de la descripción de las 5W y 2H.|
+|1\.2|10/04/2025|Piero Periche Quiroga|Redacción de Lean UX Statement y agregar Lean UX Canvas del Capítulo I.|
+|1\.3|11/04/2025|Joaquin Antonio Cortez Quezada|Agregar información acerca de los competidores.|
+|1\.4|12/04/2025|Rodrigo Aguilar Castillo|Actualización de las hipótesis y redacción de user outcomes.|
+|1\.5|14/04/2025|Piero Periche Quiroga|Actualización de Lean UX Assumptions.|
+|1\.6|15/04/2025|Rodrigo Aguilar Castillo|Actualización de how much, elaboración de user task matrix y ubiquitous language.|
+|1\.7|15/04/2024|Alexandra Belen Ramos Argüelles|Elaboración de user personas y user journey mapping por segmento objetivo.|
+|1\.8|16/04/2024|Rodrigo Aguilar Castillo|Elaboración de event storming.|
+|1\.9|16/04/2024|Paolo Gonzalo Párraga Gamarra|Elaboración de to-be scenario mapping.|
+|2\.0|19/04/2025|Alexandra Belen Ramos Argüelles|Redacción de user stories, technical stories y elaboración de empathy mapping.|
+|2\.1|20/04/2025|Alexandra Belen Ramos Argüelles|Elaboración de impact mapping y as-is scenario mapping por cada segmento objetivo.|
+|2\.2|20/04/2025|Paolo Gonzalo Párraga Gamarra|Elaboración de product backlog.|
+|2\.3|20/04/2025|Rodrigo Aguilar Castillo|Elaboración del bounded context de subscription and payment, user and profile, deployment diagrams.|
+|2\.4|24/04/2025|Rodrigo Aguilar Castillo|Elaboración de user and profile management (c4 model).|
+|2\.5|24/04/2025|Michael Stefano Carmelino Dueñas|Elaboración de las user stories para la landing page.|
+|2\.6|25/04/2025|Michael Stefano Carmelino Dueñas|Agregar entrevista y resumen de entrevistas para segmento objetivo de habitantes.|
+|2\.7|25/04/2025|Paolo Gonzalo Párraga Gamarra|Elaboración en bounded context canvas de analytics, modificación de to-be scenario mapping.|
+|2\.8|25/04/2025|Joaquin Antonio Cortez Quezada|Elaboración en bounded context canvas de management.|
+|2\.9|25/04/2025|Rodrigo Aguilar Castillo|Actualización de entrevistas, agregar contenido a bibliografía.|
+|3\.0|25/04/2025|Alexandra Belen Ramos Argüelles|Elaboración de domain message flows modeling y context mapping.|
+|3\.1|06/05/2025|Rodrigo Aguilar Castillo|Agregar conceptos de sensor y eventos a los diagramas|
+|3\.2|07/05/2025|Paolo Gonzalo Párraga Gamarra|Actualización de product backlog.|
 
 
 
