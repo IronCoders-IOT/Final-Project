@@ -1544,13 +1544,13 @@ El Product Backlog es una lista priorizada de tareas, funcionalidades y requisit
 
 Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURAL, donde construimos todo el flujo del sistema. Iniciamos con la fase de **Exploración No Estructurada**, en la que intercambiamos ideas y discutimos libremente los eventos del dominio, guiándonos por las recomendaciones establecidas para esta etapa.
 
-![alt text](./img/image.png)
+![alt text](./img/EvenStor.png)
 
 #### 4.1.1.1 Candidate Context Discovery.
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](candidate-context-discovery.png)
+![alt text](./img/candidate-context-discoveryV2.png)
 
 * Management
 
@@ -1575,7 +1575,7 @@ En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded c
 - **Scenario 1: Habitante revisa el estado del agua de su tanque**
   
 El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container Management Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
-![alt text](img/scenario-1.png)
+![alt text](img/scenario1.png)
 
 - **Scenario 2: Habitante gestiona su plan de subscripción.**
   
@@ -1585,7 +1585,7 @@ El habitante se registra en la plataforma y el sistema IAM le asigna credenciale
 - **Scenario 3: Subscripción y Pago**
 
 El proveedor programa una suscripción en la aplicación, seleccionando un habitante. El Payment Context procesa el pago (por el sensor y el servicio mensual), confirmando la activación del plan y vinculándolo al Subscription Context.
-![alt text](img/scenario-3.png)
+![alt text](img/scenario3.png)
 
 - **Scenario 4: Proveedor actualiza la cantidad de sensores y tanques del habitante**
 
@@ -1855,7 +1855,7 @@ Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispo
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 La imagen muestra un diagrama de clases que describe la interacción entre los servicios y repositorios de suscripciones y pagos. Incluye **ISubscriptionRepository**, que maneja las operaciones de suscripciones como búsqueda y actualización, y **ISubscriptionCommandService**, que gestiona comandos para crear, cancelar, activar o expirar suscripciones. **ISubscriptionQueryService** se encarga de consultar información de suscripciones, mientras que **Payment** representa los detalles de los pagos. **IPaymentRepository**, **IPaymentCommandService**, y **IPaymentQueryService** gestionan operaciones similares para los pagos, como su creación, actualización y consulta, garantizando que el sistema pueda manejar tanto suscripciones como pagos de manera independiente y eficiente.
 
-![alt text](./img/Subscription.png)
+![alt text](./img/subscription.png)
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 El diagrama muestra las relaciones entre las tablas **sensors**, **subscriptions**, **payments** y **residents**. La tabla **sensors** contiene información sobre los sensores, como tipo, descripción y estado. La tabla **subscriptions** almacena los detalles de las suscripciones, incluyendo las fechas de inicio y fin, el estado de la suscripción, y las relaciones con los sensores y residentes. La tabla **payments** registra los pagos realizados, con datos como el monto, el método de pago, el estado, la fecha de pago y su relación con la suscripción correspondiente. Finalmente, **residents** contiene los datos de los residentes, como nombre, apellido y un ID de perfil relacionado.
