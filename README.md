@@ -2650,6 +2650,159 @@ Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. 
 - La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
 
 
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management.
+
+En los siguientes puntos, detallaremos las herramientas, convenciones, referencias y configuraciones empleadas a lo largo del desarrollo del proyecto, los cuales contribuyeron a mantener la base en el trabajo realizado.
+
+
+
+## 6.1.1. Software Development Environment Configuration.
+Figma: https://www.figma.com/
+
+Es una herramienta visual, donde diseñamos el prototipo de la pagina web. Se usó para crear los wireframes, mock-ups, asi como los desktop and mobile application del proyecto.
+
+LucidChart: https://lucid.app/
+
+Es una plataforma, la cual tiene opciones que nos ayudaron en la creación de diagramas, mapas y flujos usando plantillas y tableros. Fue usado para la creación del event storming
+
+PlantText: https://www.planttext.com/
+
+Es una plataforma que permite interpretar código uml y diagramarlo. Fue usado para la creación de los diagramas de clase.
+
+Software Development: Para el desarrollo de la landing page se utilizarón las tecnologías basicas del desarrollo web: HTML, CSS Y JS.
+
+Frontend Web Applications
+
+Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas librerias de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
+
+Software Deployment
+
+Netlify: https://www.netlify.com/
+
+Es una plataforma en la cual hospedamos la lading page del proyecto, se integra con repositorios en Git.
+
+Vercel: https://vercel.com/
+
+Es una plataforma en la cual hospedamos la aplicación web.
+
+Software Documentation
+
+Vertabelo: https://vertabelo.com/
+
+Es una herramienta online la cual ayuda en el desarrollo y creacion de base de datos. Se usó para la base de datos del proyecto.
+
+Structurizr: https://www.structurizr.com/
+
+Esta plataforma permite el modelado de diagramas de arquitectura de software. Se usó para la creación de los diagramas C4
+
+## 6.1.2. Source Code Management.
+
+Para la gestión y actualización del proyecto, se creó una organización via GitHub, en la cual se tuvo un control sobre los cambios a lo largo del ciclo de vida del proyect. Se organizo de la siguiente manera.
+
+Organization: https://github.com/IronCoders-IOT 
+Landing page repository: https://github.com/IronCoders-IOT/Landing-Page
+
+Report repository: https://github.com/IronCoders-IOT/Final-Project
+
+Web Application repository: https://aquaconecta-app.netlify.app/
+
+Para controlar de manera eficiente el flujo de trabajo se utilizó GitFlow, donde contamos con una rama principal main que es donde se encuentra la versión más estable y lista para pasar a producción del proyecto.
+
+Ramas auxiliares:
+
+
+feature: Son las ramas donde se desarrollan las funcionalidades del proyecto. Luego de completarlas, se fusionan con la rama develop.
+
+La nomenclatura para los features fueron las siguientes: feature/chapter-n. Por ejemplo, feature/chapter-6.
+
+Commit Conventions
+
+Para el formato de los commits se siguió la estructura de Conventional Commits 1.0.0, la cual tiene la siguiente estructura:
+
+< type > [optional scope]: < description > Donde:
+
+type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, docs, style, refactor, perf, test, etc. scope: Indica donde se realizó el commit (opcional). description: Menciona las actualizaciones del codigo.
+
+
+## 6.1.3. Guía de Estilo y Convenciones del Código Fuente
+
+Durante el desarrollo en HTML y CSS, se optó por seguir la **Guía de Estilo de Google para HTML/CSS**. Algunos principios clave incluyen:
+
+- Iniciar el documento con la declaración del tipo de documento y etiquetas meta adecuadas.
+- Incluir la etiqueta `<title>` dentro de la sección `<head>`.
+- Aplicar una **sangría de dos espacios** de manera consistente.
+- Usar **letras minúsculas** para elementos HTML, atributos, valores, propiedades y selectores CSS.
+- Encerrar los atributos HTML entre **comillas**.
+- Asegurarse de que todos los elementos tengan su **etiqueta de cierre correspondiente**.
+- Evitar líneas de código demasiado extensas.
+- Las imágenes deben tener definidos su `width`, `height` y un atributo `alt` descriptivo.
+
+Para JavaScript, se sigue la **guía de estilo de Google para C#**, que establece lo siguiente:
+
+- Todas las instrucciones deben finalizar con un **punto y coma (`;`)**.
+- Los nombres de variables y funciones deben escribirse en **UpperCamelCase**.
+- Los valores de tipo cadena deben colocarse entre **comillas simples**.
+
+En cuanto a las pruebas de aceptación escritas en **Gherkin**, se aplican las **convenciones para especificaciones legibles**, haciendo uso de palabras clave como `Dado`, `Cuando`, `Entonces` y `Y`, manteniendo sangría adecuada y comentarios bien organizados.
+
+Para el desarrollo en **C#**, se respetan las **convenciones de nomenclatura de Microsoft**, las cuales contemplan:
+
+- Reglas para nombrar carpetas, clases y métodos.
+- Organización del código con una sangría clara y consistente.
+- División de líneas largas para facilitar la lectura.
+- Coincidencia entre el nombre del archivo y la clase que contiene.
+- Uso de un **salto de línea** tras cada declaración.
+
+En **C++**, se adoptan las pautas de la **Google C++ Style Guide**, donde:
+
+- Se utiliza **CamelCase** para nombres de clases.
+- Se emplea **snake_case** para variables, funciones y archivos.
+- Se priorizan nombres descriptivos, evitando abreviaturas innecesarias.
+- La sangría debe ser consistente, comúnmente de dos espacios.
+
+Finalmente, para el lenguaje **Dart**, se siguen las normas de la **Effective Dart Style Guide**. Estas incluyen:
+
+- Uso de **lowerCamelCase** para variables, funciones y parámetros.
+- Uso de **UpperCamelCase** para clases, tipos y enumeraciones.
+- Los archivos deben nombrarse usando **snake_case**.
+- Es importante evitar líneas largas y mantener la consistencia en la sangría.
+
+
+## 6.1.4. Configuración para el Despliegue de Software
+
+Para el despliegue de la Landing Page y la Aplicación Web, se utiliza **GitHub Pages** y **Firebase Hosting** como servicios principales. 
+
+Durante las primeras fases del desarrollo, se emplea **json-server en local** para simular datos (mock) y validar funcionalidades. Esta configuración permite trabajar sin una base de datos real durante las pruebas iniciales. Una vez que se tenga una base de datos definitiva, esta configuración será reemplazada por una conexión real.
+
+## 6.2. Implementación de Landing Page, Servicios y Aplicaciones
+
+## 6.2.1. Sprint 1
+### 6.2.1.1. Planificación del Sprint 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Conclusiones
 **TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
 # Bibliografía
