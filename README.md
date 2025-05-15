@@ -2758,28 +2758,30 @@ https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRd
 Application web wireframes
 
 ![alt text](<./img/iniciowirefram.png>)
+<br>
 ![alt text](<./img/supplywire.png>)
+<br>
 ![alt text](<./img/schedulewire.png>)
-![alt text](<./img/providerswire.png>)
-![alt text](<./img/nosewire.png>)
-![alt text](<./img/profilewire.png>)
-![alt text](<./img/residentswire.png>)
-![alt text](<./img/sensorwire.png>)
-![alt text](<./img/newresidentwire.png>)
-![alt text](<./img/reportdetailwire.png>)
-![alt text](<./img/listreportwire.png>)
-![alt text](<./img/pagowire.png>)
+<br>![alt text](<./img/providerswire.png>)
+![alt text](<./img/nosewire.png>)<br>
+![alt text](<./img/profilewire.png>)<br>
+![alt text](<./img/residentswire.png>)<br>
+![alt text](<./img/sensorwire.png>)<br>
+![alt text](<./img/newresidentwire.png>)<br>
+![alt text](<./img/reportdetailwire.png>)<br>
+![alt text](<./img/listreportwire.png>)<br>
+![alt text](<./img/pagowire.png>)<br>
 
 
 Application mobile wireframe
 
-![alt text](<./img/mobile1.png>)
-![alt text](<./img/mobile2.png>)
-![alt text](<./img/mobile3.png>)
-![alt text](<./img/mobile4.png>)
-![alt text](<./img/mobile5.png>)
-![alt text](<./img/mobile6.png>)
-![alt text](<./img/mobile7.png>)
+![alt text](<./img/mobile1.png>)<br>
+![alt text](<./img/mobile2.png>)<br>
+![alt text](<./img/mobile3.png>)<br>
+![alt text](<./img/mobile4.png>)<br>
+![alt text](<./img/mobile5.png>)<br>
+![alt text](<./img/mobile6.png>)<br>
+![alt text](<./img/mobile7.png>)<br>
 
 
 
@@ -2787,28 +2789,33 @@ Application mobile wireframe
 
 ### 5.4.3 Applications Mockups
 
-![alt text](<./img/mockup1.png>)
-![alt text](<./img/mockup2.png>)
-![alt text](<./img/mockup3.png>)
-![alt text](<./img/mockup4.png>)
-![alt text](<./img/mockup5.png>)
-![alt text](<./img/mockup6.png>)
-![alt text](<./img/mockup7.png>)
-![alt text](<./img/mockup8.png>)
-![alt text](<./img/mockup9.png>)
-![alt text](<./img/mockup10.png>)
-![alt text](<./img/mockup11.png>)
+En esta sección, se presentan los mockups de la aplicación guiándose de las historias de usuario en la herramienta Figma.
+
+
+ Link del figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=53-187&p=f&t=qFCtSb0uZ8VwSga4-0
+ <br>
+ ![alt text](<./img/mockup1.png>)<br>
+![alt text](<./img/mockup2.png>)<br>
+![alt text](<./img/mockup3.png>)<br>
+![alt text](<./img/mockup4.png>)<br>
+![alt text](<./img/mockup5.png>)<br>
+![alt text](<./img/mockup6.png>)<br>
+![alt text](<./img/mockup7.png>)<br>
+![alt text](<./img/mockup8.png>)<br>
+![alt text](<./img/mockup9.png>)<br>
+![alt text](<./img/mockup10.png>)<br>
+![alt text](<./img/mockup11.png>)<br>
 
 
 Application mobile mockup
 
-![alt text](<./img/mockupmobile1.png>)
-![alt text](<./img/mockupmobile2.png>)
-![alt text](<./img/mockupmobile3.png>)
-![alt text](<./img/mockupmobile4.png>)
-![alt text](<./img/mockupmobile5.png>)
-![alt text](<./img/mockupmobile6.png>)
-![alt text](<./img/mockupmobile7.png>)
+![alt text](<./img/mockupmobile1.png>)<br>
+![alt text](<./img/mockupmobile2.png>)<br>
+![alt text](<./img/mockupmobile3.png>)<br>
+![alt text](<./img/mockupmobile4.png>)<br>
+![alt text](<./img/mockupmobile5.png>)<br>
+![alt text](<./img/mockupmobile6.png>)<br>
+![alt text](<./img/mockupmobile7.png>)<br>
 
 
 
@@ -2822,9 +2829,9 @@ En este caso los user flow que definimos serian:
 ## 5.5 Applications Prototyping.
 
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams. Esta sección inicia con una introducción en la que se explica los principales criterios para las decisiones de interacción.
-
+<br>
 ![img.png](img.png)
-
+<br>
 
 Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=OiU4jqy2vMCEVEam-0
 
