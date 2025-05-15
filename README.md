@@ -399,22 +399,12 @@ Comenzamos con los "Problem Statements", que abarcan aspectos como el dominio, l
 
 #### 1.2.2.1. Lean UX Problem Statements.
 
+En muchas zonas rurales, las comunidades tienen un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información confiable sobre la calidad del agua. La ausencia de mecanismos efectivos de monitoreo en tiempo real dificulta la identificación de problemas en la red, impide una gestión basada en datos y limita la capacidad de tomar decisiones oportunas para mejorar la distribución y garantizar un suministro seguro.
 
-En muchas zonas rurales, las comunidades enfrentan un acceso limitado al agua potable debido a una distribución ineficiente y a la falta de información sobre la calidad del agua que consumen. Esta situación pone en riesgo la salud de las personas y dificulta una adecuada gestión del recurso hídrico. Sin un monitoreo continuo y preciso, se vuelve imposible identificar fugas, optimizar el suministro o tomar decisiones informadas para garantizar un servicio equitativo y seguro.
+Hemos observado que los gestores comunitarios suelen enfrentar dificultades para detectar fugas, identificar fallas en el sistema o conocer la calidad del agua en tiempo real, lo que con frecuencia deriva en respuestas tardías, desperdicio del recurso y riesgos para la salud de la población.
 
-Actualmente no existen mecanismos efectivos ni tecnologías accesibles que permitan monitorear en tiempo real tanto la calidad como la cantidad del agua distribuida. Las soluciones disponibles suelen ser costosas, de difícil implementación en zonas con baja conectividad, o no están adaptadas al contexto rural y comunitario, lo que impide su adopción y sostenibilidad.
+¿Cómo podemos implementar un sistema de monitoreo accesible y en tiempo real que permita a los gestores comunitarios mejorar la distribución y asegurar la calidad del agua en zonas rurales?
 
-AquaConecta se enfoca en ofrecer un sistema integral de monitoreo del recurso hídrico basado en tecnología IoT, diseñado para empoderar a los gestores comunitarios del agua con datos claros y en tiempo real. Esta solución facilita una toma de decisiones más eficiente, transparente y orientada a la sostenibilidad del servicio.
-
-Nuestra plataforma combina sensores para medir caudal, presión y parámetros de calidad del agua. A través de un dashboard centralizado, los usuarios pueden visualizar alertas, generar reportes y tomar decisiones informadas sobre la gestión del agua.
-
-Como resultado, nos enfrentamos al siguiente problema: ¿Cómo podemos proveer una plataforma de monitoreo del recurso hídrico que permita reducir en un 40% el tiempo de respuesta ante fallos, mejorar la calidad del agua distribuida y aumentar la eficiencia operativa en comunidades rurales?
-
-El sistema está pensado para implementarse en comunidades rurales y zonas de alta vulnerabilidad, apoyando tanto a municipalidades, ONGs y líderes comunitarios como a instituciones académicas y proyectos de desarrollo sostenible.
-
-Sabremos que hemos tenido éxito cuando al menos el 50% de las comunidades intervenidas reporten una mejora del 40% en eficiencia operativa, reducción de fugas o mejora percibida en la calidad del agua, según encuestas de seguimiento y métricas recopiladas por la plataforma.
-
----
 
 #### 1.2.2.2. Lean UX Assumptions.
 
