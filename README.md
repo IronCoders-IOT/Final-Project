@@ -55,7 +55,6 @@
 
 </div>
 
-
 # Registro de Versiones del Informe
 
 <div align="center">
@@ -2630,8 +2629,224 @@ Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. 
 - La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
 
 
+# Capítulo V: Solution UI/UX Design
+
+## 4.1 Style Guidelines
+### 4.1.1. General Style Guidelines
+
+Los siguientes elementos se han considerado para mejorar la experiencia del usuario.
+COLOR: Para los colores hemos elegido un esquema monocromático del color #81c9fa
+![alt text](<./img/colores.png>)
+
+
+Se eligió este esquema debido a que el color azul y blanco representan un entorno ordenado, limpio y poco complejo, lo que son practicamente caracteristicas que nos ayudarán con los procesos de gestion
+
+Tiporafía: Para la tipografia se está usando Comfortaa principalmente pr su simplicidad y buen diseño en las paginas web.
+<br>![alt text](<./img/Comfortaa.png>)
+
+Branding: Nuestro logotipo nuestra el nombre del producto AquaConecta, resaltando en azul parte del mismo, pensamos en un logo minimalista que con el hecho de verse el logo se pueda distinguir quienes somos.
+![alt text](<./img/logo.png>)
+
+### 4.1.2. Web Style Guidelines
+En nuestra app web y landing page estamos usando los colores ya mencionados en diferentes maneras.
+Background: Color Primario: 539BCA Color Secundario: BAE0FC Color Terniario: 6A9CDE y 003785
+![alt text](<./img/aquawire.png>)
+Text Styles: (H1, H2, p, a,) Nuestros estilos de texto van a depender del color que tengan detras, para colores mas osucros como 003785 se usa EEEEEE para dar contraste, mientras que si es un color claro se usa 00628D para que el color del texto pueda resaltar.
+![alt text](<./img/ola.png>)
+
+Button Style: Los botones de la interfaz tienen un diseño rectangular con bordes redondeados de 4px y utilizan una paleta de tres colores: #6A9CDE como color principal (el más utilizado), #003785 como color secundario para estados alternativos o jerarquías menores, y #DBEFFE como color de fondo claro para estados suaves o desactivados. Actualmente, los botones no siguen de forma consistente esta guía de estilos, como se observa en la imagen, donde hay variaciones en el color, forma y jerarquía visual.
+![alt text](<./img/button.png>)
+
+Icons: (Fondo blanco con los iconos que vamos a usar)
+
+Los iconos que estaremos usando seran de las redes sociales en el caso de la landing page junto a otros relacionados a los beneficios. Seguidamente, se estaran utilizando menos iconos en la web aplication siendo los mas prominentes la lupa, icono de residente y proveedores
+<br>
+![alt text](<./img/search.png>)
+
+
+Misc (Cosas como nav var o slideshows que pensemos usar)
+
+Estaremos usando nav vars, tablas y dashboards para poner informacion de sensores, reportes y el historial.
+
+![alt text](<./img/navbar.png>)
+
+## 5.2 Software Architecture
+
+### 5.2.1 Organization System
+
+La aplicación **AquaConecta** utiliza un sistema de organización secuencial. Desde la pantalla principal, los usuarios pueden navegar paso a paso por las funcionalidades críticas del sistema: como el acceso al panel de administrador, solicitud de suministros, generación de reportes, gestión de proveedores, visualización de residentes y monitoreo del historial de sensores. Este enfoque facilita la navegación y asegura que los usuarios completen tareas en un orden lógico y estructurado.
+
+![alt text](<./img/dashboard1.png>)
+
+### 5.2.2 Labeling System
+Se han implementado etiquetas claras y concisas para representar funciones específicas dentro de la aplicación. Estas etiquetas ayudan a los usuarios a comprender fácilmente la función de cada módulo. Las etiquetas principales son:
+
+- `Admin Dashboard`
+- `Sign In`
+- `Sign Up`
+- `Supply Requests`
+- `Report List`
+- `Providers List`
+- `Provider Profile`
+- `Residents`
+- `Sensor History`
+
+Estas permiten una identificación directa de las secciones sin necesidad de interpretación adicional.
+
+### 5.2.3 SEO Tags and Meta Tags 
+
+Para optimizar la visibilidad en buscadores y ofrecer contexto sobre la aplicación, se proponen las siguientes etiquetas:
+
+Título: AquaConecta | Solución Inteligente de Gestión del Agua
+
+Description: meta name="description" content="Gestión eficiente de agua a través de sensores, reportes y control de usuarios y proveedores. Plataforma integral para comunidades." /
+
+Palabras clave: Gestión del agua, sensores de agua, AquaConecta, plataforma hídrica, sistema de suministro, comunidades rurales"
+
+
+### 5.2.4. Searching Systems 
+¿Qué se busca?: El usuario puede buscar residentes, proveedores o registros históricos de sensores.
+¿Qué resultados se mostrarán?: La búsqueda devolverá registros específicos como nombres de usuarios, reportes o datos de sensores.
+Interfaz de búsqueda: En el panel principal se presentan botones con acceso directo a funcionalidades clave. Aunque actualmente no hay un ícono de lupa visible, se recomienda su implementación en secciones como Residents o Sensor History para mejorar la usabilidad y facilitar la búsqueda contextual.
+
+### 5.2.5. Navigation Systems
+La navegación se basa en un sistema global donde, desde la pantalla de inicio, los usuarios pueden acceder directamente a cualquier sección mediante botones claramente etiquetados. Esta navegación plana y accesible garantiza una experiencia intuitiva, reduciendo la necesidad de múltiples clics o rutas complejas.
 ## Conclusiones
+
 **TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
+
+
+## 5.3 Landing Page UI Design 
+
+### 5.3.1 Landing Page Wireframe
+![alt text](<./img/wireframelanding.png>)
+
+### 5.3.2 Landing Page Mock Up
+
+![alt text](<./img/mockuplanding.png>)
+
+
+## 5.4 Applications UX/UI Design.
+
+### 5.4.1 Applications Wireframes
+En esta sección, se presentan los wireflows de la aplicación guiándose de las historias de usuario en la herramienta Figma.
+
+https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRdexuYpspb54rXk-0
+
+
+
+Application web wireframes
+
+![alt text](<./img/iniciowirefram.png>)
+<br>
+![alt text](<./img/supplywire.png>)
+<br>
+![alt text](<./img/schedulewire.png>)
+<br>![alt text](<./img/providerswire.png>)
+![alt text](<./img/nosewire.png>)<br>
+![alt text](<./img/profilewire.png>)<br>
+![alt text](<./img/residentswire.png>)<br>
+![alt text](<./img/sensorwire.png>)<br>
+![alt text](<./img/newresidentwire.png>)<br>
+![alt text](<./img/reportdetailwire.png>)<br>
+![alt text](<./img/listreportwire.png>)<br>
+![alt text](<./img/pagowire.png>)<br>
+
+
+Application mobile wireframe
+
+![alt text](<./img/mobile1.png>)<br>
+![alt text](<./img/mobile2.png>)<br>
+![alt text](<./img/mobile3.png>)<br>
+![alt text](<./img/mobile4.png>)<br>
+![alt text](<./img/mobile5.png>)<br>
+![alt text](<./img/mobile6.png>)<br>
+![alt text](<./img/mobile7.png>)<br>
+
+
+
+### 5.4.2 Applications Wireflow Diagrams
+
+### 5.4.3 Applications Mockups
+
+En esta sección, se presentan los mockups de la aplicación guiándose de las historias de usuario en la herramienta Figma.
+
+
+ Link del figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=53-187&p=f&t=qFCtSb0uZ8VwSga4-0
+ <br>
+ ![alt text](<./img/mockup1.png>)<br>
+![alt text](<./img/mockup2.png>)<br>
+![alt text](<./img/mockup3.png>)<br>
+![alt text](<./img/mockup4.png>)<br>
+![alt text](<./img/mockup5.png>)<br>
+![alt text](<./img/mockup6.png>)<br>
+![alt text](<./img/mockup7.png>)<br>
+![alt text](<./img/mockup8.png>)<br>
+![alt text](<./img/mockup9.png>)<br>
+![alt text](<./img/mockup10.png>)<br>
+![alt text](<./img/mockup11.png>)<br>
+
+
+Application mobile mockup
+
+![alt text](<./img/mockupmobile1.png>)<br>
+![alt text](<./img/mockupmobile2.png>)<br>
+![alt text](<./img/mockupmobile3.png>)<br>
+![alt text](<./img/mockupmobile4.png>)<br>
+![alt text](<./img/mockupmobile5.png>)<br>
+![alt text](<./img/mockupmobile6.png>)<br>
+![alt text](<./img/mockupmobile7.png>)<br>
+
+
+
+### 5.4.4 Applications User Flow Diagrams
+Esta sección presenta la propuesta de User Flows. Se considera un User Flow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los cuales se derivan.
+
+En este caso los user flow que definimos serian:
+
+
+Login de Usuario Resident:
+![alt text](image-3.png)
+
+Login de Usuario Provider:
+
+![alt text](image-4.png)
+
+Programacion de fecha:
+
+![alt text](image-5.png)
+
+Creacion de nuevo residente:
+
+![alt text](image-6.png)
+
+Visualizar historial de eventos:
+
+![alt text](image-7.png)
+
+Visulizar Reportes:
+
+![alt text](image-8.png)
+
+Visualizar Detalles de Proveedores:
+
+![alt text](image-9.png)
+
+
+
+
+
+
+## 5.5 Applications Prototyping.
+
+Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams. Esta sección inicia con una introducción en la que se explica los principales criterios para las decisiones de interacción.
+<br>
+![img.png](img.png)
+<br>
+
+Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=OiU4jqy2vMCEVEam-0
+
+
 # Bibliografía
 
 ``` 

@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98c476c-cbec-493b-8910-9429c44fa286" name="Changes" comment="feat: added tables events and sensor">
+    <list default="true" id="a98c476c-cbec-493b-8910-9429c44fa286" name="Changes" comment="feat: update chapter 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/BC_Canvas_Managment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/BD_Analytics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/candidate-context-discovery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/subscription-and-paymnet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/user-and-profile-management.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +21,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Joaqquin0"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Joaqquin0&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IronCoders-IOT/Final-Project.git",
-    "accountId": "2efa9930-858c-41cd-916e-b101a8601d20"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IronCoders-IOT/Final-Project.git&quot;,
+    &quot;accountId&quot;: &quot;2efa9930-858c-41cd-916e-b101a8601d20&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -51,8 +46,8 @@
     "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
     "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/PIERO/Desktop/clone github/Final-Project",
+    "git-widget-placeholder": "feature/chapter-5",
+    "last_opened_file_path": "C:/Users/PIERO/Desktop/olarepopractica/Final-Project/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +58,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PIERO\Desktop\olarepopractica\Final-Project\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\septimociclo\IOT\Final-Project\EventStor" />
     </key>
@@ -85,6 +83,7 @@
       <workItem from="1745564613422" duration="67000" />
       <workItem from="1745564688843" duration="3630000" />
       <workItem from="1745599053131" duration="1587000" />
+      <workItem from="1747279054603" duration="15242000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added bounded context management">
       <option name="closed" value="true" />
@@ -110,7 +109,63 @@
       <option name="project" value="LOCAL" />
       <updated>1745567256475</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add chapter 5">
+      <option name="closed" value="true" />
+      <created>1747291131582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747291131582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add chapter 4">
+      <option name="closed" value="true" />
+      <created>1747291376372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747291376372</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: update chapter 5">
+      <option name="closed" value="true" />
+      <created>1747292659170</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747292659170</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: update chapter 5">
+      <option name="closed" value="true" />
+      <created>1747331713441</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747331713441</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: update chapter 5">
+      <option name="closed" value="true" />
+      <created>1747331721608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747331721608</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: update chapter 5">
+      <option name="closed" value="true" />
+      <created>1747332410624</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747332410625</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: update chapter 5">
+      <option name="closed" value="true" />
+      <created>1747333045868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747333045868</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +174,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: added bounded context management" />
     <MESSAGE value="feat: added tables events and sensor" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added tables events and sensor" />
+    <MESSAGE value="feat: add chapter 5" />
+    <MESSAGE value="feat: add chapter 4" />
+    <MESSAGE value="feat: update chapter 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update chapter 5" />
   </component>
 </project>
