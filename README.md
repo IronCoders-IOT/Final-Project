@@ -2690,6 +2690,45 @@ Estaremos usando nav vars, tablas y dashboards para poner informacion de sensore
 
 ![alt text](<./img/navbar.png>)
 
+## 5.2 Software Architecture
+
+### 5.2.1 Organization System
+
+La aplicación **AquaConecta** utiliza un sistema de organización secuencial. Desde la pantalla principal, los usuarios pueden navegar paso a paso por las funcionalidades críticas del sistema: como el acceso al panel de administrador, solicitud de suministros, generación de reportes, gestión de proveedores, visualización de residentes y monitoreo del historial de sensores. Este enfoque facilita la navegación y asegura que los usuarios completen tareas en un orden lógico y estructurado.
+
+### 5.2.2 Labeling System
+Se han implementado etiquetas claras y concisas para representar funciones específicas dentro de la aplicación. Estas etiquetas ayudan a los usuarios a comprender fácilmente la función de cada módulo. Las etiquetas principales son:
+
+- `Admin Dashboard`
+- `Sign In`
+- `Sign Up`
+- `Supply Requests`
+- `Report List`
+- `Providers List`
+- `Provider Profile`
+- `Residents`
+- `Sensor History`
+
+Estas permiten una identificación directa de las secciones sin necesidad de interpretación adicional.
+
+### 5.2.3 SEO Tags and Meta Tags 
+
+Para optimizar la visibilidad en buscadores y ofrecer contexto sobre la aplicación, se proponen las siguientes etiquetas:
+
+Título: AquaConecta | Solución Inteligente de Gestión del Agua
+
+Description: meta name="description" content="Gestión eficiente de agua a través de sensores, reportes y control de usuarios y proveedores. Plataforma integral para comunidades." /
+
+Palabras clave: Gestión del agua, sensores de agua, AquaConecta, plataforma hídrica, sistema de suministro, comunidades rurales"
+
+
+### 5.2.4. Searching Systems 
+¿Qué se busca?: El usuario puede buscar residentes, proveedores o registros históricos de sensores.
+¿Qué resultados se mostrarán?: La búsqueda devolverá registros específicos como nombres de usuarios, reportes o datos de sensores.
+Interfaz de búsqueda: En el panel principal se presentan botones con acceso directo a funcionalidades clave. Aunque actualmente no hay un ícono de lupa visible, se recomienda su implementación en secciones como Residents o Sensor History para mejorar la usabilidad y facilitar la búsqueda contextual.
+
+### 5.2.5. Navigation Systems
+La navegación se basa en un sistema global donde, desde la pantalla de inicio, los usuarios pueden acceder directamente a cualquier sección mediante botones claramente etiquetados. Esta navegación plana y accesible garantiza una experiencia intuitiva, reduciendo la necesidad de múltiples clics o rutas complejas.
 ## Conclusiones
 
 **TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
