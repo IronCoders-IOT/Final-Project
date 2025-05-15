@@ -2795,7 +2795,7 @@ Durante las primeras fases del desarrollo, se emplea **json-server en local** pa
 |Attendees (to planning meeting)|<p>- Aguilar Castillo, Rodrigo</p><p>- Carmelino Dueñas, Michael Stefano</p><p>- Cortez Quezada, Joaquin Antonio</p><p>- Párraga Gamarra, Paolo Gonzalo</p><p>- Periche Quiroga, Piero	</p><p>- Ramos Argüelles, Alexandra Belen</p>|
 |Sprint 0 – 1 Review Summary|No aplica|
 |Sprint 0 – 1 Retrospective Summary|No aplica|
-|Sprint 1 Goal| gfg |
+|Sprint 1 Goal| El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final. |
 |Sprint 1 Velocity|8|
 |Sum of Story Points|jnj|
 
