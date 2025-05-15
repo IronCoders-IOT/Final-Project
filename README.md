@@ -3069,10 +3069,32 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 | HU11 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
 
 
-### 6.2.1.4. Development Evidence for Sprint Review.
 
-| Repository                                            | Branch | Commit Id | Commit Message                                                                                             | Commit Message Body | Commited on (Date) |
-|:------------------------------------------------------|:-------|:----------|:-----------------------------------------------------------------------------------------------------------|:--------------------|:-------------------|
+
+### 6.2.1.4. Development Evidence for Sprint Review
+
+| Repository                   | Branch  | Commit Id | Commit Message                                                  | Commit Message Body                                           | Committed on (Date) |
+|-----------------------------|---------|-----------|-----------------------------------------------------------------|----------------------------------------------------------------|---------------------|
+| IronCoders-IOT/Final-Project | develop | bf872a5   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | f5d5b15   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 2a0e20f   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | a8d962a   | Merge pull request #7 from IronCoders-IOT/feature/chapter-2     |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | eae5d2c   | fix: Estrategias y tácticas frente a competidores definition improved |                                                          | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | ea7622e   | Merge pull request #6 from IronCoders-IOT/feature/chapter-1     |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 94784fc   | fix : Lean Ux Problem Statement definition changed              |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 8213f1b   | docs: added Aspect Leaders and Collaborators                    |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 23aeccf   | docs: added deploy configuration                                |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | a19b261   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | a9e0a9f   | feat: add chapter 4                                             |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 5c18fc3   | feat: add chapter 5                                             |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | a3c47dd   | docs: updated insights                                          |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 8a3a67a   | docs: added sprint backlog 1                                    |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 23f4ab1   | feat : Applications Wireflow Diagrams added                     |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 4b7ed47   | docs: added commit analytics                                    |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | d56a030   | docs: added Deployment Evidence                                 |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 80d2154   | Merge pull request #10 from IronCoders-IOT/feature/chapter-3    |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | 183c98c   | docs: added Conclusions                                         |                                                                | 2025-05-15          |
+| IronCoders-IOT/Final-Project | develop | a76e91f   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
 
 
 
