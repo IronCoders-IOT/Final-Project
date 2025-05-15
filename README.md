@@ -55,7 +55,6 @@
 
 </div>
 
-
 # Registro de Versiones del Informe
 
 <div align="center">
@@ -2650,7 +2649,36 @@ Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. 
 - La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
 
 
+# Capítulo V: Solution UI/UX Design
+
+## 4.1 Style Guidelines
+### 4.1.1. General Style Guidelines
+
+Los siguientes elementos se han considerado para mejorar la experiencia del usuario.
+COLOR: Para los colores hemos elegido un esquema monocromático del color #81c9fa
+![alt text](<./img/colores.png>)
+
+
+Se eligió este esquema debido a que el color azul y blanco representan un entorno ordenado, limpio y poco complejo, lo que son practicamente caracteristicas que nos ayudarán con los procesos de gestion
+
+Tiporafía: Para la tipografia se está usando Comfortaa principalmente pr su simplicidad y buen diseño en las paginas web.
+<br>![alt text](<./img/Comfortaa.png>)
+
+Branding: Nuestro logotipo nuestra el nombre del producto AquaConecta, resaltando en azul parte del mismo, pensamos en un logo minimalista que con el hecho de verse el logo se pueda distinguir quienes somos.
+![alt text](<./img/logo.png>)
+
+### 4.1.2. Web Style Guidelines
+En nuestra app web y landing page estamos usando los colores ya mencionados en diferentes maneras.
+Background: Color Primario: 539BCA Color Secundario: BAE0FC Color Terniario: 6A9CDE y 003785
+![alt text](<./img/aquawire.png>)
+Text Styles: (H1, H2, p, a,) Nuestros estilos de texto van a depender del color que tengan detras, para colores mas osucros como 003785 se usa EEEEEE para dar contraste, mientras que si es un color claro se usa 00628D para que el color del texto pueda resaltar.
+![alt text](<./img/ola.png>)
+
+Button Style: Los botones de la interfaz tienen un diseño rectangular con bordes redondeados de 4px y utilizan una paleta de tres colores: #6A9CDE como color principal (el más utilizado), #003785 como color secundario para estados alternativos o jerarquías menores, y #DBEFFE como color de fondo claro para estados suaves o desactivados. Actualmente, los botones no siguen de forma consistente esta guía de estilos, como se observa en la imagen, donde hay variaciones en el color, forma y jerarquía visual.
+![alt text](<./img/button.png>)
+
 ## Conclusiones
+
 **TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
 # Bibliografía
 
