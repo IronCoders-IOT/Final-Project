@@ -1563,7 +1563,7 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](./img/candidate-context-discoveryV2.png)
+![alt text](image-3.png)
 
 * Management
 
@@ -1588,23 +1588,22 @@ En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded c
 - **Scenario 1: Habitante revisa el estado del agua de su tanque**
   
 El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container Management Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
-![alt text](img/scenario1.png)
+![alt text](image-4.png)
 
 - **Scenario 2: Habitante gestiona su plan de subscripción.**
   
 El habitante se registra en la plataforma y el sistema IAM le asigna credenciales. Luego, el Subscription Context activa un plan de suscripción vinculado a su vivienda (NCasa), registrando la constancia del plan seleccionado.
-![alt text](img/scenario-2.png)
+![alt text](image-5.png)
 
 - **Scenario 3: Subscripción y Pago**
 
 El proveedor programa una suscripción en la aplicación, seleccionando un habitante. El Payment Context procesa el pago (por el sensor y el servicio mensual), confirmando la activación del plan y vinculándolo al Subscription Context.
-![alt text](img/scenario3.png)
+![alt text](image-6.png)
 
 - **Scenario 4: Proveedor actualiza la cantidad de sensores y tanques del habitante**
 
 El proveedor modifica la cantidad de tanques y sensores asociados al habitante. El sistema actualiza estos datos en cascada, reflejando los cambios en los registros y generando eventos para sincronizar la información en otros contextos, como análisis de seguridad o grupos de datos.
-![alt text](img/scenario-4.png)
-
+![alt text](image-7.png)
 
 #### 4.1.1.3 Bounded Context Canvases. 
 
@@ -1612,25 +1611,25 @@ El proveedor modifica la cantidad de tanques y sensores asociados al habitante. 
 
 Este canvas está diseñado para visualizar y analizar datos históricos y en tiempo real sobre el estado del agua, incluyendo nivel, calidad y consumo. Su propósito principal es facilitar la toma de decisiones mediante reportes semanales o mensuales, así como el monitoreo eficiente del servicio. La información se clasifica en roles de dominio como "analysis context", y se utilizan términos específicos como "Water Status" y "Water Quality" para estandarizar la comunicación. Las métricas de verificación incluyen el tiempo de generación de reportes y la precisión de los filtros aplicados. Entre las preguntas abiertas destacan la necesidad de definir el nivel de detalle esperado por los usuarios y si se debe permitir la exportación de reportes.
 
-![Bounded Context](./img/BD_Analytics.png)
+![alt text](image-8.png)
 
 - Bounded context Request Management
 
 Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
 
-![Bounded Context](./img/BC_Canvas_Managment.png)
+![alt text](image-9.png)
 
 - Bounded context User & Profile Management
 
 Este canvas administra el registro y autenticación de proveedores y habitantes, garantizando el acceso a la plataforma y la actualización de datos personales. Las reglas de negocio exigen que solo usuarios registrados interactúen con el sistema y que las credenciales se entreguen tras verificación. Términos como "Registered person" y "Updated context information" estandarizan la comunicación. Las métricas miden incidencias de acceso y tiempos de activación, mientras que las preguntas abiertas abordan conflictos potenciales, como la asignación errónea de sensores.
 
-![Bounded Context](img/user-and-profile-management.png)
+![alt text](image-10.png)
 
 Bounded context Subscription & Payment
 
 Este canvas gestiona la compra, registro y pago de sensores, así como suscripciones mensuales al servicio. Asegura que los sensores se vinculen correctamente a proveedores y que los pagos se registren antes de la activación. Las decisiones de negocio incluyen validar pagos y verificar disponibilidad de sensores, mientras que el lenguaje ubicuo define términos como "Active subscription" y "Payment period". Las métricas evalúan registros exitosos y tiempos de activación, y las preguntas abiertas exploran escenarios como fallos de pago o responsabilidades por sensores defectuosos.
 
-![Bounded Context](img/subscription-and-paymnet.png)
+![alt text](image-11.png)
 
 ### 4.1.2. Context Mapping.
 
