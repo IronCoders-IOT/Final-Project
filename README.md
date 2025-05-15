@@ -2784,6 +2784,18 @@ https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRd
 ![alt text](<./img/mockup11.png>)
 
 
+### 5.4.4 Applications User Flow Diagrams
+Esta sección presenta la propuesta de User Flows. Se considera un User Flow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los cuales se derivan.
+
+En este caso los user flow que definimos serian:
+
+
+
+## 5.5 Applications Prototyping.
+
+Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams. Esta sección inicia con una introducción en la que se explica los principales criterios para las decisiones de interacción.
+
+![img.png](img.png)
 
 # Bibliografía
 
