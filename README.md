@@ -2780,6 +2780,7 @@ Durante las primeras fases del desarrollo, se emplea **json-server en local** pa
 ## 6.2. Landing Page, Services & Applications Implementation
 
 ## 6.2.1. Sprint 1
+### 6.2.1.1. Planificación del Sprint 1
 ### 6.2.1.1. Sprint Planning 1
 
 
@@ -2797,7 +2798,6 @@ Durante las primeras fases del desarrollo, se emplea **json-server en local** pa
 |Sprint 1 Goal| gfg |
 |Sprint 1 Velocity|8|
 |Sum of Story Points|jnj|
-
 
 
 ### 6.2.1.2. Aspect Leaders and Collaborators
@@ -2827,7 +2827,7 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
 
 
-### 6.2.1.6. Execution Evidence for Sprint Review
+### 6.2.1.6. Execution Evidence for Sprint Review.
 
 ![alt text](image-2.png)
 
