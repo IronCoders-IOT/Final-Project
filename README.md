@@ -2727,7 +2727,7 @@ Para el formato de los commits se siguió la estructura de Conventional Commits 
 type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, docs, style, refactor, perf, test, etc. scope: Indica donde se realizó el commit (opcional). description: Menciona las actualizaciones del codigo.
 
 
-## 6.1.3. Source Code Style Guide & Conventions
+## 6.1.3. Guía de Estilo y Convenciones del Código Fuente
 
 Durante el desarrollo en HTML y CSS, se optó por seguir la **Guía de Estilo de Google para HTML/CSS**. Algunos principios clave incluyen:
 
@@ -2771,33 +2771,74 @@ Finalmente, para el lenguaje **Dart**, se siguen las normas de la **Effective Da
 - Es importante evitar líneas largas y mantener la consistencia en la sangría.
 
 
-## 6.1.4. Software Deployment Configuration
+## 6.1.4. Configuración para el Despliegue de Software
 
 Para el despliegue de la Landing Page y la Aplicación Web, se utiliza **GitHub Pages** y **Firebase Hosting** como servicios principales. 
 
 Durante las primeras fases del desarrollo, se emplea **json-server en local** para simular datos (mock) y validar funcionalidades. Esta configuración permite trabajar sin una base de datos real durante las pruebas iniciales. Una vez que se tenga una base de datos definitiva, esta configuración será reemplazada por una conexión real.
 
-## 6.2. Landing Page, Services & Applications Implementation
+## 6.2. Implementación de Landing Page, Servicios y Aplicaciones
 
 ## 6.2.1. Sprint 1
-### 6.2.1.1. Planificación del Sprint 1
-### 6.2.1.1. Sprint Planning 1
+### 6.2.1.1. Sprint Planning 1.
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-05-14</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>19:20 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>La reunión se realizó virtualmente vía Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Ramos Argüelles, Alexandra Belen</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Párraga Gamarra, Paolo Gonzalo / Aguilar Castillo, Rodrigo / Carmelino Dueñas, Michael Stefano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n Goal</td>
+            <td>
+              El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n Velocity</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>0 (En esta ocasión al estar en planificación se mantiene como 0)</td>
+        </tr>
+    </tbody>
+</table>
 
-
-
-|**Sprint #**|**Sprint 1**|
-| :-: | :-: |
-|Sprint Planning Background||
-|Date|2025-04-29|
-|Time|19:00 PM|
-|Location|Reunión vía Zoom|
-|Prepared By|Ramos Argüelles, Alexandra Belen |
-|Attendees (to planning meeting)|<p>- Aguilar Castillo, Rodrigo</p><p>- Carmelino Dueñas, Michael Stefano</p><p>- Cortez Quezada, Joaquin Antonio</p><p>- Párraga Gamarra, Paolo Gonzalo</p><p>- Periche Quiroga, Piero	</p><p>- Ramos Argüelles, Alexandra Belen</p>|
-|Sprint 0 – 1 Review Summary|No aplica|
-|Sprint 0 – 1 Retrospective Summary|No aplica|
-|Sprint 1 Goal| El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final. |
-|Sprint 1 Velocity|8|
-|Sum of Story Points|jnj|
 
 
 ### 6.2.1.2. Aspect Leaders and Collaborators
@@ -2814,8 +2855,23 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 | Ramos Argüelles, Alexandra Belén          | AleRamosA             | L          | C                        | C         | C              |
 
 ### 6.2.1.3. Sprint Backlog 1
+| Sprint #    | Sprint 1 |           |             |             |                     |             |                                          |
+|-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
+| User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
+| Id          | Title    | Id        | Title       | Description | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| HU13 | Presentación clara de beneficios de valor | T01 | Crear sección de beneficios | Como visitante quiero visualizar claramente los beneficios de la plataforma. | 6 | Rodrigo Aguilar | Done |
+| HU14 | Información sobre segmentación de perfiles de usuario | T02 | Crear sección de perfiles | Como usuario quiero identificar si la solución está dirigida a mi necesidad. | 5 | Paolo Párraga | Done |
+| HU15 | Comunicación del problema y la solución | T03 | Crear sección problema y solución | Como visitante interesado, quiero entender el contexto del problema y cómo la solución lo resuelve. | 4 | Michael Carmelino | Done |
+| HU16 | Comparación de planes y acciones de compra | T04 | Crear tabla de planes y precios | Como visitante interesado, quiero revisar los planes, precios y características para decidir si deseo solicitar un plan o contactar por asesoría. | 5 | Joaquín Cortez | Done |
+| HU17 | Envío efectivo de consultas por formulario | T05 | Implementar formulario de contacto | Usuario con preguntas o interés, quiero poder llenar y enviar un formulario de contacto para recibir asistencia. | 4 | Alexandra Ramos | Done |
+| HU01 | Ver nivel actual del agua de habitantes | T06 | Mostrar tabla de niveles de agua | Como habitante, quiero consultar la calidad actual del agua para determinar si es apta para consumo. | 6 | Rodrigo Aguilar | Done |
+| HU02 | Ver nivel actual del agua | T07 | Mostrar nivel de agua personal | Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento. | 5 | Paolo Párraga | Done |
+| HU03 | Ver calidad del agua | T08 | Reporte de calidad de agua | Como habitante, quiero consultar la calidad del agua actual para asegurarme que es potable. | 6 | Michael Carmelino | Done |
+| HU07 | Historial de alertas | T09 | Mostrar historial de alertas | Como usuario, quiero revisar un historial de alertas para tomar decisiones informadas. | 5 | Alexandra Ramos | Done |
+| HU11 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
 
-### 6.2.1.4. Development Evidence for Sprint Review
+
+### 6.2.1.4. Development Evidence for Sprint Review.
 
 | Repository                                            | Branch | Commit Id | Commit Message                                                                                             | Commit Message Body | Commited on (Date) |
 |:------------------------------------------------------|:-------|:----------|:-----------------------------------------------------------------------------------------------------------|:--------------------|:-------------------|
@@ -2823,11 +2879,12 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 
 
 
-### 6.2.1.5. Testing Suite Evidence for Sprint Review
+### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
 
 
 ### 6.2.1.6. Execution Evidence for Sprint Review.
+En nuestro video de exposición presentamos la demo completa de nuestra solución. Además, en la presentación en PowerPoint se incluyen capturas y vistas representativas de la interfaz web, mostrando así evidencia visual del desarrollo realizado.
 
 ![alt text](image-2.png)
 
@@ -2837,10 +2894,10 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 ![alt text](image-3.png)
 
 
-### 6.2.1.8. Software Deployment Evidence for Sprint Review
+### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 ![alt text](image-6.png)
 ![alt text](image-7.png)
-### 6.2.1.9. Team Collaboration Insights during Sprint
+### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
 
