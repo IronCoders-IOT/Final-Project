@@ -2784,13 +2784,25 @@ Durante las primeras fases del desarrollo, se emplea **json-server en local** pa
 
 
 
+### 6.2.1.2. Aspect Leaders and Collaborators
+
+La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada aspecto del sistema abordado en el sprint:
+
+| Team Member (Last Name, First Name)       | GitHub Username       | Management | Subscription & Payment | Analytics | User & Profile |
+|-------------------------------------------|------------------------|------------|--------------------------|-----------|----------------|
+| Aguilar Castillo, Rodrigo                 | RodrAg0lvr            | C          | L                        | C         | C              |
+| Carmelino Dueñas, Michael Stefano         | stxfxno               | C          | C                        | C         | C              |
+| Cortez Quezada, Joaquín Antonio           | Joaqqquin0            | C          | C                        | C         | L              |
+| Párraga Gamarra, Paolo Gonzalo            | PaoloPárragaGamarra   | C          | C                        | C         | C              |
+| Periche Quiroga, Piero                    | PieroPeriche          | C          | C                        | L         | C              |
+| Ramos Argüelles, Alexandra Belén          | AleRamosA             | L          | C                        | C         | C              |
 
 
 
+### 6.2.1.4. Development Evidence for Sprint Review.
 
-
-
-
+| Repository                                            | Branch | Commit Id | Commit Message                                                                                             | Commit Message Body | Commited on (Date) |
+|:------------------------------------------------------|:-------|:----------|:-----------------------------------------------------------------------------------------------------------|:--------------------|:-------------------|
 
 
 
