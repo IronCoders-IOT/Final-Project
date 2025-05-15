@@ -468,20 +468,7 @@ En esta sección creamos un Proto-Persona como una suposición de cómo son nues
 
 En esta sección se busca el lado más emocional y empatizar con el usuario para darles los outcomes correctos.
 
-**¿Qué busca lograr el usuario?**
-Asegurar el acceso a agua segura y confiable para su comunidad, y mejorar la eficiencia en la gestión del recurso hídrico.
-
-**¿Cómo se quiere sentir el usuario en este proceso?**
-Tranquilo, empoderado y respaldado por información clara que le permita tomar decisiones oportunas sin depender únicamente de inspecciones manuales.
-
-**¿Cómo nuestro producto acerca al usuario a un logro personal?**
-La solución IoT le proporciona datos en tiempo real sobre la calidad del agua, lo que le permite anticiparse a problemas y demostrar su capacidad de liderazgo en la comunidad.
-
-**¿Por qué nuestro usuario buscaría nuestro producto?**
-Porque necesita una herramienta que le facilite detectar a tiempo problemas de contaminación o fallas en la red de distribución, sin requerir grandes conocimientos técnicos ni inversiones costosas.
-
-**¿Qué cambio de comportamiento podemos observar que nos cuente que lograron su objetivo?**
-El usuario consulta la plataforma con frecuencia, responde más rápido a eventos anómalos, informa mejor a su comunidad y optimiza el uso de recursos en la gestión del agua.
+El usuario busca asegurar el acceso a agua segura y confiable para su comunidad, así como mejorar la eficiencia en la gestión del recurso hídrico. En este proceso, desea sentirse tranquilo, empoderado y respaldado por información clara que le permita tomar decisiones oportunas sin depender únicamente de inspecciones manuales. Nuestra solución IoT lo acerca a este logro personal al proporcionarle datos en tiempo real sobre la calidad del agua, permitiéndole anticiparse a posibles problemas y demostrando así su capacidad de liderazgo dentro de la comunidad. El usuario recurriría a nuestro producto porque necesita una herramienta accesible que le facilite detectar a tiempo contaminaciones o fallas en la red de distribución, sin requerir grandes conocimientos técnicos ni inversiones elevadas. Como resultado, observamos un cambio de comportamiento donde consulta la plataforma con mayor frecuencia, responde con rapidez ante eventos anómalos, informa de forma más precisa a su comunidad y optimiza los recursos en la gestión del agua, evidenciando que ha alcanzado su objetivo.
 
 Solutions
 A partir de los problemas detectados en las entrevistas y el contexto rural, proponemos las siguientes soluciones tecnológicas:
