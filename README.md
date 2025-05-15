@@ -1374,14 +1374,14 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
       <td>HU23</td>
       <td>Comunicación del problema y la solución</td>
       <td>Como visitante interesado, quiero entender el problema del acceso al agua y cómo Aqua Conecta lo resuelve, para evaluar su utilidad.</td>
-      <td>5</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>5</td>
       <td>HU24</td>
       <td>Comparación de planes y acciones de compra</td>
       <td>Como visitante interesado, quiero revisar los planes, precios y características, para decidir si solicitar un plan o contactar por asesoría.</td>
-      <td>5</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>6</td>
