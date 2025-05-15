@@ -2780,7 +2780,64 @@ Durante las primeras fases del desarrollo, se emplea **json-server en local** pa
 ## 6.2. Implementación de Landing Page, Servicios y Aplicaciones
 
 ## 6.2.1. Sprint 1
-### 6.2.1.1. Planificación del Sprint 1
+### 6.2.1.1. Sprint Planning 1.
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-05-14</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>19:20 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>La reunión se realizó virtualmente vía Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Ramos Argüelles, Alexandra Belen</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Párraga Gamarra, Paolo Gonzalo / Aguilar Castillo, Rodrigo / Carmelino Dueñas, Michael Stefano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n Goal</td>
+            <td>
+              El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n Velocity</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>0 (En esta ocasión al estar en planificación se mantiene como 0)</td>
+        </tr>
+    </tbody>
+</table>
 
 
 
@@ -2812,6 +2869,7 @@ En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramo
 
 
 ### 6.2.1.6. Execution Evidence for Sprint Review.
+En nuestro video de exposición presentamos la demo completa de nuestra solución. Además, en la presentación en PowerPoint se incluyen capturas y vistas representativas de la interfaz web, mostrando así evidencia visual del desarrollo realizado.
 
 ![alt text](image-2.png)
 
