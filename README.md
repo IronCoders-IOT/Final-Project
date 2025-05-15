@@ -2807,19 +2807,62 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 
 
 
+### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
 
 
+### 6.2.1.6. Execution Evidence for Sprint Review.
+
+![alt text](image-2.png)
+
+### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
+
+![alt text](image-3.png)
 
 
+### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
 
+### 6.2.1.9. Team Collaboration Insights during Sprint.
 
+Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
+
+Debido a restricciones de tiempo, el equipo optó por una organización estratégica, dividiéndose entre quienes trabajaron en la elaboración del informe y quienes continuaron con el desarrollo. Esta dinámica fue especialmente necesaria en esta primera entrega, que presenta una versión preliminar y aún no completamente funcional de la solución. Para futuras entregas, se buscará una mayor integración de todos los miembros del equipo en el proceso de desarrollo.
+![alt text](image-4.png)
+![alt text](image-5.png)
 
 ## Conclusiones
-**TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
+### Conclusiones – TB1
+
+Durante esta primera etapa se realizó una investigación contextual que permitió comprender el entorno y las condiciones en las que se desarrollará la solución. Esto facilitó una visión más precisa de los desafíos y oportunidades del proyecto.
+
+Se identificaron de manera clara las necesidades de los usuarios y del mercado objetivo, lo que sirvió como base para definir los alcances y objetivos principales de la solución propuesta.
+
+A partir de ese análisis, se formuló una propuesta de valor alineada con los problemas detectados, enfocada en brindar una solución práctica y efectiva.
+
+También se elaboró un diseño preliminar de la arquitectura del sistema, estableciendo una guía estructural que orientará el desarrollo técnico en las siguientes fases.
+
+El equipo logró consolidar una visión compartida del funcionamiento general de la aplicación, lo cual facilitará la toma de decisiones y el trabajo colaborativo.
+
+En conjunto, estas acciones sentaron las bases estratégicas para un desarrollo ordenado y coherente en las futuras entregas del proyecto.
+
+### Conclusiones – TP1
+
+En esta etapa se desarrolló el diseño y la implementación inicial tanto de la aplicación web como de la interfaz visual de la solución, permitiendo materializar los conceptos definidos previamente.
+
+El equipo logró traducir los requerimientos funcionales y técnicos en una estructura visual clara y coherente, sentando las bases del producto final.
+
+También se tomaron en cuenta las observaciones realizadas en la entrega anterior, lo que permitió corregir errores y mejorar varios aspectos del proyecto.
+
+Este proceso reflejó el compromiso del equipo con la mejora continua, aplicando ajustes necesarios y refinando elementos clave del sistema.
+
+Además, se fortaleció la colaboración entre los miembros del equipo, lo cual fue fundamental para cumplir los objetivos propuestos en esta fase.
+
+En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
+
 # Bibliografía
 
-``` 
 ## Referencias
 
 - Infobae. (2024, septiembre 8). *Alarma por la falta de acceso continuo a agua potable en Ica: solo el 13.3% de los hogares cuenta con el servicio las 24 horas*. Infobae. [https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/](https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/)
@@ -2838,8 +2881,10 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 
 - Infobae. (2024, mayo 9). *El 73.7% de peruanos no tiene acceso a agua de manera segura, según INEI*. Infobae. [https://www.infobae.com/peru/2024/05/09/el-737-de-peruanos-no-tiene-acceso-a-agua-de-manera-segura-segun-inei/](https://www.infobae.com/peru/2024/05/09/el-737-de-peruanos-no-tiene-acceso-a-agua-de-manera-segura-segun-inei/)
 
-```
 
 # Anexos
 - **Link del video de exposición TB1:**
   [Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
+
+- **Link del video de exposición TP1:**
+
