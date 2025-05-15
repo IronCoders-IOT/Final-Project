@@ -2711,10 +2711,6 @@ Interfaz de búsqueda: En el panel principal se presentan botones con acceso dir
 
 ### 5.2.5. Navigation Systems
 La navegación se basa en un sistema global donde, desde la pantalla de inicio, los usuarios pueden acceder directamente a cualquier sección mediante botones claramente etiquetados. Esta navegación plana y accesible garantiza una experiencia intuitiva, reduciendo la necesidad de múltiples clics o rutas complejas.
-## Conclusiones
-
-**TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
-
 
 ## 5.3 Landing Page UI Design 
 
@@ -2861,9 +2857,291 @@ Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con sim
 Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=OiU4jqy2vMCEVEam-0
 
 
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management.
+
+En los siguientes puntos, detallaremos las herramientas, convenciones, referencias y configuraciones empleadas a lo largo del desarrollo del proyecto, los cuales contribuyeron a mantener la base en el trabajo realizado.
+
+
+
+## 6.1.1. Software Development Environment Configuration.
+Figma: https://www.figma.com/
+
+Es una herramienta visual, donde diseñamos el prototipo de la pagina web. Se usó para crear los wireframes, mock-ups, asi como los desktop and mobile application del proyecto.
+
+LucidChart: https://lucid.app/
+
+Es una plataforma, la cual tiene opciones que nos ayudaron en la creación de diagramas, mapas y flujos usando plantillas y tableros. Fue usado para la creación del event storming
+
+PlantText: https://www.planttext.com/
+
+Es una plataforma que permite interpretar código uml y diagramarlo. Fue usado para la creación de los diagramas de clase.
+
+Software Development: Para el desarrollo de la landing page se utilizarón las tecnologías basicas del desarrollo web: HTML, CSS Y JS.
+
+Frontend Web Applications
+
+Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas librerias de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
+
+Software Deployment
+
+Netlify: https://www.netlify.com/
+
+Es una plataforma en la cual hospedamos la lading page del proyecto, se integra con repositorios en Git.
+
+Vercel: https://vercel.com/
+
+Es una plataforma en la cual hospedamos la aplicación web.
+
+Software Documentation
+
+Vertabelo: https://vertabelo.com/
+
+Es una herramienta online la cual ayuda en el desarrollo y creacion de base de datos. Se usó para la base de datos del proyecto.
+
+Structurizr: https://www.structurizr.com/
+
+Esta plataforma permite el modelado de diagramas de arquitectura de software. Se usó para la creación de los diagramas C4
+
+## 6.1.2. Source Code Management.
+
+Para la gestión y actualización del proyecto, se creó una organización via GitHub, en la cual se tuvo un control sobre los cambios a lo largo del ciclo de vida del proyect. Se organizo de la siguiente manera.
+
+Organization: https://github.com/IronCoders-IOT 
+Landing page repository: https://github.com/IronCoders-IOT/Landing-Page
+
+Report repository: https://github.com/IronCoders-IOT/Final-Project
+
+Web Application repository: https://aquaconecta-app.netlify.app/
+
+Para controlar de manera eficiente el flujo de trabajo se utilizó GitFlow, donde contamos con una rama principal main que es donde se encuentra la versión más estable y lista para pasar a producción del proyecto.
+
+Ramas auxiliares:
+
+
+feature: Son las ramas donde se desarrollan las funcionalidades del proyecto. Luego de completarlas, se fusionan con la rama develop.
+
+La nomenclatura para los features fueron las siguientes: feature/chapter-n. Por ejemplo, feature/chapter-6.
+
+Commit Conventions
+
+Para el formato de los commits se siguió la estructura de Conventional Commits 1.0.0, la cual tiene la siguiente estructura:
+
+< type > [optional scope]: < description > Donde:
+
+type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, docs, style, refactor, perf, test, etc. scope: Indica donde se realizó el commit (opcional). description: Menciona las actualizaciones del codigo.
+
+
+## 6.1.3. Guía de Estilo y Convenciones del Código Fuente
+
+Durante el desarrollo en HTML y CSS, se optó por seguir la **Guía de Estilo de Google para HTML/CSS**. Algunos principios clave incluyen:
+
+- Iniciar el documento con la declaración del tipo de documento y etiquetas meta adecuadas.
+- Incluir la etiqueta `<title>` dentro de la sección `<head>`.
+- Aplicar una **sangría de dos espacios** de manera consistente.
+- Usar **letras minúsculas** para elementos HTML, atributos, valores, propiedades y selectores CSS.
+- Encerrar los atributos HTML entre **comillas**.
+- Asegurarse de que todos los elementos tengan su **etiqueta de cierre correspondiente**.
+- Evitar líneas de código demasiado extensas.
+- Las imágenes deben tener definidos su `width`, `height` y un atributo `alt` descriptivo.
+
+Para JavaScript, se sigue la **guía de estilo de Google para C#**, que establece lo siguiente:
+
+- Todas las instrucciones deben finalizar con un **punto y coma (`;`)**.
+- Los nombres de variables y funciones deben escribirse en **UpperCamelCase**.
+- Los valores de tipo cadena deben colocarse entre **comillas simples**.
+
+En cuanto a las pruebas de aceptación escritas en **Gherkin**, se aplican las **convenciones para especificaciones legibles**, haciendo uso de palabras clave como `Dado`, `Cuando`, `Entonces` y `Y`, manteniendo sangría adecuada y comentarios bien organizados.
+
+Para el desarrollo en **C#**, se respetan las **convenciones de nomenclatura de Microsoft**, las cuales contemplan:
+
+- Reglas para nombrar carpetas, clases y métodos.
+- Organización del código con una sangría clara y consistente.
+- División de líneas largas para facilitar la lectura.
+- Coincidencia entre el nombre del archivo y la clase que contiene.
+- Uso de un **salto de línea** tras cada declaración.
+
+En **C++**, se adoptan las pautas de la **Google C++ Style Guide**, donde:
+
+- Se utiliza **CamelCase** para nombres de clases.
+- Se emplea **snake_case** para variables, funciones y archivos.
+- Se priorizan nombres descriptivos, evitando abreviaturas innecesarias.
+- La sangría debe ser consistente, comúnmente de dos espacios.
+
+Finalmente, para el lenguaje **Dart**, se siguen las normas de la **Effective Dart Style Guide**. Estas incluyen:
+
+- Uso de **lowerCamelCase** para variables, funciones y parámetros.
+- Uso de **UpperCamelCase** para clases, tipos y enumeraciones.
+- Los archivos deben nombrarse usando **snake_case**.
+- Es importante evitar líneas largas y mantener la consistencia en la sangría.
+
+
+## 6.1.4. Configuración para el Despliegue de Software
+
+Para el despliegue de la Landing Page y la Aplicación Web, se utiliza **GitHub Pages** y **Firebase Hosting** como servicios principales. 
+
+Durante las primeras fases del desarrollo, se emplea **json-server en local** para simular datos (mock) y validar funcionalidades. Esta configuración permite trabajar sin una base de datos real durante las pruebas iniciales. Una vez que se tenga una base de datos definitiva, esta configuración será reemplazada por una conexión real.
+
+## 6.2. Implementación de Landing Page, Servicios y Aplicaciones
+
+## 6.2.1. Sprint 1
+### 6.2.1.1. Sprint Planning 1.
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-05-14</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>19:20 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>La reunión se realizó virtualmente vía Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Ramos Argüelles, Alexandra Belen</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Párraga Gamarra, Paolo Gonzalo / Aguilar Castillo, Rodrigo / Carmelino Dueñas, Michael Stefano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n Goal</td>
+            <td>
+              El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n Velocity</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>0 (En esta ocasión al estar en planificación se mantiene como 0)</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+### 6.2.1.2. Aspect Leaders and Collaborators
+
+La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada aspecto del sistema abordado en el sprint:
+
+| Team Member (Last Name, First Name)       | GitHub Username       | Management | Subscription & Payment | Analytics | User & Profile |
+|-------------------------------------------|------------------------|------------|--------------------------|-----------|----------------|
+| Aguilar Castillo, Rodrigo                 | RodrAg0lvr            | C          | L                        | C         | C              |
+| Carmelino Dueñas, Michael Stefano         | stxfxno               | C          | C                        | C         | C              |
+| Cortez Quezada, Joaquín Antonio           | Joaqqquin0            | C          | C                        | C         | L              |
+| Párraga Gamarra, Paolo Gonzalo            | PaoloPárragaGamarra   | C          | C                        | C         | C              |
+| Periche Quiroga, Piero                    | PieroPeriche          | C          | C                        | L         | C              |
+| Ramos Argüelles, Alexandra Belén          | AleRamosA             | L          | C                        | C         | C              |
+
+### 6.2.1.3. Sprint Backlog 1
+| Sprint #    | Sprint 1 |           |             |             |                     |             |                                          |
+|-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
+| User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
+| Id          | Title    | Id        | Title       | Description | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| HU13 | Presentación clara de beneficios de valor | T01 | Crear sección de beneficios | Como visitante quiero visualizar claramente los beneficios de la plataforma. | 6 | Rodrigo Aguilar | Done |
+| HU14 | Información sobre segmentación de perfiles de usuario | T02 | Crear sección de perfiles | Como usuario quiero identificar si la solución está dirigida a mi necesidad. | 5 | Paolo Párraga | Done |
+| HU15 | Comunicación del problema y la solución | T03 | Crear sección problema y solución | Como visitante interesado, quiero entender el contexto del problema y cómo la solución lo resuelve. | 4 | Michael Carmelino | Done |
+| HU16 | Comparación de planes y acciones de compra | T04 | Crear tabla de planes y precios | Como visitante interesado, quiero revisar los planes, precios y características para decidir si deseo solicitar un plan o contactar por asesoría. | 5 | Joaquín Cortez | Done |
+| HU17 | Envío efectivo de consultas por formulario | T05 | Implementar formulario de contacto | Usuario con preguntas o interés, quiero poder llenar y enviar un formulario de contacto para recibir asistencia. | 4 | Alexandra Ramos | Done |
+| HU01 | Ver nivel actual del agua de habitantes | T06 | Mostrar tabla de niveles de agua | Como habitante, quiero consultar la calidad actual del agua para determinar si es apta para consumo. | 6 | Rodrigo Aguilar | Done |
+| HU02 | Ver nivel actual del agua | T07 | Mostrar nivel de agua personal | Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento. | 5 | Paolo Párraga | Done |
+| HU03 | Ver calidad del agua | T08 | Reporte de calidad de agua | Como habitante, quiero consultar la calidad del agua actual para asegurarme que es potable. | 6 | Michael Carmelino | Done |
+| HU07 | Historial de alertas | T09 | Mostrar historial de alertas | Como usuario, quiero revisar un historial de alertas para tomar decisiones informadas. | 5 | Alexandra Ramos | Done |
+| HU11 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
+
+
+### 6.2.1.4. Development Evidence for Sprint Review.
+
+| Repository                                            | Branch | Commit Id | Commit Message                                                                                             | Commit Message Body | Commited on (Date) |
+|:------------------------------------------------------|:-------|:----------|:-----------------------------------------------------------------------------------------------------------|:--------------------|:-------------------|
+
+
+
+
+### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
+
+
+### 6.2.1.6. Execution Evidence for Sprint Review.
+En nuestro video de exposición presentamos la demo completa de nuestra solución. Además, en la presentación en PowerPoint se incluyen capturas y vistas representativas de la interfaz web, mostrando así evidencia visual del desarrollo realizado.
+
+![alt text](image-2.png)
+
+### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
+
+![alt text](image-3.png)
+
+
+### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+![alt text](image-6.png)
+![alt text](image-7.png)
+### 6.2.1.9. Team Collaboration Insights during Sprint.
+
+Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
+
+Debido a restricciones de tiempo, el equipo optó por una organización estratégica, dividiéndose entre quienes trabajaron en la elaboración del informe y quienes continuaron con el desarrollo. Esta dinámica fue especialmente necesaria en esta primera entrega, que presenta una versión preliminar y aún no completamente funcional de la solución. Para futuras entregas, se buscará una mayor integración de todos los miembros del equipo en el proceso de desarrollo.
+![alt text](image-8.png)
+![alt text](image-5.png)
+
+## Conclusiones
+### Conclusiones – TB1
+
+Durante esta primera etapa se realizó una investigación contextual que permitió comprender el entorno y las condiciones en las que se desarrollará la solución. Esto facilitó una visión más precisa de los desafíos y oportunidades del proyecto.
+
+Se identificaron de manera clara las necesidades de los usuarios y del mercado objetivo, lo que sirvió como base para definir los alcances y objetivos principales de la solución propuesta.
+
+A partir de ese análisis, se formuló una propuesta de valor alineada con los problemas detectados, enfocada en brindar una solución práctica y efectiva.
+
+También se elaboró un diseño preliminar de la arquitectura del sistema, estableciendo una guía estructural que orientará el desarrollo técnico en las siguientes fases.
+
+El equipo logró consolidar una visión compartida del funcionamiento general de la aplicación, lo cual facilitará la toma de decisiones y el trabajo colaborativo.
+
+En conjunto, estas acciones sentaron las bases estratégicas para un desarrollo ordenado y coherente en las futuras entregas del proyecto.
+
+### Conclusiones – TP1
+
+En esta etapa se desarrolló el diseño y la implementación inicial tanto de la aplicación web como de la interfaz visual de la solución, permitiendo materializar los conceptos definidos previamente.
+
+El equipo logró traducir los requerimientos funcionales y técnicos en una estructura visual clara y coherente, sentando las bases del producto final.
+
+También se tomaron en cuenta las observaciones realizadas en la entrega anterior, lo que permitió corregir errores y mejorar varios aspectos del proyecto.
+
+Este proceso reflejó el compromiso del equipo con la mejora continua, aplicando ajustes necesarios y refinando elementos clave del sistema.
+
+Además, se fortaleció la colaboración entre los miembros del equipo, lo cual fue fundamental para cumplir los objetivos propuestos en esta fase.
+
+En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
+
 # Bibliografía
 
-``` 
 ## Referencias
 
 - Infobae. (2024, septiembre 8). *Alarma por la falta de acceso continuo a agua potable en Ica: solo el 13.3% de los hogares cuenta con el servicio las 24 horas*. Infobae. [https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/](https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/)
@@ -2882,8 +3160,10 @@ Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?nod
 
 - Infobae. (2024, mayo 9). *El 73.7% de peruanos no tiene acceso a agua de manera segura, según INEI*. Infobae. [https://www.infobae.com/peru/2024/05/09/el-737-de-peruanos-no-tiene-acceso-a-agua-de-manera-segura-segun-inei/](https://www.infobae.com/peru/2024/05/09/el-737-de-peruanos-no-tiene-acceso-a-agua-de-manera-segura-segun-inei/)
 
-```
 
 # Anexos
 - **Link del video de exposición TB1:**
   [Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
+
+- **Link del video de exposición TP1:**
+
