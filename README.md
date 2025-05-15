@@ -2747,12 +2747,10 @@ La navegación se basa en un sistema global donde, desde la pantalla de inicio, 
 ## 5.4 Applications UX/UI Design.
 
 ### 5.4.1 Applications Wireframes
-
-### 5.4.2 Applications Wireflow Diagrams
-
 En esta sección, se presentan los wireflows de la aplicación guiándose de las historias de usuario en la herramienta Figma.
 
-https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=oNqnCn1nSnMRTtk4-0
+https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRdexuYpspb54rXk-0
+
 
 ![alt text](<./img/iniciowirefram.png>)
 
@@ -2767,6 +2765,25 @@ https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=
 ![alt text](<./img/reportdetailwire.png>)
 ![alt text](<./img/listreportwire.png>)
 ![alt text](<./img/pagowire.png>)
+
+
+### 5.4.2 Applications Wireflow Diagrams
+
+### 5.4.3 Applications Mockups
+
+![alt text](<./img/mockup1.png>)
+![alt text](<./img/mockup2.png>)
+![alt text](<./img/mockup3.png>)
+![alt text](<./img/mockup4.png>)
+![alt text](<./img/mockup5.png>)
+![alt text](<./img/mockup6.png>)
+![alt text](<./img/mockup7.png>)
+![alt text](<./img/mockup8.png>)
+![alt text](<./img/mockup9.png>)
+![alt text](<./img/mockup10.png>)
+![alt text](<./img/mockup11.png>)
+
+
 
 # Bibliografía
 
