@@ -2732,7 +2732,44 @@ La navegación se basa en un sistema global donde, desde la pantalla de inicio, 
 ## Conclusiones
 
 **TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
+
+
+## 5.3 Landing Page UI Design 
+
+### 5.3.1 Landing Page Wireframe
+
+### 5.3.2 Landing Page Mock Up
+
+![alt text](<./img/landing1.png>)
+![alt text](<./img/landing2.png>)
+![alt text](<./img/landing2.png>)
+
+## 5.4 Applications UX/UI Design.
+
+### 5.4.1 Applications Wireframes
+
+### 5.4.2 Applications Wireflow Diagrams
+
+En esta sección, se presentan los wireflows de la aplicación guiándose de las historias de usuario en la herramienta Figma.
+
+https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=oNqnCn1nSnMRTtk4-0
+
+![alt text](<./img/iniciowirefram.png>)
+
+![alt text](<./img/supplywire.png>)
+![alt text](<./img/schedulewire.png>)
+![alt text](<./img/providerswire.png>)
+![alt text](<./img/nosewire.png>)
+![alt text](<./img/profilewire.png>)
+![alt text](<./img/residentswire.png>)
+![alt text](<./img/sensorwire.png>)
+![alt text](<./img/newresidentwire.png>)
+![alt text](<./img/reportdetailwire.png>)
+![alt text](<./img/listreportwire.png>)
+![alt text](<./img/pagowire.png>)
+
 # Bibliografía
+
 
 ``` 
 ## Referencias
