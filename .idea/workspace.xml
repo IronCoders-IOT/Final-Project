@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98c476c-cbec-493b-8910-9429c44fa286" name="Changes" comment="feat: added tables events and sensor">
-      <change afterPath="$PROJECT_DIR$/img/colores.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a98c476c-cbec-493b-8910-9429c44fa286" name="Changes" comment="feat: add chapter 5">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
       <workItem from="1745564613422" duration="67000" />
       <workItem from="1745564688843" duration="3630000" />
       <workItem from="1745599053131" duration="1587000" />
-      <workItem from="1747279054603" duration="6152000" />
+      <workItem from="1747279054603" duration="6489000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added bounded context management">
       <option name="closed" value="true" />
@@ -110,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745567256475</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add chapter 5">
+      <option name="closed" value="true" />
+      <created>1747291131582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747291131582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: added bounded context management" />
     <MESSAGE value="feat: added tables events and sensor" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added tables events and sensor" />
+    <MESSAGE value="feat: add chapter 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add chapter 5" />
   </component>
 </project>

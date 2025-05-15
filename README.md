@@ -2677,6 +2677,19 @@ Text Styles: (H1, H2, p, a,) Nuestros estilos de texto van a depender del color 
 Button Style: Los botones de la interfaz tienen un diseño rectangular con bordes redondeados de 4px y utilizan una paleta de tres colores: #6A9CDE como color principal (el más utilizado), #003785 como color secundario para estados alternativos o jerarquías menores, y #DBEFFE como color de fondo claro para estados suaves o desactivados. Actualmente, los botones no siguen de forma consistente esta guía de estilos, como se observa en la imagen, donde hay variaciones en el color, forma y jerarquía visual.
 ![alt text](<./img/button.png>)
 
+Icons: (Fondo blanco con los iconos que vamos a usar)
+
+Los iconos que estaremos usando seran de las redes sociales en el caso de la landing page junto a otros relacionados a los beneficios. Seguidamente, se estaran utilizando menos iconos en la web aplication siendo los mas prominentes la lupa, icono de residente y proveedores
+<br>
+![alt text](<./img/search.png>)
+
+
+Misc (Cosas como nav var o slideshows que pensemos usar)
+
+Estaremos usando nav vars, tablas y dashboards para poner informacion de sensores, reportes y el historial.
+
+![alt text](<./img/navbar.png>)
+
 ## Conclusiones
 
 **TB1:**  En esta primera etapa (TB1), se llevaron a cabo procesos fundamentales previos al desarrollo del software, incluyendo la investigación de contexto, la identificación de necesidades y la definición de la solución propuesta. Además, se elaboró el diseño preliminar de la arquitectura del sistema y se consolidó una visión sólida sobre el funcionamiento general de la aplicación.
