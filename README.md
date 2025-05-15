@@ -1142,7 +1142,7 @@ En el siguiente Empathy Map observamos la perspectiva de Gabriel Gonzales, encar
 
 ### 2.3.5. As-is Scenario Mapping
 
-
+Aquí tenemos el As-Is Scenario para el segmento de habitantes, que contiene un proceso donde los pedidos se realizan por llamadas o mensajes sin confirmación inmediata, las entregas se coordinan verbalmente sin horarios fijos, los pagos son en efectivo sin comprobantes, no se verifica la calidad del agua y no existe un sistema formal de seguimiento o quejas.
 ### Segmento 1: Habitantes
 **Enlace para visualizar el As-is Scenario Map de Proveedores realizado en Miro:** 
 [https://miro.com/app/board/uXjVMhdPpY8=/?share_link_id=712775907835](https://miro.com/app/board/uXjVMhdPpY8=/?share_link_id=712775907835)
@@ -1165,6 +1165,8 @@ En el siguiente Empathy Map observamos la perspectiva de Gabriel Gonzales, encar
 
 **Blank Areas:**
 * Podría ser útil explorar cómo es el flujo de la comunicación al solicitar agua.
+
+Tenemos el As-Is Scenario para el segmento de proveedores, que contiene una operación desorganizada donde la gestión de pedidos se hace en libretas o por mensajes, las rutas se planifican manualmente, los cobros son en efectivo sin registros digitales, no hay control de inventario ni historial de entregas, y no pueden demostrar la calidad del agua que distribuyen.
 
 ### Segmento 2: Proveedores
 **Enlace para visualizar el As-is Scenario Map de Proveedores realizado en Miro:** 
