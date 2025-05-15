@@ -856,6 +856,8 @@ Nombre: Rodrigo Noreña Nuñez
 <br>
 - Timing: 0:00
 <br>
+- Marca: Techo
+<br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/domestico/interview-domestico1.png" 
        alt="Entrevista 1 Segmento habitantes" 
@@ -879,6 +881,8 @@ Nombre: Jorge Medina Flores
 <br>
 - Timing: 2:48
 <br>
+- Marca: Techo
+<br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/domestico/interview-domestico-3.jpg" 
        alt="Entrevista 2 Segmento habitantes" 
@@ -899,6 +903,8 @@ Nombre: Sergio Aguirre
 - Distrito: Pueblo Libre
 <br>
 - Timing: 7:10
+<br>
+- Marca: Techo
 <br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/domestico/interview-domestico2.png" alt="Entrevista 3 Segmento habitantes" width="500"/>
@@ -922,6 +928,8 @@ Nombre: Fabian Reyes Trujillano
 - Distrito: SMP
 <br>
 - Timing: 7:10
+<br>
+- Marca: Sunass
 <br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/proveedor/entrevista-fabian-reyes.png" 
@@ -947,6 +955,8 @@ Nombre: Tracy Cordova
 <br>
 - Timing: 10:35
 <br>
+- Marca: Sunass
+<br>
 <div style="text-align: center;">
     
 ![image](https://github.com/user-attachments/assets/0d69bec6-92cc-4777-8801-7e17d4432b3e)
@@ -969,6 +979,8 @@ Nombre: Kamila Panduro
 - Distrito: Santiago de Surco
 <br>
 - Timing: 13:53
+<br>
+- Marca: Sunass
 <br>
 <div style="text-align: center;">
     
@@ -1024,6 +1036,15 @@ Indicó que utilizan principalmente hojas de cálculo y registros físicos, y en
 - Interés por optimizar procesos de medición y respuesta a través de tecnologías IoT.
 - Valoración de herramientas que mejoren la eficiencia y reduzcan costos operativos.
 
+### Datos Estadisticos
+
+![Es1](./img/Comparacion_Edad_Promedio.png)
+
+![Es2](./img/Ubicaciones_por_Segmento.png)
+
+Los gráficos presentan datos relevantes sobre segmentos demográficos y su distribución geográfica. En la Comparación de Edad Promedio por Segmento, se observa que la edad promedio varía significativamente entre los segmentos analizados (habitantes y proveedores), con un rango de 0 a 25 años. Esto sugiere diferencias generacionales marcadas, donde un grupo podría ser notablemente más joven que el otro, lo que podría influir en patrones de consumo, necesidades de servicios o dinámicas laborales. Sin embargo, la falta de valores exactos limita una interpretación más precisa.
+
+Por otro lado, el gráfico Ubicaciones por Segmento revela la distribución geográfica de habitantes y proveedores en localidades como Chincha Alta, Ica, Pueblo Libre y SMP. Las cantidades, representadas en una escala de 0.0 a 0.8, indican variaciones en la concentración de estos segmentos según la zona.
 
 ## 2.3. Needfinding
 
@@ -1193,24 +1214,25 @@ En el siguiente Empathy Map observamos la perspectiva de Gabriel Gonzales, encar
 
 
 ## 2.4. Ubiquitous Languange
-| **Término**                           | **Definición** |
+| **Term**                             | **Definition** |
 |--------------------------------------|----------------|
-| **Habitante**                        | Usuario final que consume agua en su hogar y utiliza la plataforma para informarse sobre la calidad, nivel y alertas del servicio. |
-| **Proveedor de Agua**                | Entidad responsable del monitoreo, gestión y distribución del agua en una comunidad o localidad. |
-| **Sensor IoT**                       | Dispositivo instalado en puntos estratégicos que mide parámetros como nivel, calidad o presión del agua en tiempo real. |
-| **Calidad del Agua**                 | Valor que indica si el agua es apta para el consumo, basado en parámetros químicos, físicos y biológicos. |
-| **Nivel del Agua**                   | Altura del agua almacenada o distribuida, medida por sensores para prever escasez o exceso. |
-| **Alerta**                           | Notificación automática enviada a usuarios cuando se detecta un nivel bajo o agua no apta para consumo. |
-| **Historial de Consumo y Calidad**   | Registro de los niveles y calidad del agua a lo largo del tiempo, útil para análisis y seguimiento. |
-| **Reporte**                          | Documento generado automáticamente con datos históricos, alertas, consumos y condiciones del agua. |
-| **Panel de Control (Dashboard)**     | Vista personalizada (para habitantes o proveedores) que muestra datos relevantes, gráficas y alertas. |
-| **Distribución del Agua**            | Proceso logístico y técnico mediante el cual el agua es repartida desde su fuente hasta los hogares. |
-| **Impacto en la Distribución**       | Medición del efecto de las condiciones del sistema (fugas, presión, consumo alto) en la eficiencia del reparto. |
-| **Plataforma Web/App Móvil**        | Interfaz digital accesible desde computadora o smartphone, donde usuarios visualizan y gestionan información relacionada al servicio de agua. |
-| **Gestión de Sensores**              | Funcionalidad que permite a los proveedores configurar, monitorear o solucionar problemas con sensores IoT instalados. |
-| **Visualización en Tiempo Real**     | Representación dinámica y continua de datos actuales sobre el sistema de agua. |
-| **Usuarios Registrados**             | Personas con acceso autenticado a la plataforma, que pueden ser habitantes o proveedores, con funcionalidades diferenciadas. |
-| **Zona de Cobertura**                | Área geográfica donde AquaConecta presta servicios y donde están ubicados los sensores. |
+| **Resident**                       | End user who consumes water at home and uses the platform to stay informed about service quality, water level, and alerts. |
+| **Provider**                   | Entity responsible for monitoring, managing, and distributing water in a community or locality. |
+| **IoT Sensor**                       | Device installed at strategic points that measures parameters such as water level, quality, or pressure in real time. |
+| **Water Quality**                    | Value indicating whether the water is safe for consumption, based on chemical, physical, and biological parameters. |
+| **Water Level**                      | Height of stored or distributed water, measured by sensors to anticipate shortages or overflows. |
+| **Alert**                            | Automatic notification sent to users when a low level or unsafe water is detected. |
+| **Consumption and Quality History**  | Record of water levels and quality over time, useful for analysis and monitoring. |
+| **Report**                           | Automatically generated document with historical data, alerts, consumption, and water conditions. |
+| **Dashboard**                        | Customized view (for inhabitants or providers) displaying relevant data, graphs, and alerts. |
+| **Water Distribution**               | Logistical and technical process through which water is delivered from its source to households. |
+| **Distribution Impact**             | Measurement of how system conditions (leaks, pressure, high consumption) affect distribution efficiency. |
+| **Web Platform/Mobile App**          | Digital interface accessible via computer or smartphone where users view and manage water service information. |
+| **Sensor Management**                | Functionality that allows providers to configure, monitor, or troubleshoot installed IoT sensors. |
+| **Real-Time Visualization**          | Dynamic and continuous display of current data about the water system. |
+| **Registered Users**                 | People with authenticated access to the platform, either inhabitants or providers, with differentiated functionalities. |
+| **Coverage Area**                    | Geographic area where AquaConecta provides services and where sensors are located. |
+
 
 # Capítulo III: Introducción
 
