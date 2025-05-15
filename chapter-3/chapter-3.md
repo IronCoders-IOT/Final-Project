@@ -2,7 +2,9 @@
 
 ## 3.1. To-Be Scenario Mapping
 
-En To-Be se usaran los mismos escenarios, pero aplicando la solución que ofrecemos como equipo  
+En esta sección se describe cómo serían los escenarios ideales (To-Be) una vez implementada la solución propuesta por nuestro equipo. A partir de los mismos escenarios utilizados en el análisis As-Is, se plantea una visión futura optimizada, en la que los problemas identificados han sido resueltos o mitigados gracias a nuestra intervención.
+
+Cada mapeo To-Be representa la experiencia del usuario mejorada, los escenarios están divididos por segmentos para mantener un enfoque claro y específico.
 
 ### Segmento 1: Habitantes 
 
@@ -106,6 +108,8 @@ En el caso del proveedor, el Impact Mapping se enfocó en facilitar la gestión 
 
 El Product Backlog es una lista priorizada de tareas, funcionalidades y requisitos necesarios para el desarrollo del proyecto, asegurando que se trabaje en los elementos más importantes y alineados con los objetivos del proyecto. Cada ítem del backlog incluye una descripción, prioridad y título.
 
+Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b57c2bf31dfa3af03aE721DBE0/aquaconecta-product-backlog
+
 <table>
   <thead>
     <tr>
@@ -143,14 +147,14 @@ El Product Backlog es una lista priorizada de tareas, funcionalidades y requisit
       <td>HU23</td>
       <td>Comunicación del problema y la solución</td>
       <td>Como visitante interesado, quiero entender el problema del acceso al agua y cómo Aqua Conecta lo resuelve, para evaluar su utilidad.</td>
-      <td>5</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>5</td>
       <td>HU24</td>
       <td>Comparación de planes y acciones de compra</td>
       <td>Como visitante interesado, quiero revisar los planes, precios y características, para decidir si solicitar un plan o contactar por asesoría.</td>
-      <td>5</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>6</td>
