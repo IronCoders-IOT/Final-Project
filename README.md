@@ -1106,7 +1106,7 @@ En este User Journey Map se muestra la experiencia actual del habitante responsa
 
 **Enlace para visualizar el User Journey Map de Habitantes realizado en UXPressia:** [https://uxpressia.com/w/mDdvz/m/Q2oFD](https://uxpressia.com/w/mDdvz/m/Q2oFD)
 
-<img src="./assets/user-journey-mapping/segmento-domestico.png"/>
+![segmento-habitante](segmento-habitante.png)
 
 
 ### Segmento 2: Proveedores
@@ -1117,8 +1117,8 @@ En este User Journey Map decribimos el recorrido actual del proveedor responsabl
 
 [https://uxpressia.com/w/mDdvz/m/wtXHH](https://uxpressia.com/w/mDdvz/m/wtXHH)
 
+![segemnto-proveedores](<Gabriel Gonzales (5).png>)
 
-<img src="./assets/user-journey-mapping/segmento-negocio.png"/>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1541,7 +1541,7 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](./img/candidate-context-discoveryV2.png)
+![EventStorming](image-2.png)
 
 * Management
 
