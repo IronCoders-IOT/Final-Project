@@ -98,19 +98,19 @@ Repositorios:
 Proyecto: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
 
 
-### TB1
+### TP1
 
-Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+Para la entrega del TP1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
-Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe.
+Se muestran evidencias de los commits realizados en la entrega de la TP1 en el informe.
 
 
 [Colaboraciones del repositorio]
-![alt text](image-1.png)
+![alt text](image-21.png)
 
 [Registro de los commits donde se realizaron la mayor cantidad]
-![alt text](image.png)
 
+![alt text](image-22.png)
 En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
 
 ---
