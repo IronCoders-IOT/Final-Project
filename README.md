@@ -1269,44 +1269,33 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 
 |**Epic / Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
 | - | - | - | - | - |
-|**EP01**|**Monitoreo del Agua en Tiempo Real**|**Como** usuario, <br>**Quiero** visualizar en tiempo real el estado del agua (nivel y calidad) y acceder a su historial <br>**Para** tomar decisiones informadas sobre la gestión y consumo.|<p>**Escenario 1: El sistema debe mostrar datos actualizados cada minuto.**<br>**Dado** que el usuario accede al panel de monitoreo<br>**Cuando** transcurre un minuto desde la última actualización<br>**Entonces** visualiza los datos de nivel y calidad del agua actualizados automáticamente.</p><p>**Escenario 2: Visualización clara de datos actuales e históricos.**<br>**Dado** que el usuario visualiza el estado del agua<br>**Cuando** consulta los datos actuales o selecciona un rango de fechas<br>**Entonces** visualiza la información en formato comprensible y organizado para facilitar su análisis.</p><p>**Escenario 3: Gráficos e indicadores disponibles.**<br>**Dado** que el usuario accede a la sección de monitoreo o historial<br>**Cuando** selecciona una opción como nivel o calidad del agua<br>**Entonces** visualiza gráficos e indicadores que reflejan los datos en tiempo real o por periodo.</p>||
-|**HU01**|Ver nivel actual del agua|**Como** usuario,<br>**Quiero** visualizar el nivel actual del agua <br>**Para** conocer su disponibilidad.|**Escenario 1: Mostrar nivel de agua al acceder al panel<br>Dado** que el usuario accede al panel principal <br>**Cuando** se cargan los datos del nivel <br>**Entonces** observa el valor actualizado.|**EP01**|
-|**HU02**|Ver calidad del agua|**Como** usuario, <br>**Quiero** consultar la calidad actual del agua <br>**Para** determinar si es apta para consumo.|**Escenario 1: Mostrar calidad del agua según indicadores<br>Dado** que el usuario visualiza los indicadores<br>**Cuando** revisa el parámetro de calidad del agua<br>**Entonces** visualiza si es apta o no.|**EP01**|
-|**HU03**|Actualización automática|**Como** usuario,<br>**Quiero** que los datos del agua se actualicen automáticamente<br>**Para** visualizarlos sin la necesidad de recargar la página.|**Escenario 1: Actualización automática de datos cada minuto<br>Dado** que el usuario está en el panel<br>**Cuando** espera un minuto   **Entonces** observa que los datos se actualizan automáticamente.|**EP01**|
-|**HU04**|Consultar historial|**Como** usuario,<br>**Quiero** consultar el historial de datos por fechas<br>**Para** analizar el comportamiento del agua en distintos periodos.|**Escenario 1: Consultar historial de datos<br>Dado** que el usuario elige un rango de fechas<br>**Cuando** da clic en consultar<br>**Entonces** visualiza los datos históricos y gráficos.|**EP01**|
-|**HU05**|Exportar historial|**Como** usuario, <br>**Quiero** descargar los datos históricos en Excel o CSV **Para** analizar los datos dados.|**Escenario 1: Exportar historial en archivo descargable<br>Dado** que el usuario selecciona un rango<br>**Cuando** hace clic en exportar<br>**Entonces** puede descargar el archivo con los datos.|**EP01**|
-|**EP02**|**Alertas y Notificaciones Inteligentes**|**Como** usuario,<br>**Quiero** recibir alertas cuando el agua esté en niveles críticos o no sea apta para consumo<br>**Para** responder oportunamente ante situaciones que afecten el servicio.|<p>**Escenario 1:** Alertas configurables y en tiempo real.<br>**Dado** que el usuario ha configurado el tipo de alertas que desea recibir<br>**Cuando** se detecta una condición crítica según los parámetros definidos<br>**Entonces** el sistema genera y envía la alerta correspondiente de forma inmediata.</p><p>**Escenario 2:** Envío por push, SMS o correo.<br>**Dado** que el usuario ha seleccionado su medio de notificación preferido<br>**Cuando** se activa una alerta por un evento crítico<br>**Entonces** el sistema envía la notificación al canal configurado.</p><p>**Escenario 3:** Visualización personalizada según usuario.<br>**Dado** que el usuario accede al módulo de alertas<br>**Cuando** se muestran las notificaciones recientes<br>**Entonces** el sistema presenta únicamente las alertas asociadas a su zona o sensores configurados</p>||
-|**HU06**|Configurar tipo de alertas|**Como** usuario, <br>**Quiero** configurar qué tipo de alertas desea recibir<br>**Para** estar adecuadamente informado.|**Escenario 1: Configurar tipos de alerta preferidos<br>Dado** que el usuario ingresa a preferencias<br>**Cuando** selecciona tipos de alerta<br>**Entonces** el sistema guarda la configuración.|**EP02**|
-|**HU07**|Elegir medio de notificación|**Como** usuario, <br>**Quiero** elegir si deseo recibir alertas por correo, SMS o push<br>**Para** estar informado.|**Escenario 1: Guardar medio de notificación preferido<br>Dado** que el usuario selecciona un canal<br>**Cuando** lo guarda<br>**Entonces** va a recibir alertas por ese medio.|**EP02**|
-|**HU08**|Recibir alerta por nivel bajo|**Como** usuario, <br>**Quiero** recibir alertas si el nivel de agua es bajo<br>**Para** comunicar de manera anticipada la necesidad de agua.|**Escenario 1: Enviar alerta cuando el nivel del agua es bajo<br>Dado** que el usuario desea saber sobre el nivel es crítico del agua<br>**Cuando** activa la condición<br>**Entonces** el sistema envía una alerta.|**EP02**|
-|**HU09**|Historial de alertas|**Como** usuario, <br>**Quiero** revisar un historial de alertas<br>**Para** conocer eventos pasados y tomar decisiones informadas sobre el sistema.|**Escenario 1: Consultar historial de alertas<br>Dado** que el usuario accede al módulo de alertas<br>**Cuando** visualiza la lista<br>**Entonces** ve las alertas anteriores.|**EP02**|
-|**HU10**|Desactivar alertas temporalmente|**Como** usuario, <br>**Quiero** desactivar temporalmente el envío de alertas<br>**Para** evitar interrupciones o notificaciones durante periodos de mantenimiento o baja actividad.|**Escenario 1: Desactivar temporalmente las alertas<br>Dado** que el usuario ingresa a configuración<br>**Cuando**  desactiva alertas<br>**Entonces** el sistema deja de enviarlas temporalmente.|**EP02**|
-|**EP03**|**Gestión de Sensores y Sistema**|**Como** proveedor, <br>**Quiero** gestionar sensores IoT y monitorear su estado<br>**Para** supervisar su estado y garantizar una distribución eficiente del agua.|<p>**Escenario 1:** Gestión completa de sensores (alta, edición, baja).<br>**Dado** que el proveedor accede al módulo de gestión de sensores<br>**Cuando** registra, edita o desactiva un sensor directamente desde su panel<br>**Entonces**  el sistema actualiza la información en tiempo real<br>**Y** refleja los cambios en el dashboard de monitoreo.</p><p>**Escenario 2:**  Estado online/offline visible.<br>**Dado** que el proveedor visualiza el listado de sensores<br>**Cuando** el sistema carga los datos<br>**Entonces** cada sensor muestra su estado (online/offline) y la última fecha de actividad registrada.</p><p>**Escenario 3:** Indicadores de eficiencia, presión, cobertura y consumo.<br>**Dado** que el proveedor selecciona un sensor específico<br>**Cuando** consulta las métricas de rendimiento<br>**Entonces** el sistema muestra los gráficos de presión, cobertura y consumo en tiempo real.</p>||
-|**HU11**|Registrar sensores|**Como** proveedor, <br>**Quiero** registrar nuevos sensores en el sistema <br>**Para** ampliar la red de monitoreo.|**Escenario 1: Registro de nuevo sensor por parte del proveedor<br>Dado** que el proveedor está autenticado<br>**Cuando**  ingresa los datos de un nuevo sensor y confirmo<br>**Entonces** el sistema lo registra correctamente|**EP03**|
-|**HU12**|Solicitar edición de sensor|**Como** proveedor,<br>**Quiero** modificar la configuración de sensores existentes<br>**Para** adaptar los parámetros a nuevas condiciones operativas.|**Escenario 1: Solicitar edición de sensor<br>Dado que** el proveedor selecciona un sensor que requiere ajustes<br>**Cuando** actualiza sus parámetros y guardo<br>**Entonces** el sistema aplica los cambios.|**EP03**|
-|**HU13**|Solicitar desactivación de sensor|**Como** proveedor,<br>**Quiero** desactivar temporalmente sensores fuera de servicio<br>**Para** evitar lecturas incorrectas.|**Escenario 1: Desactivación de sensor<br>Dado que** el proveedor observa que el sensor está activo y fuera de funcionamiento<br>**Cuando** lo marca como desactivado<br>**Entonces** el sistema deja de mostrar sus datos.|**EP03**|
-|**HU14**|Ver estado de sensores|**Como** proveedor, <br>**Quiero** visualizar el estado online/offline de todos los sensores<br>**Para** monitorear la conectividad en tiempo real y detectar posibles fallos en la red.|**Escenario 1: Visualizar estado de los sensores<br>Dado** que el proveedor accede al panel<br>**Cuando**  revisa el listado<br>**Entonces** cada sensor indica su estado en tiempo real.|**EP03**|
-|**HU15**|Visualizar métricas por sensor|**Como** proveedor, <br>**Quiero** acceder a indicadores clave (presión, cobertura, consumo)<br>**Para** evaluar el rendimiento del sistema.|**Escenario 1: Visualización de métricas de sensor seleccionado<br>Dado** que el proveedor selecciona un sensor<br>**Cuando**  consulta sus datos<br>**Entonces** ve los gráficos e indicadores actualizados|**EP03**|
-|**EP04**|**Reportes y Compartición de Datos**|**Como** usuario, <br>**Quiero** generar y exportar reportes sobre el servicio de agua<br>**Para** compartir información útil con autoridades o la comunidad.|<p>**Escenario 1:** Reportes exportables en PDF y Excel.<br>**Dado** que el usuario accede al módulo de reportes<br>**Cuando** selecciona un rango de fechas y elige el formato de exportación<br>**Entonces** el sistema genera el reporte y permite su descarga en formato PDF o Excel</p><p>**Escenario 2:** Estadísticas clave por período seleccionable.<br>**Dado** que el usuario ha definido un período de análisis<br>**Cuando** solicita el reporte del servicio<br>**Entonces** el sistema incluye en el reporte estadísticas como máximos, mínimos y promedios relacionados con el consumo y calidad del agua.</p>||
-|**HU16**|Generar reporte en PDF|**Como** proveedor, <br>**Quiero** generar un reporte PDF con datos clave<br>**Para** compartir información consolidada y respaldar decisiones operativas.|**Escenario 1: Generación de reporte en PDF<br>Dado** que el proveedor selecciona un rango de fechas<br>**Cuando**  genera el reporte<br>**Entonces** puede descargar el archivo PDF.|**EP04**|
-|**HU17**|Exportar a Excel|**Como** proveedor, <br>**Quiero** exportar los datos a un archivo Excel<br>**Para** analizarlos y manipularlos fácilmente en herramientas externas.|**Escenario 1: Exportación de datos en formato Excel<br>Dado** que el proveedor accede al módulo de reportes<br>**Cuando**  elige exportar<br>**Entonces** se descarga un archivo Excel.|**EP04**|
-|**HU18**|Incluir estadísticas clave|**Como** proveedor, <br>**Quiero** visualizar estadísticas clave del período seleccionado <br>**Para** analizar el comportamiento del sistema y tomar decisiones basadas en datos históricos.|**Escenario 1: Inclusión de estadísticas clave en el reporte<br>Dado** que el proveedor genera un reporte<br>**Cuando** se calcula el resumen<br>**Entonces** el reporte incluye máximos, mínimos y promedios|**EP04**|
-|**EP05**|**Acceso, Seguridad y Multiplataforma**|**Como** usuario, <br>**Quiero** acceder desde cualquier dispositivo y gestionar roles dentro de la plataforma <br>**Para** garantizar seguridad y usabilidad.|<p>**Escenario 1:** Plataforma responsiva y disponible en móvil y web.<br>**Dado** que el usuario accede a la plataforma desde un dispositivo móvil o de escritorio<br>**Cuando** inicia sesión o navega por los módulos principales<br>**Entonces** el sistema ajusta su visualización para garantizar una experiencia adecuada al dispositivo usado.</p><p>**Escenario 2:** Roles diferenciados (habitante, proveedor, admin).<br>**Dado** que el usuario ha sido autenticado<br>**Cuando** accede a la plataforma<br>**Entonces** el sistema permite o restringe el acceso a funcionalidades según el rol asignado</p><p>**Escenario 3:** Dashboard personalizado.<br>**Dado** que el usuario ha iniciado sesión<br>**Cuando** accede al panel principal<br>**Entonces** el sistema presenta un dashboard con información y funcionalidades adaptadas a su rol.</p>||
-|**HU19**|Acceso desde dispositivo móvil|**Como** usuario, <br>**Quiero** acceder a la plataforma desde su celular<br>**Para** monitorear y gestionar información de forma práctica y en cualquier momento.|**Escenario 1: Acceso y navegación desde dispositivo móvil<br>Dado** que el usuario usa un navegador móvil<br>**Cuando**  accede a la plataforma<br>**Entonces** puede navegar y ver los datos correctamente.|**EP05**|
-|**HU20**|Dashboard personalizado|**Como** usuario, <br>**Quiero** ver un dashboard adaptado a su rol<br>**Para** acceder rápidamente a la información que necesito según mis responsabilidades.|**Escenario 1: Carga de dashboard personalizado según rol<br>Dado** que el usuario inicia sesión<br>**Cuando**  ingresa al sistema<br>**Entonces** visualiza un panel específico con información relevante.|**EP05**|
-|**EP06**|**Infraestructura y servicio Backend**|**Como** desarrollador,<br>**Quiero** desarrollar y mantener servicios backend seguros <br>**Para** garantizar la integración con sensores IoT y la gestión eficiente de datos en tiempo real.|<p>**Escenario 1 : Recepción exitosa de datos desde un sensor<br>Dado** que un sensor IoT está configurado para enviar datos al endpoint /api/sensores/data<br>**Cuando** envía datos en formato JSON con valores válidos de nivel, calidad, presión y consumo<br>**Entonces** el sistema registra la información correctamente en la base de datos<br>**Y** responde con un estado HTTP 200.**<br></p><p>**Escenario 2: Recepción exitosa de datos desde un sensor<br>Dado** que un sensor IoT está configurado para enviar datos al endpoint /api/sensores/data<br>**Cuando** envía datos en formato JSON con valores válidos de nivel, calidad, presión y consumo<br>**Entonces** el sistema registra la información correctamente en la base de datos<br>**Y** responde con un estado HTTP 200.</p><p>**Escenario 3: Exportación de datos históricos mediante la API<br>Dado** que un usuario autenticado accede al endpoint /api/reportes/historial<br>**Y** envía un rango de fechas válido<br>**Cuando** el sistema procesa la solicitud<br>**Entonces** retorna un archivo con los datos en el formato especificado (JSON, CSV o PDF).</p><p>**Escenario 4: Generación automática de alerta por condición crítica<br>Dado** que el sistema monitorea los datos en tiempo real<br>**Cuando** un sensor reporta que el nivel de agua es inferior al umbral definido<br>**Entonces** el sistema genera una alerta<br>**Y** envía la notificación al usuario por el canal configurado.</p><p>**Escenario 5: Registro de acceso a endpoints protegidos<br>Dado** que un usuario autenticado realiza una solicitud a un endpoint seguro<br>**Cuando** el sistema valida el token y permite la operación<br>**Entonces** registra en el log la IP, ID del usuario, hora y tipo de operación.</p><p>**Escenario 6: Restricción de acceso a endpoints protegidos<br>Dado** que un usuario no autenticado intenta acceder al endpoint /api/sensores/data<br>**Cuando** realiza una solicitud sin token o con token inválido<br>**Entonces** el sistema responde con un estado HTTP 401.</p>||
-|**HT01**|API para recepción de datos de sensores|**Como** desarrollador, <br>**Quiero** implementar un endpoint REST que reciba datos de sensores IoT<br>**Para** asegurar la integración y el flujo continuo de información hacia el sistema.|**Escenario 1: Recepción de datos desde sensores<br>Dado** que el sensor envía datos al endpoint configurado<br>**Cuando** los datos llegan en formato JSON válido<br>**Entonces** el sistema almacena los datos en la base de datos y responde con un código 200.|**EP06**|
-|**HT02**|Servicio de actualización automática de datos|**Como** desarrollador**, <br>Quiero** desarrollar un servicio que procese y actualice datos de sensores cada minuto<br>**Para** mantener el monitoreo en tiempo real sin intervención del usuario.|**Escenario 1: Actualización automática cada minuto<br>Dado** que el servicio está activo<br>**Cuando** se cumple el intervalo de un minuto<br>**Entonces** el sistema actualiza los datos visibles en el frontend con los últimos valores reportados por los sensores.|**EP06**|
-|**HT03**|Endpoint para reportes históricos|**Como** desarrollador,<br>**Quiero** exponer un endpoint que permita consultar y exportar datos históricos<br>**Para** que los usuarios puedan generar reportes por fechas desde la plataforma.|**Escenario 1: Exportación de datos históricos vía API<br>Dado** que el usuario autenticado realiza una solicitud al endpoint con un rango de fechas<br>**Cuando** el sistema valida los parámetros<br>**Entonces** devuelve los datos históricos correspondientes en formato JSON, CSV o PDF según lo solicitado.|**EP06**|
-|**HT04**|Servicio de alertas automáticas|**Como** desarrollador,<br>**Quiero** implementar un servicio que detecte condiciones críticas y dispare alertas automáticas<br>**Para** que el sistema notifique al usuario en tiempo real.|**Escenario 1: Generación automática de alertas<br>Dado** que el sistema monitorea en segundo plano los valores de sensores<br>**Cuando** detecta que el valor supera un umbral crítico<br>**Entonces** se genera una alerta y se envía al usuario por el canal configurado.|**EP06**|
-|**HT05**|Registro y auditoría de accesos API|**Como** desarrollador,<br>**Quiero** registrar todas las solicitudes a los endpoints protegidos<br>**Para** mantener un control y detectar posibles accesos indebidos.|**Escenario 1: Registro de accesos a la API<br>Dado** que un usuario autenticado realiza una solicitud a un endpoint protegido<br>**Cuando** el sistema procesa la solicitud<br>**Entonces** guarda en los registros la hora, IP, usuario y tipo de operación realizada.|**EP06**|
-|**EP07**|Landing Page informativa y funcional|<p>**Como** usuario interesado en soluciones de acceso a agua,</p><p>**Quiero** navegar por una página clara, informativa y responsiva,                  **Para** comprender los beneficios de Aqua Conecta, explorar planes y contactar al equipo fácilmente.</p>|<p>` `**Escenario 1: Visualización de beneficios principales Dado** que un visitante accede a la landing page desde cualquier dispositivo,                               **Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,                    **Entonces** puede visualizar de forma clara los beneficios como monitoreo en tiempo real, alertas, rutas e inventario.</p><p>**Escenario 2: Comprensión de públicos objetivos**</p><p>**Dado** que un visitante desea saber a quién está dirigida la solución,<br>` `**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>` `**Entonces** puede leer y diferenciar los beneficios tanto para usuarios como para proveedores de agua.</p><p>**Escenario 3: Explicación clara del problema y solución**</p><p>**Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>` `**Cuando** llega a la sección “La problemática del agua”,<br>` `**Entonces** puede comparar fácilmente el “desafío actual” con “nuestra solución”.</p><p>**Escenario 4: Visualización de planes y precios**</p><p>**Dado** que un visitante desea conocer los servicios disponibles,<br>` `**Cuando** navega a la sección “Nuestros Servicios”**,<br>` `Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p><p>**Escenario 5: Contacto mediante formulario**</p><p>**Dado** que un visitante tiene preguntas o desea más información,<br>` `**Cuando** completa el formulario en la sección “Contacta con nosotros”,<br>**Entonces** puede enviar su consulta correctamente y visualizar los datos de contacto de la empresa.</p><p></p>||
-|**HU21**|Presentación clara de beneficios de valor|<p>**Como** visitante del sitio web,</p><p>**Quiero** visualizar claramente los beneficios de la plataforma Aqua Conecta,</p><p>**Para** entender cómo puede mejorar el acceso y control del agua en mi comunidad.</p>|**Escenario 1: Visualización de beneficios principales <br>Dado** que un visitante accede a la landing page desde cualquier dispositivo,                               **Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,                    **Entonces** puede visualizar de forma clara los beneficios como monitoreo en tiempo real, alertas, rutas e inventario.|**EP07**|
-|**HU22**|Segmentación de perfiles de usuario|<p>**Como** usuario potencial**,**</p><p>**Quiero** identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad (usuario final o proveedor),</p><p>**Para** saber si puedo beneficiarme directamente de sus servicios.</p>|<p>**Escenario 2: Comprensión de públicos objetivos**</p><p>**Dado** que un visitante desea saber a quién está dirigida la solución,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios tanto para usuarios como para proveedores de agua.</p>|**EP07**|
-|**HU23**|Comunicación del problema y la solución|<p>**Como** visitante interesado,</p><p>**Quiero** entender el contexto del problema del acceso al agua y cómo Aqua Conecta lo resuelve,</p><p>**Para** evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</p>|<p>**Escenario 3: Explicación clara del problema y solución**</p><p>**Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>**Cuando** llega a la sección “La problemática del agua”,<br>**Entonces** puede comparar fácilmente el “desafío actual” con “nuestra solución”.</p><p></p>|**EP07**|
-|**HU24**|Comparación de planes y acciones de compra|<p>**Como** visitante interesado en adquirir un servicio,</p><p>**Quiero** revisar los planes, precios y características de AquaConecta,</p><p>**Para** decidir si deseo solicitar un plan o contactar por asesoría.</p>|<p>**Escenario 4: Visualización de planes y precios**</p><p>**Dado** que un visitante desea conocer los servicios disponibles,<br>` `**Cuando** navega a la sección “Nuestros Servicios”**,<br>` `Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p>|**EP07**|
-|**HU25**|` `Envío efectivo de consultas por formulario|<p>**Como** usuario con preguntas o interés en Aqua Conecta,</p><p>**Quiero** poder llenar y enviar un formulario de contacto,</p><p>**Para** recibir asistencia, cotización o más información directamente del equipo**.**</p>|<p>**Escenario 5: Contacto mediante formulario**</p><p>**Dado** que un visitante tiene preguntas o desea más información,<br>` `**Cuando** completa el formulario en la sección “Contacta con nosotros”,<br>` `**Entonces** puede enviar su consulta correctamente y visualizar los datos de contacto de la empresa.</p>|**EP07**|
-
+|**EP01**|**Monitoreo del Agua en Tiempo Real**|**Como** usuario, <br>**Quiero** visualizar en tiempo real el estado del agua (nivel y calidad) y acceder a su historial <br>**Para** tomar decisiones informadas sobre la gestión y consumo.| | |
+|**HU01**|Ver nivel actual del agua de los habitantes|**Como** proveedor,<br>**Quiero** visualizar el nivel actual del agua de un habitante<br>**Para** conocer la cantidad disponible.|<p>**Escenario 1:** Visualización del nivel actual<br>**Dado** que el proveedor quiere conocer la cantidad actual de agua de un habitante,<br>**Cuando** se dirige al detalle del habitante,<br>**Entonces** muestra el nivel del agua en mililitros del habitante.</p><p>**Escenario 2:** Actualización automática<br>**Dado** que el proveedor se encuentra en el detalle del habitante,<br>**Cuando** pasa un minuto,<br>**Entonces** el nivel de agua se actualiza sin necesidad de recargar la página.</p>|**EP01**|
+|**HU02**|Ver nivel actual del agua|**Como** habitante,<br>**Quiero** visualizar mi nivel actual del agua<br>**Para** conocer la cantidad disponible y solicitar el reabastecimiento correspondiente.|<p>**Escenario 1:** Visualización del nivel actual<br>**Dado** que el habitante quiere conocer la cantidad actual de agua de su tanque,<br>**Cuando** se dirige a la pantalla principal,<br>**Entonces** se muestra el nivel del agua en mililitros.</p><p>**Escenario 2:** Actualización automática<br>**Dado** que el usuario está en la pantalla principal,<br>**Cuando** pasa un minuto,<br>**Entonces** el nivel se actualiza sin necesidad de recargar la página.</p><p>**Escenario 3:** Cambios bruscos en el nivel<br>**Dado** que el nivel del agua baja un 30% en una hora,<br>**Cuando** el sistema detecta esta anomalía,<br>**Entonces** muestra una alerta sugiriendo una posible fuga: “¿Hubo un uso inusual? Revise su tanque”.</p>|**EP01**|
+|**HU03**|Ver calidad del agua|**Como** habitante,<br>**Quiero** consultar la calidad actual del agua<br>**Para** determinar si es apta para consumo.|<p>**Escenario 1:** Indicador claro de calidad<br>**Dado** que el habitante se encuentra en la pantalla principal,<br>**Cuando** observa la información del agua en su tanque,<br>**Entonces** muestra el estado actual del agua.</p><p>**Escenario 2:** Indicador sobre calidad dudosa<br>**Dado** que el habitante desea verificar los detalles del agua,<br>**Cuando** el estado tiene un valor de poco seguro,<br>**Entonces** ve un gráfico con los cambios en la calidad del agua durante ese período.</p><p>**Escenario 3:** Indicador pH<br>**Dado** que el habitante se encuentra en la pantalla principal,<br>**Cuando** observa el indicador de pH,<br>**Entonces** muestra el nivel actual de pH.</p>|**EP01**|
+|**EP02**|**Alertas y Notificaciones Inteligentes**|**Como** usuario,<br>**Quiero** recibir alertas cuando el agua esté en niveles críticos o no sea apta para consumo<br>**Para** responder oportunamente ante situaciones que afecten el servicio.| | |
+|**HU04**|Configurar tipo de alertas|**Como** habitante,<br>**Quiero** configurar qué tipo de alertas deseo recibir<br>**Para** estar adecuadamente informado.|<p>**Escenario 1:** Configurar tipos de alerta preferidos<br>**Dado** que el usuario ingresa a preferencias<br>**Cuando** selecciona tipos de alerta<br>**Entonces** el sistema guarda la configuración.</p><p>**Escenario 2:** Modificar tipos de alerta<br>**Dado** que el usuario ya tiene alertas configuradas<br>**Cuando** decide cambiar sus preferencias<br>**Entonces** el sistema actualiza la configuración y confirma el cambio con un mensaje.</p>|**EP02**|
+|**HU05**|Recibir alerta por nivel bajo|**Como** habitante,<br>**Quiero** recibir alertas si el nivel de agua es bajo<br>**Para** comunicar de manera anticipada la necesidad de agua.|<p>**Escenario 1:** Notificación en la aplicación<br>**Dado** que el habitante desea saber sobre el nivel crítico del agua,<br>**Cuando** el sistema detecta un nivel de agua por debajo del 20%,<br>**Entonces** aparece el mensaje “¡Atención! Nivel de agua bajo”.</p><p>**Escenario 2:** Notificación al proveedor<br>**Dado** que el habitante recibe una alerta por nivel bajo de agua,<br>**Cuando** solicita reabastecimiento,<br>**Entonces** se le notifica al proveedor.</p>|**EP02**|
+|**HU06**|Recibir solicitud de reabastecimiento|**Como** proveedor,<br>**Quiero** gestionar las solicitudes de reabastecimiento<br>**Para** tener un control sobre las solicitudes recibidas.|<p>**Escenario 1:** Solicitud recibida<br>**Dado** que el proveedor visualiza las solicitudes<br>**Cuando** recibe una nueva solicitud,<br>**Entonces** se muestra con estado “Received”.</p><p>**Escenario 2:** Aceptar solicitud<br>**Dado** que el proveedor visualiza la nueva solicitud,<br>**Cuando** programa una fecha,<br>**Entonces** se actualiza el estado a “In Progress”.</p><p>**Escenario 3:** Cancelar solicitud<br>**Dado** que el proveedor visualiza la nueva solicitud,<br>**Cuando** deniega la solicitud,<br>**Entonces** se actualiza el estado a “Denied”.</p>|**EP02**|
+|**HU07**|Historial de alertas|**Como** usuario,<br>**Quiero** revisar un historial de alertas<br>**Para** conocer eventos pasados y tomar decisiones informadas sobre el sistema.|<p>**Escenario 1:** Consultar historial de alertas<br>**Dado** que el usuario accede al módulo de alertas<br>**Cuando** visualiza la lista<br>**Entonces** ve las alertas anteriores.</p><p>**Escenario 2:** Detalles de alertas<br>**Dado** que el usuario visualiza el historial de alertas<br>**Cuando** accede a los detalles de una alerta<br>**Entonces** muestra la información detallada de la alerta.</p>|**EP02**|
+|**EP03**|**Gestión de Sensores y Sistema**|**Como** proveedor, <br>**Quiero** gestionar sensores IoT y monitorear su estado<br>**Para** supervisar su estado y garantizar una distribución eficiente del agua.| | |
+|**HU09**|Registrar sensores|**Como** proveedor,<br>**Quiero** registrar nuevos sensores en el sistema<br>**Para** ampliar la red de monitoreo.|<p>**Escenario 1:** Registro de nuevo sensor por parte del proveedor<br>**Dado** que el proveedor está autenticado<br>**Cuando** ingresa los datos de un nuevo sensor y confirma<br>**Entonces** logra registrar el nuevo sensor.</p><p>**Escenario 2:** Sincronización de un sensor a una nueva suscripción<br>**Dado** que el usuario ha creado una nueva suscripción activa,<br>**Cuando** sincroniza un sensor al seleccionar dicha suscripción desde la plataforma,<br>**Entonces** el sistema vincula correctamente el sensor con la suscripción y muestra una confirmación de sincronización exitosa.</p>|**EP03**|
+|**HU10**|Ver estado de suscripción|**Como** proveedor,<br>**Quiero** visualizar el estado de la suscripción de los habitantes<br>**Para** monitorear y administrar el estado de los planes activos de mis clientes.|<p>**Escenario 1:** Listado de suscripción<br>**Dado** que el proveedor accede a la lista de planes<br>**Cuando** se dirige a la sección de estados de suscripciones,<br>**Entonces** observa el estado actual de cada suscripción.</p><p>**Escenario 2:** Visualizar detalle de una suscripción<br>**Dado** que el proveedor selecciona una suscripción específica,<br>**Cuando** accede a la vista detallada de esa suscripción,<br>**Entonces** visualiza información completa sobre la suscripción.</p>|**EP03**|
+|**HU11**|Visualizar perfil del proveedor|**Como** proveedor,<br>**Quiero** ver mi perfil con información detallada de mi empresa<br>**Para** confirmar y conocer los datos registrados.|<p>**Escenario 1:** Visualización de información detallada<br>**Dado** que el proveedor visualiza su información detallada<br>**Cuando** accede a su perfil de usuario<br>**Entonces** el sistema muestra todos sus datos registrados como nombre, email, RUC.</p><p>**Escenario 2:** Visualización de suscripciones activas<br>**Dado** que el proveedor visualiza la información de suscripciones<br>**Cuando** accede a su perfil de usuario<br>**Entonces** se muestra el número de suscripciones activas.</p>|**EP03**|
+|**EP04**|**Acceso, Seguridad y Multiplataforma**|**Como** usuario,<br>**Quiero** acceder desde cualquier dispositivo y gestionar roles dentro de la plataforma<br>**Para** garantizar seguridad y usabilidad.| | |
+|**HU12**|Acceso desde dispositivo móvil|**Como** usuario,<br>**Quiero** acceder a la plataforma desde su celular<br>**Para** monitorear y gestionar información de forma práctica y en cualquier momento.|<p>**Escenario 1:** Acceso y navegación desde dispositivo móvil<br>**Dado** que el usuario usa un navegador móvil<br>**Cuando** accede a la plataforma<br>**Entonces** puede navegar y ver los datos correctamente.</p>|**EP04**|
+|**EP05**|**Landing Page informativa y funcional**|**Como** usuario interesado en soluciones de acceso a agua,<br>**Quiero** navegar por una página clara, informativa y responsiva,<br>**Para** comprender los beneficios de Aqua Conecta, explorar planes y contactar al equipo fácilmente.| | |
+|**HU13**|Presentación clara de beneficios de valor|**Como** visitante del sitio web,<br>**Quiero** visualizar claramente los beneficios de la plataforma Aqua Conecta,<br>**Para** entender cómo puede mejorar el acceso y control del agua en mi comunidad.|<p>**Escenario 1:** Visualización de información importante de AquaConecta<br>**Dado** que el visitante accede a la landing page desde cualquier dispositivo,<br>**Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,<br>**Entonces** visualiza un mensaje informativo sobre AquaConecta.</p><p>**Escenario 2:** Visualizar beneficios principales<br>**Dado** que el visitante quiere conocer sobre los beneficios,<br>**Cuando** sigue en la sección de beneficios<br>**Entonces** visualiza una lista detallada de todos los beneficios que se ofrecen.</p>|**EP05**|
+|**HU14**|Información sobre segmentación de perfiles de usuario|**Como** usuario potencial,<br>**Quiero** identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad<br>**Para** saber si puedo beneficiarme directamente de sus servicios.|<p>**Escenario 1:** Comprensión de públicos objetivos para habitantes<br>**Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de habitantes.</p><p>**Escenario 2:** Comprensión de públicos objetivos para proveedores<br>**Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la misma sección,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de proveedores.</p>|**EP05**|
+|**HU15**|Comunicación del problema y la solución|**Como** visitante interesado,<br>**Quiero** entender el contexto del problema del acceso al agua y cómo Aqua Conecta lo resuelve,<br>**Para** evaluar el valor real que la solución puede aportar a mi comunidad o negocio.|<p>**Escenario 1:** Explicación clara sobre el desafío actual<br>**Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>**Cuando** llega a la sección “La problemática del agua”,<br>**Entonces** visualiza información y porcentajes sobre la problemática que esta abordando.</p><p>**Escenario 2:** Explicación clara sobre la solución<br>**Dado** que un visitante necesita conocer en qué consiste la solución,<br>**Cuando** llega a la sección “Nuestra Solución”,<br>**Entonces** visualiza información sobre la implementación de la solución.</p>|**EP05**|
+|**HU16**|Comparación de planes y acciones de compra|**Como** visitante interesado en adquirir un servicio,<br>**Quiero** revisar los planes, precios y características de AquaConecta,<br>**Para** decidir si deseo solicitar un plan o contactar por asesoría.|<p>**Escenario 1:** Visualización de planes y precios<br>**Dado** que un visitante desea conocer los planes disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”,<br>**Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p><p>**Escenario 2:** Visualización de servicios<br>**Dado** que un visitante desea conocer los servicios disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”,<br>**Entonces** puede ver los servicios disponibles con su información.</p>|**EP05**|
+|**HU17**|Envío efectivo de consultas por formulario|**Como** usuario con preguntas o interés en Aqua Conecta,<br>**Quiero** poder llenar y enviar un formulario de contacto,<br>**Para** recibir asistencia, cotización o más información directamente del equipo.|<p>**Escenario 1:** Visualización del formulario de contacto<br>**Dado** que un visitante tiene preguntas o desea más información,<br>**Cuando** se dirige a la sección “Contacta con nosotros”,<br>**Entonces** puede visualizar todas las secciones del formulario.</p><p>**Escenario 2:** Envío de formulario de contacto<br>**Cuando** un visitante completa el formulario<br>**Entonces** se le envían todos los datos de contacto.</p>|**EP05**|
+|**EP06**|**Infraestructura y servicio Backend**|**Como** desarrollador,<br>**Quiero** desarrollar y mantener servicios backend seguros<br>**Para** garantizar la integración con sensores IoT y la gestión eficiente de datos en tiempo real.| | |
+|**HT01**|API para recepción de datos de sensores|**Como** desarrollador,<br>**Quiero** implementar un endpoint REST que reciba datos de sensores IoT<br>**Para** asegurar la integración y el flujo continuo de información hacia el sistema.|<p>**Escenario 1:** Recepción de datos desde sensores<br>**Dado** que el sensor envía datos al endpoint configurado<br>**Cuando** los datos llegan en formato JSON válido<br>**Entonces** el sistema almacena los datos en la base de datos y responde con un código 200.</p>|**EP06**|
+|**HT02**|Servicio de actualización automática de datos|**Como** desarrollador,<br>**Quiero** desarrollar un servicio que procese y actualice datos de sensores cada minuto<br>**Para** mantener el monitoreo en tiempo real sin intervención del usuario.|<p>**Escenario 1:** Actualización automática cada minuto<br>**Dado** que el servicio está activo<br>**Cuando** se cumple el intervalo de un minuto<br>**Entonces** el sistema actualiza los datos visibles en el frontend con los últimos valores reportados por los sensores.</p>|**EP06**|
+|**HT03**|Endpoint para reportes históricos|**Como** desarrollador,<br>**Quiero** exponer un endpoint que permita consultar y exportar datos históricos<br>**Para** que los usuarios puedan generar reportes por fechas desde la plataforma.|<p>**Escenario 1:** Exportación de datos históricos vía API<br>**Dado** que el usuario autenticado realiza una solicitud al endpoint con un rango de fechas<br>**Cuando** el sistema valida los parámetros<br>**Entonces** devuelve los datos históricos correspondientes en formato JSON, CSV o PDF según lo solicitado.</p>|**EP06**|
+|**HT04**|Servicio de alertas automáticas|**Como** desarrollador,<br>**Quiero** implementar un servicio que detecte condiciones críticas y dispare alertas automáticas<br>**Para** que el sistema notifique al usuario en tiempo real.|<p>**Escenario 1:** Generación automática de alertas<br>**Dado** que el sistema monitorea en segundo plano los valores de sensores<br>**Cuando** detecta que el valor supera un umbral crítico<br>**Entonces** se genera una alerta y se envía al usuario por el canal configurado.</p>|**EP06**|
+|**HT05**|Registro y auditoría de accesos API|**Como** desarrollador,<br>**Quiero** registrar todas las solicitudes a los endpoints protegidos<br>**Para** mantener un control y detectar posibles accesos indebidos.|<p>**Escenario 1:** Registro de accesos a la API<br>**Dado** que un usuario autenticado realiza una solicitud a un endpoint protegido<br>**Cuando** el sistema procesa la solicitud<br>**Entonces** guarda en los registros la hora, IP, usuario y tipo de operación realizada.</p>|**EP06**|
 
 
 
@@ -1353,191 +1342,144 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
   <tbody>
     <tr>
       <td>1</td>
-      <td>HU19</td>
-      <td>Acceso desde dispositivo móvil</td>
-      <td>Como usuario, quiero acceder a la plataforma desde su celular para monitorear y gestionar información de forma práctica y en cualquier momento.</td>
-      <td>5</td>
+      <td>HU13</td>
+      <td>Presentación clara de beneficios de valor</td>
+      <td>Como visitante del sitio web, quiero visualizar claramente los beneficios de la plataforma Aqua Conecta para entender cómo puede mejorar el acceso y control del agua en mi comunidad.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>HU21</td>
-      <td>Presentación clara de beneficios de valor</td>
-      <td>Como visitante del sitio web, quiero visualizar claramente los beneficios de la plataforma Aqua Conecta, para entender cómo puede ayudarme.</td>
+      <td>HU14</td>
+      <td>Información sobre segmentación de perfiles de usuario</td>
+      <td>Como usuario potencial, quiero identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad saber si puedo beneficiarme directamente de sus servicios.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>HU22</td>
-      <td>Segmentación de perfiles de usuario</td>
-      <td>Como usuario potencial, quiero identificar si la solución es para mí, para saber si puedo beneficiarme directamente de sus servicios.</td>
-      <td>3</td>
+      <td>HU15</td>
+      <td>Comunicación del problema y la solución</td>
+      <td>Como visitante interesado, entender el contexto del problema del acceso al agua y cómo Aqua Conecta lo resuelve, evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>HU23</td>
-      <td>Comunicación del problema y la solución</td>
-      <td>Como visitante interesado, quiero entender el problema del acceso al agua y cómo Aqua Conecta lo resuelve, para evaluar su utilidad.</td>
+      <td>HU16</td>
+      <td>Comparación de planes y acciones de compra</td>
+      <td>Como visitante interesado, quiero revisar los planes, precios y características de AquaConecta, para decidir si deseo solicitar un plan o contactar por asesoría.</td>
       <td>2</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>HU24</td>
-      <td>Comparación de planes y acciones de compra</td>
-      <td>Como visitante interesado, quiero revisar los planes, precios y características, para decidir si solicitar un plan o contactar por asesoría.</td>
+      <td>HU17</td>
+      <td>Envío efectivo de consultas por formulario</td>
+      <td>usuario con preguntas o interés en Aqua Conecta, quiero poder llenar y enviar un formulario de contacto para recibir asistencia, cotización o más información directamente del equipo.</td>
       <td>2</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>HU25</td>
-      <td>Envío efectivo de consultas por formulario</td>
-      <td>Como usuario con preguntas o interés, quiero llenar y enviar un formulario de contacto, para recibir asistencia o cotización.</td>
-      <td>2</td>
+      <td>HU03</td>
+      <td>Ver calidad del agua</td>
+      <td>Como habitante, quiero consultar la calidad actual del agua determinar si es apta para consumo.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>7</td>
-      <td>HU01</td>
-      <td>Ver nivel actual</td>
-      <td>Como usuario, quiero visualizar el nivel actual del agua para conocer su disponibilidad.</td>
-      <td>5</td>
+      <td>HU07</td>
+      <td>Historial de alertas</td>
+      <td>Como usuario, quiero revisar un historial de alertas para conocer eventos pasados y tomar decisiones informadas sobre el sistema.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>8</td>
-      <td>HU02</td>
-      <td>Ver calidad del agua</td>
-      <td>Como usuario, quiero consultar la calidad actual del agua para determinar si es apta para consumo.</td>
+      <td>HU06</td>
+      <td>Recibir solicitud de reabastecimiento</td>
+      <td>Como proveedor, quiero gestionar las solicitudes de reabastecimiento para tener un control sobre las solicitudes recibidas.</td>
       <td>5</td>
     </tr>
     <tr>
       <td>9</td>
-      <td>HU03</td>
-      <td>Actualización automática</td>
-      <td>Como usuario, quiero que los datos del agua se actualicen automáticamente para visualizarlos sin la necesidad de recargar la página.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>HU08</td>
-      <td>Recibir alerta por nivel bajo</td>
-      <td>Como usuario, quiero recibir alertas si el nivel de agua es bajo para comunicar de manera anticipada la necesidad de agua.</td>
+      <td>HU11</td>
+      <td>Visualizar perfil del proveedor</td>
+      <td>Como proveedor, quiero ver mi perfil con información detallada de mi empresa para confirmar y conocer los datos registrados.</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>11</td>
-      <td>HU04</td>
-      <td>Consultar historial</td>
-      <td>Como usuario, consultar el historial de datos por fechas para analizar el comportamiento del agua en distintos periodos.</td>
+      <td>10</td>
+      <td>HU01</td>
+      <td>Ver nivel actual del agua de los habitantes</td>
+      <td>Como proveedor, quiero visualizar el nivel actual del agua de un habitante para conocer la cantidad disponible.</td>
       <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>HU02</td>
+      <td>Ver nivel actual del agua</td>
+      <td>Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento correspondiente.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>12</td>
       <td>HU05</td>
-      <td>Exportar historial</td>
-      <td>Como usuario, quiero descargar datos históricos en Excel/CSV para analizar los datos dados.</td>
-      <td>3</td>
+      <td>Recibir alerta por nivel bajo</td>
+      <td>Como usuario, quiero recibir alertas si el nivel de agua es bajo para comunicar de manera anticipada la necesidad de agua.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>13</td>
-      <td>HU06</td>
+      <td>HU04</td>
       <td>Configurar tipo de alertas</td>
-      <td>Como usuario, configurar qué tipo de alertas desea recibir para estar adecuadamente informado.</td>
-      <td>3</td>
+      <td>Como habitante, quiero configurar qué tipo de alertas deseo recibir para estar informado.</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>14</td>
-      <td>HU07</td>
-      <td>Elegir medio de notificación</td>
-      <td>Como usuario, elegir si deseo recibir alertas por correo, SMS o push para estar informado.</td>
+      <td>HU09</td>
+      <td>Registrar sensores</td>
+      <td>Como proveedor, quiero registrar nuevos sensores en el sistemas para ampliar la red de monitoreo.</td>
       <td>2</td>
     </tr>
     <tr>
       <td>15</td>
-      <td>HU09</td>
-      <td>Historial de alertas</td>
-      <td>Como usuario, quiero revisar un historial de alertas para conocer eventos pasados y tomar decisiones informadas sobre el sistema.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>HU20</td>
-      <td>Dashboard personalizado</td>
-      <td>Como usuario, quiero ver un dashboard adaptado a su rol para acceder rápidamente a la información que necesito según mis responsabilidades.</td>
+      <td>HU10</td>
+      <td>Ver estado de suscripción</td>
+      <td>Como usuario, quiero visualizar el estado de la suscripción de los habitantes para monitorear y administrar el estado de los planes activos de mis clientes.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>17</td>
-      <td>HU11</td>
-      <td>Registrar sensores</td>
-      <td>Como proveedor, registrar nuevos sensores en el sistema para ampliar la red de monitoreo.</td>
+      <td>HU12</td>
+      <td>Acceso desde dispositivo móvil</td>
+      <td>Como proveedor, quiero  acceder a la plataforma desde su celular
+ para monitorear y gestionar información de forma práctica y en cualquier momento.</td>
       <td>5</td>
     </tr>
     <tr>
       <td>18</td>
-      <td>HU12</td>
-      <td>Solicitar edición de sensor</td>
-      <td>Como proveedor, modificar la configuración de sensores existentes para adaptar los parámetros a nuevas condiciones operativas.</td>
-      <td>3</td>
+      <td>HT01</td>
+      <td>API para recepción de datos</td>
+      <td>Como desarrollador, quiero implementar un endpoint REST para integrar datos de sensores IoT para asegurar la integración y el flujo continuo de información hacia el sistema..</td>
+      <td>8</td>
     </tr>
     <tr>
       <td>19</td>
-      <td>HU13</td>
-      <td>Solicitar desactivación de sensor</td>
-      <td>Como proveedor, desactivar temporalmente sensores fuera de servicio para evitar lecturas incorrectas.</td>
-      <td>2</td>
+      <td>HT03</td>
+      <td>Servicio de alertas automáticas</td>
+      <td>Como desarrollador, quiero implementar un servicio que detecte condiciones críticas y dispare alertas automáticas para que el sistema notifique al usuario en tiempo real.</td>
+      <td>8</td>
     </tr>
     <tr>
       <td>20</td>
-      <td>HU14</td>
-      <td>Ver estado de sensores</td>
-      <td>Como proveedor, quiero visualizar el estado online/offline de todos los sensores para monitorear la conectividad en tiempo real y detectar posibles fallos en la red.</td>
-      <td>3</td>
+      <td>HT04</td>
+      <td>Registro y auditoría de accesos API</td>
+      <td>Como desarrollador, quiero registrar todas las solicitudes a los endpoints protegidos para mantener un control y detectar posibles accesos indebidos.
+    </td>
+      <td>5</td>
     </tr>
     <tr>
       <td>21</td>
-      <td>HU15</td>
-      <td>Visualizar métricas por sensor</td>
-      <td>Como proveedor, quiero acceder a indicadores clave (presión, cobertura, consumo) para evaluar el rendimiento del sistema.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>HU16</td>
-      <td>Generar reporte en PDF</td>
-      <td>Como proveedor, quiero generar y exportar reportes sobre el servicio de agua para compartir información útil con autoridades o la comunidad.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td>HT01</td>
-      <td>API para recepción de datos</td>
-      <td>Como desarrollador, quiero implementar un endpoint REST para integrar datos de sensores IoT.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>HT03</td>
-      <td>Endpoint para reportes históricos</td>
-      <td>Como desarrollador, quiero exponer un endpoint para exportar datos históricos.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>HT04</td>
-      <td>Servicio de alertas automáticas</td>
-      <td>Como desarrollador, quiero implementar un servicio que detecte condiciones críticas.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>26</td>
       <td>HT02</td>
       <td>Servicio de actualización automática de datos</td>
       <td>Como desarrollador, quiero desarrollar un servicio que procese y actualice datos de sensores cada minuto para mantener el monitoreo en tiempo real sin intervención del usuario.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>27</td>
-      <td>HT05</td>
-      <td>Registro y auditoría de accesos API</td>
-      <td>Como desarrollador, quiero registrar todas las solicitudes a los endpoints protegidos para mantener un control y detectar posibles accesos indebidos.</td>
       <td>5</td>
     </tr>
   </tbody>
