@@ -2822,8 +2822,8 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 
 
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
-
-
+![alt text](image-6.png)
+![alt text](image-7.png)
 ### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
