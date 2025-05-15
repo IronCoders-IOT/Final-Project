@@ -1610,17 +1610,25 @@ El proveedor modifica la cantidad de tanques y sensores asociados al habitante. 
 
 - Bounded context Analytics
 
+Este canvas está diseñado para visualizar y analizar datos históricos y en tiempo real sobre el estado del agua, incluyendo nivel, calidad y consumo. Su propósito principal es facilitar la toma de decisiones mediante reportes semanales o mensuales, así como el monitoreo eficiente del servicio. La información se clasifica en roles de dominio como "analysis context", y se utilizan términos específicos como "Water Status" y "Water Quality" para estandarizar la comunicación. Las métricas de verificación incluyen el tiempo de generación de reportes y la precisión de los filtros aplicados. Entre las preguntas abiertas destacan la necesidad de definir el nivel de detalle esperado por los usuarios y si se debe permitir la exportación de reportes.
+
 ![Bounded Context](./img/BD_Analytics.png)
 
 - Bounded context Request Management
+
+Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
 
 ![Bounded Context](./img/BC_Canvas_Managment.png)
 
 - Bounded context User & Profile Management
 
+Este canvas administra el registro y autenticación de proveedores y habitantes, garantizando el acceso a la plataforma y la actualización de datos personales. Las reglas de negocio exigen que solo usuarios registrados interactúen con el sistema y que las credenciales se entreguen tras verificación. Términos como "Registered person" y "Updated context information" estandarizan la comunicación. Las métricas miden incidencias de acceso y tiempos de activación, mientras que las preguntas abiertas abordan conflictos potenciales, como la asignación errónea de sensores.
+
 ![Bounded Context](img/user-and-profile-management.png)
 
 Bounded context Subscription & Payment
+
+Este canvas gestiona la compra, registro y pago de sensores, así como suscripciones mensuales al servicio. Asegura que los sensores se vinculen correctamente a proveedores y que los pagos se registren antes de la activación. Las decisiones de negocio incluyen validar pagos y verificar disponibilidad de sensores, mientras que el lenguaje ubicuo define términos como "Active subscription" y "Payment period". Las métricas evalúan registros exitosos y tiempos de activación, y las preguntas abiertas exploran escenarios como fallos de pago o responsabilidades por sensores defectuosos.
 
 ![Bounded Context](img/subscription-and-paymnet.png)
 
@@ -1636,11 +1644,20 @@ En este diagrama se visualiza las relaciones clave entre los bounded contexts de
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 ![alt text](<./img/Software Architecture Context Level Diagrams..png>)
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
+
+En el diagrama de contexto se observa que el Proveedor gestiona usuarios y sensores a través de la plataforma web, el Administrador supervisa operaciones globales como aprobación de solicitudes y asignación de planes, y los Residentes reciben alertas y monitorean el consumo mediante una aplicación móvil. El sistema central AquaConecta se integra con Mercado Pago para procesar pagos y con los dispositivos hardware IoT, que capturan y transmiten datos de nivel y calidad del agua.
+
 ![alt text](<./img/Software Architecture Context Level Diagrams..png>)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams.
+
+El diagrama de contenedores muestra cómo interactúan los distintos usuarios y componentes del sistema. Los usuarios incluyen: residentes (que usan una app móvil para monitorear consumo y recibir alertas), proveedores (que gestionan sensores desde una plataforma web) y administradores (que configuran y supervisan el sistema). En el núcleo, el hardware AquaConecta mide calidad y nivel del agua, enviando datos a una app embebida que los recolecta. Luego, la Edge Processing App analiza la información y la guarda en una base SQLite. Una API REST en Spring Boot conecta las aplicaciones con una base de datos MySQL centralizada. La app móvil permite a los residentes interactuar, mientras que la web permite gestionar sensores, usuarios y planes. Además, el sistema se integra con Mercado Pago para gestionar pagos de servicios.
+
 ![alt text](<./img/Software Architecture Container Level Diagrams.png>)
 #### 4.1.3.4. Software Architecture Deployment Diagrams.
+
+El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
+
 ![alt text](<./img/deployment.jpeg>)
 
 
@@ -1859,6 +1876,9 @@ Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispo
 | `PaymentRepository.cs`      | `IPaymentRepository`        | Gestiona el acceso a datos y operaciones sobre pagos (`Payment`), incluyendo la creación, actualización y consultas por suscripción o estado del pago. |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama de componentes muestra como la aplicación web desarrollada con Angular accede a endpoints relacionados con suscripciones y pagos expuestos por controladores REST en Spring Boot, como Subscription Controller y Payment Controller. Estos controladores delegan la lógica a servicios como Subscription Service y Payment Service, que gestionan el ciclo de vida de las suscripciones y los pagos, respectivamente. A su vez, estos servicios acceden a capas de consulta (Subscription Query Service y Payment Query Service) para recuperar información, y escriben datos mediante los repositorios Subscription Repository y Payment Repository, que usan Spring Data JPA para interactuar con la base de datos MySQL.
+
 ![alt text](<./img/Subscription-Bounded-Context.png>)
 
 
@@ -2174,6 +2194,9 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama de contexto muestra como la aplicación web se conecta con una serie de controladores REST (User Controller, Profile Controller, Provider Controller, Resident Controller) que exponen los endpoints necesarios para gestionar autenticación, perfiles, proveedores y residentes. Cada controlador delega su lógica a servicios específicos como User Service, Profile Service, Provider Service y Resident Service, los cuales se encargan de procesar operaciones como registros, validaciones, actualizaciones y asociaciones entre entidades. A su vez, los servicios interactúan con repositorios (User Repository, Profile Repository, Provider Repository, Resident Repository) implementados con Spring Data JPA para persistir y recuperar datos desde la base de datos MySQL. Paralelamente, existen servicios de consulta (Query Services) que permiten acceder a los datos actuales de forma segura y eficiente para su visualización o edición.
+
 ![alt text](./img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -2404,7 +2427,11 @@ Constructores:
 
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama muestra cómo la aplicación web sirve como interfaz para proveedores y administradores, permitiéndoles configurar el sistema, visualizar análisis y gestionar usuarios y sensores. Esta aplicación se comunica con el Request Controller (implementado en Spring Boot), que maneja las solicitudes entrantes para crear, actualizar y gestionar solicitudes. El controlador delega estas operaciones al Request Command Service, que se encarga de realizar los cambios necesarios y almacenar los datos mediante el Request Repository (basado en Spring Data JPA), o al Request Query Service, que filtra y recupera datos según criterios como estado o tipo de solicitud. El Request Repository actúa como puente entre los servicios y la base de datos MySQL, donde se almacenan las solicitudes junto con información de usuarios, suscripciones, sensores, alertas y registros administrativos.
+
 ![alt text](<./img/structurizr-101355-RequestManagement.png>)
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan las **solicitudes generales** y **solicitudes de agua** en el sistema. Las **Request** representan las solicitudes generales de los residentes, mientras que **WaterRequest** se refiere a las solicitudes específicas de agua. Los servicios de comando (**IRequestCommandService** y **IWaterRequestCommandService**) permiten crear y actualizar estas solicitudes, mientras que los repositorios (**IRequestRepository** y **IWaterRequestRepository**) gestionan su persistencia. También hay servicios de consulta (**IRequestQueryService** y **IWaterRequestQueryService**) para obtener solicitudes según diferentes criterios, como estado o residente.
@@ -2623,7 +2650,11 @@ Representa la administración y configuración de un sensor en campo.
 | `SensorManagementRepository.cs` | `ISensorManagementRepository` | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+
+En este diagrama, el REST API actúa como punto de entrada para recibir solicitudes HTTP relacionadas con sensores y eventos. Estas solicitudes son manejadas por controladores específicos: Sensor Controller y Event Controller, que exponen los endpoints necesarios para gestionar sensores y eventos respectivamente. Las operaciones de creación o actualización de sensores se delegan al Sensor Command Service, mientras que las consultas de sensores se manejan a través del Sensor Query Service; ambos interactúan con el Sensor Management Repository, el cual almacena y recupera metadatos y estados de sensores. Para los eventos, el Event Command Service gestiona el registro y actualización de eventos, y el Event Query Service permite recuperar información para reportes y métricas del tablero, utilizando datos proporcionados por el Sensor Query Service. Todos los eventos son almacenados en el Event Repository, y tanto este repositorio como el de sensores interactúan con una base de datos MySQL, que almacena información sobre usuarios, sensores, suscripciones, datos de eventos y alertas administrativas.
+
 ![alt text](./img/structurizr-101355-dashboardAnalytics.png)
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **SensorManagement** y su **SensorStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
