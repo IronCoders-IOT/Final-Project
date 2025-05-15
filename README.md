@@ -1557,7 +1557,7 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
 
 Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURAL, donde construimos todo el flujo del sistema. Iniciamos con la fase de **Exploración No Estructurada**, en la que intercambiamos ideas y discutimos libremente los eventos del dominio, guiándonos por las recomendaciones establecidas para esta etapa.
 
-![alt text](./img/EvenStor.png)
+![alt text](image-2.png)
 
 #### 4.1.1.1 Candidate Context Discovery.
 
