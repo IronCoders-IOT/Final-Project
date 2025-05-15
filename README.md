@@ -782,9 +782,11 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
 
 AquaConecta implementará una estrategia de diferenciación tecnológica al ofrecer un sistema de monitoreo inteligente del consumo de agua en tiempo real, una propuesta que actualmente no es atendida de forma precisa por sus principales competidores. Esto permitirá posicionarse como una solución innovadora tanto para hogares como para proveedores de agua.
 
-Para penetrar en el mercado, se priorizarán nichos desatendidos, como zonas periurbanas y rurales con acceso limitado al agua, aprovechando las debilidades de la competencia en estos sectores. Se buscarán alianzas con ONGs y gobiernos locales para implementar pilotos y subsidios en estas comunidades.
+Nuestra estrategia se basa en aprovechar las principales debilidades detectadas en los competidores actuales del mercado. En primer lugar, la limitada incorporación de tecnologías IoT representa una oportunidad clave para diferenciarnos. Integramos sensores inteligentes que permiten monitorear en tiempo real tanto la cantidad como la calidad del agua, así como el estado de los tanques. Esto no solo optimiza el servicio, sino que también proporciona datos valiosos para la toma de decisiones y el mantenimiento predictivo.
 
-El canal de distribución será completamente digital, mediante una plataforma web y móvil intuitiva, con soporte automatizado, tutoriales y asistencia técnica virtual. Esto facilitará una rápida adopción y escalabilidad, en contraste con los métodos tradicionales de algunos competidores.
+En segundo lugar, frente a la incertidumbre generada por los costos variables que ofrecen otras empresas, implementamos un modelo de tarifa plana mediante suscripción, que brinda a los usuarios mayor previsibilidad, control y confianza sobre sus pagos mensuales. Esto también fortalece la relación a largo plazo con nuestros clientes al eliminar sorpresas financieras.
+
+Por último, ante la escasa presencia digital y la falta de innovación tecnológica de nuestros competidores, hemos desarrollado una plataforma web y móvil robusta, intuitiva y moderna, que permite a los usuarios registrarse, actualizar sus datos, revisar el estado del servicio y realizar solicitudes de forma rápida y sencilla. Esta propuesta refuerza nuestro posicionamiento como una empresa innovadora, accesible y centrada en la experiencia del usuario.
 
 ## 2.2. Entrevistas
 
