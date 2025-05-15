@@ -3084,25 +3084,23 @@ En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramo
 ### 6.2.1.6. Execution Evidence for Sprint Review.
 En nuestro video de exposición presentamos la demo completa de nuestra solución. Además, en la presentación en PowerPoint se incluyen capturas y vistas representativas de la interfaz web, mostrando así evidencia visual del desarrollo realizado.
 
-![alt text](image-2.png)
-
+![alt text](image-28.png)
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
 
-![alt text](image-3.png)
-
+![alt text](image-27.png)
 
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
-![alt text](image-6.png)
-![alt text](image-7.png)
+![alt text](image-26.png)
+![alt text](image-25.png)
+
 ### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
 
 Debido a restricciones de tiempo, el equipo optó por una organización estratégica, dividiéndose entre quienes trabajaron en la elaboración del informe y quienes continuaron con el desarrollo. Esta dinámica fue especialmente necesaria en esta primera entrega, que presenta una versión preliminar y aún no completamente funcional de la solución. Para futuras entregas, se buscará una mayor integración de todos los miembros del equipo en el proceso de desarrollo.
-![alt text](image-8.png)
-![alt text](image-5.png)
-
+![alt text](image-24.png)
+![alt text](image-23.png)
 ## Conclusiones
 ### Conclusiones – TB1
 
