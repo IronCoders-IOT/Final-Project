@@ -2727,7 +2727,7 @@ Para el formato de los commits se siguió la estructura de Conventional Commits 
 type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, docs, style, refactor, perf, test, etc. scope: Indica donde se realizó el commit (opcional). description: Menciona las actualizaciones del codigo.
 
 
-## 6.1.3. Guía de Estilo y Convenciones del Código Fuente
+## 6.1.3. Source Code Style Guide & Conventions
 
 Durante el desarrollo en HTML y CSS, se optó por seguir la **Guía de Estilo de Google para HTML/CSS**. Algunos principios clave incluyen:
 
@@ -2771,16 +2771,32 @@ Finalmente, para el lenguaje **Dart**, se siguen las normas de la **Effective Da
 - Es importante evitar líneas largas y mantener la consistencia en la sangría.
 
 
-## 6.1.4. Configuración para el Despliegue de Software
+## 6.1.4. Software Deployment Configuration
 
 Para el despliegue de la Landing Page y la Aplicación Web, se utiliza **GitHub Pages** y **Firebase Hosting** como servicios principales. 
 
 Durante las primeras fases del desarrollo, se emplea **json-server en local** para simular datos (mock) y validar funcionalidades. Esta configuración permite trabajar sin una base de datos real durante las pruebas iniciales. Una vez que se tenga una base de datos definitiva, esta configuración será reemplazada por una conexión real.
 
-## 6.2. Implementación de Landing Page, Servicios y Aplicaciones
+## 6.2. Landing Page, Services & Applications Implementation
 
 ## 6.2.1. Sprint 1
-### 6.2.1.1. Planificación del Sprint 1
+### 6.2.1.1. Sprint Planning 1
+
+
+
+|**Sprint #**|**Sprint 1**|
+| :-: | :-: |
+|Sprint Planning Background||
+|Date|2025-04-29|
+|Time|19:00 PM|
+|Location|Reunión vía Zoom|
+|Prepared By|Ramos Argüelles, Alexandra Belen |
+|Attendees (to planning meeting)|<p>- Aguilar Castillo, Rodrigo</p><p>- Carmelino Dueñas, Michael Stefano</p><p>- Cortez Quezada, Joaquin Antonio</p><p>- Párraga Gamarra, Paolo Gonzalo</p><p>- Periche Quiroga, Piero	</p><p>- Ramos Argüelles, Alexandra Belen</p>|
+|Sprint 0 – 1 Review Summary|No aplica|
+|Sprint 0 – 1 Retrospective Summary|No aplica|
+|Sprint 1 Goal| gfg |
+|Sprint 1 Velocity|8|
+|Sum of Story Points|jnj|
 
 
 
@@ -2797,9 +2813,9 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 | Periche Quiroga, Piero                    | PieroPeriche          | C          | C                        | L         | C              |
 | Ramos Argüelles, Alexandra Belén          | AleRamosA             | L          | C                        | C         | C              |
 
+### 6.2.1.3. Sprint Backlog 1
 
-
-### 6.2.1.4. Development Evidence for Sprint Review.
+### 6.2.1.4. Development Evidence for Sprint Review
 
 | Repository                                            | Branch | Commit Id | Commit Message                                                                                             | Commit Message Body | Commited on (Date) |
 |:------------------------------------------------------|:-------|:----------|:-----------------------------------------------------------------------------------------------------------|:--------------------|:-------------------|
@@ -2807,11 +2823,11 @@ La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada 
 
 
 
-### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+### 6.2.1.5. Testing Suite Evidence for Sprint Review
 En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
 
 
-### 6.2.1.6. Execution Evidence for Sprint Review.
+### 6.2.1.6. Execution Evidence for Sprint Review
 
 ![alt text](image-2.png)
 
@@ -2821,10 +2837,10 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 ![alt text](image-3.png)
 
 
-### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+### 6.2.1.8. Software Deployment Evidence for Sprint Review
 ![alt text](image-6.png)
 ![alt text](image-7.png)
-### 6.2.1.9. Team Collaboration Insights during Sprint.
+### 6.2.1.9. Team Collaboration Insights during Sprint
 
 Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
 
