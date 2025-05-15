@@ -1069,45 +1069,50 @@ Presentamos a Gabriel Gonzales, un user persona construido a partir de la inform
 ### 2.3.2. User Task Matrix
 El user task matrix permite identificar y comparar los procesos clave de cada segmento, destacando sus similitudes en cuanto a frecuencia e importancia.
 
-| **Necesidad / Función**                                | **Importancia (Habitantes)** | **Frecuencia (Habitantes)** | **Importancia (Proveedores de Agua)** | **Frecuencia (Proveedores de Agua)** |
-|--------------------------------------------------------|------------------------------|-----------------------------|----------------------------------------|---------------------------------------|
-| Ver estado actual del nivel y calidad del agua         | Alta                         | Media                       | Alta                                   | Alta                                  |
-| Recibir alertas por bajo nivel o agua no apta          | Alta                         | Alta                        | Alta                                   | Alta                                  |
-| Consultar historial de consumo y calidad               | Media                        | Baja                        | Alta                                   | Alta                                  |
-| Configurar o gestionar múltiples sensores IoT          | Baja                         | Baja                        | Alta                                   | Alta                                  |
-| Medir impacto en distribución y eficiencia del reparto | Baja                         | Nula                        | Alta                                   | Alta                                  |
-| Compartir información o generar reportes               | Media                        | Baja                        | Alta                                   | Media                                 |
-| Acceder a la plataforma desde app móvil o web          | Alta                         | Alta                        | Media                                  | Media                                 |
+
+|**Necesidad / Función**|**Importancia (Habitantes)**|**Frecuencia (Habitantes)**|**Importancia (Proveedores de Agua)**|**Frecuencia (Proveedores de Agua)**|
+| :- | :- | :- | :- | :- |
+|Solicitar agua potable	|Alta|Alta|Alta|Alta|
+|Coordinar horarios de entrega	|Alta|Alta|Alta|Alta|
+|Verificar calidad del agua	|Alta|Media|Alta|Alta|
+|Pagar por el servicio	|Alta|Media|Alta|Alta|
+|Reportar problemas|Media|Media|Alta|Media|
+|Planificar rutas de distribución	|Baja|Baja|Alta|Media|
+|Gestionar inventario de agua disponible|Baja|Alta|Alta|<p>Media</p><p></p>|
+
+
 
 
 En la matriz presentada, se pueden observar las siguientes tareas con mayor frecuencia e importancia:
 
 - **Habitantes**:
 
-  - **Recibir alertas por bajo nivel o agua no apta**  
-    Funcionalidad **más crítica**, con **alta importancia y frecuencia**. Necesitan estar informados para actuar ante situaciones de riesgo.
+  - **Solicitar agua potable y coordinar horarios de entrega**  
+    Funcionalidad **más crítica**, con **alta importancia y frecuencia**. 
+    Los habitantes necesitan un sistema confiable para pedir agua y conocer los horarios exactos de entrega, eliminando la incertidumbre actual.
 
-  - **Ver el estado actual del agua** y **acceder a la plataforma móvil/web**  
-    Funcionalidades altamente valoradas. Aunque el monitoreo no es constante, desean tener la información disponible de forma accesible.
+  - **Verificar calidad del agua y pagar por el servicio**  
+    Tareas de **alta importancia**pero **frecuencia media**.
+    Requieren métodos sencillos para comprobar la calidad del agua y realizar pagos seguros.
 
-  - **Consultar historial**, **generar reportes** o **gestionar sensores**  
-    Tienen **baja o media relevancia y baja frecuencia**. No forman parte de su rutina diaria, por lo que pueden ofrecerse como funciones secundarias u opcionales.
+  - **Reportar problemas**  
+    De **importancia y frecuencia media**. No forman parte de su rutina diaria, por lo que pueden ofrecerse como funciones secundarias u opcionales.
+    Necesitan un canal formal para reportar incidencias, con seguimiento garantizado.
 
 
 - **Proveedores de Agua**:
 
-  - **Ver estado actual del nivel y calidad del agua** y **recibir alertas por bajo nivel o agua no apta**  
-    Tareas **críticas y frecuentes**, esenciales para el monitoreo constante y la respuesta inmediata ante situaciones de riesgo o emergencia.
+  - **Verificar calidad del agua, gestionar inventario y planificar rutas**  
+    Tareas **críticas y frecuentes**, esenciales esenciales para su operación diaria.
+    Requieren herramientas para optimizar rutas, controlar inventarios en tiempo real y garantizar la calidad del servicio.
 
   - **Consultar historial de consumo y calidad** y **gestionar múltiples sensores IoT**  
-    Funcionalidades con **alta importancia y frecuencia**, necesarias para la supervisión técnica, análisis de patrones y mantenimiento del sistema.
+    Funcionalidades con **alta importancia y frecuencia**.
+    Necesitan un sistema integrado para gestionar pagos digitales y atender reportes de manera eficiente.
 
-  - **Medir impacto en la distribución y eficiencia del reparto** y **generar reportes**  
-    Actividades de **alta importancia**, aunque de **frecuencia moderada**, ya que están orientadas a la planificación estratégica y cumplimiento de normativas.
-
-  - **Acceder a la plataforma desde app móvil o web**  
-    Tiene una **importancia y frecuencia media**, ya que suelen utilizar herramientas más especializadas o integradas en sus sistemas operativos diarios.
-
+  - **Coordinar horarios de entrega**  
+    Actividades de **alta importancia** y de **frecuencia alta**.
+    
 
 
 ### 2.3.3. User Journey Mapping
