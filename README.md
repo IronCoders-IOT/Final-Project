@@ -1069,15 +1069,18 @@ Presentamos a Gabriel Gonzales, un user persona construido a partir de la inform
 ### 2.3.2. User Task Matrix
 El user task matrix permite identificar y comparar los procesos clave de cada segmento, destacando sus similitudes en cuanto a frecuencia e importancia.
 
-| **Necesidad / Función**                                | **Importancia (Habitantes)** | **Frecuencia (Habitantes)** | **Importancia (Proveedores de Agua)** | **Frecuencia (Proveedores de Agua)** |
-|--------------------------------------------------------|------------------------------|-----------------------------|----------------------------------------|---------------------------------------|
-| Ver estado actual del nivel y calidad del agua         | Alta                         | Media                       | Alta                                   | Alta                                  |
-| Recibir alertas por bajo nivel o agua no apta          | Alta                         | Alta                        | Alta                                   | Alta                                  |
-| Consultar historial de consumo y calidad               | Media                        | Baja                        | Alta                                   | Alta                                  |
-| Configurar o gestionar múltiples sensores IoT          | Baja                         | Baja                        | Alta                                   | Alta                                  |
-| Medir impacto en distribución y eficiencia del reparto | Baja                         | Nula                        | Alta                                   | Alta                                  |
-| Compartir información o generar reportes               | Media                        | Baja                        | Alta                                   | Media                                 |
-| Acceder a la plataforma desde app móvil o web          | Alta                         | Alta                        | Media                                  | Media                                 |
+
+|**Necesidad / Función**|**Importancia (Habitantes)**|**Frecuencia (Habitantes)**|**Importancia (Proveedores de Agua)**|**Frecuencia (Proveedores de Agua)**|
+| :- | :- | :- | :- | :- |
+|Solicitar agua potable	|Alta|Alta|Alta|Alta|
+|Coordinar horarios de entrega	|Alta|Alta|Alta|Alta|
+|Verificar calidad del agua	|Alta|Media|Alta|Alta|
+|Pagar por el servicio	|Alta|Media|Alta|Alta|
+|Reportar problemas|Media|Media|Alta|Media|
+|Planificar rutas de distribución	|Baja|Baja|Alta|Media|
+|Gestionar inventario de agua disponible|Baja|Alta|Alta|<p>Media</p><p></p>|
+
+
 
 
 En la matriz presentada, se pueden observar las siguientes tareas con mayor frecuencia e importancia:
