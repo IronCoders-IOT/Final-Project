@@ -2829,7 +2829,7 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
 
 Debido a restricciones de tiempo, el equipo optó por una organización estratégica, dividiéndose entre quienes trabajaron en la elaboración del informe y quienes continuaron con el desarrollo. Esta dinámica fue especialmente necesaria en esta primera entrega, que presenta una versión preliminar y aún no completamente funcional de la solución. Para futuras entregas, se buscará una mayor integración de todos los miembros del equipo en el proceso de desarrollo.
-![alt text](image-4.png)
+![alt text](image-8.png)
 ![alt text](image-5.png)
 
 ## Conclusiones
