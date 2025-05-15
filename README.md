@@ -2696,6 +2696,8 @@ Estaremos usando nav vars, tablas y dashboards para poner informacion de sensore
 
 La aplicación **AquaConecta** utiliza un sistema de organización secuencial. Desde la pantalla principal, los usuarios pueden navegar paso a paso por las funcionalidades críticas del sistema: como el acceso al panel de administrador, solicitud de suministros, generación de reportes, gestión de proveedores, visualización de residentes y monitoreo del historial de sensores. Este enfoque facilita la navegación y asegura que los usuarios completen tareas en un orden lógico y estructurado.
 
+![alt text](<./img/dashboard1.png>)
+
 ### 5.2.2 Labeling System
 Se han implementado etiquetas claras y concisas para representar funciones específicas dentro de la aplicación. Estas etiquetas ayudan a los usuarios a comprender fácilmente la función de cada módulo. Las etiquetas principales son:
 
@@ -2737,12 +2739,12 @@ La navegación se basa en un sistema global donde, desde la pantalla de inicio, 
 ## 5.3 Landing Page UI Design 
 
 ### 5.3.1 Landing Page Wireframe
+![alt text](<./img/wireframelanding.png>)
 
 ### 5.3.2 Landing Page Mock Up
 
-![alt text](<./img/landing1.png>)
-![alt text](<./img/landing2.png>)
-![alt text](<./img/landing2.png>)
+![alt text](<./img/mockuplanding.png>)
+
 
 ## 5.4 Applications UX/UI Design.
 
@@ -2752,8 +2754,10 @@ En esta sección, se presentan los wireflows de la aplicación guiándose de las
 https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRdexuYpspb54rXk-0
 
 
-![alt text](<./img/iniciowirefram.png>)
 
+Application web wireframes
+
+![alt text](<./img/iniciowirefram.png>)
 ![alt text](<./img/supplywire.png>)
 ![alt text](<./img/schedulewire.png>)
 ![alt text](<./img/providerswire.png>)
@@ -2765,6 +2769,18 @@ https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRd
 ![alt text](<./img/reportdetailwire.png>)
 ![alt text](<./img/listreportwire.png>)
 ![alt text](<./img/pagowire.png>)
+
+
+Application mobile wireframe
+
+![alt text](<./img/mobile1.png>)
+![alt text](<./img/mobile2.png>)
+![alt text](<./img/mobile3.png>)
+![alt text](<./img/mobile4.png>)
+![alt text](<./img/mobile5.png>)
+![alt text](<./img/mobile6.png>)
+![alt text](<./img/mobile7.png>)
+
 
 
 ### 5.4.2 Applications Wireflow Diagrams
@@ -2784,6 +2800,18 @@ https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRd
 ![alt text](<./img/mockup11.png>)
 
 
+Application mobile mockup
+
+![alt text](<./img/mockupmobile1.png>)
+![alt text](<./img/mockupmobile2.png>)
+![alt text](<./img/mockupmobile3.png>)
+![alt text](<./img/mockupmobile4.png>)
+![alt text](<./img/mockupmobile5.png>)
+![alt text](<./img/mockupmobile6.png>)
+![alt text](<./img/mockupmobile7.png>)
+
+
+
 ### 5.4.4 Applications User Flow Diagrams
 Esta sección presenta la propuesta de User Flows. Se considera un User Flow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los cuales se derivan.
 
@@ -2796,6 +2824,11 @@ En este caso los user flow que definimos serian:
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams. Esta sección inicia con una introducción en la que se explica los principales criterios para las decisiones de interacción.
 
 ![img.png](img.png)
+
+
+Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=OiU4jqy2vMCEVEam-0
+
+
 
 # Bibliografía
 
