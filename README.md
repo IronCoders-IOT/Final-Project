@@ -2805,6 +2805,37 @@ Esta sección presenta la propuesta de User Flows. Se considera un User Flow par
 En este caso los user flow que definimos serian:
 
 
+Login de Usuario Resident:
+![alt text](image-3.png)
+
+Login de Usuario Provider:
+
+![alt text](image-4.png)
+
+Programacion de fecha:
+
+![alt text](image-5.png)
+
+Creacion de nuevo residente:
+
+![alt text](image-6.png)
+
+Visualizar historial de eventos:
+
+![alt text](image-7.png)
+
+Visulizar Reportes:
+
+![alt text](image-8.png)
+
+Visualizar Detalles de Proveedores:
+
+![alt text](image-9.png)
+
+
+
+
+
 
 ## 5.5 Applications Prototyping.
 
@@ -2816,9 +2847,7 @@ Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con sim
 Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=OiU4jqy2vMCEVEam-0
 
 
-
 # Bibliografía
-
 
 ``` 
 ## Referencias
