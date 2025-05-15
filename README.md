@@ -2767,6 +2767,20 @@ Application mobile wireframe
 
 ### 5.4.2 Applications Wireflow Diagrams
 
+Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
+
+Aplicacion web:
+
+![alt text](./img/image-10.png)
+
+![alt text](./img/image-11.png)
+
+![alt text](./img/image-12.png)
+
+Aplicacion movil:
+
+![alt text](./img/image-13.png)
+
 ### 5.4.3 Applications Mockups
 
 En esta sección, se presentan los mockups de la aplicación guiándose de las historias de usuario en la herramienta Figma.
