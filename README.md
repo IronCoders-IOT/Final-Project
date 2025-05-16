@@ -2844,7 +2844,7 @@ Visualizar Detalles de Proveedores:
 
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams. Esta sección inicia con una introducción en la que se explica los principales criterios para las decisiones de interacción.
 <br>
-![img.png](exectEvi.png)
+![img.png](./assets/img/exectEvi.png)
 <br>
 
 Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=OiU4jqy2vMCEVEam-0
