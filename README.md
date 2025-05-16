@@ -106,11 +106,11 @@ Se muestran evidencias de los commits realizados en la entrega de la TP1 en el i
 
 
 [Colaboraciones del repositorio]
-![alt text](image-21.png)
+![alt text](./assets/img/ghtpcm.png)
 
 [Registro de los commits donde se realizaron la mayor cantidad]
 
-![alt text](image-22.png)
+![alt text](./assets/img/ghtp.png)
 En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
 
 ---
@@ -321,11 +321,11 @@ La misión de AquaConecta es desarrollar y ofrecer soluciones tecnológicas basa
 ### 1.1.2. Perfiles de los integrantes
 | Nombre                   | Descripción | Foto |
 |--------------------------|-------------|------|
-| Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** |<img src="./img/rodrigo_aguilar.png" width="350" height="170"> |
-| Paolo Gonzalo Párraga Gamarra | Soy Paolo Párraga, estudiante de ingeniería de software en séptimo ciclo. Soy una persona que disfruta trabajar duro para lograr mis objetivos y nunca me rindo a pesar de los momentos difíciles. Me gusta el trabajo en equipo porque siento que puedo aportar a mis compañeros cuando lo necesiten.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** |<img src="./img/PaoloParraga.jfif" width="350" height="170"> |
-| Alexandra Belen Ramos Argüelles | Soy Alexandra Ramos, estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el séptimo ciclo. Me considero una persona empática, responsable y perseverante. Disfruto trabajar en equipo y me adapto con facilidad a distintos entornos de colaboración. Creo firmemente que la comunicación asertiva y el apoyo mutuo son claves para alcanzar resultados significativos.<br><br>Me apasiona desarrollar soluciones tecnológicas que generen un impacto positivo en la sociedad, especialmente en contextos donde la innovación puede marcar la diferencia.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**, **C#** y **Python** | <img src="./img/alexandra_ramos.jfif" width="350" height="170"> |
-| Michael Stefano Carmelino Dueñas | Soy Michael Carmelino, estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el séptimo ciclo. Soy una persona que le gusta el trabajo en equipo donde haya una comunicación y formas de integrarse entre todos para llegar a un fin común.<br><br>Me gusta desarrollar proyectos que tengan que ver con la seguridad en ciertos aspectos pero también me gusta hacer proyectos que me den a mí facilidades en lo personal o por diversión.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **React** y **Tailwind**<br>- Desarrollo Backend con **NestJS** y **Spring Boot**<br>- Conocimientos en **C++**, **Python** y **Java**<br>- Base de datos con **Supabase** | <img src="./img/michaelcarmelino.jpg" width="350" height="170"> |
-| Joaquin Antonio Cortez Quezada | Soy Joaquin Antonio Cortez Quezada, actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**, **Python**<br>- Manejo intermedio de **MySQL**, **PostgreSQL** | <img src="./img/cortezquezadaimg.jpeg" width="350" height="170"> |
+| Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** |<img src="./assets/img/rodrigo_aguilar.png" width="350" height="170"> |
+| Paolo Gonzalo Párraga Gamarra | Soy Paolo Párraga, estudiante de ingeniería de software en séptimo ciclo. Soy una persona que disfruta trabajar duro para lograr mis objetivos y nunca me rindo a pesar de los momentos difíciles. Me gusta el trabajo en equipo porque siento que puedo aportar a mis compañeros cuando lo necesiten.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** |<img src="./assets/img/PaoloParraga.jfif" width="350" height="170"> |
+| Alexandra Belen Ramos Argüelles | Soy Alexandra Ramos, estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el séptimo ciclo. Me considero una persona empática, responsable y perseverante. Disfruto trabajar en equipo y me adapto con facilidad a distintos entornos de colaboración. Creo firmemente que la comunicación asertiva y el apoyo mutuo son claves para alcanzar resultados significativos.<br><br>Me apasiona desarrollar soluciones tecnológicas que generen un impacto positivo en la sociedad, especialmente en contextos donde la innovación puede marcar la diferencia.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**, **C#** y **Python** | <img src="./assets/img/alexandra_ramos.jfif" width="350" height="170"> |
+| Michael Stefano Carmelino Dueñas | Soy Michael Carmelino, estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el séptimo ciclo. Soy una persona que le gusta el trabajo en equipo donde haya una comunicación y formas de integrarse entre todos para llegar a un fin común.<br><br>Me gusta desarrollar proyectos que tengan que ver con la seguridad en ciertos aspectos pero también me gusta hacer proyectos que me den a mí facilidades en lo personal o por diversión.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **React** y **Tailwind**<br>- Desarrollo Backend con **NestJS** y **Spring Boot**<br>- Conocimientos en **C++**, **Python** y **Java**<br>- Base de datos con **Supabase** | <img src="./assets/img/michaelcarmelino.jpg" width="350" height="170"> |
+| Joaquin Antonio Cortez Quezada | Soy Joaquin Antonio Cortez Quezada, actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**, **Python**<br>- Manejo intermedio de **MySQL**, **PostgreSQL** | <img src="./assets/img/cortezquezadaimg.jpeg" width="350" height="170"> |
 | Piero Fernando Periche Quiroga | Soy Piero Fernando Periche Quiroga, estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona responsable, perseverante y con la capacidad de aprender y aportar buenas ideas al equipo frente a los problemas que se puedan presentar.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Vue** y **Angular**<br>- Desarrollo Backend con **Java** y **C#**<br>- Conocimiento en **MySQL** y **MongoDB** | <img src="https://i.imgur.com/IIMIR5W.jpeg" width="350" height="170"> |
 
 
@@ -1029,9 +1029,9 @@ Indicó que utilizan principalmente hojas de cálculo y registros físicos, y en
 
 ### Datos Estadisticos
 
-![Es1](./img/Comparacion_Edad_Promedio.png)
+![Es1](./assets/img/Comparacion_Edad_Promedio.png)
 
-![Es2](./img/Ubicaciones_por_Segmento.png)
+![Es2](./assets/img/Ubicaciones_por_Segmento.png)
 
 Los gráficos presentan datos relevantes sobre segmentos demográficos y su distribución geográfica. En la Comparación de Edad Promedio por Segmento, se observa que la edad promedio varía significativamente entre los segmentos analizados (habitantes y proveedores), con un rango de 0 a 25 años. Esto sugiere diferencias generacionales marcadas, donde un grupo podría ser notablemente más joven que el otro, lo que podría influir en patrones de consumo, necesidades de servicios o dinámicas laborales. Sin embargo, la falta de valores exactos limita una interpretación más precisa.
 
@@ -1123,7 +1123,7 @@ En este User Journey Map se muestra la experiencia actual del habitante responsa
 
 **Enlace para visualizar el User Journey Map de Habitantes realizado en UXPressia:** [https://uxpressia.com/w/mDdvz/m/Q2oFD](https://uxpressia.com/w/mDdvz/m/Q2oFD)
 
-![segmento-habitante](segmento-habitante.png)
+![segmento-habitante](./assets/img/segmento-habitante.png)
 
 
 ### Segmento 2: Proveedores
@@ -1134,7 +1134,7 @@ En este User Journey Map decribimos el recorrido actual del proveedor responsabl
 
 [https://uxpressia.com/w/mDdvz/m/wtXHH](https://uxpressia.com/w/mDdvz/m/wtXHH)
 
-![segemnto-proveedores](<Gabriel Gonzales (5).png>)
+![segemnto-proveedores](<./assets/img/gabrielGonzales.png>)
 
 
 ### 2.3.4. Empathy Mapping
@@ -1246,11 +1246,11 @@ Enlace para visualizar el As-is Scenario Map de Habitantes realizado en Miro: ht
 
 ### Brainstorming:
 
-![Brainstorming](./img/Brain_Hab.png)
+![Brainstorming](./assets/img/Brain_Hab.png)
 
 ### To-Be Scenario Mapping 
 
-![to be](./img/to-be-hab.png)
+![to be](./assets/img/to-be-hab.png)
 
 ### Segmento 2: Proveedores
 
@@ -1258,11 +1258,11 @@ Enlace para visualizar el As-is Scenario Map de Proveedores realizado en Miro: h
 
 ### Brainstorming:
 
-![Brainstorming](./img/Brain_Prov.png)
+![Brainstorming](./assets/img/Brain_Prov.png)
 
 ### To-Be Scenario Mapping 
 
-![to be](./img/to-be-prov.png)
+![to be](./assets/img/to-be-prov.png)
 
 ## 3.2. User Stories
 
@@ -1496,13 +1496,13 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
 
 Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURAL, donde construimos todo el flujo del sistema. Iniciamos con la fase de **Exploración No Estructurada**, en la que intercambiamos ideas y discutimos libremente los eventos del dominio, guiándonos por las recomendaciones establecidas para esta etapa.
 
-![alt text](image-2.png)
+![alt text](./assets/img/eventStor.png)
 
 #### 4.1.1.1 Candidate Context Discovery.
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](image-20.png)
+![alt text](./assets/bounded/candidate.png)
 * Management
 
   Gestiona y supervisa el estado del agua en los tanques de los habitantes. Permite a usuarios visualizar estos datos en tiempo real y generar alertas o solicitudes de recarga. También habilita a los proveedores a monitorear las condiciones del agua y responder a situaciones críticas.  
@@ -1526,70 +1526,71 @@ En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded c
 - **Scenario 1: Habitante revisa el estado del agua de su tanque**
   
 El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container Management Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
-![alt text](image-19.png)
+![alt text](./assets/bounded/sh1.png)
+
 - **Scenario 2: Habitante gestiona su plan de subscripción.**
   
 El habitante se registra en la plataforma y el sistema IAM le asigna credenciales. Luego, el Subscription Context activa un plan de suscripción vinculado a su vivienda (NCasa), registrando la constancia del plan seleccionado.
-![alt text](image-18.png)
+![alt text](./assets/bounded/sh2.png)
 - **Scenario 3: Subscripción y Pago**
 
 El proveedor programa una suscripción en la aplicación, seleccionando un habitante. El Payment Context procesa el pago (por el sensor y el servicio mensual), confirmando la activación del plan y vinculándolo al Subscription Context.
-![alt text](image-17.png)
+![alt text](./assets/bounded/sh3.png)
 - **Scenario 4: Proveedor actualiza la cantidad de sensores y tanques del habitante**
 
 El proveedor modifica la cantidad de tanques y sensores asociados al habitante. El sistema actualiza estos datos en cascada, reflejando los cambios en los registros y generando eventos para sincronizar la información en otros contextos, como análisis de seguridad o grupos de datos.
-![alt text](image-16.png)
+![alt text](./assets/bounded/sh4.png)
 #### 4.1.1.3 Bounded Context Canvases. 
 
 - Bounded context Analytics
 
 Este canvas está diseñado para visualizar y analizar datos históricos y en tiempo real sobre el estado del agua, incluyendo nivel, calidad y consumo. Su propósito principal es facilitar la toma de decisiones mediante reportes semanales o mensuales, así como el monitoreo eficiente del servicio. La información se clasifica en roles de dominio como "analysis context", y se utilizan términos específicos como "Water Status" y "Water Quality" para estandarizar la comunicación. Las métricas de verificación incluyen el tiempo de generación de reportes y la precisión de los filtros aplicados. Entre las preguntas abiertas destacan la necesidad de definir el nivel de detalle esperado por los usuarios y si se debe permitir la exportación de reportes.
-![alt text](image-13.png)
+![alt text](./assets/bounded/sh5.png)
 
 - Bounded context Request Management
 
 Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
+![alt text](./assets/bounded/sh5.png)
 
-![alt text](image-12.png)
 
 - Bounded context User & Profile Management
 
 Este canvas administra el registro y autenticación de proveedores y habitantes, garantizando el acceso a la plataforma y la actualización de datos personales. Las reglas de negocio exigen que solo usuarios registrados interactúen con el sistema y que las credenciales se entreguen tras verificación. Términos como "Registered person" y "Updated context information" estandarizan la comunicación. Las métricas miden incidencias de acceso y tiempos de activación, mientras que las preguntas abiertas abordan conflictos potenciales, como la asignación errónea de sensores.
+![alt text](./assets/bounded/sh6.png)
 
-![alt text](image-14.png)
 
 Bounded context Subscription & Payment
 
 Este canvas gestiona la compra, registro y pago de sensores, así como suscripciones mensuales al servicio. Asegura que los sensores se vinculen correctamente a proveedores y que los pagos se registren antes de la activación. Las decisiones de negocio incluyen validar pagos y verificar disponibilidad de sensores, mientras que el lenguaje ubicuo define términos como "Active subscription" y "Payment period". Las métricas evalúan registros exitosos y tiempos de activación, y las preguntas abiertas exploran escenarios como fallos de pago o responsabilidades por sensores defectuosos.
+![alt text](./assets/bounded/sh7.png)
 
-![alt text](image-15.png)
 ### 4.1.2. Context Mapping.
 
 En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema, destacando la colaboración entre User & Profile Management, Subscription & Payment, Management Context y Analytics Context, aplicando patrones DDD como Anti-Corruption Layer y Customer/Supplier (contratos claros en pagos) para garantizar una integración eficiente y escalable.
 
-![Context Mapping](img/context-mapping.png)
+![Context Mapping](./assetsimg/context-mapping.png)
 
 
 ### 4.1.3. Software Architecture.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
-![alt text](<./img/Software Architecture Context Level Diagrams..png>)
+![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 
 En el diagrama de contexto se observa que el Proveedor gestiona usuarios y sensores a través de la plataforma web, el Administrador supervisa operaciones globales como aprobación de solicitudes y asignación de planes, y los Residentes reciben alertas y monitorean el consumo mediante una aplicación móvil. El sistema central AquaConecta se integra con Mercado Pago para procesar pagos y con los dispositivos hardware IoT, que capturan y transmiten datos de nivel y calidad del agua.
 
-![alt text](<./img/Software Architecture Context Level Diagrams..png>)
+![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams.
 
 El diagrama de contenedores muestra cómo interactúan los distintos usuarios y componentes del sistema. Los usuarios incluyen: residentes (que usan una app móvil para monitorear consumo y recibir alertas), proveedores (que gestionan sensores desde una plataforma web) y administradores (que configuran y supervisan el sistema). En el núcleo, el hardware AquaConecta mide calidad y nivel del agua, enviando datos a una app embebida que los recolecta. Luego, la Edge Processing App analiza la información y la guarda en una base SQLite. Una API REST en Spring Boot conecta las aplicaciones con una base de datos MySQL centralizada. La app móvil permite a los residentes interactuar, mientras que la web permite gestionar sensores, usuarios y planes. Además, el sistema se integra con Mercado Pago para gestionar pagos de servicios.
 
-![alt text](<./img/Software Architecture Container Level Diagrams.png>)
+![alt text](<./assets/img/Software Architecture Container Level Diagrams.png>)
 #### 4.1.3.4. Software Architecture Deployment Diagrams.
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
 
-![alt text](<./img/deployment.jpeg>)
+![alt text](<./assets/img/deployment.jpeg>)
 
 
 
@@ -1810,7 +1811,7 @@ Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispo
 
 El diagrama de componentes muestra como la aplicación web desarrollada con Angular accede a endpoints relacionados con suscripciones y pagos expuestos por controladores REST en Spring Boot, como Subscription Controller y Payment Controller. Estos controladores delegan la lógica a servicios como Subscription Service y Payment Service, que gestionan el ciclo de vida de las suscripciones y los pagos, respectivamente. A su vez, estos servicios acceden a capas de consulta (Subscription Query Service y Payment Query Service) para recuperar información, y escriben datos mediante los repositorios Subscription Repository y Payment Repository, que usan Spring Data JPA para interactuar con la base de datos MySQL.
 
-![alt text](<./img/Subscription-Bounded-Context.png>)
+![alt text](<./assets/img/Subscription-Bounded-Context.png>)
 
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1819,12 +1820,12 @@ El diagrama de componentes muestra como la aplicación web desarrollada con Angu
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 La imagen muestra un diagrama de clases que describe la interacción entre los servicios y repositorios de suscripciones y pagos. Incluye **ISubscriptionRepository**, que maneja las operaciones de suscripciones como búsqueda y actualización, y **ISubscriptionCommandService**, que gestiona comandos para crear, cancelar, activar o expirar suscripciones. **ISubscriptionQueryService** se encarga de consultar información de suscripciones, mientras que **Payment** representa los detalles de los pagos. **IPaymentRepository**, **IPaymentCommandService**, y **IPaymentQueryService** gestionan operaciones similares para los pagos, como su creación, actualización y consulta, garantizando que el sistema pueda manejar tanto suscripciones como pagos de manera independiente y eficiente.
 
-![alt text](./img/subscription.png)
+![alt text](./assets/img/subscription.png)
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 El diagrama muestra las relaciones entre las tablas **sensors**, **subscriptions**, **payments** y **residents**. La tabla **sensors** contiene información sobre los sensores, como tipo, descripción y estado. La tabla **subscriptions** almacena los detalles de las suscripciones, incluyendo las fechas de inicio y fin, el estado de la suscripción, y las relaciones con los sensores y residentes. La tabla **payments** registra los pagos realizados, con datos como el monto, el método de pago, el estado, la fecha de pago y su relación con la suscripción correspondiente. Finalmente, **residents** contiene los datos de los residentes, como nombre, apellido y un ID de perfil relacionado.
 
-![alt text](<./img/db design diagram subsc.png>)
+![alt text](<./assets/img/db design diagram subsc.png>)
 
 ## `subscriptions` 
 | Atributo     | Tipo       | Descripción                                              |
@@ -2128,17 +2129,17 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 
 El diagrama de contexto muestra como la aplicación web se conecta con una serie de controladores REST (User Controller, Profile Controller, Provider Controller, Resident Controller) que exponen los endpoints necesarios para gestionar autenticación, perfiles, proveedores y residentes. Cada controlador delega su lógica a servicios específicos como User Service, Profile Service, Provider Service y Resident Service, los cuales se encargan de procesar operaciones como registros, validaciones, actualizaciones y asociaciones entre entidades. A su vez, los servicios interactúan con repositorios (User Repository, Profile Repository, Provider Repository, Resident Repository) implementados con Spring Data JPA para persistir y recuperar datos desde la base de datos MySQL. Paralelamente, existen servicios de consulta (Query Services) que permiten acceder a los datos actuales de forma segura y eficiente para su visualización o edición.
 
-![alt text](./img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
+![alt text](./assets/img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra la estructura de un sistema que gestiona **proveedores**, **residentes**, **usuarios** y **perfiles**. Cada entidad tiene servicios de consulta, comando y repositorio para realizar operaciones como creación, actualización y consulta de datos. **Provider** y **Resident** están vinculados, permitiendo la gestión de información de proveedores y residentes, mientras que **User** maneja roles como ADMIN, PROVIDER y RESIDENT, permitiendo la administración de usuarios. **Profile** almacena información personal de los usuarios, como documentos y datos de contacto. Los servicios proporcionan la funcionalidad necesaria para gestionar estas entidades de manera eficiente.
 
-![alt text](<./img/AQUA (16).png>)
+![alt text](<./assets/img/AQUA (16).png>)
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
 El diagrama muestra las relaciones entre las tablas **providers**, **residents**, **users** y **profiles**. Los **providers** están asociados a un **user** mediante el campo `user_id`, y cada **user** tiene un **profile** relacionado, almacenado en la tabla **profiles**, que contiene información personal como tipo de documento, número de documento, dirección y teléfono. Los **residents** están vinculados tanto a un **user** a través del campo `user_id` como a un **provider** mediante el campo `provider_id`. Esta estructura permite gestionar tanto a los usuarios como a los residentes y proveedores, asociando información personal, de contacto y roles en el sistema.
 
-![alt text](<./img/db user bc.png>)
+![alt text](<./assets/img/db user bc.png>)
 
 ## `users` 
 
@@ -2361,17 +2362,17 @@ Constructores:
 
 El diagrama muestra cómo la aplicación web sirve como interfaz para proveedores y administradores, permitiéndoles configurar el sistema, visualizar análisis y gestionar usuarios y sensores. Esta aplicación se comunica con el Request Controller (implementado en Spring Boot), que maneja las solicitudes entrantes para crear, actualizar y gestionar solicitudes. El controlador delega estas operaciones al Request Command Service, que se encarga de realizar los cambios necesarios y almacenar los datos mediante el Request Repository (basado en Spring Data JPA), o al Request Query Service, que filtra y recupera datos según criterios como estado o tipo de solicitud. El Request Repository actúa como puente entre los servicios y la base de datos MySQL, donde se almacenan las solicitudes junto con información de usuarios, suscripciones, sensores, alertas y registros administrativos.
 
-![alt text](<./img/structurizr-101355-RequestManagement.png>)
+![alt text](<./assets/img/structurizr-101355-RequestManagement.png>)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan las **solicitudes generales** y **solicitudes de agua** en el sistema. Las **Request** representan las solicitudes generales de los residentes, mientras que **WaterRequest** se refiere a las solicitudes específicas de agua. Los servicios de comando (**IRequestCommandService** y **IWaterRequestCommandService**) permiten crear y actualizar estas solicitudes, mientras que los repositorios (**IRequestRepository** y **IWaterRequestRepository**) gestionan su persistencia. También hay servicios de consulta (**IRequestQueryService** y **IWaterRequestQueryService**) para obtener solicitudes según diferentes criterios, como estado o residente.
 
-![alt text](<./img/requests.png>)
+![alt text](<./assets/img/requests.png>)
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 El diagrama muestra dos tablas: **requests** y **water\_requests**. La tabla **requests** almacena solicitudes generales de los residentes, incluyendo información como el `title`, `description`, y el `status`, junto con las relaciones a los residentes y proveedores. La tabla **water\_requests** contiene solicitudes específicas de agua, incluyendo el número de litros solicitados (`request_liters`), el estado de la solicitud y la fecha de entrega (`delivered_at`). Ambas tablas están relacionadas a través de los campos `resident_id` y `provider_id`.
 
-![alt text](<./img/requestDiagram.png>)
+![alt text](<./assets/img/requestDiagram.png>)
 
 
 
@@ -2584,16 +2585,16 @@ Representa la administración y configuración de un sensor en campo.
 
 En este diagrama, el REST API actúa como punto de entrada para recibir solicitudes HTTP relacionadas con sensores y eventos. Estas solicitudes son manejadas por controladores específicos: Sensor Controller y Event Controller, que exponen los endpoints necesarios para gestionar sensores y eventos respectivamente. Las operaciones de creación o actualización de sensores se delegan al Sensor Command Service, mientras que las consultas de sensores se manejan a través del Sensor Query Service; ambos interactúan con el Sensor Management Repository, el cual almacena y recupera metadatos y estados de sensores. Para los eventos, el Event Command Service gestiona el registro y actualización de eventos, y el Event Query Service permite recuperar información para reportes y métricas del tablero, utilizando datos proporcionados por el Sensor Query Service. Todos los eventos son almacenados en el Event Repository, y tanto este repositorio como el de sensores interactúan con una base de datos MySQL, que almacena información sobre usuarios, sensores, suscripciones, datos de eventos y alertas administrativas.
 
-![alt text](./img/structurizr-101355-dashboardAnalytics.png)
+![alt text](./assets/img/structurizr-101355-dashboardAnalytics.png)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **SensorManagement** y su **SensorStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
-![alt text](<./img/events.png>)
+![alt text](<./assets/img/events.png>)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
 Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
 
-![alt text](<./img/dashboard.png>)
+![alt text](<./assets/img/dashboard.png>)
 
 ## Bounded Context Database Design Diagram
 
@@ -2628,39 +2629,39 @@ Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. 
 
 Los siguientes elementos se han considerado para mejorar la experiencia del usuario.
 COLOR: Para los colores hemos elegido un esquema monocromático del color #81c9fa
-![alt text](<./img/colores.png>)
+![alt text](<./assets/img/colores.png>)
 
 
 Se eligió este esquema debido a que el color azul y blanco representan un entorno ordenado, limpio y poco complejo, lo que son practicamente caracteristicas que nos ayudarán con los procesos de gestion
 
 Tiporafía: Para la tipografia se está usando Comfortaa principalmente pr su simplicidad y buen diseño en las paginas web.
-<br>![alt text](<./img/Comfortaa.png>)
+<br>![alt text](<./assets/img/Comfortaa.png>)
 
 Branding: Nuestro logotipo nuestra el nombre del producto AquaConecta, resaltando en azul parte del mismo, pensamos en un logo minimalista que con el hecho de verse el logo se pueda distinguir quienes somos.
-![alt text](<./img/logo.png>)
+![alt text](<./assets/img/logo.png>)
 
 ### 4.1.2. Web Style Guidelines
 En nuestra app web y landing page estamos usando los colores ya mencionados en diferentes maneras.
 Background: Color Primario: 539BCA Color Secundario: BAE0FC Color Terniario: 6A9CDE y 003785
-![alt text](<./img/aquawire.png>)
+![alt text](<./assets/img/aquawire.png>)
 Text Styles: (H1, H2, p, a,) Nuestros estilos de texto van a depender del color que tengan detras, para colores mas osucros como 003785 se usa EEEEEE para dar contraste, mientras que si es un color claro se usa 00628D para que el color del texto pueda resaltar.
-![alt text](<./img/ola.png>)
+![alt text](<./assets/img/ola.png>)
 
 Button Style: Los botones de la interfaz tienen un diseño rectangular con bordes redondeados de 4px y utilizan una paleta de tres colores: #6A9CDE como color principal (el más utilizado), #003785 como color secundario para estados alternativos o jerarquías menores, y #DBEFFE como color de fondo claro para estados suaves o desactivados. Actualmente, los botones no siguen de forma consistente esta guía de estilos, como se observa en la imagen, donde hay variaciones en el color, forma y jerarquía visual.
-![alt text](<./img/button.png>)
+![alt text](<./assets/img/button.png>)
 
 Icons: (Fondo blanco con los iconos que vamos a usar)
 
 Los iconos que estaremos usando seran de las redes sociales en el caso de la landing page junto a otros relacionados a los beneficios. Seguidamente, se estaran utilizando menos iconos en la web aplication siendo los mas prominentes la lupa, icono de residente y proveedores
 <br>
-![alt text](<./img/search.png>)
+![alt text](<./assets/img/search.png>)
 
 
 Misc (Cosas como nav var o slideshows que pensemos usar)
 
 Estaremos usando nav vars, tablas y dashboards para poner informacion de sensores, reportes y el historial.
 
-![alt text](<./img/navbar.png>)
+![alt text](<./assets/img/navbar.png>)
 
 ## 5.2 Software Architecture
 
@@ -2668,7 +2669,7 @@ Estaremos usando nav vars, tablas y dashboards para poner informacion de sensore
 
 La aplicación **AquaConecta** utiliza un sistema de organización secuencial. Desde la pantalla principal, los usuarios pueden navegar paso a paso por las funcionalidades críticas del sistema: como el acceso al panel de administrador, solicitud de suministros, generación de reportes, gestión de proveedores, visualización de residentes y monitoreo del historial de sensores. Este enfoque facilita la navegación y asegura que los usuarios completen tareas en un orden lógico y estructurado.
 
-![alt text](<./img/dashboard1.png>)
+![alt text](<./assets/img/dashboard1.png>)
 
 ### 5.2.2 Labeling System
 Se han implementado etiquetas claras y concisas para representar funciones específicas dentro de la aplicación. Estas etiquetas ayudan a los usuarios a comprender fácilmente la función de cada módulo. Las etiquetas principales son:
@@ -2707,11 +2708,11 @@ La navegación se basa en un sistema global donde, desde la pantalla de inicio, 
 ## 5.3 Landing Page UI Design 
 
 ### 5.3.1 Landing Page Wireframe
-![alt text](<./img/wireframelanding.png>)
+![alt text](<./assets/img/wireframelanding.png>)
 
 ### 5.3.2 Landing Page Mock Up
 
-![alt text](<./img/mockuplanding.png>)
+![alt text](<./assets/img/mockuplanding.png>)
 
 
 ## 5.4 Applications UX/UI Design.
@@ -2725,31 +2726,31 @@ https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRd
 
 Application web wireframes
 
-![alt text](<./img/iniciowirefram.png>)
+![alt text](<./assets/img/iniciowirefram.png>)
 <br>
-![alt text](<./img/supplywire.png>)
+![alt text](<./assets/img/supplywire.png>)
 <br>
-![alt text](<./img/schedulewire.png>)
-<br>![alt text](<./img/providerswire.png>)
-![alt text](<./img/nosewire.png>)<br>
-![alt text](<./img/profilewire.png>)<br>
-![alt text](<./img/residentswire.png>)<br>
-![alt text](<./img/sensorwire.png>)<br>
-![alt text](<./img/newresidentwire.png>)<br>
-![alt text](<./img/reportdetailwire.png>)<br>
-![alt text](<./img/listreportwire.png>)<br>
-![alt text](<./img/pagowire.png>)<br>
+![alt text](<./assets/img/schedulewire.png>)
+<br>![alt text](<./assets/img/providerswire.png>)
+![alt text](<./assets/img/nosewire.png>)<br>
+![alt text](<./assets/img/profilewire.png>)<br>
+![alt text](<./assets/img/residentswire.png>)<br>
+![alt text](<./assets/img/sensorwire.png>)<br>
+![alt text](<./assets/img/newresidentwire.png>)<br>
+![alt text](<./assets/img/reportdetailwire.png>)<br>
+![alt text](<./assets/img/listreportwire.png>)<br>
+![alt text](<./assets/img/pagowire.png>)<br>
 
 
 Application mobile wireframe
 
-![alt text](<./img/mobile1.png>)<br>
-![alt text](<./img/mobile2.png>)<br>
-![alt text](<./img/mobile3.png>)<br>
-![alt text](<./img/mobile4.png>)<br>
-![alt text](<./img/mobile5.png>)<br>
-![alt text](<./img/mobile6.png>)<br>
-![alt text](<./img/mobile7.png>)<br>
+![alt text](<./assets/img/mobile1.png>)<br>
+![alt text](<./assets/img/mobile2.png>)<br>
+![alt text](<./assets/img/mobile3.png>)<br>
+![alt text](<./assets/img/mobile4.png>)<br>
+![alt text](<./assets/img/mobile5.png>)<br>
+![alt text](<./assets/img/mobile6.png>)<br>
+![alt text](<./assets/img/mobile7.png>)<br>
 
 
 
@@ -2759,15 +2760,15 @@ Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, expe
 
 Aplicacion web:
 
-![alt text](./img/image-10.png)
+![alt text](./assets/img/wd1.png)
 
-![alt text](./img/image-11.png)
+![alt text](./assets/img/wd2.png)
 
-![alt text](./img/image-12.png)
+![alt text](./assets/img/wd3.png)
 
 Aplicacion movil:
 
-![alt text](./img/image-13.png)
+![alt text](./assets/img/wd4.png)
 
 ### 5.4.3 Applications Mockups
 
@@ -2776,28 +2777,28 @@ En esta sección, se presentan los mockups de la aplicación guiándose de las h
 
  Link del figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=53-187&p=f&t=qFCtSb0uZ8VwSga4-0
  <br>
- ![alt text](<./img/mockup1.png>)<br>
-![alt text](<./img/mockup2.png>)<br>
-![alt text](<./img/mockup3.png>)<br>
-![alt text](<./img/mockup4.png>)<br>
-![alt text](<./img/mockup5.png>)<br>
-![alt text](<./img/mockup6.png>)<br>
-![alt text](<./img/mockup7.png>)<br>
-![alt text](<./img/mockup8.png>)<br>
-![alt text](<./img/mockup9.png>)<br>
-![alt text](<./img/mockup10.png>)<br>
-![alt text](<./img/mockup11.png>)<br>
+ ![alt text](<./assets/img/mockup1.png>)<br>
+![alt text](<./assets/img/mockup2.png>)<br>
+![alt text](<./assets/img/mockup3.png>)<br>
+![alt text](<./assets/img/mockup4.png>)<br>
+![alt text](<./assets/img/mockup5.png>)<br>
+![alt text](<./assets/img/mockup6.png>)<br>
+![alt text](<./assets/img/mockup7.png>)<br>
+![alt text](<./assets/img/mockup8.png>)<br>
+![alt text](<./assets/img/mockup9.png>)<br>
+![alt text](<./assets/img/mockup10.png>)<br>
+![alt text](<./assets/img/mockup11.png>)<br>
 
 
 Application mobile mockup
 
-![alt text](<./img/mockupmobile1.png>)<br>
-![alt text](<./img/mockupmobile2.png>)<br>
-![alt text](<./img/mockupmobile3.png>)<br>
-![alt text](<./img/mockupmobile4.png>)<br>
-![alt text](<./img/mockupmobile5.png>)<br>
-![alt text](<./img/mockupmobile6.png>)<br>
-![alt text](<./img/mockupmobile7.png>)<br>
+![alt text](<./assets/img/mockupmobile1.png>)<br>
+![alt text](<./assets/img/mockupmobile2.png>)<br>
+![alt text](<./assets/img/mockupmobile3.png>)<br>
+![alt text](<./assets/img/mockupmobile4.png>)<br>
+![alt text](<./assets/img/mockupmobile5.png>)<br>
+![alt text](<./assets/img/mockupmobile6.png>)<br>
+![alt text](<./assets/img/mockupmobile7.png>)<br>
 
 
 
@@ -2808,31 +2809,31 @@ En este caso los user flow que definimos serian:
 
 
 Login de Usuario Resident:
-![alt text](image-3.png)
+![alt text](./assets/img/fd1.png)
 
 Login de Usuario Provider:
 
-![alt text](image-4.png)
+![alt text](./assets/img/fd2.png)
 
 Programacion de fecha:
 
-![alt text](image-5.png)
+![alt text](./assets/img/fd3.png)
 
 Creacion de nuevo residente:
 
-![alt text](image-6.png)
+![alt text](./assets/img/fd4.png)
 
 Visualizar historial de eventos:
 
-![alt text](image-7.png)
+![alt text](./assets/img/fd5.png)
 
 Visulizar Reportes:
 
-![alt text](image-8.png)
+![alt text](./assets/img/fd6.png)
 
 Visualizar Detalles de Proveedores:
 
-![alt text](image-9.png)
+![alt text](./assets/img/fd7.png)
 
 
 
@@ -2843,7 +2844,7 @@ Visualizar Detalles de Proveedores:
 
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams. Esta sección inicia con una introducción en la que se explica los principales criterios para las decisiones de interacción.
 <br>
-![img.png](img.png)
+![img.png](exectEvi.png)
 <br>
 
 Link del Figma: https://www.figma.com/design/SXnYnLkWRLhSqb1uYhrTYL/Untitled?node-id=34-2&p=f&t=OiU4jqy2vMCEVEam-0
@@ -3106,23 +3107,23 @@ En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramo
 ### 6.2.1.6. Execution Evidence for Sprint Review.
 En nuestro video de exposición presentamos la demo completa de nuestra solución. Además, en la presentación en PowerPoint se incluyen capturas y vistas representativas de la interfaz web, mostrando así evidencia visual del desarrollo realizado.
 
-![alt text](image-28.png)
+![alt text](./assets/img/exectEvi.png)
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
 
-![alt text](image-27.png)
+![alt text](./assets/img/fakeApi.png)
 
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
-![alt text](image-26.png)
-![alt text](image-25.png)
+![alt text](./assets/img/dp1.png)
+![alt text](./assets/img/dp2.png)
 
 ### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 Finalmente, se presentan las evidencias de colaboración en el desarrollo del frontend de la aplicación web.
 
 Debido a restricciones de tiempo, el equipo optó por una organización estratégica, dividiéndose entre quienes trabajaron en la elaboración del informe y quienes continuaron con el desarrollo. Esta dinámica fue especialmente necesaria en esta primera entrega, que presenta una versión preliminar y aún no completamente funcional de la solución. Para futuras entregas, se buscará una mayor integración de todos los miembros del equipo en el proceso de desarrollo.
-![alt text](image-24.png)
-![alt text](image-23.png)
+![alt text](./assets/img/ghWeb.png)
+![alt text](./assets/img/ghNetW.png)
 ## Conclusiones
 ### Conclusiones – TB1
 
