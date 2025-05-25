@@ -3146,9 +3146,6 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 ### 6.3.2. Registro de Entrevistas 
 
 ### 6.3.3. Evaluaciones según heurísticas
-
-# 6.4. Video About-the-Product
-
 #### UX Heuristics & Principles Evaluation
 ##### Usability – Inclusive Design – Information Architecture
 
@@ -3200,6 +3197,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ![Heuristic_1](./assets/heuristics-evaluation/heuristic1.png)
 
 **Solución propuesta:** Agregar un botón de llamada a la acción adicional al final de la landing page para reforzar la acción principal y aumentar las posibilidades de conversión.
+
+# 6.4. Video About-the-Product
+
 
 ## Conclusiones
 ### Conclusiones – TB1
