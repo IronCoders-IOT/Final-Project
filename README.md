@@ -634,7 +634,7 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
     </td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td colspan="1" rowspan="3"><p>Perfil de Marketing</p></td>
     <td colspan="2">Mercado objetivo</td>
     <td colspan="1" valign="top">
       Comunidades en zonas urbanas y rurales con servicio intermitente de agua potable. Empresas proveedoras de agua.
@@ -2103,7 +2103,7 @@ Cada entidad principal dentro del Bounded Context User & Identity Management dis
 | `UserCommandService.cs`          | Gestiona el registro de usuarios, cambio de rol y actualización de contraseña.                   |
 | `ProfileCommandService.cs`       | Maneja la creación y actualización de perfiles personales.                                       |
 | `ProviderCommandService.cs`      | Administra el registro de proveedores y edición de su información fiscal (razón social y RUC).   |
-| `ResidentCommandService.cs`      | Gestiona el registro de residentes y la modificación de sus datos personales.                    |yaya 
+| `ResidentCommandService.cs`      | Gestiona el registro de residentes y la modificación de sus datos personales.                    |
 
 ## `QueryServices` 
 
@@ -3161,11 +3161,16 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Boton call to action
+2. Navegación principal y estructura de botones
+3. Jerarquía visual y organización de información
+4. Búsqueda y filtrado de datos
 
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
-
+- Funcionalidades de sensores IoT en tiempo real
+- Módulos de facturación y pagos
+- Integración con sistemas externos
 
 #### ESCALA DE SEVERIDAD:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
@@ -3182,21 +3187,56 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 |---|----------|---------------------|---------------------------------|
 | 1 | Uso del botón call to action | 2 | Visibilidad del estado del sistema y Libertad y control del usuario |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
+| 2 | Navegación confusa y redundante | 3 | Usability: Consistencia y estándares |
+| 3 | Botón duplicado "Residents" | 2 | Usability: Consistencia y estándares |
+| 4 | Funcionalidad de búsqueda limitada | 2 | Usability: Flexibilidad y eficiencia de uso |
+
+
 
 #### DESCRIPCIÓN DE PROBLEMAS:
 
 ##### PROBLEMA #1: Uso del botón call to action
-**Descripción:** Actualmente solo existe un botón de llamada a la acción en la landing page, lo cual puede limitar las oportunidades de conversión y no aprovecha completamente el potencial de la página para guiar a los usuarios hacia acciones específicas.
 
-**Impacto:** Los usuarios pueden perder oportunidades de interacción al no tener múltiples puntos de contacto para realizar acciones importantes.
+**Severidad:** 2
+**Heurística violada:** Visibilidad del estado del sistema y Libertad y control del usuario
+
+**Descripción:** Actualmente solo existe un botón de llamada a la acción en la landing page, lo cual puede limitar las oportunidades de conversión y no aprovecha completamente el potencial de la página para guiar a los usuarios hacia acciones específicas.
 
 ![Heuristic_1](./assets/heuristics-evaluation/heuristic1.png)
 
 **Solución propuesta:** Agregar un botón de llamada a la acción adicional al final de la landing page para reforzar la acción principal y aumentar las posibilidades de conversión.
+
+
+### PROBLEMA #2: Navegación confusa y redundante
+**Severidad:** 3  
+**Heurística violada:** Usability: Consistencia y estándares
+
+**Descripción:** La barra de navegación presenta una estructura confusa con demasiados elementos similares (Admin Dashboard, Sign In, Sign Up, múltiples listas) sin una organización lógica clara. Los usuarios pueden tener dificultades para entender la diferencia entre opciones similares.
+
+![Heuristic_2](./assets/heuristics-evaluation/heuristic2.png)
+
+
+**Solución propuesta:** Reorganizar la navegación agrupando elementos relacionados, establecer una jerarquía clara y reducir la redundancia. Considerar el uso de dropdowns o menús contextuales.
+
+### PROBLEMA #3: Botón duplicado "Residents"
+**Severidad:** 2  
+**Heurística violada:** Usability: Consistencia y estándares
+
+**Descripción:** Existe un botón "Residents" tanto en la navegación principal como duplicado debajo, creando confusión sobre cuál utilizar y por qué existen dos opciones idénticas.
+
+![Heuristic_4](./assets/heuristics-evaluation/heuristic4.png)
+
+**Solución propuesta:** Eliminar la duplicación y mantener solo una opción "Residents" en la ubicación más lógica dentro de la navegación.
+
+
+### PROBLEMA #4: Funcionalidad de búsqueda limitada
+**Severidad:** 2  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso  
+**Descripción:** El campo de búsqueda solo permite buscar por ID, limitando la capacidad de los usuarios para encontrar solicitudes usando otros criterios relevantes como nombre del residente, fecha de emisión, o estado.  
+
+![Heuristic_9](./assets/heuristics-evaluation/heuristic9.png)
+
+**Solución propuesta:** Expandir la funcionalidad de búsqueda para incluir múltiples campos (nombre, fecha, estado) o implementar filtros avanzados que permitan búsquedas más granulares.
 
 # 6.4. Video About-the-Product
 
