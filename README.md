@@ -3190,7 +3190,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 2 | Navegación confusa y redundante | 3 | Usability: Consistencia y estándares |
 | 3 | Botón duplicado "Residents" | 2 | Usability: Consistencia y estándares |
 | 4 | Funcionalidad de búsqueda limitada | 2 | Usability: Flexibilidad y eficiencia de uso |
-
+| 5 | Tabla de historial excesivamente ancha | 3 | Usability: Diseño estético y minimalista |
 
 
 #### DESCRIPCIÓN DE PROBLEMAS:
@@ -3237,6 +3237,15 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ![Heuristic_9](./assets/heuristics-evaluation/heuristic9.png)
 
 **Solución propuesta:** Expandir la funcionalidad de búsqueda para incluir múltiples campos (nombre, fecha, estado) o implementar filtros avanzados que permitan búsquedas más granulares.
+
+### PROBLEMA #5: Funcionalidad de búsqueda limitada
+**Severidad:** 3  
+**Heurística violada:** Usability: Diseño estético y minimalista
+**Descripción:** La tabla "Sensor Activity History" se extiende innecesariamente por todo el ancho de la pantalla, creando líneas de lectura muy largas que dificultan el escaneo visual y hacen que los datos se vean dispersos y poco organizados.
+
+![Heuristic_9](./assets/heuristics-evaluation/heuristic5.png)
+
+**Solución propuesta:** Reducir el ancho de la tabla para mejorar la legibilidad y el enfoque visual. Se recomienda establecer un ancho máximo y centrar la tabla en la página, además de ajustar el tamaño de las columnas para que solo ocupen el espacio necesario.
 
 # 6.4. Video About-the-Product
 
