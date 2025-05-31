@@ -1550,13 +1550,13 @@ Este canvas está diseñado para visualizar y analizar datos históricos y en ti
 - Bounded context Request Management
 
 Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
-![alt text](./assets/bounded/sh5.png)
+![alt text](./assets/bounded/sh6.png)
 
 
 - Bounded context User & Profile Management
 
 Este canvas administra el registro y autenticación de proveedores y habitantes, garantizando el acceso a la plataforma y la actualización de datos personales. Las reglas de negocio exigen que solo usuarios registrados interactúen con el sistema y que las credenciales se entreguen tras verificación. Términos como "Registered person" y "Updated context information" estandarizan la comunicación. Las métricas miden incidencias de acceso y tiempos de activación, mientras que las preguntas abiertas abordan conflictos potenciales, como la asignación errónea de sensores.
-![alt text](./assets/bounded/sh6.png)
+![alt text](./assets/bounded/sh8.png)
 
 
 Bounded context Subscription & Payment
