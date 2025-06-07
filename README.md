@@ -2758,17 +2758,59 @@ Application mobile wireframe
 
 Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
 
-Aplicacion web:
 
-![alt text](./assets/img/wd1.png)
 
-![alt text](./assets/img/wd2.png)
+Aplicación web: Dentro de la aplicación web desarrollamos los wireframes para las vistas de proveedores y administrador. Por ello, lo adecuamos a los siguientes user goals.
 
-![alt text](./assets/img/wd3.png)
+Se pueden visualizar los diagramas mediante los siguientes links:
 
-Aplicacion movil:
+[Wireflow Diagrams - Part 1](https://lucid.app/lucidchart/cad1c99d-5cb4-4093-813e-33104b659158/edit?view_items=pARm1.wAPT7y%2CTARm4nxKBq0f%2CCCRm4Zqc-HFd%2CbARmrvyHya2~%2COCRmFsxfQ.qb%2C~CRm.sHtOqd6%2C0BRmBuei47Ae&invitationId=inv_4a29aed8-53fd-45ae-8fcc-c4cda3bd837f)
 
-![alt text](./assets/img/wd4.png)
+[Wireflow Diagrams - Part 2](https://lucid.app/lucidchart/eaef7f03-17aa-47a0-8612-4509eed9f03c/edit?view_items=ImPmSh-Zq8UF%2C3KFjd7jZ.pqS%2CMfPmkdY_~JDG%2CJrQmrBMRh9qS%2CEoPmqnEPdpJ-%2CjsPmRhsg-77H%2CkyPmskq5v9rA%2CnyPmzjpisGfP%2CzyPmv99DNYbW%2CTqPmHysIVjOu%2C1qPmftdVRUBN&invitationId=inv_6d74a072-b13a-4298-ba23-e1e7a4b99e0e)
+
+- **User goal:** Iniciar sesión, como admnistrador o proveedor quiero autenticarme en la aplicaión web.
+![alt text](assets/wireflow-diagrams/web-app/log-in-app-web.png)
+
+**Proveedores**
+
+- **User goal:** Crear nuevo habitante, como proveedor quiero registrar nuevo residente completando toda la información requerida (nombre, ubicación, contacto) y confirmar su correcta incorporación al sistema.
+![alt text](assets/wireflow-diagrams/web-app/create-new-resident-provider.png)
+
+- **User goal:** Ver información de los habitantes, como proveedor quiero ver la información de cada uno de mis habitantes.
+![alt text](assets/wireflow-diagrams/web-app/view-residents-information.png)
+
+- **User goal:** Ver solicitudes de abastecimiento, como proveedor quiero visualizar las solicitudes de abastecimiento para editar el status y agendar la fecha de entrega.
+![alt text](assets/wireflow-diagrams/web-app/view-supply-requests-provider.png)
+
+- **User goal:** Ver reportes, como proveedor quiero visualizar los reportes de fallas en sensores para solucionar los respectivos problemas.
+![alt text](assets/wireflow-diagrams/web-app/view-reports-provider.png)
+
+
+**Administrador**
+
+- **User goal:** Ver información de provedores, como admnistrador quiero ver la información de todos los proveedores para tener control de planes activos.
+![alt text](assets/wireflow-diagrams/web-app/view-providers-info-admin.png)
+
+- **User goal:** Ver solicitudes de abastecimiento, como admnistrador quiero ver la información de todas las solicitudes de abastecimiento realizadas por cada habitante.
+![alt text](assets/wireflow-diagrams/web-app/view-supply-request-admin.png)
+
+- **User goal:** Ver reportes, como administrador quiero ver toda la información de los reportes acerca de problemas en los sensores.
+![alt text](assets/wireflow-diagrams/web-app/view-reports-admin.png)
+
+
+**Aplicación móvil:** Para la aplicación móvil hemos implementado los wireframes para los habitantes. Se presentan los diagramas de acuerdo a los usuer goals.
+
+Se pueden visualizar los diagramas mediante el siguiente link:
+[Wireflow Diagrams - Resident](https://lucid.app/lucidchart/fbb0d802-e2a3-43a2-afcd-9299e5110c60/edit?viewport_loc=-2230%2C-2180%2C4989%2C2421%2C0_0&invitationId=inv_a5838467-9192-4ad8-88fd-36d477fabeb3)
+
+- **User goal:** Iniciar sesión, como habitante quiero autenticarme en la aplicaión móvil con las credenciales brindadas por el proveedor para visualizar la información del agua en mi tanque.
+![alt text](assets/wireflow-diagrams/mobile-app/log-in-mobile-app.png)
+
+- **User goal:** Editar perfil, como residente quiero editar y actualizar la información de mi perfil. 
+![alt text](assets/wireflow-diagrams/mobile-app/edit-profile-resident.png)
+
+- **User goal:** Ver reportes, como residente deseo ver un historial de reportes acerca de los problemas de los sensores en el tanque.
+![alt text](assets/wireflow-diagrams/mobile-app/view-reports-resident.png)
 
 ### 5.4.3 Applications Mockups
 
