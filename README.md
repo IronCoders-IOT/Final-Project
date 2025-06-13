@@ -3185,6 +3185,39 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 
 ### 6.3.1. Diseño de Entrevistas
 
+**Preguntas generales:**
+1. ¿Cuál es su nombre? 
+2. ¿Qué edad tiene? 
+3. ¿A qué se dedica? 
+4. ¿En que distrito se encuentra?
+
+**Preguntas dirigidas a proveedores:**
+1. ¿Cómo monitorea actualmente la calidad del agua en las comunidades?
+2. ¿Cree que puede complementar o mejorar lo que ya tiene?
+3. ¿La información mostrada cumple con lo que espera ver como un proveedor de agua?
+4. ¿Considera que faltan indicadores o datos que serían importantes para usted?
+5. ¿Cómo imaginas que esta app se podría integrar en sus operaciones actuales?
+6. ¿Cambiaría el diseño o alguna funcionalidad?
+7. ¿Qué funcionalidades considera que son las más valiosas para usted?
+8. ¿Qué le haría confiar más en esta aplicación como herramienta de trabajo?
+
+**Preguntas dirigidas a habitantes:**
+1. ¿Entiende lo que significa la información que aparece sobre la calidad del agua?
+2. ¿Siente que la app le ayudaría a tomar decisiones sobre el uso del agua?
+3. ¿Qué tan útil considera esta aplicación en su vida diaria?
+4. ¿Qué tan fácil o difícil le pareció usar la aplicación?
+5. ¿Hay algo que no entienda o que le cause confusión?
+6. ¿Cambiaría algo de la forma en que se muestra la información?
+7. ¿Con qué frecuencia cree que usaría esta aplicación?
+8. ¿Qué es lo que más le gustó?
+9.  ¿Qué cambiaría o mejoraría?
+10. ¿Hay algo que le gustaría que la app también hiciera?
+
+
+
+
+
+
 ### 6.3.2. Registro de Entrevistas 
 
 ### 6.3.3. Evaluaciones según heurísticas
