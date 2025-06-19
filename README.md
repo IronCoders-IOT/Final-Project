@@ -3596,10 +3596,14 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 
 En nuestro video de exposición, hemos incluido una demostración de la aplicación AquaConecta, donde se muestra cómo los proveedores pueden gestionar sus servicios y cómo los residentes pueden interactuar con la aplicación. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
 
+
 front
 front
 front
 
+Tambien, hemos realizado el desarrollo del sp32 para la configuracion del sensor de calidad de agua, el cual se presenta a continuacion:
+
+![sp1](assets/img/sp1.png)
 
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
