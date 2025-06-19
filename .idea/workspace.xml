@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98c476c-cbec-493b-8910-9429c44fa286" name="Changes" comment="feat: update chapter 5">
+      <change afterPath="$PROJECT_DIR$/assets/img/back1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/back2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/back3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/back4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/back5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sp1.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -46,7 +52,7 @@
     "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
     "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/chapter-5",
+    "git-widget-placeholder": "feature/chapter-6",
     "last_opened_file_path": "C:/Users/PIERO/Desktop/olarepopractica/Final-Project/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,6 +68,7 @@
       <recent name="C:\Users\PIERO\Desktop\olarepopractica\Final-Project\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PIERO\Desktop\Development\2024.01\si729\wx55\Final-Project\assets\img" />
       <recent name="D:\septimociclo\IOT\Final-Project\EventStor" />
     </key>
   </component>
@@ -84,6 +91,7 @@
       <workItem from="1745564688843" duration="3630000" />
       <workItem from="1745599053131" duration="1587000" />
       <workItem from="1747279054603" duration="15242000" />
+      <workItem from="1750297100024" duration="5630000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added bounded context management">
       <option name="closed" value="true" />

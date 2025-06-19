@@ -3200,25 +3200,26 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
         </tr>
         <tr>
             <td>Sprint n – 2 Review Summary</td>
-            <td>No aplica</td>
+            <td>En este sprint hemos logrado armar y programar el prototipo SP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
         </tr>
         <tr>
             <td>Sprint n – 2 Retrospective Summary</td>
-            <td>No aplica</td>
+            <td>Se destacó una buena comunicacion y coordinacion durante el sprint. Se designaron lideres y colaboradores para cada bounded context. Se identificó como mejora la necesidad de definir muy bien los criterios de aceptacion antes de empezar a hacer las tareas.
+Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconvenientes en el desarrollo.</td>
         </tr>
         <tr>
             <td>Sprint n Goal</td>
             <td>
-              El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final.
+             El objetivo de este sprint es desarrollar el prototipo del SP32, que incluye la conexión de sensores y cableado, así como la implementación del backend. Esto permitirá avanzar en la funcionalidad del sistema y sentar las bases para futuras integraciones.
             </td>
         </tr>
         <tr>
             <td>Sprint n Velocity</td>
-            <td>26</td>
+            <td>103</td>
         </tr>
         <tr>
             <td>Sum of Story Points</td>
-            <td>0 (En esta ocasión al estar en planificación se mantiene como 0)</td>
+            <td>43 </td>
         </tr>
     </tbody>
 </table>
@@ -3592,7 +3593,28 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 
 ### 6.2.2.6. Execution Evidence for Sprint Review.
 
+
+En nuestro video de exposición, hemos incluido una demostración de la aplicación AquaConecta, donde se muestra cómo los proveedores pueden gestionar sus servicios y cómo los residentes pueden interactuar con la aplicación. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
+
+front
+front
+front
+
+
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
+
+
+![back1](assets/img/back1.png)
+
+![back2](assets/img/back2.png)
+
+![back3](assets/img/back3.png)
+
+![back4](assets/img/back4.png)
+
+![back5](assets/img/back5.png)
 
 ### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
