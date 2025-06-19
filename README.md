@@ -3227,12 +3227,13 @@ Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconve
 
 ### 6.2.2.2. Aspect Leaders and Collaborators
 
-Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog 
-
-![image](https://github.com/user-attachments/assets/a4642969-504b-4fe8-9d40-d631d9ab675d)
 
 
 ### 6.2.2.3. Sprint Backlog 2
+
+Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog 
+
+![image](https://github.com/user-attachments/assets/a4642969-504b-4fe8-9d40-d631d9ab675d)
 | Sprint #    | Sprint 2 |           |             |             |                     |             |                                          |
 |-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
 | User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
