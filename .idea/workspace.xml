@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98c476c-cbec-493b-8910-9429c44fa286" name="Changes" comment="feat: update chapter 6">
+    <list default="true" id="a98c476c-cbec-493b-8910-9429c44fa286" name="Changes" comment="feat: update product backlog">
+      <change afterPath="$PROJECT_DIR$/assets/img/netlify1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -41,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/chapter-6",
-    "last_opened_file_path": "C:/Users/PIERO/Desktop/olarepopractica/Final-Project/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
+    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/chapter-6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PIERO/Desktop/olarepopractica/Final-Project/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PIERO\Desktop\olarepopractica\Final-Project\img" />
@@ -86,6 +87,7 @@
       <workItem from="1745599053131" duration="1587000" />
       <workItem from="1747279054603" duration="15242000" />
       <workItem from="1750297100024" duration="8897000" />
+      <workItem from="1750434625359" duration="3404000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added bounded context management">
       <option name="closed" value="true" />
@@ -183,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750306698847</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: update product backlog">
+      <option name="closed" value="true" />
+      <created>1750434730851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750434730851</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +206,7 @@
     <MESSAGE value="feat: add chapter 4" />
     <MESSAGE value="feat: update chapter 5" />
     <MESSAGE value="feat: update chapter 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update chapter 6" />
+    <MESSAGE value="feat: update product backlog" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update product backlog" />
   </component>
 </project>

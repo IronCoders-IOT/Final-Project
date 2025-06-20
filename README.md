@@ -3233,21 +3233,21 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 
 
 ### 6.2.2.3. Sprint Backlog 2
-| Sprint #    | Sprint 2 |           |             |             |                     |             |                                          |
-|-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
-| User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
-| Id          | Title    | Id        | Title       | Description | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
-| HU26 | Presentación clara de beneficios de valor | T01 | Consulta del historial de eventos | Como visitante quiero visualizar claramente los beneficios de la plataforma. | 6 | Rodrigo Aguilar | Done |
-| HU02 | Información sobre segmentación de perfiles de usuario | T02 | Ver nivel actual del agua| Como usuario quiero identificar si la solución está dirigida a mi necesidad. | 5 | Paolo Párraga | Done |
-| HU30 | Comunicación del problema y la solución | T03 | Visualizar suscripción del residente | Como visitante interesado, quiero entender el contexto del problema y cómo la solución lo resuelve. | 4 | Michael Carmelino | Done |
-| HU25 | Comparación de planes y acciones de compra | T04 | Reporte de fallos del sensor| Como visitante interesado, quiero revisar los planes, precios y características para decidir si deseo solicitar un plan o contactar por asesoría. | 5 | Joaquín Cortez | Done |
-| HU23 | Envío efectivo de consultas por formulario | T05 | Información general para proveedores | Usuario con preguntas o interés, quiero poder llenar y enviar un formulario de contacto para recibir asistencia. | 4 | Alexandra Ramos | Done |
-| HU27 | Ver nivel actual del agua de habitantes | T06 | Crear suscripción al agregar sensor | Como habitante, quiero consultar la calidad actual del agua para determinar si es apta para consumo. | 6 | Rodrigo Aguilar | Done |
-| HU28 | Ver nivel actual del agua | T07 | Ver suscripciones activas por residente | Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento. | 5 | Paolo Párraga | Done |
-| HU29 | Ver calidad del agua | T08 | Ver todas las suscripciones del sistema | Como habitante, quiero consultar la calidad del agua actual para asegurarme que es potable. | 6 | Michael Carmelino | Done |
-| HU32 | Historial de alertas | T09 | Mostrar historial de alertas | Como usuario, quiero revisar un historial de alertas para tomar decisiones informadas. | 5 | Alexandra Ramos | Done |
-| HU36 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
-| HU37 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
+| Sprint #    | Sprint 2 |           |             |                                                                                                                                            |                     |             |                                          |
+|-------------|----------|-----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-------------|------------------------------------------|
+| User Story  |          | Work-Item / Task |         |                                                                                                                                            |                     |             |                                          |
+| Id          | Title    | Id        | Title       | Description                                                                                                                                | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| HU26 | Presentación clara de beneficios de valor | T01 | Consulta del historial de eventos | Como habitante, quiero buscar y filtrar eventos registrados en mi historial, para encontrar rápidamente los incidentes o notificaciones que me interesan.| 6 | Rodrigo Aguilar | Done |
+| HU02 | Información sobre segmentación de perfiles de usuario | T02 | Ver nivel actual del agua|      Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento correspondiente. | 5 | Paolo Párraga | Done |
+| HU30 | Comunicación del problema y la solución | T03 | Visualizar suscripción del residente | Como residente, quiero consultar el estado de mi suscripción para saber si mi sensor está activo y en funcionamiento.   | 4 | Michael Carmelino | Done |
+| HU25 | Comparación de planes y acciones de compra | T04 | Reporte de fallos del sensor| Como habitante, quiero recibir notificaciones si ocurre algún fallo en mi sensor, para estar informado de posibles errores que puedan afectar la medición de mi consumo de agua. | 5 | Joaquín Cortez | Done |
+| HU23 | Envío efectivo de consultas por formulario | T05 | Información general para proveedores | Usuario con preguntas o interés, quiero poder llenar y enviar un formulario de contacto para recibir asistencia.                           | 4 | Alexandra Ramos | Done |
+| HU27 | Ver nivel actual del agua de habitantes | T06 | Crear suscripción al agregar sensor | Como habitante, quiero consultar la calidad actual del agua para determinar si es apta para consumo.                                       | 6 | Rodrigo Aguilar | Done |
+| HU28 | Ver nivel actual del agua | T07 | Ver suscripciones activas por residente | Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento.            | 5 | Paolo Párraga | Done |
+| HU29 | Ver calidad del agua | T08 | Ver todas las suscripciones del sistema | Como habitante, quiero consultar la calidad del agua actual para asegurarme que es potable.                                                | 6 | Michael Carmelino | Done |
+| HU32 | Historial de alertas | T09 | Mostrar historial de alertas | Como usuario, quiero revisar un historial de alertas para tomar decisiones informadas.                                                     | 5 | Alexandra Ramos | Done |
+| HU36 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa.                                                              | 4 | Joaquín Cortez | Done |
+| HU37 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa.                                                              | 4 | Joaquín Cortez | Done |
 
 ### 6.2.2.4. Development Evidence for Sprint Review
 
@@ -3621,6 +3621,11 @@ Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConec
 ![back5](assets/img/back5.png)
 
 ### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+La aplicación AquaConecta ha sido desplegada en Netlify, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Netlify:
+
+![netlify1](assets/img/netlify1.png)
+
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
 
