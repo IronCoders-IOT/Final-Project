@@ -55,6 +55,8 @@
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Registro de Versiones del Informe
 
 <div align="center">
@@ -85,7 +87,13 @@
 |3\.0|25/04/2025|Alexandra Belen Ramos Argüelles|Elaboración de domain message flows modeling y context mapping.|
 |3\.1|06/05/2025|Rodrigo Aguilar Castillo|Agregar conceptos de sensor y eventos a los diagramas|
 |3\.2|07/05/2025|Paolo Gonzalo Párraga Gamarra|Actualización de product backlog.|
-
+|3.3|08/06/2025|Rodrigo Aguilar Castillo|Actualización de product backlog y user stories para Sprint 2.|
+|3.4|10/06/2025|Michael Stefano Carmelino Dueñas|Actualización de evidencia de desarrollo y commits de frontend y mobile app.|
+|3.5|12/06/2025|Paolo Gonzalo Párraga Gamarra|Actualización de evidencia de backend, documentación de endpoints y despliegue en Netlify.|
+|3.6|13/06/2025|Alexandra Belen Ramos Argüelles|Actualización de user journey mapping y empathy mapping para nuevos segmentos.|
+|3.7|14/06/2025|Joaquin Antonio Cortez Quezada|Actualización de bounded context canvas y diagramas de clases para management y analytics.|
+|3.8|15/06/2025|Piero Periche Quiroga|Actualización de documentación de arquitectura, diagramas de despliegue y base de datos.|
+|3.9|16/06/2025|Rodrigo Aguilar Castillo|Revisión y actualización de la tabla de registro de versiones y ajustes finales de formato.|
 
 
 
@@ -98,11 +106,11 @@ Repositorios:
 Proyecto: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
 
 
-### TP1
+### TB2
 
-Para la entrega del TP1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
-Se muestran evidencias de los commits realizados en la entrega de la TP1 en el informe.
+Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe.
 
 
 [Colaboraciones del repositorio]
@@ -271,6 +279,69 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)     
 [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)     
 [4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)     
+
+[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+
+[5.1 Style Guidelines](#51-style-guidelines)  
+[5.1.1. General Style Guidelines](#511-general-style-guidelines)  
+[5.1.2. Web Style Guidelines](#512-web-style-guidelines)  
+
+[5.2 Software Architecture](#52-software-architecture)  
+[5.2.1 Organization System](#521-organization-system)  
+[5.2.2 Labeling System](#522-labeling-system)  
+[5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
+[5.2.4 Searching Systems](#524-searching-systems)  
+[5.2.5 Navigation Systems](#525-navigation-systems)  
+
+[5.3 Landing Page UI Design](#53-landing-page-ui-design)  
+[5.3.1 Landing Page Wireframe](#531-landing-page-wireframe)  
+[5.3.2 Landing Page Mock Up](#532-landing-page-mock-up)  
+
+[5.4 Applications UX/UI Design](#54-applications-uxui-design)  
+[5.4.1 Applications Wireframes](#541-applications-wireframes)  
+[5.4.2 Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)  
+[5.4.3 Applications Mockups](#543-applications-mockups)  
+[5.4.4 Applications User Flow Diagrams](#544-applications-user-flow-diagrams)  
+
+[5.5 Applications Prototyping](#55-applications-prototyping)  
+
+[Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+
+[6.1. Software Configuration Management](#61-software-configuration-management)  
+[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
+[6.1.2. Source Code Management](#612-source-code-management)  
+[6.1.3. Guía de Estilo y Convenciones del Código Fuente](#613-guía-de-estilo-y-convenciones-del-código-fuente)  
+[6.1.4. Configuración para el Despliegue de Software](#614-configuración-para-el-despliegue-de-software)  
+
+[6.2. Implementación de Landing Page, Servicios y Aplicaciones](#62-implementación-de-landing-page-servicios-y-aplicaciones)  
+[6.2.1. Sprint 1](#621-sprint-1)  
+[6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)  
+[6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
+[6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)  
+[6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)  
+[6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)  
+[6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)  
+[6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
+[6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
+[6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)  
+
+[6.2.2. Sprint 2](#622-sprint-2)  
+[6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)  
+[6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)  
+[6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)  
+[6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)  
+[6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)  
+[6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)  
+[6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)  
+[6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)  
+[6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)  
+
+[6.3 Validation Interviews](#63-validation-interviews)  
+[6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+[6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+[6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+
+[6.4. Video About-the-Product](#64-video-about-the-product)
              
 
 [Conclusiones](#conclusiones)
@@ -1503,6 +1574,11 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
 ![alt text](./assets/bounded/candidate.png)
+
+* Assets and Resource Management
+
+  Administra los recursos del sistema, como los sensores, actuadores y otros componentes necesarios para el buen funcionamiento del sistema.
+
 * Management
 
   Gestiona y supervisa el estado del agua en los tanques de los habitantes. Permite a usuarios visualizar estos datos en tiempo real y generar alertas o solicitudes de recarga. También habilita a los proveedores a monitorear las condiciones del agua y responder a situaciones críticas.  
@@ -1525,7 +1601,8 @@ En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded c
 
 - **Scenario 1: Habitante revisa el estado del agua de su tanque**
   
-El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container Management Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
+El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container 4.1.1.1 Candidate Context Discovery.
+Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
 ![alt text](./assets/bounded/sh1.png)
 
 - **Scenario 2: Habitante gestiona su plan de subscripción.**
@@ -2622,10 +2699,188 @@ Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. 
 - La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
 
 
+
+## 4.2.5. Bounded Context: Assets and Resources
+### 4.2.5.1 Domain Layer
+
+Mobile App:
+En esta capa se definen las clases que representan las abstracciones del dominio. Se incluyen clases encargadas de la serialización de solicitudes y respuestas, así como aquellas responsables de realizar peticiones a nuestro servicio.
+
+
+## IAM Request
+
+Este es el formato de solicitud para el servicio de IAM. Los campos device_id y api_key son necesarios para autenticar al dispositivo en el sistema.
+
+| **Request**               | 
+|---------------------------|
+| `device_id: str`           |
+| `api_key: str`             |
+
+## IAM Response
+
+Esta es la respuesta que se obtiene cuando la autenticación es exitosa. Devuelve los datos del device_id, api_key y un timestamp de creación.
+
+| **Response**              | 
+|---------------------------|
+| `device_id: str`           |
+| `api_key: str`             |
+| `created_at: datetime`     |
+
+## Water Request
+
+Este es el formato de solicitud para registrar un Water. Los campos como device_id, bpm, y otros son necesarios para crear un nuevo registro de datos de agua.
+
+| **Request**               | 
+|---------------------------|
+| `device_id: str`           |
+| `bpm: float`               |
+| `created_at: datetime`     |
+| `eventType: str`           |
+| `qualityValue: float`      |
+| `levelValue: float`        |
+| `sensorId: str`            |
+
+
+## Water Response
+
+La respuesta a la solicitud de Water Record incluye el id generado para el nuevo registro, junto con los datos proporcionados, como device_id, bpm, y created_at.
+
+
+| **Response**              | 
+|---------------------------|
+| `id: int`                 |
+| `device_id: str`          |
+| `bpm: float`              |
+| `eventType: str`          |
+| `qualityValue: float`     |
+| `levelValue: float`       |
+| `sensorId: str`           |
+| `created_at: datetime`    |
+
+
+## `Entities`
+
+Las siguientes son las entidades del dominio, que representan las abstracciones de los modelos Device y Water.
+
+### Device Entity
+La entidad Device representa la información del dispositivo que se utiliza para la autenticación en el sistema. Incluye un api_key para autenticar el dispositivo y una marca de tiempo created_at.
+
+| **Device**              | 
+|--------------------------|
+| `id: str`          |
+| `api_key: str`            |
+| `created_at: datetime`    |
+
+## `Record`
+
+### Water Record
+
+Water Record Entity
+La entidad Water representa el registro de datos relacionados con el dispositivo de monitoreo de agua, como los bpm (latidos por minuto), el device_id que lo generó y la marca de tiempo created_at.
+
+| **Water**             | 
+|--------------------------|
+| `id: int`                 |
+| `device_id: str`          |
+| `bpm: float`              |
+| `created_at: datetime`    |
+
+
+
+## `Services`
+
+### AuthService
+El AuthService es responsable de autenticar un dispositivo. Toma un objeto Device y verifica si es válido para proceder con la autenticación. En este caso, simplemente verifica si el dispositivo es None o no.
+
+
+| **Service**    | **Method**          | **Description**                                                                 |
+|----------------|---------------------|---------------------------------------------------------------------------------|
+| **AuthService** | `authenticate()`     | Verifica si un dispositivo proporcionado es válido para autenticarlo.           |
+|                |                     | **Args:** `device: Optional[Device]` - El dispositivo a autenticar.              |
+|                |                     | **Returns:** `bool` - Retorna `True` si el dispositivo es válido, de lo contrario `False`. |
+
+
+
+### WaterRecordService
+
+El WaterRecordService se encarga de crear un nuevo registro de datos de agua (representado por WaterRecord). La función create_record toma los parámetros de device_id, bpm, y created_at, y crea un nuevo WaterRecord asegurándose de que los valores sean válidos.
+
+| **Service**        | **Method**         | **Description**                                                                 |
+|--------------------|--------------------|---------------------------------------------------------------------------------|
+| **WaterRecordService** | `create_record()`  | Crea una nueva instancia de **WaterRecord** con los datos proporcionados.      |
+|                    |                    | **Args:**                                                                      |
+|                    |                    | `device_id: str` - Identificador del dispositivo que registra los datos.         |
+|                    |                    | `bpm: float` - Latidos por minuto registrados por el dispositivo.               |
+|                    |                    | `created_at: str | None` - Fecha y hora de creación en formato ISO, o `None` si se usa la hora actual. |
+|                    |                    | **Returns:** `WaterRecord` - Instancia de **WaterRecord** creada con los datos. |
+
+### 4.2.5.2 Infrastructure Layer
+
+## `Repositories`
+
+### DeviceRepository
+El DeviceRepository se encarga de gestionar las entidades Device en el contexto de IAM. Permite encontrar dispositivos por device_id y api_key, así como crear dispositivos de prueba para fines de desarrollo.
+
+
+| **Repository**         | **Method**                    | **Description**                                                                 |
+|------------------------|-------------------------------|---------------------------------------------------------------------------------|
+| **DeviceRepository**    | `find_by_id_and_api_key()`     | Busca un dispositivo por su **device_id** y **api_key**.                       |
+|                        |                               | **Args:** `device_id: str`, `api_key: str` - Identificadores del dispositivo.  |
+|                        |                               | **Returns:** `Device` - El dispositivo si es encontrado, `None` en caso contrario. |
+|                        | `get_or_create_test_device()`  | Obtiene o crea un dispositivo de prueba para desarrollo.                        |
+|                        |                               | **Returns:** `Device` - Un dispositivo de prueba con un **device_id** y **api_key** predefinidos. |
+
+
+
+### WaterRecordRepository
+
+El WaterRecordRepository gestiona los registros de WaterRecord. Su principal función es guardar los registros de datos de agua en la base de datos.
+
+| **Repository**          | **Method**            | **Description**                                                                 |
+|-------------------------|-----------------------|---------------------------------------------------------------------------------|
+| **WaterRecordRepository** | `save()`             | Guarda un registro de agua en la base de datos.                                 |
+|                         |                       | **Args:** `water_record: WaterRecord` - El registro de agua a guardar.          |
+|                         |                       | **Returns:** `WaterRecord` - El registro de agua guardado con su ID asignado.  |
+
+### 4.2.5.3 Interfaces Layer
+
+ ## `IAM Service`
+ authenticate_request Method
+El método authenticate_request valida el device_id desde el cuerpo de la solicitud y el api_key desde los encabezados. Si alguna de estas credenciales falta o es inválida, devuelve una respuesta con error 401 (No autorizado).
+
+| **Service**           | **Method**            | **Description**                                                                 |
+|-----------------------|-----------------------|---------------------------------------------------------------------------------|
+| **IAM**               | `authenticate_request()` | Valida la autenticación de la solicitud utilizando el **device_id** y **api_key**. |
+|                       |                       | **Args:** `device_id: str` - Identificador del dispositivo.                     |
+|                       |                       | **Args:** `api_key: str` - Clave API del dispositivo.                           |
+|                       |                       | **Returns:** `None` si la autenticación es exitosa, o un `Response` con error 401 si falla. |
+
+
+ ## `Water Record Service`
+
+authenticate_request Method
+El método authenticate_request valida si la solicitud contiene un device_id y api_key válidos. Si no se encuentra alguno de los campos o la clave no es correcta, se retorna un error.
+
+| **Service**           | **Method**            | **Description**                                                                 |
+|-----------------------|-----------------------|---------------------------------------------------------------------------------|
+| **WaterRecord**       | `authenticate_request()` | Valida la autenticación de la solicitud utilizando el **device_id** y **api_key**. |
+|                       |                       | **Args:** `device_id: str` - Identificador del dispositivo.                     |
+|                       |                       | **Args:** `api_key: str` - Clave API del dispositivo.                           |
+|                       |                       | **Returns:** `None` si la autenticación es exitosa, o un `Response` con error 401 si falla. |
+
+
+
+
+
+![alt text](assets/img/diagramAssets.png)
+
+
+
+
 # Capítulo V: Solution UI/UX Design
 
-## 4.1 Style Guidelines
-### 4.1.1. General Style Guidelines
+## 5.1 Style Guidelines
+### 5.1.1. General Style Guidelines
 
 Los siguientes elementos se han considerado para mejorar la experiencia del usuario.
 COLOR: Para los colores hemos elegido un esquema monocromático del color #81c9fa
@@ -2640,7 +2895,7 @@ Tiporafía: Para la tipografia se está usando Comfortaa principalmente pr su si
 Branding: Nuestro logotipo nuestra el nombre del producto AquaConecta, resaltando en azul parte del mismo, pensamos en un logo minimalista que con el hecho de verse el logo se pueda distinguir quienes somos.
 ![alt text](<./assets/img/logo.png>)
 
-### 4.1.2. Web Style Guidelines
+### 5.1.2. Web Style Guidelines
 En nuestra app web y landing page estamos usando los colores ya mencionados en diferentes maneras.
 Background: Color Primario: 539BCA Color Secundario: BAE0FC Color Terniario: 6A9CDE y 003785
 ![alt text](<./assets/img/aquawire.png>)
@@ -3200,25 +3455,26 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
         </tr>
         <tr>
             <td>Sprint n – 2 Review Summary</td>
-            <td>No aplica</td>
+            <td>En este sprint hemos logrado armar y programar el prototipo SP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
         </tr>
         <tr>
             <td>Sprint n – 2 Retrospective Summary</td>
-            <td>No aplica</td>
+            <td>Se destacó una buena comunicacion y coordinacion durante el sprint. Se designaron lideres y colaboradores para cada bounded context. Se identificó como mejora la necesidad de definir muy bien los criterios de aceptacion antes de empezar a hacer las tareas.
+Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconvenientes en el desarrollo.</td>
         </tr>
         <tr>
             <td>Sprint n Goal</td>
             <td>
-              El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final.
+             El objetivo de este sprint es desarrollar el prototipo del SP32, que incluye la conexión de sensores y cableado, así como la implementación del backend. Esto permitirá avanzar en la funcionalidad del sistema y sentar las bases para futuras integraciones.
             </td>
         </tr>
         <tr>
             <td>Sprint n Velocity</td>
-            <td>26</td>
+            <td>103</td>
         </tr>
         <tr>
             <td>Sum of Story Points</td>
-            <td>0 (En esta ocasión al estar en planificación se mantiene como 0)</td>
+            <td>43 </td>
         </tr>
     </tbody>
 </table>
@@ -3232,21 +3488,22 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 
 
 ### 6.2.2.3. Sprint Backlog 2
-| Sprint #    | Sprint 2 |           |             |             |                     |             |                                          |
-|-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
-| User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
-| Id          | Title    | Id        | Title       | Description | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
-| HU26 | Presentación clara de beneficios de valor | T01 | Crear sección de beneficios | Como visitante quiero visualizar claramente los beneficios de la plataforma. | 6 | Rodrigo Aguilar | Done |
-| HU02 | Información sobre segmentación de perfiles de usuario | T02 | Crear sección de perfiles | Como usuario quiero identificar si la solución está dirigida a mi necesidad. | 5 | Paolo Párraga | Done |
-| HU30 | Comunicación del problema y la solución | T03 | Crear sección problema y solución | Como visitante interesado, quiero entender el contexto del problema y cómo la solución lo resuelve. | 4 | Michael Carmelino | Done |
-| HU25 | Comparación de planes y acciones de compra | T04 | Crear tabla de planes y precios | Como visitante interesado, quiero revisar los planes, precios y características para decidir si deseo solicitar un plan o contactar por asesoría. | 5 | Joaquín Cortez | Done |
-| HU23 | Envío efectivo de consultas por formulario | T05 | Implementar formulario de contacto | Usuario con preguntas o interés, quiero poder llenar y enviar un formulario de contacto para recibir asistencia. | 4 | Alexandra Ramos | Done |
-| HU27 | Ver nivel actual del agua de habitantes | T06 | Mostrar tabla de niveles de agua | Como habitante, quiero consultar la calidad actual del agua para determinar si es apta para consumo. | 6 | Rodrigo Aguilar | Done |
-| HU28 | Ver nivel actual del agua | T07 | Mostrar nivel de agua personal | Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento. | 5 | Paolo Párraga | Done |
-| HU29 | Ver calidad del agua | T08 | Reporte de calidad de agua | Como habitante, quiero consultar la calidad del agua actual para asegurarme que es potable. | 6 | Michael Carmelino | Done |
-| HU32 | Historial de alertas | T09 | Mostrar historial de alertas | Como usuario, quiero revisar un historial de alertas para tomar decisiones informadas. | 5 | Alexandra Ramos | Done |
-| HU36 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
-| HU37 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
+
+| Sprint #    | Sprint 2 |           |             |                                                                                                                                            |                     |             |                                          |
+|-------------|----------|-----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-------------|------------------------------------------|
+| User Story  |          | Work-Item / Task |         |                                                                                                                                            |                     |             |                                          |
+| Id          | Title    | Id        | Title       | Description                                                                                                                                | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| HU26 | Presentación clara de beneficios de valor | T01 | Consulta del historial de eventos | Como habitante, quiero buscar y filtrar eventos registrados en mi historial, para encontrar rápidamente los incidentes o notificaciones que me interesan.| 6 | Rodrigo Aguilar | Done |
+| HU02 | Información sobre segmentación de perfiles de usuario | T02 | Ver nivel actual del agua|      Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento correspondiente. | 5 | Paolo Párraga | Done |
+| HU30 | Comunicación del problema y la solución | T03 | Visualizar suscripción del residente | Como residente, quiero consultar el estado de mi suscripción para saber si mi sensor está activo y en funcionamiento.   | 4 | Michael Carmelino | Done |
+| HU25 | Comparación de planes y acciones de compra | T04 | Reporte de fallos del sensor| Como habitante, quiero recibir notificaciones si ocurre algún fallo en mi sensor, para estar informado de posibles errores que puedan afectar la medición de mi consumo de agua. | 5 | Joaquín Cortez | Done |
+| HU23 | Envío efectivo de consultas por formulario | T05 | Información general para proveedores |Como proveedor, quiero visualizar un panel con información resumida y agrupada de cada cliente, para comprender su uso del servicio y detectar oportunidades de mejora o intervención.                        | 4 | Alexandra Ramos | Done |
+| HU27 | Ver nivel actual del agua de habitantes | T06 | Crear suscripción al agregar sensor | Como proveedor, quiero agregar un nuevo sensor para que se registre automáticamente una suscripción individual que habilite el monitoreo del dispositivo.                                    | 6 | Rodrigo Aguilar | Done |
+| HU28 | Ver nivel actual del agua | T07 | Ver suscripciones activas por residente | Como proveedor, quiero visualizar las suscripciones activas asociadas a los sensores de cada residente, para conocer el estado de monitoreo de mis habitantes.      | 5 | Paolo Párraga | Done |
+| HU29 | Ver calidad del agua | T08 | Ver todas las suscripciones del sistema | como administrador, quiero visualizar todas las suscripciones del sistema, para supervisar el uso de la plataforma por parte de proveedores y residentes.                                            | 6 | Michael Carmelino | Done |
+| HU32 | Historial de alertas | T09 | Mostrar historial de alertas | Como dispositivo sensor de nivel de agua, quiero medir el nivel del tanque y transmitir periódicamente esos datos al backend, para que los usuarios puedan monitorear en tiempo real la disponibilidad de agua en sus hogares o instalaciones.                                                 | 5 | Alexandra Ramos | Done |
+| HU36 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como usuario que se encuentra físicamente cerca del dispositivo, quiero recibir indicaciones visuales mediante luces LED sobre el estado de funcionamiento, para saber de forma inmediata si el sensor está operando correctamente o presenta fallos.                                                             | 4 | Joaquín Cortez | Done |
+| HU37 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como sistema edge, quiero recopilar y analizar en tiempo real los datos provenientes de múltiples sensores IoT, para detectar patrones y anomalías localmente y enviar solo información consolidada y relevante al entorno cloud.                                                             | 4 | Joaquín Cortez | Done |
 
 ### 6.2.2.4. Development Evidence for Sprint Review
 
@@ -3590,11 +3847,62 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 
 ### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
+Durante el desarrollo del sprint 2 se implementaron pruebas unitarias e integrales para validar el comportamiento de las clases de negocio. Esto ayuda a asegurarnos que cada componente funcione correctamente, cumpliendo con su responsabilidad.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|IronCoders-IOT / Backend|develop|d151674|feature: Add tests for create provider||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|9089fa0|feature: Add tests for create resident||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|222f3f6|feature: Add tests for update provider||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|2548b91|feature: Add tests for update resident||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|bbf4cfa|feature: Update handle for provider test||Jun 19, 2025, 12:03 P.M.|
+
+**A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.**
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_1.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_2.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_3.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_4.jpg)
+
+
 ### 6.2.2.6. Execution Evidence for Sprint Review.
+
+
+En nuestro video de exposición, hemos incluido una demostración de la aplicación AquaConecta, donde se muestra cómo los proveedores pueden gestionar sus servicios y cómo los residentes pueden interactuar con la aplicación. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
+
+- Se muestra captura de código del proyecto.
+![alt text](assets/execution-evidence-for-sprint-review/code.png)
+
+- Se muestran las diversas vistas dentro de la aplicación web:
+![alt text](assets/execution-evidence-for-sprint-review/front-1.jpg)
+![alt text](assets/execution-evidence-for-sprint-review/front-2.jpg)
+![alt text](assets/execution-evidence-for-sprint-review/front-3.jpg)
+![alt text](assets/execution-evidence-for-sprint-review/front-4.jpg)
+
+Tambien, hemos realizado el desarrollo del ESP32 para la configuracion del sensor de calidad de agua, el cual se presenta a continuacion:
+
+![sp1](assets/img/sp1.png)
 
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
+Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
+
+
+![back1](assets/img/back1.png)
+
+![back2](assets/img/back2.png)
+
+![back3](assets/img/back3.png)
+
+![back4](assets/img/back4.png)
+
+![back5](assets/img/back5.png)
+
 ### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+La aplicación AquaConecta ha sido desplegada en Netlify, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Netlify:
+
+![netlify1](assets/img/netlify1.png)
+
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
 
@@ -3630,12 +3938,122 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 9.  ¿Qué cambiaría o mejoraría?
 10. ¿Hay algo que le gustaría que la app también hiciera?
 
-
-
-
-
-
 ### 6.3.2. Registro de Entrevistas 
+
+**Link del video de las entrevistas:**
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3)
+
+**Entrevistas usuario segmento (Habitantes)**
+
+**Segmento Habitantes**  
+Nombre: Jimena Quintana
+<br>
+- Edad: 23
+<br>
+- Ocupación: Estudiante Universitaria
+<br>
+- Distrito: Chincha Alta
+<br>
+- Timing: 14:25
+<br>
+![alt text](assets/validation-interviews/validation-interview-resident-1.png)
+
+Jimena Quintana es una joven universitaria de 23 años que vive en Chincha. Respecto a la app móvil,  ella considera que la AquaConecta le ayudaría a tomar decisiones sobre el uso de acuerdo a cada situación del día a día. Nos comentó que ella considera utilizar la aplicación para revisar diariamente la información respectiva del agua y que en ocasiones importantes le ayudaría mucho para poder solicitar abastecimiento de agua.
+
+Nombre: Jorge Medina
+<br>
+- Edad: 24
+<br>
+- Ocupación: Negocio familiar
+<br>
+- Distrito: Leoncio Prado - Chincha
+<br>
+- Timing: 19:16
+
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-resident-2.png)
+
+Armando Paredes es un joven de Chincha que trabaja junto a su familia en un puesto de abarrotes. Nos comenta que la información dentro de la aplicación es fácil e entender. Considera que esto le ayudaría a optimizar el consumo de agua y que para poder tener un control del agua utilizaría constantemente el agua. Y lo que más le gustó es ver el estado del agua para comprobar si es potable y apta para el consumo.
+
+Nombre: Nicolas Quezada
+<br>
+- Edad: 32
+<br>
+- Ocupación: Agricultor
+<br>
+- Distrito: Ica
+<br>
+- Timing: 25:11
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-resident-3.png)
+
+El entrevistado Nicolas Quezada nos menciona que vive en Ica y que es un agricultor. Luego de observar el funcionamiento de la aplicación, cree que es muy útil y fácil de entender. Sin embargo, considera que para mejor entendimiento se debería comentaron porque cambiar el idioma a español para que las personas puede entender.
+Lo que le pareció más interesante es que mediante la app se podrá comunicar con el proveedor de agua.
+
+
+**Entrevistas usuario segmento (Proveedor de agua)**
+Nombre: Martin Robles
+<br>
+- Edad: 27
+<br>
+- Ocupación: Proveedor de agua(Empresa distribuidora)
+<br>
+- Distrito: Chincha
+<br>
+- Timing: 2:06
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-provider-1.png)
+
+
+Martin Roblez nos comenta que para su empresa es fundamental registra los clientes que van y se siente muy interesado en la implementación sde sensores para el monitoreo de agua. 
+
+El proveedor considera que la aplicación le ayudaría a obtener reportes de la infrormación de estados en los tanques de los habitantes diariamente. El diseño le parece muy ameno y el proceso es intuitivo, se siente muy interesado y motivado por probar la apliación.
+
+
+Nombre: Milagros Ramos
+<br>
+- Edad: 28
+<br>
+- Ocupación: Empresaria distrubuidora de agua
+<br>
+- Distrito: Orongo - Ica
+<br>
+- Timing: 4:21
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-provider-2.png)
+
+MIlagros Ramos nos comenta que para ella es muy importante conocer acerca del estado del agua de los habitantes de las zonas en las que distribuye agua.
+
+Considera que AquaConecta es una buena opción y el proceso de navegación dentro de la aplicaión web es intuitivo. Considera que el uso de sensores le da un valor agregado a la solución y eso le brindaría más exactitud al obtener información sobre sus clientes. 
+
+Nos comenta que no considera necesario el que se pueda cambiar de idioma  a inglés  ya que los habitantes de la zona de Orongo hablan español. 
+
+Nombre: Franco Rivera
+<br>
+- Edad: 20
+<br>
+- Ocupación: Trabajadora de Sedapal
+<br>
+- Distrito: Santiago de Surco
+<br>
+- Timing: 10:19
+<br>
+    
+![alt text](assets/validation-interviews/validation-interview-provider-3.jpg)
+
+Franco Rivera explicó que actualmente no cuentan con un sistema automatizado para monitorear la calidad del agua. Dependen de análisis esporádicos realizados por laboratorios externos, lo cual no permite una vigilancia constante ni una respuesta rápida ante problemas.
+
+Considera que un sistema de monitoreo en tiempo real sería muy útil para complementar su método actual, ya que mejoraría la capacidad de respuesta. Señaló que la información disponible actualmente no es suficiente ni oportuna, y le gustaría tener datos más frecuentes y detallados sobre indicadores clave como pH, turbidez, temperatura y presencia de contaminantes específicos.
+
+Franco imagina que una aplicación móvil o sistema digital podría integrarse en las operaciones mediante sensores conectados en puntos de distribución, con transmisión de datos en tiempo real. Desea que la aplicación tenga un diseño simple, permita configurar alertas automáticas y brinde acceso a un historial de datos para análisis.
+
+Para confiar plenamente en esta herramienta, pide que sea fiable, fácil de usar, con soporte técnico eficiente y que tenga la capacidad de escalar según las necesidades de las comunidades a las que abastece.
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 #### UX Heuristics & Principles Evaluation
@@ -3740,7 +4158,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 **Solución propuesta:** Reducir el ancho de la tabla para mejorar la legibilidad y el enfoque visual. Se recomienda establecer un ancho máximo y centrar la tabla en la página, además de ajustar el tamaño de las columnas para que solo ocupen el espacio necesario.
 
 # 6.4. Video About-the-Product
+En esta sección colocamos el video de About the Product. En este video se puede visualizar tanto la app web y móvil junto a la implementación IOT para que los usuarios puedan observar cómo funciona nustra solución. Además, contamos con testimonios de los segmentos objetivos correspondientes.
 
+- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
 
 ## Conclusiones
 ### Conclusiones – TB1
@@ -3771,6 +4191,16 @@ Además, se fortaleció la colaboración entre los miembros del equipo, lo cual 
 
 En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
 
+### Conclusiones – TB2
+
+A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
+
+Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applications y una primera versión funcional de otras aplicaciones que forman parte del alcance del proyecto.
+
+Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
+
+Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
+
 # Bibliografía
 
 ## Referencias
@@ -3794,7 +4224,9 @@ En resumen, esta entrega representó un avance significativo hacia la construcci
 
 # Anexos
 - **Link del video de exposición TB1:**
-  [Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
+  [[Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
 
-- **Link del video de exposición TP1:**
+- **Link del video de exposición TB2:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma)
+- **Link del video  About the Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT)
+- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
 
