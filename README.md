@@ -3872,10 +3872,11 @@ En nuestro video de exposición, hemos incluido una demostración de la aplicaci
 - Se muestra captura de código del proyecto.
 ![alt text](assets/execution-evidence-for-sprint-review/code.png)
 
-
-front
-front
-front
+- Se muestran las diversas vistas dentro de la aplicación web:
+![alt text](assets/execution-evidence-for-sprint-review/front-1.jpg)
+![alt text](assets/execution-evidence-for-sprint-review/front-2.jpg)
+![alt text](assets/execution-evidence-for-sprint-review/front-3.jpg)
+![alt text](assets/execution-evidence-for-sprint-review/front-4.jpg)
 
 Tambien, hemos realizado el desarrollo del ESP32 para la configuracion del sensor de calidad de agua, el cual se presenta a continuacion:
 
@@ -3937,12 +3938,122 @@ La aplicación AquaConecta ha sido desplegada en Netlify, lo que permite a los u
 9.  ¿Qué cambiaría o mejoraría?
 10. ¿Hay algo que le gustaría que la app también hiciera?
 
-
-
-
-
-
 ### 6.3.2. Registro de Entrevistas 
+
+**Link del video de las entrevistas:**
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3)
+
+**Entrevistas usuario segmento (Habitantes)**
+
+**Segmento Habitantes**  
+Nombre: Jimena Quintana
+<br>
+- Edad: 23
+<br>
+- Ocupación: Estudiante Universitaria
+<br>
+- Distrito: Chincha Alta
+<br>
+- Timing: 14:25
+<br>
+![alt text](assets/validation-interviews/validation-interview-resident-1.png)
+
+Jimena Quintana es una joven universitaria de 23 años que vive en Chincha. Respecto a la app móvil,  ella considera que la AquaConecta le ayudaría a tomar decisiones sobre el uso de acuerdo a cada situación del día a día. Nos comentó que ella considera utilizar la aplicación para revisar diariamente la información respectiva del agua y que en ocasiones importantes le ayudaría mucho para poder solicitar abastecimiento de agua.
+
+Nombre: Jorge Medina
+<br>
+- Edad: 24
+<br>
+- Ocupación: Negocio familiar
+<br>
+- Distrito: Leoncio Prado - Chincha
+<br>
+- Timing: 19:16
+
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-resident-2.png)
+
+Armando Paredes es un joven de Chincha que trabaja junto a su familia en un puesto de abarrotes. Nos comenta que la información dentro de la aplicación es fácil e entender. Considera que esto le ayudaría a optimizar el consumo de agua y que para poder tener un control del agua utilizaría constantemente el agua. Y lo que más le gustó es ver el estado del agua para comprobar si es potable y apta para el consumo.
+
+Nombre: Nicolas Quezada
+<br>
+- Edad: 32
+<br>
+- Ocupación: Agricultor
+<br>
+- Distrito: Ica
+<br>
+- Timing: 25:11
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-resident-3.png)
+
+El entrevistado Nicolas Quezada nos menciona que vive en Ica y que es un agricultor. Luego de observar el funcionamiento de la aplicación, cree que es muy útil y fácil de entender. Sin embargo, considera que para mejor entendimiento se debería comentaron porque cambiar el idioma a español para que las personas puede entender.
+Lo que le pareció más interesante es que mediante la app se podrá comunicar con el proveedor de agua.
+
+
+**Entrevistas usuario segmento (Proveedor de agua)**
+Nombre: Martin Robles
+<br>
+- Edad: 27
+<br>
+- Ocupación: Proveedor de agua(Empresa distribuidora)
+<br>
+- Distrito: Chincha
+<br>
+- Timing: 2:06
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-provider-1.png)
+
+
+Martin Roblez nos comenta que para su empresa es fundamental registra los clientes que van y se siente muy interesado en la implementación sde sensores para el monitoreo de agua. 
+
+El proveedor considera que la aplicación le ayudaría a obtener reportes de la infrormación de estados en los tanques de los habitantes diariamente. El diseño le parece muy ameno y el proceso es intuitivo, se siente muy interesado y motivado por probar la apliación.
+
+
+Nombre: Milagros Ramos
+<br>
+- Edad: 28
+<br>
+- Ocupación: Empresaria distrubuidora de agua
+<br>
+- Distrito: Orongo - Ica
+<br>
+- Timing: 4:21
+<br>
+
+![alt text](assets/validation-interviews/validation-interview-provider-2.png)
+
+MIlagros Ramos nos comenta que para ella es muy importante conocer acerca del estado del agua de los habitantes de las zonas en las que distribuye agua.
+
+Considera que AquaConecta es una buena opción y el proceso de navegación dentro de la aplicaión web es intuitivo. Considera que el uso de sensores le da un valor agregado a la solución y eso le brindaría más exactitud al obtener información sobre sus clientes. 
+
+Nos comenta que no considera necesario el que se pueda cambiar de idioma  a inglés  ya que los habitantes de la zona de Orongo hablan español. 
+
+Nombre: Franco Rivera
+<br>
+- Edad: 20
+<br>
+- Ocupación: Trabajadora de Sedapal
+<br>
+- Distrito: Santiago de Surco
+<br>
+- Timing: 10:19
+<br>
+    
+![alt text](assets/validation-interviews/validation-interview-provider-3.jpg)
+
+Franco Rivera explicó que actualmente no cuentan con un sistema automatizado para monitorear la calidad del agua. Dependen de análisis esporádicos realizados por laboratorios externos, lo cual no permite una vigilancia constante ni una respuesta rápida ante problemas.
+
+Considera que un sistema de monitoreo en tiempo real sería muy útil para complementar su método actual, ya que mejoraría la capacidad de respuesta. Señaló que la información disponible actualmente no es suficiente ni oportuna, y le gustaría tener datos más frecuentes y detallados sobre indicadores clave como pH, turbidez, temperatura y presencia de contaminantes específicos.
+
+Franco imagina que una aplicación móvil o sistema digital podría integrarse en las operaciones mediante sensores conectados en puntos de distribución, con transmisión de datos en tiempo real. Desea que la aplicación tenga un diseño simple, permita configurar alertas automáticas y brinde acceso a un historial de datos para análisis.
+
+Para confiar plenamente en esta herramienta, pide que sea fiable, fácil de usar, con soporte técnico eficiente y que tenga la capacidad de escalar según las necesidades de las comunidades a las que abastece.
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 #### UX Heuristics & Principles Evaluation
@@ -4047,7 +4158,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 **Solución propuesta:** Reducir el ancho de la tabla para mejorar la legibilidad y el enfoque visual. Se recomienda establecer un ancho máximo y centrar la tabla en la página, además de ajustar el tamaño de las columnas para que solo ocupen el espacio necesario.
 
 # 6.4. Video About-the-Product
+En esta sección colocamos el video de About the Product. En este video se puede visualizar tanto la app web y móvil junto a la implementación IOT para que los usuarios puedan observar cómo funciona nustra solución. Además, contamos con testimonios de los segmentos objetivos correspondientes.
 
+- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
 
 ## Conclusiones
 ### Conclusiones – TB1
@@ -4078,6 +4191,16 @@ Además, se fortaleció la colaboración entre los miembros del equipo, lo cual 
 
 En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
 
+### Conclusiones – TB2
+
+A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
+
+Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applications y una primera versión funcional de otras aplicaciones que forman parte del alcance del proyecto.
+
+Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
+
+Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
+
 # Bibliografía
 
 ## Referencias
@@ -4101,7 +4224,9 @@ En resumen, esta entrega representó un avance significativo hacia la construcci
 
 # Anexos
 - **Link del video de exposición TB1:**
-  [Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
+  [[Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
 
-- **Link del video de exposición TP1:**
+- **Link del video de exposición TB2:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma)
+- **Link del video  About the Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT)
+- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
 
