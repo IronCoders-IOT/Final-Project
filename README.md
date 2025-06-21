@@ -105,6 +105,15 @@ Repositorios:
 
 Proyecto: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
 
+Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
+
+Backend: [https://github.com/IronCoders-IOT/Backend](https://github.com/IronCoders-IOT/Backend)
+
+Mobile: [https://github.com/IronCoders-IOT/mobile_iot](https://github.com/IronCoders-IOT/mobile_iot)
+
+Edge: [https://github.com/IronCoders-IOT/Edge](https://github.com/IronCoders-IOT/Edge)
+
+Embedded: [https://github.com/IronCoders-IOT/Embedded](https://github.com/IronCoders-IOT/Embedded)
 
 ### TB2
 
