@@ -2628,6 +2628,184 @@ Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. 
 - La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
 
 
+
+## 4.2.5. Bounded Context: Assets and Resources
+### 4.2.5.1 Domain Layer
+
+Mobile App:
+En esta capa se definen las clases que representan las abstracciones del dominio. Se incluyen clases encargadas de la serialización de solicitudes y respuestas, así como aquellas responsables de realizar peticiones a nuestro servicio.
+
+
+## IAM Request
+
+Este es el formato de solicitud para el servicio de IAM. Los campos device_id y api_key son necesarios para autenticar al dispositivo en el sistema.
+
+| **Request**               | 
+|---------------------------|
+| `device_id: str`           |
+| `api_key: str`             |
+
+## IAM Response
+
+Esta es la respuesta que se obtiene cuando la autenticación es exitosa. Devuelve los datos del device_id, api_key y un timestamp de creación.
+
+| **Response**              | 
+|---------------------------|
+| `device_id: str`           |
+| `api_key: str`             |
+| `created_at: datetime`     |
+
+## Water Request
+
+Este es el formato de solicitud para registrar un Water. Los campos como device_id, bpm, y otros son necesarios para crear un nuevo registro de datos de agua.
+
+| **Request**               | 
+|---------------------------|
+| `device_id: str`           |
+| `bpm: float`               |
+| `created_at: datetime`     |
+| `eventType: str`           |
+| `qualityValue: float`      |
+| `levelValue: float`        |
+| `sensorId: str`            |
+
+
+## Water Response
+
+La respuesta a la solicitud de Water Record incluye el id generado para el nuevo registro, junto con los datos proporcionados, como device_id, bpm, y created_at.
+
+
+| **Response**              | 
+|---------------------------|
+| `id: int`                 |
+| `device_id: str`          |
+| `bpm: float`              |
+| `eventType: str`          |
+| `qualityValue: float`     |
+| `levelValue: float`       |
+| `sensorId: str`           |
+| `created_at: datetime`    |
+
+
+## `Entities`
+
+Las siguientes son las entidades del dominio, que representan las abstracciones de los modelos Device y Water.
+
+### Device Entity
+La entidad Device representa la información del dispositivo que se utiliza para la autenticación en el sistema. Incluye un api_key para autenticar el dispositivo y una marca de tiempo created_at.
+
+| **Device**              | 
+|--------------------------|
+| `id: str`          |
+| `api_key: str`            |
+| `created_at: datetime`    |
+
+## `Record`
+
+### Water Record
+
+Water Record Entity
+La entidad Water representa el registro de datos relacionados con el dispositivo de monitoreo de agua, como los bpm (latidos por minuto), el device_id que lo generó y la marca de tiempo created_at.
+
+| **Water**             | 
+|--------------------------|
+| `id: int`                 |
+| `device_id: str`          |
+| `bpm: float`              |
+| `created_at: datetime`    |
+
+
+
+## `Services`
+
+### AuthService
+El AuthService es responsable de autenticar un dispositivo. Toma un objeto Device y verifica si es válido para proceder con la autenticación. En este caso, simplemente verifica si el dispositivo es None o no.
+
+
+| **Service**    | **Method**          | **Description**                                                                 |
+|----------------|---------------------|---------------------------------------------------------------------------------|
+| **AuthService** | `authenticate()`     | Verifica si un dispositivo proporcionado es válido para autenticarlo.           |
+|                |                     | **Args:** `device: Optional[Device]` - El dispositivo a autenticar.              |
+|                |                     | **Returns:** `bool` - Retorna `True` si el dispositivo es válido, de lo contrario `False`. |
+
+
+
+### WaterRecordService
+
+El WaterRecordService se encarga de crear un nuevo registro de datos de agua (representado por WaterRecord). La función create_record toma los parámetros de device_id, bpm, y created_at, y crea un nuevo WaterRecord asegurándose de que los valores sean válidos.
+
+| **Service**        | **Method**         | **Description**                                                                 |
+|--------------------|--------------------|---------------------------------------------------------------------------------|
+| **WaterRecordService** | `create_record()`  | Crea una nueva instancia de **WaterRecord** con los datos proporcionados.      |
+|                    |                    | **Args:**                                                                      |
+|                    |                    | `device_id: str` - Identificador del dispositivo que registra los datos.         |
+|                    |                    | `bpm: float` - Latidos por minuto registrados por el dispositivo.               |
+|                    |                    | `created_at: str | None` - Fecha y hora de creación en formato ISO, o `None` si se usa la hora actual. |
+|                    |                    | **Returns:** `WaterRecord` - Instancia de **WaterRecord** creada con los datos. |
+
+### 4.2.5.2 Infrastructure Layer
+
+## `Repositories`
+
+### DeviceRepository
+El DeviceRepository se encarga de gestionar las entidades Device en el contexto de IAM. Permite encontrar dispositivos por device_id y api_key, así como crear dispositivos de prueba para fines de desarrollo.
+
+
+| **Repository**         | **Method**                    | **Description**                                                                 |
+|------------------------|-------------------------------|---------------------------------------------------------------------------------|
+| **DeviceRepository**    | `find_by_id_and_api_key()`     | Busca un dispositivo por su **device_id** y **api_key**.                       |
+|                        |                               | **Args:** `device_id: str`, `api_key: str` - Identificadores del dispositivo.  |
+|                        |                               | **Returns:** `Device` - El dispositivo si es encontrado, `None` en caso contrario. |
+|                        | `get_or_create_test_device()`  | Obtiene o crea un dispositivo de prueba para desarrollo.                        |
+|                        |                               | **Returns:** `Device` - Un dispositivo de prueba con un **device_id** y **api_key** predefinidos. |
+
+
+
+### WaterRecordRepository
+
+El WaterRecordRepository gestiona los registros de WaterRecord. Su principal función es guardar los registros de datos de agua en la base de datos.
+
+| **Repository**          | **Method**            | **Description**                                                                 |
+|-------------------------|-----------------------|---------------------------------------------------------------------------------|
+| **WaterRecordRepository** | `save()`             | Guarda un registro de agua en la base de datos.                                 |
+|                         |                       | **Args:** `water_record: WaterRecord` - El registro de agua a guardar.          |
+|                         |                       | **Returns:** `WaterRecord` - El registro de agua guardado con su ID asignado.  |
+
+### 4.2.5.3 Interfaces Layer
+
+ ## `IAM Service`
+ authenticate_request Method
+El método authenticate_request valida el device_id desde el cuerpo de la solicitud y el api_key desde los encabezados. Si alguna de estas credenciales falta o es inválida, devuelve una respuesta con error 401 (No autorizado).
+
+| **Service**           | **Method**            | **Description**                                                                 |
+|-----------------------|-----------------------|---------------------------------------------------------------------------------|
+| **IAM**               | `authenticate_request()` | Valida la autenticación de la solicitud utilizando el **device_id** y **api_key**. |
+|                       |                       | **Args:** `device_id: str` - Identificador del dispositivo.                     |
+|                       |                       | **Args:** `api_key: str` - Clave API del dispositivo.                           |
+|                       |                       | **Returns:** `None` si la autenticación es exitosa, o un `Response` con error 401 si falla. |
+
+
+ ## `Water Record Service`
+
+authenticate_request Method
+El método authenticate_request valida si la solicitud contiene un device_id y api_key válidos. Si no se encuentra alguno de los campos o la clave no es correcta, se retorna un error.
+
+| **Service**           | **Method**            | **Description**                                                                 |
+|-----------------------|-----------------------|---------------------------------------------------------------------------------|
+| **WaterRecord**       | `authenticate_request()` | Valida la autenticación de la solicitud utilizando el **device_id** y **api_key**. |
+|                       |                       | **Args:** `device_id: str` - Identificador del dispositivo.                     |
+|                       |                       | **Args:** `api_key: str` - Clave API del dispositivo.                           |
+|                       |                       | **Returns:** `None` si la autenticación es exitosa, o un `Response` con error 401 si falla. |
+
+
+
+
+
+![alt text](assets/img/diagramAssets.png)
+
+
+
+
 # Capítulo V: Solution UI/UX Design
 
 ## 4.1 Style Guidelines
