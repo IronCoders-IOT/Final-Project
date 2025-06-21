@@ -55,6 +55,8 @@
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Registro de Versiones del Informe
 
 <div align="center">
@@ -85,7 +87,13 @@
 |3\.0|25/04/2025|Alexandra Belen Ramos Argüelles|Elaboración de domain message flows modeling y context mapping.|
 |3\.1|06/05/2025|Rodrigo Aguilar Castillo|Agregar conceptos de sensor y eventos a los diagramas|
 |3\.2|07/05/2025|Paolo Gonzalo Párraga Gamarra|Actualización de product backlog.|
-
+|3.3|08/06/2025|Rodrigo Aguilar Castillo|Actualización de product backlog y user stories para Sprint 2.|
+|3.4|10/06/2025|Michael Stefano Carmelino Dueñas|Actualización de evidencia de desarrollo y commits de frontend y mobile app.|
+|3.5|12/06/2025|Paolo Gonzalo Párraga Gamarra|Actualización de evidencia de backend, documentación de endpoints y despliegue en Netlify.|
+|3.6|13/06/2025|Alexandra Belen Ramos Argüelles|Actualización de user journey mapping y empathy mapping para nuevos segmentos.|
+|3.7|14/06/2025|Joaquin Antonio Cortez Quezada|Actualización de bounded context canvas y diagramas de clases para management y analytics.|
+|3.8|15/06/2025|Piero Periche Quiroga|Actualización de documentación de arquitectura, diagramas de despliegue y base de datos.|
+|3.9|16/06/2025|Rodrigo Aguilar Castillo|Revisión y actualización de la tabla de registro de versiones y ajustes finales de formato.|
 
 
 
@@ -98,11 +106,11 @@ Repositorios:
 Proyecto: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
 
 
-### TP1
+### TB2
 
-Para la entrega del TP1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
-Se muestran evidencias de los commits realizados en la entrega de la TP1 en el informe.
+Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe.
 
 
 [Colaboraciones del repositorio]
@@ -271,6 +279,69 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)     
 [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)     
 [4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)     
+
+[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+
+[5.1 Style Guidelines](#51-style-guidelines)  
+[5.1.1. General Style Guidelines](#511-general-style-guidelines)  
+[5.1.2. Web Style Guidelines](#512-web-style-guidelines)  
+
+[5.2 Software Architecture](#52-software-architecture)  
+[5.2.1 Organization System](#521-organization-system)  
+[5.2.2 Labeling System](#522-labeling-system)  
+[5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
+[5.2.4 Searching Systems](#524-searching-systems)  
+[5.2.5 Navigation Systems](#525-navigation-systems)  
+
+[5.3 Landing Page UI Design](#53-landing-page-ui-design)  
+[5.3.1 Landing Page Wireframe](#531-landing-page-wireframe)  
+[5.3.2 Landing Page Mock Up](#532-landing-page-mock-up)  
+
+[5.4 Applications UX/UI Design](#54-applications-uxui-design)  
+[5.4.1 Applications Wireframes](#541-applications-wireframes)  
+[5.4.2 Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)  
+[5.4.3 Applications Mockups](#543-applications-mockups)  
+[5.4.4 Applications User Flow Diagrams](#544-applications-user-flow-diagrams)  
+
+[5.5 Applications Prototyping](#55-applications-prototyping)  
+
+[Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+
+[6.1. Software Configuration Management](#61-software-configuration-management)  
+[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
+[6.1.2. Source Code Management](#612-source-code-management)  
+[6.1.3. Guía de Estilo y Convenciones del Código Fuente](#613-guía-de-estilo-y-convenciones-del-código-fuente)  
+[6.1.4. Configuración para el Despliegue de Software](#614-configuración-para-el-despliegue-de-software)  
+
+[6.2. Implementación de Landing Page, Servicios y Aplicaciones](#62-implementación-de-landing-page-servicios-y-aplicaciones)  
+[6.2.1. Sprint 1](#621-sprint-1)  
+[6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)  
+[6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
+[6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)  
+[6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)  
+[6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)  
+[6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)  
+[6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
+[6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
+[6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)  
+
+[6.2.2. Sprint 2](#622-sprint-2)  
+[6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)  
+[6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)  
+[6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)  
+[6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)  
+[6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)  
+[6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)  
+[6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)  
+[6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)  
+[6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)  
+
+[6.3 Validation Interviews](#63-validation-interviews)  
+[6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+[6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+[6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+
+[6.4. Video About-the-Product](#64-video-about-the-product)
              
 
 [Conclusiones](#conclusiones)
@@ -2808,8 +2879,8 @@ El método authenticate_request valida si la solicitud contiene un device_id y a
 
 # Capítulo V: Solution UI/UX Design
 
-## 4.1 Style Guidelines
-### 4.1.1. General Style Guidelines
+## 5.1 Style Guidelines
+### 5.1.1. General Style Guidelines
 
 Los siguientes elementos se han considerado para mejorar la experiencia del usuario.
 COLOR: Para los colores hemos elegido un esquema monocromático del color #81c9fa
@@ -2824,7 +2895,7 @@ Tiporafía: Para la tipografia se está usando Comfortaa principalmente pr su si
 Branding: Nuestro logotipo nuestra el nombre del producto AquaConecta, resaltando en azul parte del mismo, pensamos en un logo minimalista que con el hecho de verse el logo se pueda distinguir quienes somos.
 ![alt text](<./assets/img/logo.png>)
 
-### 4.1.2. Web Style Guidelines
+### 5.1.2. Web Style Guidelines
 En nuestra app web y landing page estamos usando los colores ya mencionados en diferentes maneras.
 Background: Color Primario: 539BCA Color Secundario: BAE0FC Color Terniario: 6A9CDE y 003785
 ![alt text](<./assets/img/aquawire.png>)
@@ -3776,17 +3847,37 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 
 ### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
+Durante el desarrollo del sprint 2 se implementaron pruebas unitarias e integrales para validar el comportamiento de las clases de negocio. Esto ayuda a asegurarnos que cada componente funcione correctamente, cumpliendo con su responsabilidad.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|IronCoders-IOT / Backend|develop|d151674|feature: Add tests for create provider||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|9089fa0|feature: Add tests for create resident||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|222f3f6|feature: Add tests for update provider||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|2548b91|feature: Add tests for update resident||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|bbf4cfa|feature: Update handle for provider test||Jun 19, 2025, 12:03 P.M.|
+
+**A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.**
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_1.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_2.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_3.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_4.jpg)
+
+
 ### 6.2.2.6. Execution Evidence for Sprint Review.
 
 
 En nuestro video de exposición, hemos incluido una demostración de la aplicación AquaConecta, donde se muestra cómo los proveedores pueden gestionar sus servicios y cómo los residentes pueden interactuar con la aplicación. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
 
+- Se muestra captura de código del proyecto.
+![alt text](assets/execution-evidence-for-sprint-review/code.png)
+
 
 front
 front
 front
 
-Tambien, hemos realizado el desarrollo del sp32 para la configuracion del sensor de calidad de agua, el cual se presenta a continuacion:
+Tambien, hemos realizado el desarrollo del ESP32 para la configuracion del sensor de calidad de agua, el cual se presenta a continuacion:
 
 ![sp1](assets/img/sp1.png)
 
