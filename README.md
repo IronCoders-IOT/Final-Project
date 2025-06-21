@@ -1503,6 +1503,11 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
 ![alt text](./assets/bounded/candidate.png)
+
+* Assets and Resource Management
+
+  Administra los recursos del sistema, como los sensores, actuadores y otros componentes necesarios para el buen funcionamiento del sistema.
+
 * Management
 
   Gestiona y supervisa el estado del agua en los tanques de los habitantes. Permite a usuarios visualizar estos datos en tiempo real y generar alertas o solicitudes de recarga. También habilita a los proveedores a monitorear las condiciones del agua y responder a situaciones críticas.  
@@ -1525,7 +1530,8 @@ En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded c
 
 - **Scenario 1: Habitante revisa el estado del agua de su tanque**
   
-El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container Management Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
+El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container 4.1.1.1 Candidate Context Discovery.
+Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
 ![alt text](./assets/bounded/sh1.png)
 
 - **Scenario 2: Habitante gestiona su plan de subscripción.**
@@ -3241,13 +3247,13 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 | HU02 | Información sobre segmentación de perfiles de usuario | T02 | Ver nivel actual del agua|      Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento correspondiente. | 5 | Paolo Párraga | Done |
 | HU30 | Comunicación del problema y la solución | T03 | Visualizar suscripción del residente | Como residente, quiero consultar el estado de mi suscripción para saber si mi sensor está activo y en funcionamiento.   | 4 | Michael Carmelino | Done |
 | HU25 | Comparación de planes y acciones de compra | T04 | Reporte de fallos del sensor| Como habitante, quiero recibir notificaciones si ocurre algún fallo en mi sensor, para estar informado de posibles errores que puedan afectar la medición de mi consumo de agua. | 5 | Joaquín Cortez | Done |
-| HU23 | Envío efectivo de consultas por formulario | T05 | Información general para proveedores | Usuario con preguntas o interés, quiero poder llenar y enviar un formulario de contacto para recibir asistencia.                           | 4 | Alexandra Ramos | Done |
-| HU27 | Ver nivel actual del agua de habitantes | T06 | Crear suscripción al agregar sensor | Como habitante, quiero consultar la calidad actual del agua para determinar si es apta para consumo.                                       | 6 | Rodrigo Aguilar | Done |
-| HU28 | Ver nivel actual del agua | T07 | Ver suscripciones activas por residente | Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento.            | 5 | Paolo Párraga | Done |
-| HU29 | Ver calidad del agua | T08 | Ver todas las suscripciones del sistema | Como habitante, quiero consultar la calidad del agua actual para asegurarme que es potable.                                                | 6 | Michael Carmelino | Done |
-| HU32 | Historial de alertas | T09 | Mostrar historial de alertas | Como usuario, quiero revisar un historial de alertas para tomar decisiones informadas.                                                     | 5 | Alexandra Ramos | Done |
-| HU36 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa.                                                              | 4 | Joaquín Cortez | Done |
-| HU37 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa.                                                              | 4 | Joaquín Cortez | Done |
+| HU23 | Envío efectivo de consultas por formulario | T05 | Información general para proveedores |Como proveedor, quiero visualizar un panel con información resumida y agrupada de cada cliente, para comprender su uso del servicio y detectar oportunidades de mejora o intervención.                        | 4 | Alexandra Ramos | Done |
+| HU27 | Ver nivel actual del agua de habitantes | T06 | Crear suscripción al agregar sensor | Como proveedor, quiero agregar un nuevo sensor para que se registre automáticamente una suscripción individual que habilite el monitoreo del dispositivo.                                    | 6 | Rodrigo Aguilar | Done |
+| HU28 | Ver nivel actual del agua | T07 | Ver suscripciones activas por residente | Como proveedor, quiero visualizar las suscripciones activas asociadas a los sensores de cada residente, para conocer el estado de monitoreo de mis habitantes.      | 5 | Paolo Párraga | Done |
+| HU29 | Ver calidad del agua | T08 | Ver todas las suscripciones del sistema | como administrador, quiero visualizar todas las suscripciones del sistema, para supervisar el uso de la plataforma por parte de proveedores y residentes.                                            | 6 | Michael Carmelino | Done |
+| HU32 | Historial de alertas | T09 | Mostrar historial de alertas | Como dispositivo sensor de nivel de agua, quiero medir el nivel del tanque y transmitir periódicamente esos datos al backend, para que los usuarios puedan monitorear en tiempo real la disponibilidad de agua en sus hogares o instalaciones.                                                 | 5 | Alexandra Ramos | Done |
+| HU36 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como usuario que se encuentra físicamente cerca del dispositivo, quiero recibir indicaciones visuales mediante luces LED sobre el estado de funcionamiento, para saber de forma inmediata si el sensor está operando correctamente o presenta fallos.                                                             | 4 | Joaquín Cortez | Done |
+| HU37 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como sistema edge, quiero recopilar y analizar en tiempo real los datos provenientes de múltiples sensores IoT, para detectar patrones y anomalías localmente y enviar solo información consolidada y relevante al entorno cloud.                                                             | 4 | Joaquín Cortez | Done |
 
 ### 6.2.2.4. Development Evidence for Sprint Review
 
