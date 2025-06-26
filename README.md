@@ -3475,7 +3475,9 @@ Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconve
         <tr>
             <td>Sprint n Goal</td>
             <td>
-             El objetivo de este sprint es desarrollar el prototipo del SP32, que incluye la conexión de sensores y cableado, así como la implementación del backend. Esto permitirá avanzar en la funcionalidad del sistema y sentar las bases para futuras integraciones.
+             Nuestro enfoque está en habilitar una experiencia integral de gestión y monitoreo del sistema AquaConecta en sus diferentes capas (dispositivo, borde, cloud y aplicaciones).
+Creemos que esto brinda visibilidad en tiempo real, automatización de procesos clave y una experiencia clara e informativa tanto para habitantes como para proveedores y administrador.
+Esto se confirmará cuando los habitantes puedan consultar el estado de su consumo desde la app móvil, los proveedores y administrador accedan a paneles centralizados en la web, el backend reciba datos seguros desde sensores cada 60 segundos, y el sistema edge detecte anomalías y envíe información optimizada a la nube.
             </td>
         </tr>
         <tr>
@@ -3492,9 +3494,14 @@ Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconve
 
 ### 6.2.2.2. Aspect Leaders and Collaborators
 
-Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog 
-
-![image](https://github.com/user-attachments/assets/a4642969-504b-4fe8-9d40-d631d9ab675d)
+|Team Member (Last Name, First Name)|GitHub Username|Management|Subscription & Payment|Analytics|User & Profile|Operation and monitoring	|
+| :- | :- | :- | :- | :- | :- | :-: |
+|Aguilar Castillo, Rodrigo|Rodrag0lvr|C|L|C|C|C|
+|Carmelino Dueñas, Michael Stefano|stxfxno|C|C|C|C|C|
+|Cortez Quezada, Joaquin Antonio|Joaqquin0|C|C|C|L|C|
+|Párraga Gamarra, Paolo Gonzalo|PaoloParragaGamarra|C|C|C|C|L|
+|Periche Quiroga, Piero|PieroPeriche|C|C|L|C|C|
+|Ramos Argüelles, Alexandra Belen|AleRamosA|L|C|C|C|C|
 
 
 ### 6.2.2.3. Sprint Backlog 2
@@ -3514,6 +3521,10 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 | HU32 | Historial de alertas | T09 | Mostrar historial de alertas | Como dispositivo sensor de nivel de agua, quiero medir el nivel del tanque y transmitir periódicamente esos datos al backend, para que los usuarios puedan monitorear en tiempo real la disponibilidad de agua en sus hogares o instalaciones.                                                 | 5 | Alexandra Ramos | Done |
 | HU36 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como usuario que se encuentra físicamente cerca del dispositivo, quiero recibir indicaciones visuales mediante luces LED sobre el estado de funcionamiento, para saber de forma inmediata si el sensor está operando correctamente o presenta fallos.                                                             | 4 | Joaquín Cortez | Done |
 | HU37 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como sistema edge, quiero recopilar y analizar en tiempo real los datos provenientes de múltiples sensores IoT, para detectar patrones y anomalías localmente y enviar solo información consolidada y relevante al entorno cloud.                                                             | 4 | Joaquín Cortez | Done |
+
+Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog 
+
+![image](https://github.com/user-attachments/assets/a4642969-504b-4fe8-9d40-d631d9ab675d)
 
 ### 6.2.2.4. Development Evidence for Sprint Review
 
