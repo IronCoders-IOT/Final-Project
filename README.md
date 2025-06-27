@@ -4184,7 +4184,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 # 6.4. Video About-the-Product
 En esta sección colocamos el video de About the Product. En este video se puede visualizar tanto la app web y móvil junto a la implementación IOT para que los usuarios puedan observar cómo funciona nustra solución. Además, contamos con testimonios de los segmentos objetivos correspondientes.
 
-- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
+- **Link del video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
+
+Para poder implementarlo a la Landing Page se ha publicado el video en YouTube y se puede acceder por medio de este enlace:
+[https://youtu.be/nvWwxpBI8HM](https://youtu.be/nvWwxpBI8HM)
+
+Asimismo, se adjunta el link de la Landing Page.
+[https://aquaconecta.netlify.app/](https://aquaconecta.netlify.app/)
+
 
 ## Conclusiones
 ### Conclusiones – TB1
@@ -4250,7 +4257,7 @@ Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las 
 - **Link del video de exposición TB1:**
   [[Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
 
-- **Link del video de exposición TB2:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma)
-- **Link del video  About the Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT)
-- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
+- **Link del video de exposición TB2:** [https://acortar.link/EKH6Nd](https://acortar.link/EKH6Nd)
+- **Link del video  About the Team:** [https://acortar.link/PLhMDt](https://acortar.link/PLhMDt)
+- **Link dek video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
 
