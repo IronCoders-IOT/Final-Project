@@ -3470,24 +3470,24 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
             </td>
         </tr>
         <tr>
-            <td>Sprint n – 2 Review Summary</td>
+            <td>Sprint 2 Review Summary</td>
             <td>En este sprint hemos logrado armar y programar el prototipo SP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
         </tr>
         <tr>
-            <td>Sprint n – 2 Retrospective Summary</td>
+            <td>Sprint 2 Retrospective Summary</td>
             <td>Se destacó una buena comunicacion y coordinacion durante el sprint. Se designaron lideres y colaboradores para cada bounded context. Se identificó como mejora la necesidad de definir muy bien los criterios de aceptacion antes de empezar a hacer las tareas.
 Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconvenientes en el desarrollo.</td>
         </tr>
         <tr>
-            <td>Sprint n Goal</td>
+            <td>Sprint 2 Goal</td>
             <td>
              Nuestro enfoque está en habilitar una experiencia integral de gestión y monitoreo del sistema AquaConecta en sus diferentes capas (dispositivo, borde, cloud y aplicaciones).
-Creemos que esto brinda visibilidad en tiempo real, automatización de procesos clave y una experiencia clara e informativa tanto para habitantes como para proveedores y administrador.
-Esto se confirmará cuando los habitantes puedan consultar el estado de su consumo desde la app móvil, los proveedores y administrador accedan a paneles centralizados en la web, el backend reciba datos seguros desde sensores cada 60 segundos, y el sistema edge detecte anomalías y envíe información optimizada a la nube.
+Creemos que esto brinda visibilidad en tiempo real, automatización de procesos clave y una experiencia clara e informativa tanto para habitantes como para proveedores.
+Esto se confirmará cuando los habitantes puedan consultar el estado de su consumo desde la app móvil, los proveedores accedan a paneles centralizados en la web, el backend reciba datos seguros desde sensores cada 60 segundos, y el sistema edge detecte anomalías y envíe información optimizada a la nube.
             </td>
         </tr>
         <tr>
-            <td>Sprint n Velocity</td>
+            <td>Sprint 2 Velocity</td>
             <td>103</td>
         </tr>
         <tr>
