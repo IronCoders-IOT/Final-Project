@@ -101,9 +101,23 @@
 
 # Project Report Collaboration Insights
 
-Repositorios:
+## Repositorios:
 
-Proyecto: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
+- Informe: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
+
+- Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
+
+- Backend: [https://github.com/IronCoders-IOT/Backend](https://github.com/IronCoders-IOT/Backend)
+
+- Mobile: [https://github.com/IronCoders-IOT/mobile_iot](https://github.com/IronCoders-IOT/mobile_iot)
+
+- Embedded: [https://github.com/IronCoders-IOT/Embedded](https://github.com/IronCoders-IOT/Embedded)
+
+- Edge: [https://github.com/IronCoders-IOT/Edge](https://github.com/IronCoders-IOT/Edge)
+
+- Landing Page: [https://github.com/IronCoders-IOT/Landing-Page](https://github.com/IronCoders-IOT/Landing-Page)
+
+
 
 Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
 
@@ -123,6 +137,7 @@ Se muestran evidencias de los commits realizados en la entrega de la TB2 en el i
 
 
 [Colaboraciones del repositorio]
+
 ![alt text](assets/img/tb2-1.png)
 ![alt text](assets/img/tb2-2.png)
 
@@ -3903,6 +3918,11 @@ Tambien, hemos realizado el desarrollo del ESP32 para la configuracion del senso
 
 ![sp1](assets/img/sp1.png)
 
+Se adjunta enlace para ingresar al video en el que se muestra lo logrado en este sprint 2.
+
+- **Link de YouTube:**
+[https://youtu.be/p8OG8JhPf3w](https://youtu.be/p8OG8JhPf3w)
+
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
 Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
@@ -3975,7 +3995,7 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
 
 **Link del video de las entrevistas:**
 
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3)
+[https://acortar.link/NSgbtI](https://acortar.link/NSgbtI)
 
 **Entrevistas usuario segmento (Habitantes)**
 
@@ -4193,7 +4213,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 # 6.4. Video About-the-Product
 En esta sección colocamos el video de About the Product. En este video se puede visualizar tanto la app web y móvil junto a la implementación IOT para que los usuarios puedan observar cómo funciona nustra solución. Además, contamos con testimonios de los segmentos objetivos correspondientes.
 
-- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
+- **Link del video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
+
+Para poder implementarlo a la Landing Page se ha publicado el video en YouTube y se puede acceder por medio de este enlace:
+[https://youtu.be/nvWwxpBI8HM](https://youtu.be/nvWwxpBI8HM)
+
+Asimismo, se adjunta el link de la Landing Page.
+[https://aquaconecta.netlify.app/](https://aquaconecta.netlify.app/)
+
 
 ## Conclusiones
 ### Conclusiones – TB1
@@ -4259,7 +4286,7 @@ Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las 
 - **Link del video de exposición TB1:**
   [[Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
 
-- **Link del video de exposición TB2:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EV_577GO7ORBvl4U9uAhIpwBPECBu3ZIXKwHkPVjKDiK_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XaZ8ma)
-- **Link del video  About the Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ERtF7gXY52xAl8wEa9cQxWABpp5XiyoJKPXfVJbSX8tJWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PjnoFT)
-- **Link dek video de about the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/EXQQMNMyhq9Dsn3KkP6rguEBnRkN5cQPxd63J58tXW8N4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UmnDx0)
+- **Link del video de exposición TB2:** [https://acortar.link/EKH6Nd](https://acortar.link/EKH6Nd)
+- **Link del video  About the Team:** [https://acortar.link/PLhMDt](https://acortar.link/PLhMDt)
+- **Link dek video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
 
