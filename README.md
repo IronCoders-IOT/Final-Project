@@ -101,9 +101,23 @@
 
 # Project Report Collaboration Insights
 
-Repositorios:
+## Repositorios:
 
-Proyecto: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
+- Informe: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
+
+- Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
+
+- Backend: [https://github.com/IronCoders-IOT/Backend](https://github.com/IronCoders-IOT/Backend)
+
+- Mobile: [https://github.com/IronCoders-IOT/mobile_iot](https://github.com/IronCoders-IOT/mobile_iot)
+
+- Embedded: [https://github.com/IronCoders-IOT/Embedded](https://github.com/IronCoders-IOT/Embedded)
+
+- Edge: [https://github.com/IronCoders-IOT/Edge](https://github.com/IronCoders-IOT/Edge)
+
+- Landing Page: [https://github.com/IronCoders-IOT/Landing-Page](https://github.com/IronCoders-IOT/Landing-Page)
+
+
 
 
 ### TB2
@@ -114,6 +128,7 @@ Se muestran evidencias de los commits realizados en la entrega de la TB2 en el i
 
 
 [Colaboraciones del repositorio]
+
 ![alt text](assets/img/tb2-1.png)
 ![alt text](assets/img/tb2-2.png)
 
@@ -3894,6 +3909,11 @@ Tambien, hemos realizado el desarrollo del ESP32 para la configuracion del senso
 
 ![sp1](assets/img/sp1.png)
 
+Se adjunta enlace para ingresar al video en el que se muestra lo logrado en este sprint 2.
+
+- **Link de YouTube:**
+[https://youtu.be/p8OG8JhPf3w](https://youtu.be/p8OG8JhPf3w)
+
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
 Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
@@ -3966,7 +3986,7 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
 
 **Link del video de las entrevistas:**
 
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ES3cZdUZ1bJOl-B78X7t694BkEBTX48dsQJPpRbJ452ATQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Dhyc3)
+[https://acortar.link/NSgbtI](https://acortar.link/NSgbtI)
 
 **Entrevistas usuario segmento (Habitantes)**
 
