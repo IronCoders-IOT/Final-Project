@@ -4260,8 +4260,7 @@ Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las 
 
 
 # Anexos
-- **Link del video de exposición TB1:**
-  [[Video de Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215164_upc_edu_pe/ETCVLslxvIZDoce3gp7P9hUBSkBLCr3_qsh5fF8CfDaiOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rbP70p)
+- **Link del video de exposición TB1:** [https://acortar.link/0RLUZm](https://acortar.link/0RLUZm)
 
 - **Link del video de exposición TB2:** [https://acortar.link/EKH6Nd](https://acortar.link/EKH6Nd)
 - **Link del video  About the Team:** [https://acortar.link/PLhMDt](https://acortar.link/PLhMDt)
