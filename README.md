@@ -3007,7 +3007,6 @@ Application mobile wireframe
 ![alt text](<./assets/img/mobile4.png>)<br>
 ![alt text](<./assets/img/mobile5.png>)<br>
 ![alt text](<./assets/img/mobile6.png>)<br>
-![alt text](<./assets/img/mobile7.png>)<br>
 
 
 
@@ -3097,7 +3096,6 @@ Application mobile mockup
 ![alt text](<./assets/img/mockupmobile4.png>)<br>
 ![alt text](<./assets/img/mockupmobile5.png>)<br>
 ![alt text](<./assets/img/mockupmobile6.png>)<br>
-![alt text](<./assets/img/mockupmobile7.png>)<br>
 
 
 
