@@ -3943,6 +3943,115 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
 ![alt text](image-edge-2.png)
 ![alt text](image-back-1.png)
 
+## 6.2.3. Sprint 3
+
+### 6.2.3.1. Sprint Planning 3
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-06-28</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td> 18:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>La reunión se realizó virtualmente vía Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Ramos Argüelles, Alexandra Belen</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Párraga Gamarra, Paolo Gonzalo / Aguilar Castillo, Rodrigo / Carmelino Dueñas, Michael Stefano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Review Summary</td>
+            <td>En este sprint hemos logrado armar y programar el prototipo SP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Retrospective Summary</td>
+            <td>Se destacó una buena comunicacion y coordinacion durante el sprint. Se designaron lideres y colaboradores para cada bounded context. Se identificó como mejora la necesidad de definir muy bien los criterios de aceptacion antes de empezar a hacer las tareas.
+Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconvenientes en el desarrollo.</td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Goal</td>
+            <td>
+             Nuestro enfoque está en habilitar una experiencia integral de gestión y monitoreo del sistema AquaConecta en sus diferentes capas (dispositivo, borde, cloud y aplicaciones).
+Creemos que esto brinda visibilidad en tiempo real, automatización de procesos clave y una experiencia clara e informativa tanto para habitantes como para proveedores.
+Esto se confirmará cuando los habitantes puedan consultar el estado de su consumo desde la app móvil, los proveedores accedan a paneles centralizados en la web, el backend reciba datos seguros desde sensores cada 60 segundos, y el sistema edge detecte anomalías y envíe información optimizada a la nube.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Velocity</td>
+            <td>103</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>43 </td>
+        </tr>
+    </tbody>
+</table>
+
+### 6.2.3.2. Aspect Leaders and Collaborators
+
+La sección presentada se muestra el artefacto Leadership-andCollaboration Matrix (LACX). Dentro de ella se indica todoslos bounded context que se encuetran en la solución los líderes y colaboradores de cada uno de ellos para brindar mayor claridad y establecer mejor comunicación.
+|Team Member (Last Name, First Name)|GitHub Username|Operation and Monitoring|Subscriptions and Payments|Dashboard and Analytics|Profile and Preferences|Asset and Resource Management|Identity and Access Management|
+| :- | :- | :- | :- | :- | :- | :- | :-: |
+|Aguilar Castillo, Rodrigo|Rodrag0lvr|C|C|C|C|C|L|
+|Carmelino Dueñas, Michael Stefano|stxfxno|C|C|C|C|L|C|
+|Cortez Quezada, Joaquin Antonio|Joaqquin0|C|C|C|L|C|C|
+|Párraga Gamarra, Paolo Gonzalo|PaoloParragaGamarra|L|C|C|C|C|C|
+|Periche Quiroga, Piero|PieroPeriche|C|C|L|C|C|C|
+|Ramos Argüelles, Alexandra Belen|AleRamosA|C|C|C|C|C|L|
+
+### 6.2.3.3. Sprint Backlog 3
+
+### 6.2.3.4. Development Evidence for Sprint Review
+
+### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+Durante el desarrollo del entregable se implementaron pruebas unitarias e integrales para validar el comportamiento de las clases de negocio. Esto ayuda a asegurarnos que cada componente funcione correctamente, cumpliendo con su responsabilidad.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|IronCoders-IOT / Backend|develop|d151674|feature: Add tests for create provider||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|9089fa0|feature: Add tests for create resident||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|222f3f6|feature: Add tests for update provider||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|2548b91|feature: Add tests for update resident||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|bbf4cfa|feature: Update handle for provider test||Jun 19, 2025, 12:03 P.M.|
+
+**A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.**
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_1.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_2.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_3.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_4.jpg)
+
+
+### 6.2.3.6. Execution Evidence for Sprint Review
+
+### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+### 6.2.3.9. Team Collaboration Insights during Sprint.
+
+
+
 # 6.3 Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
