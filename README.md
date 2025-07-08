@@ -4000,11 +4000,38 @@ Esto se confirmará cuando los habitantes puedan consultar el estado de su consu
 
 ### 6.2.3.2. Aspect Leaders and Collaborators
 
+La sección presentada se muestra el artefacto Leadership-andCollaboration Matrix (LACX). Dentro de ella se indica todoslos bounded context que se encuetran en la solución los líderes y colaboradores de cada uno de ellos para brindar mayor claridad y establecer mejor comunicación.
+|Team Member (Last Name, First Name)|GitHub Username|Operation and Monitoring|Subscriptions and Payments|Dashboard and Analytics|Profile and Preferences|Asset and Resource Management|Identity and Access Management|
+| :- | :- | :- | :- | :- | :- | :- | :-: |
+|Aguilar Castillo, Rodrigo|Rodrag0lvr|C|C|C|C|C|L|
+|Carmelino Dueñas, Michael Stefano|stxfxno|C|C|C|C|L|C|
+|Cortez Quezada, Joaquin Antonio|Joaqquin0|C|C|C|L|C|C|
+|Párraga Gamarra, Paolo Gonzalo|PaoloParragaGamarra|L|C|C|C|C|C|
+|Periche Quiroga, Piero|PieroPeriche|C|C|L|C|C|C|
+|Ramos Argüelles, Alexandra Belen|AleRamosA|C|C|C|C|C|L|
+
 ### 6.2.3.3. Sprint Backlog 3
 
 ### 6.2.3.4. Development Evidence for Sprint Review
 
 ### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+Durante el desarrollo del entregable se implementaron pruebas unitarias e integrales para validar el comportamiento de las clases de negocio. Esto ayuda a asegurarnos que cada componente funcione correctamente, cumpliendo con su responsabilidad.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|IronCoders-IOT / Backend|develop|d151674|feature: Add tests for create provider||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|9089fa0|feature: Add tests for create resident||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|develop|222f3f6|feature: Add tests for update provider||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|2548b91|feature: Add tests for update resident||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|develop|bbf4cfa|feature: Update handle for provider test||Jun 19, 2025, 12:03 P.M.|
+
+**A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.**
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_1.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_2.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_3.jpg)
+![alt text](assets/testing-suite-evidence-for-sprint-review/test_4.jpg)
+
 
 ### 6.2.3.6. Execution Evidence for Sprint Review
 
@@ -4012,7 +4039,7 @@ Esto se confirmará cuando los habitantes puedan consultar el estado de su consu
 
 ### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
-### 6.2.3.9. 
+### 6.2.3.9. Team Collaboration Insights during Sprint.
 
 
 
