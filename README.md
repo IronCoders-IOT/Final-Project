@@ -3954,7 +3954,7 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
         </tr>
         <tr>
             <td>Time</td>
-            <td> 18:30 PM</td>
+            <td>5:00 PM</td>
         </tr>
         <tr>
             <td>Location</td>
@@ -3967,12 +3967,12 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
         <tr>
             <td>Attendees (to planning meeting)</td>
             <td>
-                Párraga Gamarra, Paolo Gonzalo / Aguilar Castillo, Rodrigo / Carmelino Dueñas, Michael Stefano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+                - Párraga Gamarra, Paolo Gonzalo <br> -  Aguilar Castillo, Rodrigo <br> -  Carmelino Dueñas, Michael Stefano <br> -  Cortez Quezada, Joaquin Antonio <br> -  Periche Quiroga, Piero Fernando
             </td>
         </tr>
         <tr>
             <td>Sprint 3 Review Summary</td>
-            <td>En este sprint hemos logrado armar y programar el prototipo SP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
+            <td>En este sprint hemos logrado armar y programar el prototipo ESP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
         </tr>
         <tr>
             <td>Sprint 3 Retrospective Summary</td>
