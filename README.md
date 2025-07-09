@@ -4038,9 +4038,13 @@ Durante el desarrollo del entregable se implementaron pruebas unitarias e integr
 En nuestro video de exposicion, hemos incluido una demostracion completa de la aplicación AquaConecta, donde se muestran todas las funcionalidades planteadas desde el inicio del proyecto, como la gestión de servicios por parte de los proveedores, el monitoreo del consumo de agua por parte de los residentes, y la integración con dispositivos IoT para el monitoreo en tiempo real. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
 
 
+
+- **Link de YouTube:**
+  [https://youtu.be/p8OG8JhPf3w](https://youtu.be/p8OG8JhPf3w)
+
 ### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
-Se usó Swagger para la documentacino de los servicios de la aplicación.
+Se usó Swagger para la documentacino de los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
 
 ![back1](assets/img/newSwagger1.png)
 
