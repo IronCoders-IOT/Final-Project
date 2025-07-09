@@ -4035,9 +4035,30 @@ Durante el desarrollo del entregable se implementaron pruebas unitarias e integr
 
 ### 6.2.3.6. Execution Evidence for Sprint Review
 
+En nuestro video de exposicion, hemos incluido una demostracion completa de la aplicación AquaConecta, donde se muestran todas las funcionalidades planteadas desde el inicio del proyecto, como la gestión de servicios por parte de los proveedores, el monitoreo del consumo de agua por parte de los residentes, y la integración con dispositivos IoT para el monitoreo en tiempo real. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
+
+
 ### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
+Se usó Swagger para la documentacino de los servicios de la aplicación.
+
+![back1](assets/img/newSwagger1.png)
+
+![back2](assets/img/newSwagger2.png)
+
+![back3](assets/img/newSwagger3.png)
+
+![back4](assets/img/newSwagger4.png)
+
+![back5](assets/img/newSwagger5.png)
+
+![back5](assets/img/newSwagger6.png)
+
 ### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+La aplicación AquaConecta ha sido desplegada en netlify, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Netlify:
+![netlify1](assets/img/netlify1.png)
+
 
 ### 6.2.3.9. Team Collaboration Insights during Sprint.
 
