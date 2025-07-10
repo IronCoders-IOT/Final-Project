@@ -3989,7 +3989,7 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
         </tr>
         <tr>
             <td>Sprint 3 Review Summary</td>
-            <td>En este sprint hemos logrado armar y programar el prototipo ESP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
+            <td>En este sprint 3, se ha logrado culminar la última versión de los artefactos. Teniendo en cuenta Web Appplication, Mobile Application, Backend, Edge Application y Embedded Application. Alogrando enviar datos tanto a la  Web Appplication y Mobile Application.</td>
         </tr>
         <tr>
             <td>Sprint 3 Retrospective Summary</td>
