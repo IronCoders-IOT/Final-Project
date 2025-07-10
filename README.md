@@ -4433,6 +4433,10 @@ Logramos presentar una versión corregida y mejorada de los artefactos previamen
 
 Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
 
+### Video About-the-Team
+
+
+
 # Bibliografía
 
 ## Referencias
