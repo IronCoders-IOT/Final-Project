@@ -1312,7 +1312,7 @@ Tenemos el As-Is Scenario para el segmento de proveedores, que contiene una oper
 | **Water Distribution**               | Logistical and technical process through which water is delivered from its source to households. |
 | **Distribution Impact**             | Measurement of how system conditions (leaks, pressure, high consumption) affect distribution efficiency. |
 | **Web Platform/Mobile App**          | Digital interface accessible via computer or smartphone where users view and manage water service information. |
-| **Sensor Management**                | Functionality that allows providers to configure, monitor, or troubleshoot installed IoT sensors. |
+| **Device Monitoring**                | Functionality that allows providers to configure, monitor, or troubleshoot installed IoT sensors. |
 | **Real-Time Visualization**          | Dynamic and continuous display of current data about the water system. |
 | **Registered Users**                 | People with authenticated access to the platform, either inhabitants or providers, with differentiated functionalities. |
 | **Coverage Area**                    | Geographic area where AquaConecta provides services and where sensors are located. |
@@ -1575,7 +1575,7 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](./assets/bounded/candidate.png)
+![alt text](assets/bounded/bounded-operation-and-monitoring.jpg)
 
 * Assets and Resource Management
 
@@ -1629,8 +1629,7 @@ Este canvas está diseñado para visualizar y analizar datos históricos y en ti
 - Bounded context Operation and Monitoring
 
 Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
-![alt text](./assets/bounded/sh6.png)
-
+![alt text](operation-and-monitoring-bouded-context-canvases.jpg)
 
 - Bounded context User & Profile Management
 
@@ -4061,7 +4060,7 @@ Capturas de pantalla del la aplicacion mobile:
 
 
 
-Captura del embeded:
+Captura del embedded:
 ![back1](assets/img/ESP32NEW.png)
 
 
@@ -4070,7 +4069,7 @@ Captura del embeded:
 
 ### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
-Se usó Swagger para la documentacino de los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
+Se usó Swagger para la documentación de los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
 
 ![back1](assets/img/newSwagger1.png)
 
