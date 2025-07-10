@@ -117,21 +117,9 @@
 
 - Landing Page: [https://github.com/IronCoders-IOT/Landing-Page](https://github.com/IronCoders-IOT/Landing-Page)
 
+### TF1
 
-
-Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
-
-Backend: [https://github.com/IronCoders-IOT/Backend](https://github.com/IronCoders-IOT/Backend)
-
-Mobile: [https://github.com/IronCoders-IOT/mobile_iot](https://github.com/IronCoders-IOT/mobile_iot)
-
-Edge: [https://github.com/IronCoders-IOT/Edge](https://github.com/IronCoders-IOT/Edge)
-
-Embedded: [https://github.com/IronCoders-IOT/Embedded](https://github.com/IronCoders-IOT/Embedded)
-
-### TB2
-
-Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+Para la entrega del TF1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
 Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe.
 
@@ -4465,8 +4453,8 @@ Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las 
 
 # Anexos
 - **Link del video de exposición TB1:** [https://acortar.link/0RLUZm](https://acortar.link/0RLUZm)
-
 - **Link del video de exposición TB2:** [https://acortar.link/EKH6Nd](https://acortar.link/EKH6Nd)
-- **Link del video  About the Team:** [https://acortar.link/PLhMDt](https://acortar.link/PLhMDt)
+- **Link del video de exposición TF1:** []()
+- **Link del video  About the Team:** [https://acortar.link/znOIlf](https://acortar.link/znOIlf)
 - **Link dek video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
 
