@@ -4038,6 +4038,31 @@ Durante el desarrollo del entregable se implementaron pruebas unitarias e integr
 En nuestro video de exposicion, hemos incluido una demostracion completa de la aplicación AquaConecta, donde se muestran todas las funcionalidades planteadas desde el inicio del proyecto, como la gestión de servicios por parte de los proveedores, el monitoreo del consumo de agua por parte de los residentes, y la integración con dispositivos IoT para el monitoreo en tiempo real. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
 
 
+Codigo frontend de AquaConecta:
+![back1](assets/img/codefront.png)
+
+Capturas de pantalla de la aplicación web:
+![back1](assets/img/front1.png)
+![back1](assets/img/front2.png)
+![back1](assets/img/front3.png)
+
+
+Capturas de pantalla del la aplicacion mobile:
+![back1](assets/img/mobilefinal0.png)
+![back1](assets/img/mobilefinal1.png)
+![back1](assets/img/mobilefinal2.png)
+![back1](assets/img/mobilefinal3.png)
+![back1](assets/img/mobilefinal4.png)
+![back1](assets/img/mobilefinal5.png)
+![back1](assets/img/mobilefinal6.png)
+![back1](assets/img/mobilefinal7.png)
+![back1](assets/img/mobilefinal8.png)
+
+
+
+Captura del embeded:
+![back1](assets/img/ESP32NEW.png)
+
 
 - **Link de YouTube:**
   [https://youtu.be/p8OG8JhPf3w](https://youtu.be/p8OG8JhPf3w)
