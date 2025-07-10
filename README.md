@@ -4408,6 +4408,21 @@ Además, se fortaleció la colaboración entre los miembros del equipo, lo cual 
 
 En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
 
+
+### Conclusiones – TF
+
+El trabajo realizado durante el Sprint 3 permitió al equipo afianzar la dinámica de colaboración, logrando que la comunicación y el intercambio de ideas fueran más fluidos y efectivos que en etapas previas.
+
+La implementación de nuevas funcionalidades y la mejora de las existentes se realizó de manera más organizada, lo que facilitó el seguimiento de tareas y la integración de los aportes individuales en el proyecto general.
+
+Se evidenció un avance significativo en la calidad del código, tanto por la adopción de mejores prácticas como por la revisión y ajustes continuos hechos por los miembros del equipo.
+
+El proceso de pruebas fue más riguroso en este sprint, permitiendo detectar y corregir errores de manera oportuna, lo cual se reflejó en un producto más estable y confiable.
+
+Las sesiones de retrospectiva y revisión fueron fundamentales para identificar oportunidades de mejora y ajustar la metodología de trabajo, fortaleciendo la capacidad de respuesta ante los desafíos presentados.
+
+Finalmente, la experiencia acumulada hasta este punto permitió al equipo sentirse más seguro y motivado para afrontar los siguientes retos del proyecto, evidenciando un crecimiento tanto a nivel técnico como en las habilidades de trabajo en equipo.
+
 ### Conclusiones – TB2
 
 A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
