@@ -4406,7 +4406,17 @@ Además, se fortaleció la colaboración entre los miembros del equipo, lo cual 
 En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
 
 
-### Conclusiones – TF
+### Conclusiones – TB2
+
+A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
+
+Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applications y una primera versión funcional de otras aplicaciones que forman parte del alcance del proyecto.
+
+Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
+
+Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
+
+### Conclusiones – TF1
 
 El trabajo realizado durante el Sprint 3 permitió al equipo afianzar la dinámica de colaboración, logrando que la comunicación y el intercambio de ideas fueran más fluidos y efectivos que en etapas previas.
 
@@ -4419,16 +4429,6 @@ El proceso de pruebas fue más riguroso en este sprint, permitiendo detectar y c
 Las sesiones de retrospectiva y revisión fueron fundamentales para identificar oportunidades de mejora y ajustar la metodología de trabajo, fortaleciendo la capacidad de respuesta ante los desafíos presentados.
 
 Finalmente, la experiencia acumulada hasta este punto permitió al equipo sentirse más seguro y motivado para afrontar los siguientes retos del proyecto, evidenciando un crecimiento tanto a nivel técnico como en las habilidades de trabajo en equipo.
-
-### Conclusiones – TB2
-
-A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
-
-Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applications y una primera versión funcional de otras aplicaciones que forman parte del alcance del proyecto.
-
-Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
-
-Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
 
 # Bibliografía
 
