@@ -4001,6 +4001,7 @@ Esto se confirmará cuando los habitantes puedan consultar el estado de su consu
 ### 6.2.3.2. Aspect Leaders and Collaborators
 
 La sección presentada se muestra el artefacto Leadership-andCollaboration Matrix (LACX). Dentro de ella se indica todoslos bounded context que se encuetran en la solución los líderes y colaboradores de cada uno de ellos para brindar mayor claridad y establecer mejor comunicación.
+
 |Team Member (Last Name, First Name)|GitHub Username|Operation and Monitoring|Subscriptions and Payments|Dashboard and Analytics|Profile and Preferences|Asset and Resource Management|Identity and Access Management|
 | :- | :- | :- | :- | :- | :- | :- | :-: |
 |Aguilar Castillo, Rodrigo|Rodrag0lvr|C|C|C|C|C|L|
