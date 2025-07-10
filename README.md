@@ -4029,6 +4029,11 @@ La sección presentada se muestra el artefacto Leadership-andCollaboration Matri
 |Ramos Argüelles, Alexandra Belen|AleRamosA|C|C|C|C|C|L|
 
 ### 6.2.3.3. Sprint Backlog 3
+Dentro de este entregable se comtempló realizar las correcciones necesarias tanto en el informe como en el desarrollo de los artefactos a presentar. 
+
+Para ello hemos utilizado Trello para la distribución y seguimiento de tareas.
+
+Link del Trello: [https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog](https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog)
 
 ### 6.2.3.4. Development Evidence for Sprint Review
 
