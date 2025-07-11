@@ -62,38 +62,38 @@
 <div align="center">
 
 
-|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
-| :-: | :-: | :-: | :-: |
-|1\.0|7/04/2025|Rodrigo Aguilar Castillo|Redacción del perfil de la Startup.|
-|1\.1|9/04/2025|Rodrigo Aguilar Castillo|Actualización de la descripción de las 5W y 2H.|
-|1\.2|10/04/2025|Piero Periche Quiroga|Redacción de Lean UX Statement y agregar Lean UX Canvas del Capítulo I.|
-|1\.3|11/04/2025|Joaquin Antonio Cortez Quezada|Agregar información acerca de los competidores.|
-|1\.4|12/04/2025|Rodrigo Aguilar Castillo|Actualización de las hipótesis y redacción de user outcomes.|
-|1\.5|14/04/2025|Piero Periche Quiroga|Actualización de Lean UX Assumptions.|
-|1\.6|15/04/2025|Rodrigo Aguilar Castillo|Actualización de how much, elaboración de user task matrix y ubiquitous language.|
-|1\.7|15/04/2024|Alexandra Belen Ramos Argüelles|Elaboración de user personas y user journey mapping por segmento objetivo.|
-|1\.8|16/04/2024|Rodrigo Aguilar Castillo|Elaboración de event storming.|
-|1\.9|16/04/2024|Paolo Gonzalo Párraga Gamarra|Elaboración de to-be scenario mapping.|
-|2\.0|19/04/2025|Alexandra Belen Ramos Argüelles|Redacción de user stories, technical stories y elaboración de empathy mapping.|
-|2\.1|20/04/2025|Alexandra Belen Ramos Argüelles|Elaboración de impact mapping y as-is scenario mapping por cada segmento objetivo.|
-|2\.2|20/04/2025|Paolo Gonzalo Párraga Gamarra|Elaboración de product backlog.|
-|2\.3|20/04/2025|Rodrigo Aguilar Castillo|Elaboración del bounded context de subscription and payment, user and profile, deployment diagrams.|
-|2\.4|24/04/2025|Rodrigo Aguilar Castillo|Elaboración de user and profile management (c4 model).|
-|2\.5|24/04/2025|Michael Stefano Carmelino Dueñas|Elaboración de las user stories para la landing page.|
-|2\.6|25/04/2025|Michael Stefano Carmelino Dueñas|Agregar entrevista y resumen de entrevistas para segmento objetivo de habitantes.|
-|2\.7|25/04/2025|Paolo Gonzalo Párraga Gamarra|Elaboración en bounded context canvas de analytics, modificación de to-be scenario mapping.|
-|2\.8|25/04/2025|Joaquin Antonio Cortez Quezada|Elaboración en bounded context canvas de management.|
-|2\.9|25/04/2025|Rodrigo Aguilar Castillo|Actualización de entrevistas, agregar contenido a bibliografía.|
-|3\.0|25/04/2025|Alexandra Belen Ramos Argüelles|Elaboración de domain message flows modeling y context mapping.|
-|3\.1|06/05/2025|Rodrigo Aguilar Castillo|Agregar conceptos de sensor y eventos a los diagramas|
-|3\.2|07/05/2025|Paolo Gonzalo Párraga Gamarra|Actualización de product backlog.|
-|3.3|08/06/2025|Rodrigo Aguilar Castillo|Actualización de product backlog y user stories para Sprint 2.|
-|3.4|10/06/2025|Michael Stefano Carmelino Dueñas|Actualización de evidencia de desarrollo y commits de frontend y mobile app.|
-|3.5|12/06/2025|Paolo Gonzalo Párraga Gamarra|Actualización de evidencia de backend, documentación de endpoints y despliegue en Netlify.|
-|3.6|13/06/2025|Alexandra Belen Ramos Argüelles|Actualización de user journey mapping y empathy mapping para nuevos segmentos.|
-|3.7|14/06/2025|Joaquin Antonio Cortez Quezada|Actualización de bounded context canvas y diagramas de clases para management y analytics.|
-|3.8|15/06/2025|Piero Periche Quiroga|Actualización de documentación de arquitectura, diagramas de despliegue y base de datos.|
-|3.9|16/06/2025|Rodrigo Aguilar Castillo|Revisión y actualización de la tabla de registro de versiones y ajustes finales de formato.|
+|**Versión**|**Fecha**|**Autor**|                                   **Descripción de modificación**                                   |
+| :-: | :-: | :-: |:---------------------------------------------------------------------------------------------------:|
+|1\.0|7/04/2025|Rodrigo Aguilar Castillo|                                 Redacción del perfil de la Startup.                                 |
+|1\.1|9/04/2025|Rodrigo Aguilar Castillo|                           Actualización de la descripción de las 5W y 2H.                           |
+|1\.2|10/04/2025|Piero Periche Quiroga|               Redacción de Lean UX Statement y agregar Lean UX Canvas del Capítulo I.               |
+|1\.3|11/04/2025|Joaquin Antonio Cortez Quezada|                           Agregar información acerca de los competidores.                           |
+|1\.4|12/04/2025|Rodrigo Aguilar Castillo|                    Actualización de las hipótesis y redacción de user outcomes.                     |
+|1\.5|14/04/2025|Piero Periche Quiroga|                                Actualización de Lean UX Assumptions.                                |
+|1\.6|15/04/2025|Rodrigo Aguilar Castillo|          Actualización de how much, elaboración de user task matrix y ubiquitous language.          |
+|1\.7|15/04/2024|Alexandra Belen Ramos Argüelles|             Elaboración de user personas y user journey mapping por segmento objetivo.              |
+|1\.8|16/04/2024|Rodrigo Aguilar Castillo|                                   Elaboración de event storming.                                    |
+|1\.9|16/04/2024|Paolo Gonzalo Párraga Gamarra|                               Elaboración de to-be scenario mapping.                                |
+|2\.0|19/04/2025|Alexandra Belen Ramos Argüelles|           Redacción de user stories, technical stories y elaboración de empathy mapping.            |
+|2\.1|20/04/2025|Alexandra Belen Ramos Argüelles|         Elaboración de impact mapping y as-is scenario mapping por cada segmento objetivo.          |
+|2\.2|20/04/2025|Paolo Gonzalo Párraga Gamarra|                                   Elaboración de product backlog.                                   |
+|2\.3|20/04/2025|Rodrigo Aguilar Castillo| Elaboración del bounded context de subscription and payment, user and profile, deployment diagrams. |
+|2\.4|24/04/2025|Rodrigo Aguilar Castillo|                       Elaboración de user and profile management (c4 model).                        |
+|2\.5|24/04/2025|Michael Stefano Carmelino Dueñas|                        Elaboración de las user stories para la landing page.                        |
+|2\.6|25/04/2025|Michael Stefano Carmelino Dueñas|          Agregar entrevista y resumen de entrevistas para segmento objetivo de habitantes.          |
+|2\.7|25/04/2025|Paolo Gonzalo Párraga Gamarra|     Elaboración en bounded context canvas de analytics, modificación de to-be scenario mapping.     |
+|2\.8|25/04/2025|Joaquin Antonio Cortez Quezada|                 Elaboración en bounded context canvas de Operation and Monitoring.                  |
+|2\.9|25/04/2025|Rodrigo Aguilar Castillo|                   Actualización de entrevistas, agregar contenido a bibliografía.                   |
+|3\.0|25/04/2025|Alexandra Belen Ramos Argüelles|                   Elaboración de domain message flows modeling y context mapping.                   |
+|3\.1|06/05/2025|Rodrigo Aguilar Castillo|                        Agregar conceptos de sensor y eventos a los diagramas                        |
+|3\.2|07/05/2025|Paolo Gonzalo Párraga Gamarra|                                  Actualización de product backlog.                                  |
+|3.3|08/06/2025|Rodrigo Aguilar Castillo|                   Actualización de product backlog y user stories para Sprint 2.                    |
+|3.4|10/06/2025|Michael Stefano Carmelino Dueñas|            Actualización de evidencia de desarrollo y commits de frontend y mobile app.             |
+|3.5|12/06/2025|Paolo Gonzalo Párraga Gamarra|     Actualización de evidencia de backend, documentación de endpoints y despliegue en Netlify.      |
+|3.6|13/06/2025|Alexandra Belen Ramos Argüelles|           Actualización de user journey mapping y empathy mapping para nuevos segmentos.            |
+|3.7|14/06/2025|Joaquin Antonio Cortez Quezada|     Actualización de bounded context canvas y diagramas de clases para Operation and monitoring     |
+|3.8|15/06/2025|Piero Periche Quiroga|      Actualización de documentación de arquitectura, diagramas de despliegue y base de datos.       |
+|3.9|16/06/2025|Rodrigo Aguilar Castillo|     Revisión y actualización de la tabla de registro de versiones y ajustes finales de formato.     |
 
 
 
@@ -214,7 +214,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)      
 [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)       
 
-[4.2.1. Bounded Context: Management](#421-bounded-context-management)   
+[4.2.1. Bounded Context: Operation and Monitoring](#421-bounded-context-operation-and-monitoring)   
 [4.2.1.1. Domain Layer](#4211-domain-layer)    
 [4.2.1.2. Interface Layer](#4212-interface-layer)    
 [4.2.1.3. Application Layer](#4213-application-layer)    
@@ -1321,7 +1321,7 @@ Tenemos el As-Is Scenario para el segmento de proveedores, que contiene una oper
 | **Water Distribution**               | Logistical and technical process through which water is delivered from its source to households. |
 | **Distribution Impact**             | Measurement of how system conditions (leaks, pressure, high consumption) affect distribution efficiency. |
 | **Web Platform/Mobile App**          | Digital interface accessible via computer or smartphone where users view and manage water service information. |
-| **Sensor Management**                | Functionality that allows providers to configure, monitor, or troubleshoot installed IoT sensors. |
+| **Device Monitoring**                | Functionality that allows providers to configure, monitor, or troubleshoot installed IoT sensors. |
 | **Real-Time Visualization**          | Dynamic and continuous display of current data about the water system. |
 | **Registered Users**                 | People with authenticated access to the platform, either inhabitants or providers, with differentiated functionalities. |
 | **Coverage Area**                    | Geographic area where AquaConecta provides services and where sensors are located. |
@@ -1365,26 +1365,44 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 
 
 **Epics y User Stories de AquaConecta**
-# Tabla de User Stories por Bounded Context
 
-| Epic ID | Story ID | Título | Descripción | Criterios de Aceptación |
-|---------|----------|--------|-------------|-------------------------|
-| **EP01** | **Gestión de Usuarios** | *Como usuario, quiero gestionar mi cuenta para acceder a los servicios* | | |
-| EP01 | HU01 | Registro web | Como usuario, quiero registrarme en la plataforma web | **Escenario 1: Registro exitoso**<br>Dado que estoy en el formulario de registro<br>Cuando completo mis datos correctamente<br>Entonces se crea mi cuenta y soy redirigido al login<br><br>**Escenario 2: Validación campos**<br>Dado que dejo campos obligatorios vacíos<br>Cuando intento registrar<br>Entonces veo mensajes de error en los campos faltantes |
-| EP01 | HU02 | Login móvil | Como usuario, quiero iniciar sesión en la app móvil | **Escenario 1: Credenciales válidas**<br>Dado que ingreso mi usuario y contraseña correctos<br>Cuando hago login<br>Entonces accedo al panel principal<br><br>**Escenario 2: Contraseña incorrecta**<br>Dado que ingreso contraseña errónea<br>Cuando intento iniciar sesión<br>Entonces veo mensaje de error |
-| EP01 | HT01 | Registro API | Como desarrollador, necesito endpoint para registro | **Escenario 1: Registro exitoso**<br>Dado el endpoint `/sign-up`<br>Cuando POST con {username, password}<br>Entonces recibo 201 con userID |
-| **EP02** | **Monitoreo de Agua** | *Como usuario, quiero monitorear el estado del agua en mis tanques* | | |
-| EP02 | US43 | Estado del tanque | Como habitante, quiero ver nivel y calidad del agua | **Escenario 1: Lectura en tiempo real**<br>Dado que abro la app<br>Cuando reviso mi tanque<br>Entonces veo porcentaje de nivel y calidad (buena/media/mala)<br><br>**Escenario 2: Sensor desconectado**<br>Dado que el sensor falla<br>Cuando consulto el estado<br>Entonces veo "Sin conexión" |
-| EP02 | US44 | Alertas de agua | Como habitante, quiero alertas sobre problemas | **Escenario 1: Nivel bajo**<br>Dado que el nivel <15%<br>Cuando el sensor actualiza<br>Entonces recibo notificación<br><br>**Escenario 2: Calidad mala**<br>Dado que calidad = "mala"<br>Cuando se detecta<br>Entonces recibo alerta de no consumo |
-| EP02 | HT04 | Medición API | Como desarrollador, necesito endpoint para mediciones | **Escenario 1: Lectura válida**<br>Dado el endpoint `/water-level`<br>Cuando GET con token válido<br>Entonces recibo 200 con {level, quality, timestamp} |
-| **EP03** | **Pagos y Suscripciones** | *Como usuario, quiero gestionar suscripciones a sensores* | | |
-| EP03 | US1 | Crear suscripción | Como proveedor, quiero vincular sensores a residentes | **Escenario 1: Flujo completo**<br>Dado que agrego un sensor nuevo<br>Cuando completo el pago<br>Entonces se activa la suscripción |
-| **EP04** | **Analytics** | *Como usuario, quiero visualizar métricas de mis sensores* | | |
-| EP04 | HU18 | Dashboard proveedor | Como proveedor, quiero ver métricas consolidadas | **Escenario 1: Filtro por zona**<br>Dado que selecciono una zona<br>Cuando aplico filtro<br>Entonces veo métricas agrupadas |
-| EP04 | HU19 | Resumen móvil | Como habitante, quiero ver datos rápidos | **Escenario 1: Vista resumen**<br>Dado que abro la app<br>Cuando veo el dashboard<br>Entonces encuentro consumo actual y nivel |
-| **EP05** | **Landing Page** | *Como visitante, quiero conocer los servicios ofrecidos* | | |
-| EP05 | HU13 | Beneficios | Como visitante, quiero entender ventajas | **Escenario 1: Sección clara**<br>Dado que accedo al sitio<br>Cuando navego a "Beneficios"<br>Entonces veo lista detallada |
-| EP05 | HU16 | Planes | Como visitante, quiero comparar opciones | **Escenario 1: Visualización**<br>Dado que veo "Nuestros Servicios"<br>Cuando reviso planes<br>Entonces puedo solicitar asesoría |
+|**Epic / Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
+| - | - | - | - | - |
+|**EP01**|**Dashboard and Analytics**|<p>**Como** usuario,</p><p>**Quiero** visualizar métricas de los sensores</p><p>**Para** garantizar un seguimiento continuo de mis tanques de agua.</p>|||
+|**HU01**|**Ver nivel actual del agua de los habitantes**|<p>**Como** proveedor, </p><p>**Quiero** visualizar el nivel actual del agua de un habitante </p><p>**Para** conocer la cantidad disponible.</p>|<p>**Escenario 1: Vista general de todos los clientes**<br>**Dado** que el proveedor accede al dashboard de métricas,<br>**Cuando** visualiza la pantalla principal,<br>**Entonces** el sistema muestra el número total de clientes activos, consumo promedio y alertas pendientes.</p><p>**Escenario 2: Ver detalles por cliente<br>Dado** que el proveedor ver la información de residente,<br>**Cuando** selecciona un residente en específico,<br>**Entonces** el sistema muestra las métricas agrupadas por esa zona.</p>|**EP01**|
+|**HU02**|**Ver nivel actual del agua**|<p>**Como** habitante, </p><p>**Quiero** visualizar mi nivel actual del agua** </p><p>**Para** conocer la cantidad disponible y solicitar el reabastecimiento correspondiente.</p>|<p>**Escenario 1: Vista resumen móvil<br>Dado** que el habitante accede desde su dispositivo móvil,<br>**Cuando** ingresa a la pantalla principal,<br>**Entonces** el sistema muestra un resumen con consumo actual, promedio del mes y nivel del tanque.</p><p>**Escenario 2: Notificaciones de métricas<br>Dado** que el habitante tiene habilitadas las notificaciones,<br>**Cuando** su consumo es total<br>**Entonces** recibe una notificación con el resumen del consumo.</p>|**EP01**|
+|**HU03**|<p>**Ver calidad del agua**</p><p></p><p></p>|<p>**Como** habitante, </p><p>**Quiero** consultar la calidad actual del agua </p><p>**Para** determinar si es apta para consumo.</p>|<p>**Escenario 1: Vista resumen móvil<br>Dado** que el habitante accede desde su dispositivo móvil,<br>**Cuando** ingresa a la pantalla principal,<br>**Entonces** el sistema muestra un resumen con consumo actual, promedio del mes y nivel del tanque.</p><p>**Escenario 2: Notificaciones de métricas<br>Dado** que el habitante tiene habilitadas las notificaciones,<br>**Cuando** su consumo es tota**l<br>Entonces** recibe una notificación con el resumen del consumo.</p>|**EP01**|
+|<p>**HU04**</p>|**Obtener el nivel de agua en el tanque**|<p>**Como** habitante,</p><p>**Quiero** que el sistema mida el nivel de agua en mi tanque,</p><p>**Para** saber cuánta agua tengo disponible y cuándo debo recargarlo.</p>|<p>**Escenario 1: El sistema muestra correctamente la distancia medida<br>Dado** que el tanque tiene agua y el sensor funciona correctamente,<br>**Cuando** el sistema mide el nivel de agua,<br>**Entonces** la información se procesa y se registra para mostrar cuántos centímetros de agua hay disponibles.</p><p>**Escenario 2: El sistema detecta que el nivel es muy bajo<br>Dado** que el nivel del agua es inferior a 10 cm,<br>**Cuando** se realiza la medición,<br>**Entonces** se activa una alerta visual (LED encendido) indicando bajo nivel de agua para que el habitante lo revise.</p><p>**Escenario 3: El sensor no responde<br>Dado** que el sensor de nivel no emite señal,<br>**Cuando** el sistema intenta realizar una medición,<br>**Entonces** se muestra un mensaje de error para que el técnico pueda revisar la conexión.</p>|**EP01**|
+|<p>**HU05**</p>|**Conocer la calidad del agua que consumo**|<p>**Como** habitante,</p><p>**Quiero** que el sistema mida la calidad del agua,</p><p>**Para** saber si es segura para el consumo de mi familia.</p>|<p>**Escenario 1: Lectura de TDS exitosa<br>Dado** que el sensor de calidad está funcionando,<br>**Cuando** se mide el nivel de sólidos disueltos (TDS),<br>**Entonces** el sistema calcula el valor en ppm y lo clasifica como excelente, buena, aceptable, mala, no potable o contaminada.</p><p>**Escenario 2: El sistema informa cuando el agua no es apta<br>Dado** que el valor de TDS supera los 600 ppm,<br>**Cuando** se realiza la medición,<br>**Entonces** el sistema muestra una advertencia indicando que el agua no debe consumirse.</p>|**EP01**|
+|<p>**HU06**</p>|**Recibir datos actualizados constantemente**|<p>**Como** habitante,</p><p>**Quiero** que el sistema realice lecturas frecuentes del agua,</p><p>**Para** asegurarme de que la información sobre el nivel y la calidad esté siempre actualizada</p>|**Escenario 1: Lectura automática cada segundo<br>Dado** que el sistema está encendido,<br>**Cuando** pasa un segundo,<br>**Entonces** se ejecutan nuevas mediciones de nivel y calidad de agua sin que el usuario tenga que hacer nada.|**EP01**|
+|**EP02**|**Profile and Preferences**|<p>**Como** proveedor,</p><p>**Quiero** observar información detallada de mi empresa,</p><p>**Para** tomar decisiones informadas sobre el sistema</p>|||
+|**HU07**|**Historial de alertas**|<p>**Como** proveedor,</p><p>**Quiero** revisar un historial de alertas,</p><p>**Para** conocer eventos pasados y tomar decisiones informadas sobre el sistema.</p>||**EP02**|
+|<p>**HU08**</p>|**Visualizar perfil del proveedor**|<p>**Como** proveedor, </p><p>**Quiero** ver mi perfil con información detallada de mi empresa,</p><p>**Para** confirmar y conocer los datos registrados.</p>|<p>**Escenario 1: Visualización de información detallada<br>Dado que** el proveedor** visualiza su información detallada<br>**Cuando** accede a su perfil de usuario<br>**Entonces** el sistema muestra todos sus datos registrados como nombre, email, RUC.</p><p>**Escenario 2: Visualización de suscripciones activas**<br>**Dado que** el proveedor visualiza la información de suscripciones<br>**Cuando** accede a su perfil de usuario<br>**Entonces** se muestra el número de suscripciones activas</p>|**EP02**|
+|<p>**HU09**</p>|**Visualización y Edición del perfil de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** ver y editar mi información personal desde la aplicación móvil,</p><p>**Para** mantener mis datos actualizados fácilmente.</p>|<p>**Escenario 1: Acceso al perfil desde menú<br>Dado** que el usuario accede al menú de la aplicación<br>**Cuando** se dirige a la sección de perfil<br>**Entonces** el sistema muestra su información personal actual</p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario móvil accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP02**|
+|<p>**HU10**</p>|**Visualización y Edición del perfil de usuario web**|<p>**Como** proveedor,</p><p>**Quiero** acceder y modificar mi perfil desde la plataforma web,</p><p>**Para** gestionar mis datos de contacto y empresa de manera segura.</p>|<p>**Escenario 1: Acceso al perfil desde la pantalla principal<br>Dado** que el usuario accede a la pantalla principal de la web<br>**Cuando** se dirige a la sección de perfil <br>**Entonces** el sistema muestra su información personal actual </p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario web accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP02**|
+|**EP03**|**Landing Page** |**Como** usuario interesado en soluciones de acceso a agua,<br>**Quiero** navegar por una página clara, informativa y responsiva,                  **Para** comprender los beneficios de Aqua Conecta, explorar planes y contactar al equipo fácilmente.|||
+|**HU13**|**Presentación clara de beneficios de valor**|**Como** visitante del sitio web,<br>**Quiero** visualizar claramente los beneficios de la plataforma Aqua Conecta,<br>**Para** entender cómo puede mejorar el acceso y control del agua en mi comunidad.|<p>**Escenario 1: Visualización de información importante de AquaConecta<br>Dado** que el visitante accede a la landing page desde cualquier dispositivo,                               **Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,                    **Entonces** visualiza un mensaje informativo sobre AquaConecta.</p><p>**Escenario 2:  Visualizar beneficios principales<br>Dado** que el visitante quiere conocer sobre los beneficios,<br>**Cuando** sigue en la sección de beneficios<br>**Entonces** visualiza una lista detallada de todos los beneficios que se ofrecen</p>|**EP03**|
+|**HU14**|**Información sobre segmentación de perfiles de usuario**|<p>**Como** usuario potencial**,**</p><p>**Quiero** identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad</p><p>**Para** saber si puedo beneficiarme directamente de sus servicios.</p>|<p>**Escenario 1: Comprensión de públicos objetivos para habitantes<br>Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de habitantes.</p><p>**Escenario 2: Comprensión de públicos objetivos para proveedores<br>Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de proveedores.</p><p></p>|**EP03**|
+|**HU15**|**Comunicación del problema y la solución**|<p>**Como** visitante interesado,</p><p>**Quiero** entender el contexto del problema del acceso al agua y cómo AquaConecta lo resuelve,</p><p>**Para** evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</p>|<p>**Escenario 1: Explicación clara sobre el desafío actual<br>Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>**Cuando** llega a la sección “La problemática del agua”,<br>**Entonces** visualiza información y porcentajes sobre la problemática que está abordando.</p><p>**Escenario 2: Explicación clara sobre la solución<br>Dado** que un visitante necesita conocer en qué consiste la solución,<br>**Cuando** llega a la sección “Nuestra Solución”,<br>**Entonces** visualiza información sobre la implementación de la solución.</p>|**EP03**|
+|**HU16**|**Comparación de planes y acciones de compra**|<p>**Como** visitante interesado en adquirir un servicio,</p><p>**Quiero** revisar los planes, precios y características de AquaConecta,</p><p>**Para** decidir si deseo solicitar un plan o contactar por asesoría.</p>|<p>**Escenario 1: Visualización de planes y precios<br>Dado** que un visitante desea conocer los planes disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”**,<br>Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p><p>**Escenario 2: Visualización de servicios<br>Dado** que un visitante desea conocer los servicios disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”**,<br>Entonces** puede ver los servicios disponibles con su información.</p>|**EP03**|
+|**HU17**|**Envío efectivo de consultas por formulario**|<p>**Como** usuario con preguntas o interés en Aqua Conecta,</p><p>**Quiero** poder llenar y enviar un formulario de contacto,</p><p>**Para** recibir asistencia, cotización o más información directamente del equipo**.**</p>|<p>**Escenario 1: Visualización del formulario de contacto<br>Dado** que un visitante tiene preguntas o desea más información,<br>**Cuando** se dirige a la sección “Contacta con nosotros”,<br>**Entonces** puede visualizar todas las secciones del formulario de contacto.</p><p>**Escenario 2: Envío de formulario de contacto<br>Cuando** un visitante quiere enviar su información de contacto<br>**Cuando** completa el formulario<br>**Entonces** se le enviaran todos los datos de contacto.</p>|**EP03**|
+|**EP04**|**Identity and Access Management**|<p>**Como** usuario de la plataforma,</p><p>**Quiero** poder crear una cuenta, iniciar sesión y gestionar mi información personal, </p><p>**Para** acceder a los servicios del sistema de forma segura y personalizada.</p>|||
+|**HU18**|**Registro de usuario Web**|<p>**Como** proveedor,</p><p>**Quiero** registrarme desde la plataforma web ingresando mis datos,</p><p>**Para** crear una cuenta y comenzar a gestionar mis servicios.</p>|<p>**Escenario 1: Registro completo desde el sitio web<br>Dado** que el usuario está en el formulario de registro<br>**Cuando** completa sus datos correctamente<br>**Entonces** se crea su cuenta y es redirigido al login.</p><p>**Escenario 2: Validación de campos vacíos<br>Dado** que el usuario no completa todos los campos requeridos<br>**Cuando** intenta registrar los datos<br>**Entonces** el sistema muestra mensajes de validación en los campos incompletos</p>|**EP04**|
+|**HU19**|**Inicio de sesión de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** iniciar sesión desde la aplicación móvil,</p><p>**Para** acceder a mi cuenta y monitorear el estado del agua en mi hogar.</p>|<p>**Escenario 1: Inicio de sesión exitoso<br>Dado** que el usuario ingresa sus credenciales válidas en la aplicación<br>**Cuando** se encuentra en la sección de login<br>**Entonces** el sistema valida los datos y redirígeme al panel principal </p><p>**Escenario 2: Contraseña Incorrecta<br>Dado** que el usuario ingresa un nombre de usuario correcto pero contraseña incorrecta<br>**Cuando** intenta iniciar sesión<br>**Entonces** el sistema muestra un mensaje de error</p>|**EP04**|
+|**HU20**|**Inicio de sesión de usuario web.**|<p>**Como** proveedor,</p><p>**Quiero** ingresar a la plataforma web con mis credenciales,</p><p>**Para** gestionar mis servicios y usuarios asociados de forma segura.</p>|<p>**Escenario 1: Inicio de sesión exitoso<br>Dado** que el usuario ingresa sus credenciales válidas en la aplicación<br>**Cuando** se encuentra en la sección de login<br>**Entonces** el sistema valida los datos y redirígeme a la lista de residentes.</p><p>**Escenario 2: Contraseña Incorrecta<br>Dado** que el usuario ingresa un nombre de usuario correcto pero contraseña incorrecta<br>**Cuando** intenta iniciar sesión<br>**Entonces** el sistema muestra un mensaje de error.</p>|**EP04**|
+|**HU21**|**Visualización y Edición del perfil de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** ver y editar mi información personal desde la aplicación móvil,</p><p>**Para** mantener mis datos actualizados fácilmente.</p>|<p>**Escenario 1: Acceso al perfil desde menú<br>Dado** que el usuario accede al menú de la aplicación<br>**Cuando** se dirige a la sección de perfil<br>**Entonces** el sistema muestra su información personal actual</p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario móvil accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP04**|
+|**HU22**|**Visualización y Edición del perfil de usuario web**|<p>**Como** proveedor,</p><p>**Quiero** acceder y modificar mi perfil desde la plataforma web,</p><p>**Para** gestionar mis datos de contacto y empresa de manera segura.</p>|<p>**Escenario 1: Acceso al perfil desde la pantalla principal<br>Dado** que el usuario accede a la pantalla principal de la web<br>**Cuando** se dirige a la sección de perfil <br>**Entonces** el sistema muestra su información personal actual </p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario web accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP04**|
+|**HT05**|**Registro de credenciales de acceso**|<p>**Como** desarrollador,</p><p>**Quiero** implementar un endpoint para registrar nuevas cuentas de usuario,</p><p>**Para** permitir el acceso inicial a la plataforma de forma segura.</p>|<p>**Escenario 1: Registro exitoso de usuario a través de la API<br>Dado** que el endpoint "/api/v1/authentication/sign-up" está disponible  <br>**Cuando** se envía una solicitud POST con un username y password válidos  <br>**Entonces** se recibe una respuesta con estado 201  <br>**Y** el cuerpo de la respuesta incluye los datos del nuevo usuario junto con un identificador único.</p><p>**Escenario 2: Credenciales inválidas<br>Dado** que el endpoint "/api/v1/authentication/sign-up" está disponible  <br>**Cuando** se envía una solicitud POST con un rol incorrecto<br>**Entonces** se recibe una respuesta con estado 400.</p>|**EP04**|
+|**HT06**|**Inicio de sesión de usuario a través de la API**|<p>**Como** desarrollador,</p><p>**Quiero** permitir que los usuarios inicien sesión mediante la API,</p><p>**Para** autenticar su identidad y generar tokens válidos de acceso.</p>|<p>**Escenario 1: Inicio de sesión exitoso <br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico y contraseña válidos<br>**Entonces** se recibe una respuesta con estado 200<br>**Y** el cuerpo de la respuesta incluye un token de autenticación válido y datos básicos del usuario.</p><p>**Escenario 2: Fallo al iniciar sesión con credenciales incorrectas<br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico o contraseña incorrectos<br>**Entonces** se recibe una respuesta con estado 401<br>**Y** el cuerpo de la respuesta incluye el mensaje "Credenciales incorrectas".</p>|**EP04**|
+|**HT07**|**Gestión de perfiles a través de la API**|<p>**Como** desarrollador,</p><p>**Quiero** permitir que los usuarios inicien sesión mediante la API,</p><p>**Para** autenticar su identidad y generar tokens válidos de acceso.</p>|<p>**Escenario 1: Inicio de sesión exitoso <br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico y contraseña válidos<br>**Entonces** se recibe una respuesta con estado 200<br>**Y** el cuerpo de la respuesta incluye un token de autenticación válido y datos básicos del usuario</p><p>**Escenario 2: Fallo al iniciar sesión con credenciales incorrectas<br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico o contraseña incorrectos<br>**Entonces** se recibe una respuesta con estado 401<br>**Y** el cuerpo de la respuesta incluye el mensaje "Credenciales incorrectas".</p>|**EP04**|
+|**EP05**|**Subscriptions and Payments**|<p>**Como** usuario del sistema,</p><p>**Quiero** gestionar y consultar suscripciones asociadas a sensores IoT,</p><p>**Para** asegurar un monitoreo adecuado de los dispositivos asignados a los residentes, con control de acceso y estado.</p><p></p>|||
+|**HU23**|**Crear suscripción al agregar sensor**|<p>**Como** proveedor, </p><p>**Quiero** agregar un nuevo sensor </p><p>**Para** que se registre automáticamente una suscripción individual que habilite el monitoreo del dispositivo.</p>|<p>**Escenario 1: Redirección al crear un nuevo sensor<br>Dado** que el proveedor está revisando los sensores,<br>**Cuando** hace clic en "Agregar sensor",<br>**Entonces** es llevado al formulario para registrar la suscripción.</p><p>**Escenario 2: Creación de suscripción tras pago exitoso<br>Dado** que el proveedor completa los datos del sensor y realiza el pago,<br>**Cuando** la transacción se confirma con éxito,<br>**Entonces** se muestra que la suscripción quedó activa y vinculada al sensor y al residente.</p>||
+|**HU24**|**Ver suscripciones activas por residente**|<p>**Como** proveedor, </p><p>**Quiero** visualizar las suscripciones activas asociadas a los sensores de cada residente, </p><p>**Para** conocer el estado de monitoreo de mis habitantes.</p>|<p>**Escenario 1: Registro de nuevo sensor<br>Dado** que el proveedor está revisando la información de sus sensores,<br>**Cuando** decide agregar uno nuevo,<br>**Entonces** es llevado al formulario para registrar la suscripción correspondiente.</p><p>**Escenario 2: Activación de suscripción tras pago exitoso<br>Dado** que el proveedor completa los datos del sensor y realiza el pago,<br>**Cuando** la transacción se confirma con éxito,<br>**Entonces** se muestra que la suscripción quedó activa y vinculada al sensor y al residente.</p>||
+|**HU25**|**Ver todas las suscripciones del sistema**|<p>**Como** administrador,</p><p>**Quiero** visualizar todas las suscripciones del sistema, </p><p>**Para** supervisar el uso de la plataforma por parte de proveedores y residentes.</p><p></p>|<p>**Escenario 1: Visualización de todas las suscripciones del sistema<br>Dado** que el administrador quiere revisar las suscripciones registradas,<br>**Cuando** accede a la opción correspondiente,<br>**Entonces** se muestra una lista con todas las suscripciones, incluyendo proveedor, residente, sensor y estado.</p><p>**Escenario 2: No hay suscripciones registradas<br>Dado** que el administrador intenta revisar las suscripciones,<br>**Cuando** no se encuentra ninguna registrada,<br>**Entonces** se muestra un mensaje indicando que no existen registros disponibles.</p>||
+|**HU26**|**Visualizar suscripción del residente**|<p>**Como residente,** </p><p>**Quiero consultar el estado de mi suscripción** </p><p>**Para saber si mi sensor está activo y en funcionamiento.**</p>|<p>**Escenario 1: Visualizar suscripción del residente<br>Dado** que el residente inicia sesión,<br>**Cuando** revisa la opción “Mi suscripción”,<br>**Entonces** se muestra la información del sensor asociado y el estado actual de la suscripción (activa o inactiva).</p><p>**Escenario 2: Sin suscripción registrada<br>Dado** que el residente no tiene ninguna suscripción activa,<br>**Cuando** accede a “Mi suscripción”,<br>**Entonces** se muestra un mensaje indicando que aún no tiene sensores registrados o suscritos.</p>||
+|**HT08**|**Crear suscripción a través de API REST**|<p>**Como** desarrollador,</p><p>**Quiero** crear una suscripción a través de la API</p><p>**Para** que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo.</p><p></p>|<p>**Escenario 1: Crear suscripción con datos válidos<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Cuando** se envía una solicitud con los valores sensorId, residentId y providerId,<br>**Entonces** se responde con un código 201 Created,<br>**Y** en el cuerpo de la respuesta se incluye el subscriptionId, la fechaInicio y el estado con valor ACTIVA.</p><p>**Escenario 2: Crear suscripción para un sensor ya suscrito<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Y** el sensor ya cuenta con una suscripción activa,<br>**Cuando** se intenta crear otra suscripción usando el mismo sensorId,<br>**Entonces** se responde con un código 409 Conflict,<br>**Y** en el cuerpo se muestra el mensaje: "Ya existe una suscripción activa para este sensor."</p>||
+|**HT09**|<p>**Obtener suscripciones por residente**</p><p></p>|<p>**Como** desarrollador,** </p><p>**Quiero** exponer un endpoint que permita obtener las suscripciones asociadas a un residente, </p><p>**Para** que puedan ser consultadas fácilmente cuando se necesite.</p><p></p>|<p>**Escenario 1: Residente con suscripciones registradas<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se realiza una solicitud utilizando un residentId válido,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta incluye una lista de suscripciones, cada una con su sensorId, estado, fechaInicio y fechaFin.</p><p>**Escenario 2: Residente sin suscripciones<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se consulta a un residente que no tiene suscripciones registradas,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta contiene una lista vacía o un mensaje que indica que no hay suscripciones registradas.</p>||
+|**HT10**|**Obtener todas las suscripciones del sistema**|<p>**Como** desarrollador,</p><p>**Q**uiero exponer un endpoint que permita listar todas las suscripciones registradas,** </p><p>**Para** que el administrador pueda supervisar su uso y gestión.</p><p></p>|<p>**Escenario 1: Usuario con rol administrador accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado con rol ADMIN realiza la solicitud,<br>**Entonces** se responde con un código 200 OK,<br>**Y** en el cuerpo se devuelve una lista de suscripciones que incluye la información del sensor, proveedor, residente y el estado de cada una.</p><p>**Escenario 2: Usuario sin permisos accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado sin el rol ADMIN intenta acceder,<br>**Entonces** se responde con un código 403 Forbidden,<br>**Y** se incluye un mensaje que indica que no cuenta con los permisos necesarios para acceder a este recurso.</p>||
 
 
 
@@ -1584,13 +1602,13 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](./assets/bounded/candidate.png)
+![alt text](assets/bounded/bounded-operation-and-monitoring.jpg)
 
 * Assets and Resource Management
 
   Administra los recursos del sistema, como los sensores, actuadores y otros componentes necesarios para el buen funcionamiento del sistema.
 
-* Management
+* Operation and Monitoring
 
   Gestiona y supervisa el estado del agua en los tanques de los habitantes. Permite a usuarios visualizar estos datos en tiempo real y generar alertas o solicitudes de recarga. También habilita a los proveedores a monitorear las condiciones del agua y responder a situaciones críticas.  
 
@@ -1635,11 +1653,10 @@ El proveedor modifica la cantidad de tanques y sensores asociados al habitante. 
 Este canvas está diseñado para visualizar y analizar datos históricos y en tiempo real sobre el estado del agua, incluyendo nivel, calidad y consumo. Su propósito principal es facilitar la toma de decisiones mediante reportes semanales o mensuales, así como el monitoreo eficiente del servicio. La información se clasifica en roles de dominio como "analysis context", y se utilizan términos específicos como "Water Status" y "Water Quality" para estandarizar la comunicación. Las métricas de verificación incluyen el tiempo de generación de reportes y la precisión de los filtros aplicados. Entre las preguntas abiertas destacan la necesidad de definir el nivel de detalle esperado por los usuarios y si se debe permitir la exportación de reportes.
 ![alt text](./assets/bounded/sh5.png)
 
-- Bounded context Request Management
+- Bounded context Operation and Monitoring
 
 Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
-![alt text](./assets/bounded/sh6.png)
-
+![alt text](operation-and-monitoring-bouded-context-canvases.jpg)
 
 - Bounded context User & Profile Management
 
@@ -1654,7 +1671,7 @@ Este canvas gestiona la compra, registro y pago de sensores, así como suscripci
 
 ### 4.1.2. Context Mapping.
 
-En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema, destacando la colaboración entre User & Profile Management, Subscription & Payment, Management Context y Analytics Context, aplicando patrones DDD como Anti-Corruption Layer y Customer/Supplier (contratos claros en pagos) para garantizar una integración eficiente y escalable.
+En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema, destacando la colaboración entre User & Profile Management, Subscription & Payment, Operation and Monitoring y Analytics Context, aplicando patrones DDD como Anti-Corruption Layer y Customer/Supplier (contratos claros en pagos) para garantizar una integración eficiente y escalable.
 
 ![Context Mapping](./assetsimg/context-mapping.png)
 
@@ -2268,7 +2285,7 @@ El diagrama muestra las relaciones entre las tablas **providers**, **residents**
 | provider_id  | int      | FK al proveedor que administra al residente  |
 
 
-### 4.2.3. Bounded Context: Request Management 
+### 4.2.3. Bounded Context: Request Operation and Monitoring
 
 #### 4.2.3.1. Domain Layer.
 - Este bounded context abarca la gestión de solicitudes generales y de agua realizadas por los residentes a los proveedores dentro de una comunidad.
@@ -2339,7 +2356,7 @@ Constructores:
 
 ##  `Commands`
 
-### `Water Management Commands`
+### `Water Operation Commands`
 
 | Comando                             | Descripción                                                        |
 |-------------------------------------|--------------------------------------------------------------------|
@@ -2489,7 +2506,7 @@ Representa un evento individual registrado por un sensor de monitoreo ambiental.
 
 ---
 
-## `SensorManagement`
+## `DeviceMonitoring`
 
 Representa la administración y configuración de un sensor en campo.
 
@@ -2546,7 +2563,7 @@ Representa la administración y configuración de un sensor en campo.
 | `RegisterEventCommand`      | Registra un nuevo evento generado por un sensor           |
 | `UpdateEventStatusCommand`  | Actualiza el estado de un evento específico               |
 
-### `Management Commands`
+### `Monitoring Commands`
 
 | Comando                     | Descripción                                                |
 |-----------------------------|------------------------------------------------------------|
@@ -2567,7 +2584,7 @@ Representa la administración y configuración de un sensor en campo.
 | `GetEventsByDateRangeQuery`           | Lista eventos registrados entre dos fechas (`created_at`)                  |
 | `GetEventsByStatusAndSensorIdQuery`   | Lista eventos filtrados por estado (`status`) y sensor específico          |
 
-### `Management Queries`
+### `Monitoring Queries`
 
 | Query                             | Descripción                                                                 |
 |-----------------------------------|-----------------------------------------------------------------------------|
@@ -2577,15 +2594,15 @@ Representa la administración y configuración de un sensor en campo.
 
 ### ` Repositories (Interfaces)`
 
-| Archivo                          | Descripción                                                                  |
-|----------------------------------|------------------------------------------------------------------------------|
-| `IEventRepository.cs`            | Operaciones sobre eventos:                                                   |
-|                                  | - `FindBySensorIdAsync`                                                     |
-|                                  | - `FindByDateRangeAsync`                                                    |
-|                                  | - `FindByStatusAndSensorIdAsync`                                            |
-|                                  | - `FindMonthlyAsync`, `SaveAsync`                                           |
-| `ISensorManagementRepository.cs` | Operaciones sobre sensores:                                                 |
-|                                  | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
+| Archivo                | Descripción                                                                |
+|------------------------|----------------------------------------------------------------------------|
+| `IEventRepository.cs`  | Operaciones sobre eventos:                                                 |
+|                        | - `FindBySensorIdAsync`                                                    |
+|                        | - `FindByDateRangeAsync`                                                   |
+|                        | - `FindByStatusAndSensorIdAsync`                                           |
+|                        | - `FindMonthlyAsync`, `SaveAsync`                                          |
+| `IDeviceRepository.cs` | Operaciones sobre devices:                                                 |
+|                        | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
 
 
 ## `Services`
@@ -2597,7 +2614,7 @@ Representa la administración y configuración de un sensor en campo.
 | `IEventCommandService.cs`   | Comandos para registrar y modificar eventos                             |
 | `IEventQueryService.cs`     | Consultas de eventos: por sensor, por mes, por estado, por fechas, etc. |
 
-### `Management Services`
+### `Monitoring Services`
 
 | Archivo                      | Descripción                                                             |
 |------------------------------|-------------------------------------------------------------------------|
@@ -2608,26 +2625,26 @@ Representa la administración y configuración de un sensor en campo.
 #### 4.2.4.2. Interface Layer.
 ### `Resources`
 
-| Archivo                          | Descripción                                                            |
-|----------------------------------|------------------------------------------------------------------------|
-| `RegisterEventResource.cs`       | Recurso para registrar nuevos eventos                                  |
-| `EventResource.cs`               | Recurso JSON para listar eventos                                       |
-| `MonthlyEventsResource.cs`       | Agrupación de eventos por mes                                          |
-| `SensorReportResource.cs`        | Resumen estadístico de sensor                                          |
-| `InstallSensorResource.cs`       | Recurso para registrar un sensor nuevo                                 |
-| `SensorManagementResource.cs`    | Estado, descripción y ubicación del sensor                             |
+| Archivo                       | Descripción                                                            |
+|-------------------------------|------------------------------------------------------------------------|
+| `RegisterEventResource.cs`    | Recurso para registrar nuevos eventos                                  |
+| `EventResource.cs`            | Recurso JSON para listar eventos                                       |
+| `MonthlyEventsResource.cs`    | Agrupación de eventos por mes                                          |
+| `SensorReportResource.cs`     | Resumen estadístico de sensor                                          |
+| `InstallSensorResource.cs`    | Recurso para registrar un sensor nuevo                                 |
+| `SensorMonitoringResource.cs` | Estado, descripción y ubicación del sensor                             |
 
 
 ### `Transform / Assemblers`
 
-| Archivo                                           | Función                                                                  |
-|--------------------------------------------------|---------------------------------------------------------------------------|
-| `RegisterEventCommandFromResourceAssembler.cs`   | Transforma recurso en `RegisterEventCommand`                             |
-| `EventResourceFromEntityAssembler.cs`            | Convierte entidad `Event` a recurso JSON                                 |
-| `MonthlyEventsResourceFromEntityAssembler.cs`    | Agrupa eventos y los transforma a recurso mensual                        |
-| `SensorReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte                     |
-| `InstallSensorCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallSensorCommand`                             |
-| `SensorResourceFromEntityAssembler.cs`           | Convierte `SensorManagement` en recurso JSON                             |
+| Archivo                                           | Función                                              |
+|--------------------------------------------------|------------------------------------------------------|
+| `RegisterEventCommandFromResourceAssembler.cs`   | Transforma recurso en `RegisterEventCommand`         |
+| `EventResourceFromEntityAssembler.cs`            | Convierte entidad `Event` a recurso JSON             |
+| `MonthlyEventsResourceFromEntityAssembler.cs`    | Agrupa eventos y los transforma a recurso mensual    |
+| `SensorReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte |
+| `InstallSensorCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallSensorCommand`         |
+| `SensorResourceFromEntityAssembler.cs`           | Convierte `Monitoring` en recurso JSON               |
 
 ---
 
@@ -2664,20 +2681,20 @@ Representa la administración y configuración de un sensor en campo.
 
 ### `Implementación de Repositories`
 
-| Clase                          | Interfaz implementada         | Función principal                                                                 |
-|-------------------------------|-------------------------------|------------------------------------------------------------------------------------|
-| `EventRepository.cs`          | `IEventRepository`            | Gestiona la persistencia de eventos generados por sensores, incluyendo búsqueda por sensor, fechas o estado. |
-| `SensorManagementRepository.cs` | `ISensorManagementRepository` | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
+| Clase                 | Interfaz implementada | Función principal                                                                 |
+|-----------------------|-----------------------|------------------------------------------------------------------------------------|
+| `EventRepository.cs`  | `IEventRepository`    | Gestiona la persistencia de eventos generados por sensores, incluyendo búsqueda por sensor, fechas o estado. |
+| `DeviceRepository.cs` | `IDeviceRepository`   | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
-En este diagrama, el REST API actúa como punto de entrada para recibir solicitudes HTTP relacionadas con sensores y eventos. Estas solicitudes son manejadas por controladores específicos: Sensor Controller y Event Controller, que exponen los endpoints necesarios para gestionar sensores y eventos respectivamente. Las operaciones de creación o actualización de sensores se delegan al Sensor Command Service, mientras que las consultas de sensores se manejan a través del Sensor Query Service; ambos interactúan con el Sensor Management Repository, el cual almacena y recupera metadatos y estados de sensores. Para los eventos, el Event Command Service gestiona el registro y actualización de eventos, y el Event Query Service permite recuperar información para reportes y métricas del tablero, utilizando datos proporcionados por el Sensor Query Service. Todos los eventos son almacenados en el Event Repository, y tanto este repositorio como el de sensores interactúan con una base de datos MySQL, que almacena información sobre usuarios, sensores, suscripciones, datos de eventos y alertas administrativas.
+En este diagrama, el REST API actúa como punto de entrada para recibir solicitudes HTTP relacionadas con sensores y eventos. Estas solicitudes son manejadas por controladores específicos: Sensor Controller y Event Controller, que exponen los endpoints necesarios para gestionar sensores y eventos respectivamente. Las operaciones de creación o actualización de sensores se delegan al Sensor Command Service, mientras que las consultas de sensores se manejan a través del Sensor Query Service; ambos interactúan con el Monitoring Repository, el cual almacena y recupera metadatos y estados de sensores. Para los eventos, el Event Command Service gestiona el registro y actualización de eventos, y el Event Query Service permite recuperar información para reportes y métricas del tablero, utilizando datos proporcionados por el Sensor Query Service. Todos los eventos son almacenados en el Event Repository, y tanto este repositorio como el de sensores interactúan con una base de datos MySQL, que almacena información sobre usuarios, sensores, suscripciones, datos de eventos y alertas administrativas.
 
 ![alt text](./assets/img/structurizr-101355-dashboardAnalytics.png)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
-Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **SensorManagement** y su **SensorStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
+Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **DeviceMonitoring** y su **DeviceStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
 ![alt text](<./assets/img/events.png>)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
 Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
@@ -3527,342 +3544,342 @@ Link de trello: https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog
 
 ### 6.2.2.4. Development Evidence for Sprint Review
 
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
-| :-: | :-: | :-: | :-: | :-: | :-: |
-|IronCoders-IOT/Landing-Page|main|d219951|Refactor website for English localization and responsive design improvements||12/06/2025 1:21 PM|
-|IronCoders-IOT/Landing-Page|main|52dc4f1|feat: Add proportions CSS for optimized layout across devices and enhance responsive design||<p>12/06/2025 1:34 PM</p><p></p><p></p>|
-|IronCoders-IOT/Landing-Page|main|f184f8f|fix: Update login links to point to the development environment||12/06/2025 1:51 PM|
-|IronCoders-IOT/Frontend|develop|050bfcd|feat(auth): implement login, signup, and profile creation logic for admins and providers integrated with backend||01/06/2025 12:37 PM|
-|IronCoders-IOT/Frontend|develop|efc5948|refactor(shared): update base.service.ts to improve error handling and HTTP methods||01/06/2025 12:42 PM|
-|IronCoders-IOT/Frontend|develop|9e80d08|save provider-details.ts||01/06/2025 12:48 PM|
-|IronCoders-IOT/Frontend|develop|f7f50be|fix console log||01/06/2025 12:55 PM|
-|IronCoders-IOT/Frontend|develop|be4ecf1|fix token||01/06/2025 1:04 PM|
-|IronCoders-IOT/Frontend|develop|ddce236|feat(auth): implement signup logic for account creation||01/06/2025 4:09 PM|
-|IronCoders-IOT/Frontend|develop|5496b58|fix(auth): implement signup logic for account creation||01/06/2025 5:30 PM|
-|IronCoders-IOT/Frontend|develop|00353ef|feat(provider-profile): add functionality for viewing and updating provider profile data||01/06/2025 6:06 PM|
-|IronCoders-IOT/Frontend|develop|514b3d3|feat(resident): add user creation, display resident by provider, and show details||04/06/2025 1:31 PM|
-|IronCoders-IOT/Frontend|develop|36c7bff|feat(resident): add user creation, display resident by provider, and show details||04/06/2025 1:37 PM|
-|IronCoders-IOT/Frontend|develop|db742ab|fix: resolve merge conflicts||04/06/2025 1:48 PM|
-|IronCoders-IOT/Frontend|develop|84a29ee|feat(resident): add user creation, display resident by provider, and show details v2||04/06/2025 2:12 PM|
-|IronCoders-IOT/Frontend|develop|df34094|feat(resident): add user creation, display resident by provider, and show details v3||04/06/2025 2:21 PM|
-|IronCoders-IOT/Frontend|develop|613e51c|feat(resident): add user creation, display resident by provider, and show details v2||04/06/2025 2:29 PM|
-|IronCoders-IOT/Frontend|develop|6e44279|feat(supply-requests): display supply requests for a specific provider||04/06/2025 6:33 PM|
-|IronCoders-IOT/Frontend|develop|cca6066|feat(supply-requests): add water request filter by id||04/06/2025 7:48 PM|
-|IronCoders-IOT/Frontend|develop|bb0a3fe|feat: integrate provider creation in signup process||04/06/2025 11:47 PM|
-|IronCoders-IOT/Frontend|develop|7e1f4f7|feat: enhance profile data retrieving logic and update model properties||04/06/2025 11:55 PM|
-|IronCoders-IOT/Frontend|develop|2c58535|fix: update request data retrieval||05/06/2025 11:55 PM|
-|IronCoders-IOT/Frontend|develop|ae3f811|fix: remove provider creation logic from signup component and clean up unused code||06/06/2025 12:07 PM|
-|IronCoders-IOT/Frontend|develop|c5394fc|fix profile id from getResidentsByProvider||05/06/2025 1:11 AM|
-|IronCoders-IOT/Frontend|develop|bf768e6|fix profile id from getResidentsByProvider||06/06/2025 1:18 AM|
-|IronCoders-IOT/Frontend|develop|074c1a9|fix profile id from getResidentsByProvider||0/06/2025 1:21 AM|
-|IronCoders-IOT/Frontend|develop|aa904aa|fix: log out logic fixed||06/06/2025 11:46 AM|
-|IronCoders-IOT/Frontend|develop|c1b21bc|fix updateDeliveredAt||06/06/2025 3:56 PM|
-|IronCoders-IOT/Frontend|develop|51dc411|field request update from develop||06/06/2025 4:01 PM|
-|IronCoders-IOT/Frontend|develop|ddbf64a|fix id filter||06/06/2025 4:09 PM|
-|IronCoders-IOT/Frontend|develop|e802029|feat(home): creation of styles for the home screen||06/06/2025 6:19 PM|
-|IronCoders-IOT/Frontend|develop|278537a|fix: resolved merge conflicts||06/06/2025 6:23 PM|
-|IronCoders-IOT/Frontend|develop|a0d3e61|fix supply-requests view||07/06/2025 12:02 PM|
-|IronCoders-IOT/Frontend|develop|eb493f3|Fix: corrected filtering logic for water requests list||07/06/2025 1:47 AM|
-|IronCoders-IOT/Frontend|develop|9bd052e|Fix: corrected filtering logic for water requests list||07/06/2025 1:48 AM|
-|IronCoders-IOT/Frontend|develop|1631826|Fix: resolved water request list filtering by provider||07/06/2025 9:57 AM|
-|IronCoders-IOT/Frontend|develop|f4e0301|Fix: resolved water request list filtering by provider||07/06/2025 10:05 PM|
-|IronCoders-IOT/Frontend|develop|553fb30|feat(reports): implement request list with issues in providerId and residentId storage, missing request details implementation||07/06/2025 2:21 PM|
-|IronCoders-IOT/Frontend|develop|79c946b|feat(home): add function to display report data on the home screen||07/06/2025 3:14 PM|
-|IronCoders-IOT/Frontend|develop|2cb1f00|Fix: Update get all requests||07/06/2025 6:14 PM|
-|IronCoders-IOT/Frontend|develop|26dae94|Fix: Update get all requests||07/06/2025 6:17 PM|
-|IronCoders-IOT/Frontend|develop|5aa8dd9|feature: Add restrictions to create a new resident||07/06/2025 6:43 PM|
-|IronCoders-IOT/Frontend|develop|588bb34|Add subscription to resident||07/06/2025 7:55 PM|
-|IronCoders-IOT/Frontend|develop|1d4d233|Add emission date to supply requests||07/06/2025 8:14 PM|
-|IronCoders-IOT/Frontend|develop|534d49a|Update report request||07/06/2025 10:46 PM|
-|IronCoders-IOT/Frontend|develop|8026b07|feature: Update report request table||07/06/2025 10:53 PM|
-|IronCoders-IOT/Frontend|develop|f5b7515|Feature: Update buttons to request||07/06/2025 11:03 PM|
-|IronCoders-IOT/Frontend|develop|62ce5a4|refactor(residents): update providerId in GET requests to use userId instead||08/06/2025 10:54 AM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7a88462|refactor(residents): update providerId in GET requests to use userId instead||08/06/2025 11:05 AM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|c1a06df|refactor(residents): update providerId in GET requests to use userId instead||08/06/2025 11:08 AM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7f86e83|refactor(residents): update providerId in GET requests to use userId instead||08/06/2025 11:16 AM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|8393cc3|feat(reports): add report description by provider||08/06/2025 10:13 PM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|4e6cb22|feat: save change from develop||09/06/2025 11:53 AM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|b4f250c|feat: update water request list||09/06/2025 12:00 PM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7d5bd09|fix: correct water request statuses and update dialog names||09/06/2025 11:03 PM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|460a142|feat(admin-dashboard): add water request visualization functions||09/06/2025 1:00 PM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|a5d696e|feat(admin-dashboard): add Recenty Activity||11/06/2025 3:58 PM|
-|IronCoders-IOT/Frontend|develop|dd73591|Updated routes for providers and administrators||11/06/2025 6:15 PM|
-|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7043d80|Updated data visualization for providers and water requests in admin views||13/06/2025 7:45 PM|
-|IronCoders-IOT/mobile\_iot|main|24c5b49|add Setup project||05/04/2025 11:03 PM|
-|IronCoders-IOT/mobile\_iot|develop|f27a74e|add Setup project||28/05/2025 8:48 AM|
-|IronCoders-IOT/mobile\_iot|develop|534e5a9|update README.md to enhance project structure and provide detailed module descriptions||28/05/2025 9:00 AM|
-|IronCoders-IOT/mobile\_iot|develop|c9ae9cb|add dependencies for shared preferences and secure storage||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|develop|b3ba53f|update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|develop|fc6721c|refactor: restructure main app and implement login screen with custom components||28/05/2025 9:07 AM|
-|IronCoders-IOT/mobile\_iot|develop|b61e1a4|feat: implement dashboard screen with animated circular progress indicator and metrics display||28/05/2025 9:10 AM|
-|IronCoders-IOT/mobile\_iot|develop|0013484|feat: enable navigation to dashboard after successful login||28/05/2025 9:11 AM|
-|IronCoders-IOT/mobile\_iot|develop|4b0daf0|feat: add profile and edit profile screens with user data display and editing functionality||28/05/2025 9:15 AM|
-|IronCoders-IOT/mobile\_iot|develop|268f096|feat: add profile and edit profile routes to navigation||28/05/2025 9:16 AM|
-|IronCoders-IOT/mobile\_iot|develop|3f478df|feat: update navigation items to reflect active state and implement profile navigation||28/05/2025 9:25 AM|
-|IronCoders-IOT/mobile\_iot|develop|523fbe3|feat: implement reports screen with simulated sensor reports and detail view||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|develop|8d29d28|feat: add reports screen route to navigation||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|develop|3210fbc|feat: enable navigation to reports screen from dashboard||28/05/2025 9:36 AM|
-|IronCoders-IOT/mobile\_iot|develop|f332a45|feat: implement authentication with user sign-in and token storage||28/05/2025 1:49 PM|
-|IronCoders-IOT/mobile\_iot|develop|a3c543d|feat: implement secure storage service for JWT token||28/05/2025 2:34 PM|
-|IronCoders-IOT/mobile\_iot|develop|0039072|feat: implement profile management and API service integration||28/05/2025 10:15 PM|
-|IronCoders-IOT/mobile\_iot|feature/dashboard-view|f27a74e|add Setup project||28/05/2025 8:48 PM|
-|IronCoders-IOT/mobile\_iot|feature/dashboard-view|534e5a9|update README.md to enhance project structure and provide detailed module descriptions||28/05/2025 9:00 AM|
-|IronCoders-IOT/mobile\_iot|feature/dashboard-view|c9ae9cb|add dependencies for shared preferences and secure storage||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/dashboard-view|b3ba53f|update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/dashboard-view|fc6721c|refactor: restructure main app and implement login screen with custom components||28/05/2025 9:07 AM|
-|IronCoders-IOT/mobile\_iot|feature/dashboard-view|b61e1a4|feat: implement dashboard screen with animated circular progress indicator and metrics display||28/05/2025 9:10 AM|
-|IronCoders-IOT/mobile\_iot|feature/dashboard-view|0013484|feat: enable navigation to dashboard after successful login||28/05/2025 9:11 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|f27a74e|add Setup project||28/05/2025 8:48 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|534e5a9|update README.md to enhance project structure and provide detailed module descriptions||28/05/2025 9:00 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|c9ae9cb|add dependencies for shared preferences and secure storage||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|b3ba53f|update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|fc6721c|refactor: restructure main app and implement login screen with custom components||28/05/2025 9:07 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|b61e1a4|feat: implement dashboard screen with animated circular progress indicator and metrics display||28/05/2025 9:10 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|0013484|feat: enable navigation to dashboard after successful login||28/05/2025 9:11 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|4b0daf0|feat: add profile and edit profile screens with user data display and editing functionality||28/05/2025 9:15 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|268f096|feat: add profile and edit profile routes to navigation||28/05/2025 9:16 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|3f478df|feat: update navigation items to reflect active state and implement profile navigation||28/05/2025 9:25 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|523fbe3|feat: implement reports screen with simulated sensor reports and detail view||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|8d29d28|feat: add reports screen route to navigation||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|3210fbc|feat: enable navigation to reports screen from dashboard||28/05/2025 9:36 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|f332a45|feat: implement authentication with user sign-in and token storage||28/05/2025 1:49 PM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|a3c543d|feat: implement secure storage service for JWT token||28/05/2025 2:34 PM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|0039072|feat: implement profile management and API service integration||28/05/2025 10:15 PM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|f8b7080|feat: update .gitignore and Added a logout||3/06/2025 12:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|81d9635|<p>feat: add search functionality to reports screen</p><p></p>||3/06/2025 1:02 AM|
-|IronCoders-IOT/mobile\_iot|feature/history-screen|0a5bd42|feat: add history and water request screens||10/06/2025 9:29 PM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|f27a74e|add Setup project||28/05/2025 9:00 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|534e5a9|update README.md to enhance project structure and provide detailed module descriptions||28/05/2025 9:00 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|c9ae9cb|add dependencies for shared preferences and secure storage||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|b3ba53f|update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|fc6721c|refactor: restructure main app and implement login screen with custom components||28/05/2025 9:07 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|b61e1a4|feat: implement dashboard screen with animated circular progress indicator and metrics display||28/05/2025 9:10 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|0013484|feat: enable navigation to dashboard after successful login||28/05/2025 9:11 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|4b0daf0|feat: add profile and edit profile screens with user data display and editing functionality||28/05/2025 9:15 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|268f096|feat: add profile and edit profile routes to navigation||28/05/2025 9:16 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|3f478df|feat: update navigation items to reflect active state and implement profile navigation||28/05/2025 9:25 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|523fbe3|feat: implement reports screen with simulated sensor reports and detail view||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen||feat: implement reports screen with simulated sensor reports and detail view||28/05/2025 9:15 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|8d29d28|feat: add reports screen route to navigation||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|3210fbc|feat: enable navigation to reports screen from dashboard||28/05/2025 9:36 AM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|f332a45|feat: implement authentication with user sign-in and token storage||28/05/2025 1:49 PM|
-|IronCoders-IOT/mobile\_iot|feature/login-screen|a3c543d|feat: implement secure storage service for JWT token||28/05/2025 2:34 PM|
-|IronCoders-IOT/mobile\_iot|feature/profile|f27a74e|add Setup project||28/05/2025 8:48 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|534e5a9|update README.md to enhance project structure and provide detailed module descriptions||28/05/2025 9:00 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|c9ae9cb|add dependencies for shared preferences and secure storage||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|b3ba53f|update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|fc6721c|refactor: restructure main app and implement login screen with custom components||28/05/2025 9:07 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|b61e1a4|feat: implement dashboard screen with animated circular progress indicator and metrics display||28/05/2025 9:10 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|0013484|feat: enable navigation to dashboard after successful login||28/05/2025 9:11 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|4b0daf0|feat: add profile and edit profile screens with user data display and editing functionality||28/05/2025 9:15 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|268f096|feat: add profile and edit profile routes to navigation||28/05/2025 9:16 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|3f478df|feat: update navigation items to reflect active state and implement profile navigation||28/05/2025 9:25 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|523fbe3|feat: implement reports screen with simulated sensor reports and detail view||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|8d29d28|feat: add reports screen route to navigation||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|3210fbc|feat: enable navigation to reports screen from dashboard||28/05/2025 9:36 AM|
-|IronCoders-IOT/mobile\_iot|feature/profile|f332a45|feat: implement authentication with user sign-in and token storage||28/05/2025 1:49 PM|
-|IronCoders-IOT/mobile\_iot|feature/profile|a3c543d|feat: implement secure storage service for JWT token||28/05/2025 2:34 PM|
-|IronCoders-IOT/mobile\_iot|feature/profile|0039072|feat: implement profile management and API service integration||28/05/2025 10:15 PM|
-|IronCoders-IOT/mobile\_iot|feature/profile|f8b7080|feat: update .gitignore and Added a logout||03/06/2025 12:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|f27a74e|add Setup project||28/05/2025 8:48 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|534e5a9|update README.md to enhance project structure and provide detailed module descriptions||28/05/2025 9:00 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|c9ae9cb|add dependencies for shared preferences and secure storage||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|b3ba53f|update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider||28/05/2025 9:01 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|fc6721c|refactor: restructure main app and implement login screen with custom components||28/05/2025 9:07 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|b61e1a4|feat: implement dashboard screen with animated circular progress indicator and metrics display||28/05/2025 9:10 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|0013484|feat: enable navigation to dashboard after successful login||28/05/2025 9:11 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|4b0daf0|feat: add profile and edit profile screens with user data display and editing functionality||28/05/2025 9:15 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|268f096|feat: add profile and edit profile routes to navigation||28/05/2025 9:16 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|3f478df|feat: update navigation items to reflect active state and implement profile navigation||28/05/2025 9:25 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|523fbe3|feat: implement reports screen with simulated sensor reports and detail view||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|8d29d28|feat: add reports screen route to navigation||28/05/2025 9:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|3210fbc|feat: enable navigation to reports screen from dashboard||28/05/2025 3:36 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|f332a45|feat: implement authentication with user sign-in and token storage||28/05/2025 1:49 PM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|a3c543d|feat: implement secure storage service for JWT token||28/05/2025 2:34 PM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|0039072|feat: implement profile management and API service integration||28/05/2025 10:15 PM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|f8b7080|feat: update .gitignore and Added a logout||03/06/2025 12:30 AM|
-|IronCoders-IOT/mobile\_iot|feature/reports-screen|81d9635|feat: add search functionality to reports screen||03/06/2025 1:02 AM|
-|IronCoders-IOT/Backend|develop|760b0c0|feature: added profile updated||24/05/2025 10:47 AM|
-|IronCoders-IOT/Backend|develop|300cdd4|feature: added provider controller||24/05/2025 12:18 PM|
-|IronCoders-IOT/Backend|develop|22759f7|feature: added update provider controller||24/05/2025 12:54 PM|
-|IronCoders-IOT/Backend|develop|a8ad3fa|feat: added request crud||26/05/2025 11:44 PM|
-|IronCoders-IOT/Backend|develop|889f3fa|feat: added request crud||26/05/2025 1:05 AM|
-|IronCoders-IOT/Backend|develop|12f74ce|feat: update Request crud||26/05/2025 12:47 PM|
-|IronCoders-IOT/Backend|develop|3defba8|feat: Add WaterRequest crud||27/05/2025 1:30 AM|
-|IronCoders-IOT/Backend|develop|f20206a|feat: Add Event crud||27/05/2025 2:08 AM|
-|IronCoders-IOT/Backend|develop|62e7257|feat: update Event crud||27/05/2025 4:47 PM|
-|IronCoders-IOT/Backend|develop|567598f|feature: fix event aggregate and controller||27/05/2025 5:32 PM|
-|IronCoders-IOT/Backend|develop|c4c71f4|feature: added resident controller||27/05/2025 9:44 PM|
-|IronCoders-IOT/Backend|develop|04a7b2d|feat: fix request controller||28/05/2025 2:39 AM|
-|IronCoders-IOT/Backend|develop|e985d98|feat: fix waterRequest controller||28/05/2025 4:09 AM|
-|IronCoders-IOT/Backend|develop|677526f|feature: added query services to resident||29/05/2025 6:56 AM|
-|IronCoders-IOT/Backend|develop|3930e50|feature: added subscription entity||29/05/2025 9:45 AM|
-|IronCoders-IOT/Backend|develop|1a67523|feature: added subscription entity||30/05/2025 1:34 AM|
-|IronCoders-IOT/Backend|develop|272e8e0|feature: added query subscriptions||30/05/2025 2:10 AM|
-|IronCoders-IOT/Backend|develop|8039cfa|feature: fix water request||30/05/2025 6:20 PM|
-|IronCoders-IOT/Backend|develop|69d4794|feature: added GetProfileByUserIdQuery and updated related services and controller||30/05/2025 6:42 PM|
-|IronCoders-IOT/Backend|develop|2dc9671|feature: Add resident with profile and subscription||31/05/2025 8:43 AM|
-|IronCoders-IOT/Backend|develop|6103ea7|feature: Add query in subscription to get all by provider||31/05/2025 9:58 AM|
-|IronCoders-IOT/Backend|develop|bab30a9|feature: Update endpoints to residents and provider||01/06/2025 10:28 AM|
-|IronCoders-IOT/Backend|develop|25c33ee|feature: Add update water request controller||01/06/2025 2:40 PM|
-|IronCoders-IOT/Backend|develop|e42e44c|feature: Add provider detail in controller||01/06/2025 2:48 PM|
-|IronCoders-IOT/Backend|develop|f530402|feature: Add request post controller||01/06/2025 3:25 PM|
-|IronCoders-IOT/Backend|develop|5eb5e81|feature: Add get request by provider||01/06/2025 3:36 PM|
-|IronCoders-IOT/Backend|develop|d80b5ed|feature: Add get request by resident||01/06/2025 3:36 PM|
-|IronCoders-IOT/Backend|develop|2346442|feat: Update username generation for resident and resident retrieval logic||01/06/2025 3:46 PM|
-|IronCoders-IOT/Backend|develop|95523fb|feature: Add events to sensor||01/06/2025 3:47 PM|
-|IronCoders-IOT/Backend|develop|c7afb16|feature: Add events controller||01/06/2025 3:47 PM|
-|IronCoders-IOT/Backend|develop|139e5b6|feature: Add sensor queries||01/06/2025 4:16 PM|
-|IronCoders-IOT/Backend|develop|1c5e5bb|feature: Add sensor repository||01/06/2025 4:16 PM|
-|IronCoders-IOT/Backend|develop|b0dac4b|feature: Add sensor controller||01/06/2025 4:17 PM|
-|IronCoders-IOT/Backend|develop|27811a3|feature: Add sensor with subscription||01/06/2025 4:38 PM|
-|IronCoders-IOT/Backend|develop|6e2d601|feature: Add create resident with subscription||01/06/2025 4:38 PM|
-|IronCoders-IOT/Backend|develop|28ecba7|feature: Add role provider||01/06/2025 4:40 PM|
-|IronCoders-IOT/Backend|develop|423a451|feature: Add role provider||01/06/2025 5:06 PM|
-|IronCoders-IOT/Backend|develop|947e3df|feature: Add admin to init||01/06/2025 5:06 PM|
-|IronCoders-IOT/Backend|develop|3bebff9|feature: merge feature/management||01/06/2025 5:09 PM|
-|IronCoders-IOT/Backend|develop|3e476dd|feat: Implemented restrictions to endpoints||02/06/2025 12:22 PM|
-|IronCoders-IOT/Backend|develop|076b2a8|chore: Update .gitignore and add API endpoints restrictions documentation||02/06/2025 12:31 PM|
-|IronCoders-IOT/Backend|develop|2a2ee41|feature: Fix reisdent role||05/06/2025 3:50 PM|
-|IronCoders-IOT/Backend|develop|b7797e6|feature: Fix SignUpHandler||05/06/2025 6:04 PM|
-|IronCoders-IOT/Backend|develop|0701a0e|feature: Fix Update residents||05/06/2025 8:10 PM|
-|IronCoders-IOT/Backend|develop|89e2ab9|feature: Fix get resident in controller||07/06/2025 9:20 AM|
-|IronCoders-IOT/Backend|develop|f2c5c0b|feature: Fix sensor restrictions||07/06/2025 9:21 AM|
-|IronCoders-IOT/Backend|develop|de1f732|feature: Fix subscription restrictions||07/06/2025 9:21 AM|
-|IronCoders-IOT/Backend|develop|c2d1de1|feature: Add restriction to supply request||07/06/2025 10:13 AM|
-|IronCoders-IOT/Backend|develop|187e21d|feature: Add resident information to resource||07/06/2025 7:13 PM|
-|IronCoders-IOT/Backend|develop|043539d|feature: Add resident document number||07/06/2025 7:56 PM|
-|IronCoders-IOT/Backend|develop|9cb8dd1|feature: Add emission date to supply request||07/06/2025 8:14 PM|
-|IronCoders-IOT/Backend|develop|b55aef5|feature: Add emission date to report request||07/06/2025 10:31 PM|
-|IronCoders-IOT/Backend|develop|151af77|feature: Add report providers to admin||10/06/2025 9:58 AM|
-|IronCoders-IOT/Backend|develop|85da655|feature: Add report request to admin||10/06/2025 9:40 AM|
-|IronCoders-IOT/Backend|develop|980aa77|feature: Add list resident to admin||11/06/2025 10:49 AM|
-|IronCoders-IOT/Backend|develop|239215e|feature: Add list water request to admin||12/06/2025 12:09 AM|
-|IronCoders-IOT/Backend|feat/dashboard|12f74ce|feat: added request crud||26/05/2025 12:47 AM|
-|IronCoders-IOT/Backend|feat/dashboard|889f3fa|feat: added request crud||26/05/2025 1:05 AM|
-|IronCoders-IOT/Backend|feat/dashboard|a8ad3fa|feat: update Request crud||26/05/2025 11:44 PM|
-|IronCoders-IOT/Backend|feat/dashboard|3defba8|feat: Add WaterRequest crud||27/05/2025 1:30 AM|
-|IronCoders-IOT/Backend|feat/dashboard|f20206a|feat: Add Event crud||27/05/2025 2:03 AM|
-|IronCoders-IOT/Backend|feat/dashboard|62e7257|feat: update Event crud||27/05/2025 4:47 PM|
-|IronCoders-IOT/Backend|feat/dashboard|567598f|feature: fix event aggregate and controller||27/05/2025 5:32 PM|
-|IronCoders-IOT/Backend|feat/dashboard|c4c71f4|feature: added resident controller||27/05/2025 9:44 PM|
-|IronCoders-IOT/Backend|feat/dashboard|04a7b2d|feat: fix request controller||28/05/2025 2:39 AM|
-|IronCoders-IOT/Backend|feat/dashboard|e985d98|feat: fix waterRequest controller||28/05/2025 4:09 AM|
-|IronCoders-IOT/Backend|feat/dashboard|677526f|feature: added query services to resident||29/05/2025 6:26 AM|
-|IronCoders-IOT/Backend|feat/dashboard|3930e50|feature: added subscription entity||29/05/2025 9:45 AM|
-|IronCoders-IOT/Backend|feat/dashboard|1a67523|feature: added subscription entity||30/05/2025 1:34 AM|
-|IronCoders-IOT/Backend|feat/dashboard|272e8e0|feature: added query subscriptions||30/05/2025 2:10 AM|
-|IronCoders-IOT/Backend|feat/dashboard|8039cfa|feature: fix water request||30/05/2025 6:20 PM|
-|IronCoders-IOT/Backend|feat/dashboard|69d4794|feature: added GetProfileByUserIdQuery and updated related services and controller||30/05/2025 6:42 PM|
-|IronCoders-IOT/Backend|feat/dashboard|2dc9671|feature: Add resident with profile and subscription||31/05/2025 8:43 AM|
-|IronCoders-IOT/Backend|feat/dashboard|6103ea7|feature: Add query in subscription to get all by provider||31/05/2025 9:58 AM|
-|IronCoders-IOT/Backend|feat/dashboard|25c33ee|feature: Add update water request controller||1/06/2025 2:40 PM|
-|IronCoders-IOT/Backend|feat/dashboard|25c33ee|feature: Add provider detail in controller||1/06/2025 2:48 PM|
-|IronCoders-IOT/Backend|feat/dashboard|f530402|feature: Add request post controller||1/06/2025 3:25 PM|
-|IronCoders-IOT/Backend|feat/dashboard|5eb5e81|feature: Add get request by provider||1/06/2025 3:36 PM|
-|IronCoders-IOT/Backend|feat/dashboard|d80b5ed|feature: Add get request by resident||1/06/2025 3:36 PM|
-|IronCoders-IOT/Backend|feat/dashboard|2346442|feat: Update username generation for resident and resident retrieval logic||1/06/2025 3:46 PM|
-|IronCoders-IOT/Backend|feat/dashboard|95523fb|feature: Add events to sensor||1/06/2025 3:47 PM|
-|IronCoders-IOT/Backend|feat/dashboard|c7afb16|feature: Add events controller||1/06/2025 3:47 PM|
-|IronCoders-IOT/Backend|feat/dashboard|139e5b6|feature: Add sensor queries||1/06/2025 4:16 PM|
-|IronCoders-IOT/Backend|feat/dashboard|1c5e5bb|feature: Add sensor repository||1/06/2025 4:16 PM|
-|IronCoders-IOT/Backend|feat/dashboard|b0dac4b|feature: Add sensor controller||1/06/2025 4:17 PM|
-|IronCoders-IOT/Backend|feat/dashboard|27811a3|feature: Add sensor with subscription||1/06/2025 4:38 PM|
-|IronCoders-IOT/Backend|feat/dashboard|6e2d601|feature: Add create resident with subscription||1/06/2025 4:38 PM|
-|IronCoders-IOT/Backend|feat/dashboard|28ecba7|feature: Add role provider||1/06/2025 4:40 PM|
-|IronCoders-IOT/Backend|feat/dashboard|423a451|feature: Add role provider||1/06/2025 5:06 PM|
-|IronCoders-IOT/Backend|feat/dashboard|947e3df|feature: Add admin to init||1/06/2025 5:06 PM|
-|IronCoders-IOT/Backend|feat/dashboard|3bebff9|feature: merge feature/management||1/06/2025 5:09 PM|
-|IronCoders-IOT/Backend|feat/dashboard|3e476dd|feat: Implemented restrictions to endpoints||2/06/2025 12:22 AM|
-|IronCoders-IOT/Backend|feat/dashboard|076b2a8|chore: Update .gitignore and add API endpoints restrictions documentation||2/06/2025 12:31 AM|
-|IronCoders-IOT/Backend|feat/dashboard|2a2ee41|feature: Fix reisdent role||5/06/2025 3:50 PM|
-|IronCoders-IOT/Backend|feat/dashboard|b7797e6|feature: Fix SignUpHandler||5/06/2025 6:04 PM|
-|IronCoders-IOT/Backend|feat/dashboard|0701a0e|feature: Fix Update residents||5/06/2025 8:10 PM|
-|IronCoders-IOT/Backend|feat/dashboard|89e2ab9|feature: Fix get resident in controller||7/06/2025 9:20 AM|
-|IronCoders-IOT/Backend|feat/dashboard|f2c5c0b|feature: Fix sensor restrictions||7/06/2025 9:21 AM|
-|IronCoders-IOT/Backend|feat/dashboard|de1f732|feature: Fix subscription restrictions||7/06/2025 9:21 AM|
-|IronCoders-IOT/Backend|feat/dashboard|c2d1de1|feature: Add restriction to supply request||7/06/2025 10:13 AM|
-|IronCoders-IOT/Backend|feat/dashboard|187e21d|feature: Add resident information to resource||7/06/2025 7:13 PM|
-|IronCoders-IOT/Backend|feat/dashboard|043539d|feature: Add resident document number||7/06/2025 7:56 PM|
-|IronCoders-IOT/Backend|feat/dashboard|9cb8dd1|feature: Add emission date to supply request||7/06/2025 8:14 PM|
-|IronCoders-IOT/Backend|feat/dashboard|b55aef5|feature: Add emission date to report request||7/06/2025 10:31 PM|
-|IronCoders-IOT/Backend|feat/dashboard|98894c9|feature: Fix restriction to create a new resident||8/06/2025 9:24 AM|
-|IronCoders-IOT/Backend|feat/dashboard|1eee556|feature: Fix resident id to request||8/06/2025 9:32 AM|
-|IronCoders-IOT/Backend|feat/dashboard|74302db|feature: Add provider to request||8/06/2025 10:21 AM|
-|IronCoders-IOT/Backend|feat/dashboard|c86951e|feature: Add dashboard endpoint||8/06/2025 11:22 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|760b0c0|feature: added profile updated||24/05/2025 10:47 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|300cdd4|feature: added provider controller||24/05/2025 12:18 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|22759f7|feature: added update provider controller||24/05/2025 12:54 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|12f74ce|feat: added request crud||26/05/2025 12:47 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|889f3fa|feat: added request crud||26/05/2025 1:05 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|a8ad3fa|feat: update Request crud||26/05/2025 11:44 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|3defba8|feat: Add WaterRequest crud||27/05/2025 1:30 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|f20206a|feat: Add Event crud||27/05/2025 2:08 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|62e7257|feat: update Event crud||27/05/2025 4:47 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|567598f|feature: fix event aggregate and controller||27/05/2025 5:32 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|c4c71f4|feature: added resident controller||27/05/2025 9:44 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|04a7b2d|feat: fix request controller||28/05/2025 2:39 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|e985d98|feat: fix waterRequest controller||28/05/2025 4:09 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|677526f|feature: added query services to resident||29/05/2025 6:26 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|3930e50|feature: added subscription entity||29/05/2025 9:45 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|1a67523|feature: added subscription entity||30/05/2025 1:34 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|272e8e0|feature: added query subscriptions||30/05/2025 2:10 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|8039cfa|feature: fix water request||30/05/2025 6:20 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|69d4794|feature: added GetProfileByUserIdQuery and updated related services and controller||30/05/2025 6:42 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|2dc9671|feature: Add resident with profile and subscription||31/05/2025 8:43 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|6103ea7|feature: Add query in subscription to get all by provider||31/05/2025 9:58 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|bab30a9|feature: Update endpoints to residents and provider||1/06/2025 10:28 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|25c33ee|feature: Add update water request controller||1/06/2025 2:40 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|e42e44c|feature: Add provider detail in controller||1/06/2025 2:48 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|f530402|feature: Add request post controller||1/06/2025 3:25 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|5eb5e81|feature: Add get request by provider||1/06/2025 3:36 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|d80b5ed|feature: Add get request by resident||1/06/2025 3:36 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|2346442|feat: Update username generation for resident and resident retrieval logic||1/06/2025 3:46 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|95523fb|feature: Add events to sensor||1/06/2025 3:47 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|c7afb16|feature: Add events controller||1/06/2025 3:47 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|139e5b6|feature: Add sensor queries||1/06/2025 4:16 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|1c5e5bb|feature: Add sensor repository||1/06/2025 4:16 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|b0dac4b|feature: Add sensor controller||1/06/2025 4:17 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|27811a3|feature: Add sensor with subscription||1/06/2025 4:38 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|6e2d601|feature: Add create resident with subscription||1/06/2025 4:38 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|28ecba7|feature: Add role provider||1/06/2025 4:40 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|423a451|feature: Add role provider||1/06/2025 5:06 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|947e3df|feature: Add admin to init||1/06/2025 5:06 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|3bebff9|feature: merge feature/management||1/06/2025 5:09 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|3e476dd|feat: Implemented restrictions to endpoints||2/06/2025 12:22 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|076b2a8|chore: Update .gitignore and add API endpoints restrictions documentation||2/06/2025 12:31 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|2a2ee41|feature: Fix reisdent role||5/06/2025 3:50 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|b7797e6|feature: Fix SignUpHandler||5/06/2025 6:04 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|0701a0e|feature: Fix Update residents||5/06/2025 8:10 PM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|89e2ab9|feature: Fix get resident in controller||7/06/2025 9:20 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|f2c5c0b|feature: Fix sensor restrictions||7/06/2025 9:21 AM|
-|IronCoders-IOT/Backend|feat/endpoints-restrictions|de1f732|feature: Fix subscription restrictions||7/06/2025 9:21 AM|
-|IronCoders-IOT/Backend|feat/iam|760b0c0|feature: added profile updated||24/05/2025 10:47 AM|
-|IronCoders-IOT/Backend|feat/iam|300cdd4|feature: added provider controller||24/05/2025 12:18 PM|
-|IronCoders-IOT/Backend|feat/iam|22759f7|feature: added update provider controller||24/05/2025 12:54 PM|
-|IronCoders-IOT/Backend|feat/iam|c4c71f4|feature: added resident controller||27/05/2025 9:44 PM|
-|IronCoders-IOT/Backend|feat/iam|677526f|feature: added query services to resident||29/05/2025 6:26 AM|
-|IronCoders-IOT/Backend|feat/iam|3930e50|feature: added subscription entity||29/05/2025 9:45 AM|
-|IronCoders-IOT/Backend|feat/iam|69d4794|feature: added GetProfileByUserIdQuery and updated related services and controller||30/05/2025 6:42 PM|
-|IronCoders-IOT/Backend|feat/management|760b0c0|feature: added profile updated||24/05/2025 10:47 AM|
-|IronCoders-IOT/Backend|feat/management|300cdd4|feature: added provider controller||24/05/2025 12:18 PM|
-|IronCoders-IOT/Backend|feat/management|22759f7|feature: added update provider controller||24/05/2025 12:54 PM|
-|IronCoders-IOT/Backend|feat/management|12f74ce|feat: added request crud||26/05/2025 12:47 AM|
-|IronCoders-IOT/Backend|feat/management|889f3fa|feat: added request crud||26/05/2025 1:05 AM|
-|IronCoders-IOT/Backend|feat/management|a8ad3fa|feat: update Request crud||26/05/2025 11:44 PM|
-|IronCoders-IOT/Backend|feat/management|3defba8|feat: Add WaterRequest crud||27/05/2025 1:30 AM|
-|IronCoders-IOT/Backend|feat/management|f20206a|feat: Add Event crud||27/05/2025 2:08 AM|
-|IronCoders-IOT/Backend|feat/management|62e7257|feat: update Event crud||27/05/2025 4:47 PM|
-|IronCoders-IOT/Backend|feat/management|567598f|feature: fix event aggregate and controller||27/05/2025 5:32 PM|
-|IronCoders-IOT/Backend|feat/management|c4c71f4|feature: added resident controller||27/05/2025 9:44 PM|
-|IronCoders-IOT/Backend|feat/management|04a7b2d|feat: fix request controller||28/05/2025 2:39 PM|
-|IronCoders-IOT/Backend|feat/management|e985d98|feat: fix waterRequest controller||28/05/2025 4:09 AM|
-|IronCoders-IOT/Backend|feat/management|677526f|feature: added query services to resident||29/05/2025 6:26 AM|
-|IronCoders-IOT/Backend|feat/management|3930e50|feature: added subscription entity||29/05/2025 9:45 AM|
-|IronCoders-IOT/Backend|feat/management|1a67523|feature: added subscription entity||30/05/2025 1:34 AM|
-|IronCoders-IOT/Backend|feat/management|272e8e0|feature: added query subscriptions||30/05/2025 2:10 AM|
-|IronCoders-IOT/Backend|feat/management|8039cfa|feature: fix water request||30/05/2025 6:20 PM|
-|IronCoders-IOT/Backend|feat/management|69d4794|feature: added GetProfileByUserIdQuery and updated related services and controller||30/05/2025 6:42 PM|
+|**Repository**|**Branch**|**Commit Id**|                                                       **Commit Message**                                                       |**Commit Message Body**|**Committed on (Date)**|
+| :-: | :-: | :-: |:------------------------------------------------------------------------------------------------------------------------------:| :-: | :-: |
+|IronCoders-IOT/Landing-Page|main|d219951|                          Refactor website for English localization and responsive design improvements                          ||12/06/2025 1:21 PM|
+|IronCoders-IOT/Landing-Page|main|52dc4f1|                  feat: Add proportions CSS for optimized layout across devices and enhance responsive design                   ||<p>12/06/2025 1:34 PM</p><p></p><p></p>|
+|IronCoders-IOT/Landing-Page|main|f184f8f|                                fix: Update login links to point to the development environment                                 ||12/06/2025 1:51 PM|
+|IronCoders-IOT/Frontend|develop|050bfcd|        feat(auth): implement login, signup, and profile creation logic for admins and providers integrated with backend        ||01/06/2025 12:37 PM|
+|IronCoders-IOT/Frontend|develop|efc5948|                      refactor(shared): update base.service.ts to improve error handling and HTTP methods                       ||01/06/2025 12:42 PM|
+|IronCoders-IOT/Frontend|develop|9e80d08|                                                    save provider-details.ts                                                    ||01/06/2025 12:48 PM|
+|IronCoders-IOT/Frontend|develop|f7f50be|                                                        fix console log                                                         ||01/06/2025 12:55 PM|
+|IronCoders-IOT/Frontend|develop|be4ecf1|                                                           fix token                                                            ||01/06/2025 1:04 PM|
+|IronCoders-IOT/Frontend|develop|ddce236|                                    feat(auth): implement signup logic for account creation                                     ||01/06/2025 4:09 PM|
+|IronCoders-IOT/Frontend|develop|5496b58|                                     fix(auth): implement signup logic for account creation                                     ||01/06/2025 5:30 PM|
+|IronCoders-IOT/Frontend|develop|00353ef|                    feat(provider-profile): add functionality for viewing and updating provider profile data                    ||01/06/2025 6:06 PM|
+|IronCoders-IOT/Frontend|develop|514b3d3|                       feat(resident): add user creation, display resident by provider, and show details                        ||04/06/2025 1:31 PM|
+|IronCoders-IOT/Frontend|develop|36c7bff|                       feat(resident): add user creation, display resident by provider, and show details                        ||04/06/2025 1:37 PM|
+|IronCoders-IOT/Frontend|develop|db742ab|                                                  fix: resolve merge conflicts                                                  ||04/06/2025 1:48 PM|
+|IronCoders-IOT/Frontend|develop|84a29ee|                      feat(resident): add user creation, display resident by provider, and show details v2                      ||04/06/2025 2:12 PM|
+|IronCoders-IOT/Frontend|develop|df34094|                      feat(resident): add user creation, display resident by provider, and show details v3                      ||04/06/2025 2:21 PM|
+|IronCoders-IOT/Frontend|develop|613e51c|                      feat(resident): add user creation, display resident by provider, and show details v2                      ||04/06/2025 2:29 PM|
+|IronCoders-IOT/Frontend|develop|6e44279|                             feat(supply-requests): display supply requests for a specific provider                             ||04/06/2025 6:33 PM|
+|IronCoders-IOT/Frontend|develop|cca6066|                                     feat(supply-requests): add water request filter by id                                      ||04/06/2025 7:48 PM|
+|IronCoders-IOT/Frontend|develop|bb0a3fe|                                      feat: integrate provider creation in signup process                                       ||04/06/2025 11:47 PM|
+|IronCoders-IOT/Frontend|develop|7e1f4f7|                            feat: enhance profile data retrieving logic and update model properties                             ||04/06/2025 11:55 PM|
+|IronCoders-IOT/Frontend|develop|2c58535|                                               fix: update request data retrieval                                               ||05/06/2025 11:55 PM|
+|IronCoders-IOT/Frontend|develop|ae3f811|                       fix: remove provider creation logic from signup component and clean up unused code                       ||06/06/2025 12:07 PM|
+|IronCoders-IOT/Frontend|develop|c5394fc|                                           fix profile id from getResidentsByProvider                                           ||05/06/2025 1:11 AM|
+|IronCoders-IOT/Frontend|develop|bf768e6|                                           fix profile id from getResidentsByProvider                                           ||06/06/2025 1:18 AM|
+|IronCoders-IOT/Frontend|develop|074c1a9|                                           fix profile id from getResidentsByProvider                                           ||0/06/2025 1:21 AM|
+|IronCoders-IOT/Frontend|develop|aa904aa|                                                    fix: log out logic fixed                                                    ||06/06/2025 11:46 AM|
+|IronCoders-IOT/Frontend|develop|c1b21bc|                                                     fix updateDeliveredAt                                                      ||06/06/2025 3:56 PM|
+|IronCoders-IOT/Frontend|develop|51dc411|                                               field request update from develop                                                ||06/06/2025 4:01 PM|
+|IronCoders-IOT/Frontend|develop|ddbf64a|                                                         fix id filter                                                          ||06/06/2025 4:09 PM|
+|IronCoders-IOT/Frontend|develop|e802029|                                       feat(home): creation of styles for the home screen                                       ||06/06/2025 6:19 PM|
+|IronCoders-IOT/Frontend|develop|278537a|                                                 fix: resolved merge conflicts                                                  ||06/06/2025 6:23 PM|
+|IronCoders-IOT/Frontend|develop|a0d3e61|                                                    fix supply-requests view                                                    ||07/06/2025 12:02 PM|
+|IronCoders-IOT/Frontend|develop|eb493f3|                                     Fix: corrected filtering logic for water requests list                                     ||07/06/2025 1:47 AM|
+|IronCoders-IOT/Frontend|develop|9bd052e|                                     Fix: corrected filtering logic for water requests list                                     ||07/06/2025 1:48 AM|
+|IronCoders-IOT/Frontend|develop|1631826|                                     Fix: resolved water request list filtering by provider                                     ||07/06/2025 9:57 AM|
+|IronCoders-IOT/Frontend|develop|f4e0301|                                     Fix: resolved water request list filtering by provider                                     ||07/06/2025 10:05 PM|
+|IronCoders-IOT/Frontend|develop|553fb30| feat(reports): implement request list with issues in providerId and residentId storage, missing request details implementation ||07/06/2025 2:21 PM|
+|IronCoders-IOT/Frontend|develop|79c946b|                               feat(home): add function to display report data on the home screen                               ||07/06/2025 3:14 PM|
+|IronCoders-IOT/Frontend|develop|2cb1f00|                                                  Fix: Update get all requests                                                  ||07/06/2025 6:14 PM|
+|IronCoders-IOT/Frontend|develop|26dae94|                                                  Fix: Update get all requests                                                  ||07/06/2025 6:17 PM|
+|IronCoders-IOT/Frontend|develop|5aa8dd9|                                       feature: Add restrictions to create a new resident                                       ||07/06/2025 6:43 PM|
+|IronCoders-IOT/Frontend|develop|588bb34|                                                  Add subscription to resident                                                  ||07/06/2025 7:55 PM|
+|IronCoders-IOT/Frontend|develop|1d4d233|                                              Add emission date to supply requests                                              ||07/06/2025 8:14 PM|
+|IronCoders-IOT/Frontend|develop|534d49a|                                                     Update report request                                                      ||07/06/2025 10:46 PM|
+|IronCoders-IOT/Frontend|develop|8026b07|                                              feature: Update report request table                                              ||07/06/2025 10:53 PM|
+|IronCoders-IOT/Frontend|develop|f5b7515|                                               Feature: Update buttons to request                                               ||07/06/2025 11:03 PM|
+|IronCoders-IOT/Frontend|develop|62ce5a4|                          refactor(residents): update providerId in GET requests to use userId instead                          ||08/06/2025 10:54 AM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7a88462|                          refactor(residents): update providerId in GET requests to use userId instead                          ||08/06/2025 11:05 AM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|c1a06df|                          refactor(residents): update providerId in GET requests to use userId instead                          ||08/06/2025 11:08 AM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7f86e83|                          refactor(residents): update providerId in GET requests to use userId instead                          ||08/06/2025 11:16 AM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|8393cc3|                                       feat(reports): add report description by provider                                        ||08/06/2025 10:13 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|4e6cb22|                                                 feat: save change from develop                                                 ||09/06/2025 11:53 AM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|b4f250c|                                                feat: update water request list                                                 ||09/06/2025 12:00 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7d5bd09|                                  fix: correct water request statuses and update dialog names                                   ||09/06/2025 11:03 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|460a142|                                feat(admin-dashboard): add water request visualization functions                                ||09/06/2025 1:00 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|a5d696e|                                          feat(admin-dashboard): add Recenty Activity                                           ||11/06/2025 3:58 PM|
+|IronCoders-IOT/Frontend|develop|dd73591|                                        Updated routes for providers and administrators                                         ||11/06/2025 6:15 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|develop|7043d80|                           Updated data visualization for providers and water requests in admin views                           ||13/06/2025 7:45 PM|
+|IronCoders-IOT/mobile\_iot|main|24c5b49|                                                       add Setup project                                                        ||05/04/2025 11:03 PM|
+|IronCoders-IOT/mobile\_iot|develop|f27a74e|                                                       add Setup project                                                        ||28/05/2025 8:48 AM|
+|IronCoders-IOT/mobile\_iot|develop|534e5a9|                     update README.md to enhance project structure and provide detailed module descriptions                     ||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|develop|c9ae9cb|                                   add dependencies for shared preferences and secure storage                                   ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|develop|b3ba53f|                update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider                 ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|develop|fc6721c|                        refactor: restructure main app and implement login screen with custom components                        ||28/05/2025 9:07 AM|
+|IronCoders-IOT/mobile\_iot|develop|b61e1a4|                 feat: implement dashboard screen with animated circular progress indicator and metrics display                 ||28/05/2025 9:10 AM|
+|IronCoders-IOT/mobile\_iot|develop|0013484|                                  feat: enable navigation to dashboard after successful login                                   ||28/05/2025 9:11 AM|
+|IronCoders-IOT/mobile\_iot|develop|4b0daf0|                  feat: add profile and edit profile screens with user data display and editing functionality                   ||28/05/2025 9:15 AM|
+|IronCoders-IOT/mobile\_iot|develop|268f096|                                    feat: add profile and edit profile routes to navigation                                     ||28/05/2025 9:16 AM|
+|IronCoders-IOT/mobile\_iot|develop|3f478df|                     feat: update navigation items to reflect active state and implement profile navigation                     ||28/05/2025 9:25 AM|
+|IronCoders-IOT/mobile\_iot|develop|523fbe3|                          feat: implement reports screen with simulated sensor reports and detail view                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|develop|8d29d28|                                          feat: add reports screen route to navigation                                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|develop|3210fbc|                                    feat: enable navigation to reports screen from dashboard                                    ||28/05/2025 9:36 AM|
+|IronCoders-IOT/mobile\_iot|develop|f332a45|                               feat: implement authentication with user sign-in and token storage                               ||28/05/2025 1:49 PM|
+|IronCoders-IOT/mobile\_iot|develop|a3c543d|                                      feat: implement secure storage service for JWT token                                      ||28/05/2025 2:34 PM|
+|IronCoders-IOT/mobile\_iot|develop|0039072|                                 feat: implement profile monitoring and API service integration                                 ||28/05/2025 10:15 PM|
+|IronCoders-IOT/mobile\_iot|feature/dashboard-view|f27a74e|                                                       add Setup project                                                        ||28/05/2025 8:48 PM|
+|IronCoders-IOT/mobile\_iot|feature/dashboard-view|534e5a9|                     update README.md to enhance project structure and provide detailed module descriptions                     ||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|feature/dashboard-view|c9ae9cb|                                   add dependencies for shared preferences and secure storage                                   ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/dashboard-view|b3ba53f|                update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider                 ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/dashboard-view|fc6721c|                        refactor: restructure main app and implement login screen with custom components                        ||28/05/2025 9:07 AM|
+|IronCoders-IOT/mobile\_iot|feature/dashboard-view|b61e1a4|                 feat: implement dashboard screen with animated circular progress indicator and metrics display                 ||28/05/2025 9:10 AM|
+|IronCoders-IOT/mobile\_iot|feature/dashboard-view|0013484|                                  feat: enable navigation to dashboard after successful login                                   ||28/05/2025 9:11 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|f27a74e|                                                       add Setup project                                                        ||28/05/2025 8:48 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|534e5a9|                     update README.md to enhance project structure and provide detailed module descriptions                     ||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|c9ae9cb|                                   add dependencies for shared preferences and secure storage                                   ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|b3ba53f|                update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider                 ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|fc6721c|                        refactor: restructure main app and implement login screen with custom components                        ||28/05/2025 9:07 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|b61e1a4|                 feat: implement dashboard screen with animated circular progress indicator and metrics display                 ||28/05/2025 9:10 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|0013484|                                  feat: enable navigation to dashboard after successful login                                   ||28/05/2025 9:11 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|4b0daf0|                  feat: add profile and edit profile screens with user data display and editing functionality                   ||28/05/2025 9:15 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|268f096|                                    feat: add profile and edit profile routes to navigation                                     ||28/05/2025 9:16 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|3f478df|                     feat: update navigation items to reflect active state and implement profile navigation                     ||28/05/2025 9:25 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|523fbe3|                          feat: implement reports screen with simulated sensor reports and detail view                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|8d29d28|                                          feat: add reports screen route to navigation                                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|3210fbc|                                    feat: enable navigation to reports screen from dashboard                                    ||28/05/2025 9:36 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|f332a45|                               feat: implement authentication with user sign-in and token storage                               ||28/05/2025 1:49 PM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|a3c543d|                                      feat: implement secure storage service for JWT token                                      ||28/05/2025 2:34 PM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|0039072|                                 feat: implement profile monitoring and API service integration                                 ||28/05/2025 10:15 PM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|f8b7080|                                           feat: update .gitignore and Added a logout                                           ||3/06/2025 12:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|81d9635|                                 <p>feat: add search functionality to reports screen</p><p></p>                                 ||3/06/2025 1:02 AM|
+|IronCoders-IOT/mobile\_iot|feature/history-screen|0a5bd42|                                          feat: add history and water request screens                                           ||10/06/2025 9:29 PM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|f27a74e|                                                       add Setup project                                                        ||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|534e5a9|                     update README.md to enhance project structure and provide detailed module descriptions                     ||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|c9ae9cb|                                   add dependencies for shared preferences and secure storage                                   ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|b3ba53f|                update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider                 ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|fc6721c|                        refactor: restructure main app and implement login screen with custom components                        ||28/05/2025 9:07 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|b61e1a4|                 feat: implement dashboard screen with animated circular progress indicator and metrics display                 ||28/05/2025 9:10 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|0013484|                                  feat: enable navigation to dashboard after successful login                                   ||28/05/2025 9:11 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|4b0daf0|                  feat: add profile and edit profile screens with user data display and editing functionality                   ||28/05/2025 9:15 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|268f096|                                    feat: add profile and edit profile routes to navigation                                     ||28/05/2025 9:16 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|3f478df|                     feat: update navigation items to reflect active state and implement profile navigation                     ||28/05/2025 9:25 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|523fbe3|                          feat: implement reports screen with simulated sensor reports and detail view                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen||                          feat: implement reports screen with simulated sensor reports and detail view                          ||28/05/2025 9:15 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|8d29d28|                                          feat: add reports screen route to navigation                                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|3210fbc|                                    feat: enable navigation to reports screen from dashboard                                    ||28/05/2025 9:36 AM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|f332a45|                               feat: implement authentication with user sign-in and token storage                               ||28/05/2025 1:49 PM|
+|IronCoders-IOT/mobile\_iot|feature/login-screen|a3c543d|                                      feat: implement secure storage service for JWT token                                      ||28/05/2025 2:34 PM|
+|IronCoders-IOT/mobile\_iot|feature/profile|f27a74e|                                                       add Setup project                                                        ||28/05/2025 8:48 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|534e5a9|                     update README.md to enhance project structure and provide detailed module descriptions                     ||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|c9ae9cb|                                   add dependencies for shared preferences and secure storage                                   ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|b3ba53f|                update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider                 ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|fc6721c|                        refactor: restructure main app and implement login screen with custom components                        ||28/05/2025 9:07 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|b61e1a4|                 feat: implement dashboard screen with animated circular progress indicator and metrics display                 ||28/05/2025 9:10 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|0013484|                                  feat: enable navigation to dashboard after successful login                                   ||28/05/2025 9:11 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|4b0daf0|                  feat: add profile and edit profile screens with user data display and editing functionality                   ||28/05/2025 9:15 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|268f096|                                    feat: add profile and edit profile routes to navigation                                     ||28/05/2025 9:16 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|3f478df|                     feat: update navigation items to reflect active state and implement profile navigation                     ||28/05/2025 9:25 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|523fbe3|                          feat: implement reports screen with simulated sensor reports and detail view                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|8d29d28|                                          feat: add reports screen route to navigation                                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|3210fbc|                                    feat: enable navigation to reports screen from dashboard                                    ||28/05/2025 9:36 AM|
+|IronCoders-IOT/mobile\_iot|feature/profile|f332a45|                               feat: implement authentication with user sign-in and token storage                               ||28/05/2025 1:49 PM|
+|IronCoders-IOT/mobile\_iot|feature/profile|a3c543d|                                      feat: implement secure storage service for JWT token                                      ||28/05/2025 2:34 PM|
+|IronCoders-IOT/mobile\_iot|feature/profile|0039072|                                 feat: implement profile management and API service integration                                 ||28/05/2025 10:15 PM|
+|IronCoders-IOT/mobile\_iot|feature/profile|f8b7080|                                           feat: update .gitignore and Added a logout                                           ||03/06/2025 12:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|f27a74e|                                                       add Setup project                                                        ||28/05/2025 8:48 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|534e5a9|                     update README.md to enhance project structure and provide detailed module descriptions                     ||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|c9ae9cb|                                   add dependencies for shared preferences and secure storage                                   ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|b3ba53f|                update pubspec.lock to include new dependencies for flutter\_secure\_storage and path\_provider                 ||28/05/2025 9:01 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|fc6721c|                        refactor: restructure main app and implement login screen with custom components                        ||28/05/2025 9:07 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|b61e1a4|                 feat: implement dashboard screen with animated circular progress indicator and metrics display                 ||28/05/2025 9:10 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|0013484|                                  feat: enable navigation to dashboard after successful login                                   ||28/05/2025 9:11 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|4b0daf0|                  feat: add profile and edit profile screens with user data display and editing functionality                   ||28/05/2025 9:15 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|268f096|                                    feat: add profile and edit profile routes to navigation                                     ||28/05/2025 9:16 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|3f478df|                     feat: update navigation items to reflect active state and implement profile navigation                     ||28/05/2025 9:25 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|523fbe3|                          feat: implement reports screen with simulated sensor reports and detail view                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|8d29d28|                                          feat: add reports screen route to navigation                                          ||28/05/2025 9:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|3210fbc|                                    feat: enable navigation to reports screen from dashboard                                    ||28/05/2025 3:36 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|f332a45|                               feat: implement authentication with user sign-in and token storage                               ||28/05/2025 1:49 PM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|a3c543d|                                      feat: implement secure storage service for JWT token                                      ||28/05/2025 2:34 PM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|0039072|                                 feat: implement profile management and API service integration                                 ||28/05/2025 10:15 PM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|f8b7080|                                           feat: update .gitignore and Added a logout                                           ||03/06/2025 12:30 AM|
+|IronCoders-IOT/mobile\_iot|feature/reports-screen|81d9635|                                        feat: add search functionality to reports screen                                        ||03/06/2025 1:02 AM|
+|IronCoders-IOT/Backend|develop|760b0c0|                                                 feature: added profile updated                                                 ||24/05/2025 10:47 AM|
+|IronCoders-IOT/Backend|develop|300cdd4|                                               feature: added provider controller                                               ||24/05/2025 12:18 PM|
+|IronCoders-IOT/Backend|develop|22759f7|                                           feature: added update provider controller                                            ||24/05/2025 12:54 PM|
+|IronCoders-IOT/Backend|develop|a8ad3fa|                                                    feat: added request crud                                                    ||26/05/2025 11:44 PM|
+|IronCoders-IOT/Backend|develop|889f3fa|                                                    feat: added request crud                                                    ||26/05/2025 1:05 AM|
+|IronCoders-IOT/Backend|develop|12f74ce|                                                   feat: update Request crud                                                    ||26/05/2025 12:47 PM|
+|IronCoders-IOT/Backend|develop|3defba8|                                                  feat: Add WaterRequest crud                                                   ||27/05/2025 1:30 AM|
+|IronCoders-IOT/Backend|develop|f20206a|                                                      feat: Add Event crud                                                      ||27/05/2025 2:08 AM|
+|IronCoders-IOT/Backend|develop|62e7257|                                                    feat: update Event crud                                                     ||27/05/2025 4:47 PM|
+|IronCoders-IOT/Backend|develop|567598f|                                          feature: fix event aggregate and controller                                           ||27/05/2025 5:32 PM|
+|IronCoders-IOT/Backend|develop|c4c71f4|                                               feature: added resident controller                                               ||27/05/2025 9:44 PM|
+|IronCoders-IOT/Backend|develop|04a7b2d|                                                  feat: fix request controller                                                  ||28/05/2025 2:39 AM|
+|IronCoders-IOT/Backend|develop|e985d98|                                               feat: fix waterRequest controller                                                ||28/05/2025 4:09 AM|
+|IronCoders-IOT/Backend|develop|677526f|                                           feature: added query services to resident                                            ||29/05/2025 6:56 AM|
+|IronCoders-IOT/Backend|develop|3930e50|                                               feature: added subscription entity                                               ||29/05/2025 9:45 AM|
+|IronCoders-IOT/Backend|develop|1a67523|                                               feature: added subscription entity                                               ||30/05/2025 1:34 AM|
+|IronCoders-IOT/Backend|develop|272e8e0|                                               feature: added query subscriptions                                               ||30/05/2025 2:10 AM|
+|IronCoders-IOT/Backend|develop|8039cfa|                                                   feature: fix water request                                                   ||30/05/2025 6:20 PM|
+|IronCoders-IOT/Backend|develop|69d4794|                       feature: added GetProfileByUserIdQuery and updated related services and controller                       ||30/05/2025 6:42 PM|
+|IronCoders-IOT/Backend|develop|2dc9671|                                      feature: Add resident with profile and subscription                                       ||31/05/2025 8:43 AM|
+|IronCoders-IOT/Backend|develop|6103ea7|                                   feature: Add query in subscription to get all by provider                                    ||31/05/2025 9:58 AM|
+|IronCoders-IOT/Backend|develop|bab30a9|                                      feature: Update endpoints to residents and provider                                       ||01/06/2025 10:28 AM|
+|IronCoders-IOT/Backend|develop|25c33ee|                                          feature: Add update water request controller                                          ||01/06/2025 2:40 PM|
+|IronCoders-IOT/Backend|develop|e42e44c|                                           feature: Add provider detail in controller                                           ||01/06/2025 2:48 PM|
+|IronCoders-IOT/Backend|develop|f530402|                                              feature: Add request post controller                                              ||01/06/2025 3:25 PM|
+|IronCoders-IOT/Backend|develop|5eb5e81|                                              feature: Add get request by provider                                              ||01/06/2025 3:36 PM|
+|IronCoders-IOT/Backend|develop|d80b5ed|                                              feature: Add get request by resident                                              ||01/06/2025 3:36 PM|
+|IronCoders-IOT/Backend|develop|2346442|                           feat: Update username generation for resident and resident retrieval logic                           ||01/06/2025 3:46 PM|
+|IronCoders-IOT/Backend|develop|95523fb|                                                 feature: Add events to sensor                                                  ||01/06/2025 3:47 PM|
+|IronCoders-IOT/Backend|develop|c7afb16|                                                 feature: Add events controller                                                 ||01/06/2025 3:47 PM|
+|IronCoders-IOT/Backend|develop|139e5b6|                                                  feature: Add sensor queries                                                   ||01/06/2025 4:16 PM|
+|IronCoders-IOT/Backend|develop|1c5e5bb|                                                 feature: Add sensor repository                                                 ||01/06/2025 4:16 PM|
+|IronCoders-IOT/Backend|develop|b0dac4b|                                                 feature: Add sensor controller                                                 ||01/06/2025 4:17 PM|
+|IronCoders-IOT/Backend|develop|27811a3|                                             feature: Add sensor with subscription                                              ||01/06/2025 4:38 PM|
+|IronCoders-IOT/Backend|develop|6e2d601|                                         feature: Add create resident with subscription                                         ||01/06/2025 4:38 PM|
+|IronCoders-IOT/Backend|develop|28ecba7|                                                   feature: Add role provider                                                   ||01/06/2025 4:40 PM|
+|IronCoders-IOT/Backend|develop|423a451|                                                   feature: Add role provider                                                   ||01/06/2025 5:06 PM|
+|IronCoders-IOT/Backend|develop|947e3df|                                                   feature: Add admin to init                                                   ||01/06/2025 5:06 PM|
+|IronCoders-IOT/Backend|develop|3bebff9|                                               feature: merge feature/management                                                ||01/06/2025 5:09 PM|
+|IronCoders-IOT/Backend|develop|3e476dd|                                          feat: Implemented restrictions to endpoints                                           ||02/06/2025 12:22 PM|
+|IronCoders-IOT/Backend|develop|076b2a8|                           chore: Update .gitignore and add API endpoints restrictions documentation                            ||02/06/2025 12:31 PM|
+|IronCoders-IOT/Backend|develop|2a2ee41|                                                   feature: Fix reisdent role                                                   ||05/06/2025 3:50 PM|
+|IronCoders-IOT/Backend|develop|b7797e6|                                                   feature: Fix SignUpHandler                                                   ||05/06/2025 6:04 PM|
+|IronCoders-IOT/Backend|develop|0701a0e|                                                 feature: Fix Update residents                                                  ||05/06/2025 8:10 PM|
+|IronCoders-IOT/Backend|develop|89e2ab9|                                            feature: Fix get resident in controller                                             ||07/06/2025 9:20 AM|
+|IronCoders-IOT/Backend|develop|f2c5c0b|                                                feature: Fix sensor restrictions                                                ||07/06/2025 9:21 AM|
+|IronCoders-IOT/Backend|develop|de1f732|                                             feature: Fix subscription restrictions                                             ||07/06/2025 9:21 AM|
+|IronCoders-IOT/Backend|develop|c2d1de1|                                           feature: Add restriction to supply request                                           ||07/06/2025 10:13 AM|
+|IronCoders-IOT/Backend|develop|187e21d|                                         feature: Add resident information to resource                                          ||07/06/2025 7:13 PM|
+|IronCoders-IOT/Backend|develop|043539d|                                             feature: Add resident document number                                              ||07/06/2025 7:56 PM|
+|IronCoders-IOT/Backend|develop|9cb8dd1|                                          feature: Add emission date to supply request                                          ||07/06/2025 8:14 PM|
+|IronCoders-IOT/Backend|develop|b55aef5|                                          feature: Add emission date to report request                                          ||07/06/2025 10:31 PM|
+|IronCoders-IOT/Backend|develop|151af77|                                             feature: Add report providers to admin                                             ||10/06/2025 9:58 AM|
+|IronCoders-IOT/Backend|develop|85da655|                                              feature: Add report request to admin                                              ||10/06/2025 9:40 AM|
+|IronCoders-IOT/Backend|develop|980aa77|                                              feature: Add list resident to admin                                               ||11/06/2025 10:49 AM|
+|IronCoders-IOT/Backend|develop|239215e|                                            feature: Add list water request to admin                                            ||12/06/2025 12:09 AM|
+|IronCoders-IOT/Backend|feat/dashboard|12f74ce|                                                    feat: added request crud                                                    ||26/05/2025 12:47 AM|
+|IronCoders-IOT/Backend|feat/dashboard|889f3fa|                                                    feat: added request crud                                                    ||26/05/2025 1:05 AM|
+|IronCoders-IOT/Backend|feat/dashboard|a8ad3fa|                                                   feat: update Request crud                                                    ||26/05/2025 11:44 PM|
+|IronCoders-IOT/Backend|feat/dashboard|3defba8|                                                  feat: Add WaterRequest crud                                                   ||27/05/2025 1:30 AM|
+|IronCoders-IOT/Backend|feat/dashboard|f20206a|                                                      feat: Add Event crud                                                      ||27/05/2025 2:03 AM|
+|IronCoders-IOT/Backend|feat/dashboard|62e7257|                                                    feat: update Event crud                                                     ||27/05/2025 4:47 PM|
+|IronCoders-IOT/Backend|feat/dashboard|567598f|                                          feature: fix event aggregate and controller                                           ||27/05/2025 5:32 PM|
+|IronCoders-IOT/Backend|feat/dashboard|c4c71f4|                                               feature: added resident controller                                               ||27/05/2025 9:44 PM|
+|IronCoders-IOT/Backend|feat/dashboard|04a7b2d|                                                  feat: fix request controller                                                  ||28/05/2025 2:39 AM|
+|IronCoders-IOT/Backend|feat/dashboard|e985d98|                                               feat: fix waterRequest controller                                                ||28/05/2025 4:09 AM|
+|IronCoders-IOT/Backend|feat/dashboard|677526f|                                           feature: added query services to resident                                            ||29/05/2025 6:26 AM|
+|IronCoders-IOT/Backend|feat/dashboard|3930e50|                                               feature: added subscription entity                                               ||29/05/2025 9:45 AM|
+|IronCoders-IOT/Backend|feat/dashboard|1a67523|                                               feature: added subscription entity                                               ||30/05/2025 1:34 AM|
+|IronCoders-IOT/Backend|feat/dashboard|272e8e0|                                               feature: added query subscriptions                                               ||30/05/2025 2:10 AM|
+|IronCoders-IOT/Backend|feat/dashboard|8039cfa|                                                   feature: fix water request                                                   ||30/05/2025 6:20 PM|
+|IronCoders-IOT/Backend|feat/dashboard|69d4794|                       feature: added GetProfileByUserIdQuery and updated related services and controller                       ||30/05/2025 6:42 PM|
+|IronCoders-IOT/Backend|feat/dashboard|2dc9671|                                      feature: Add resident with profile and subscription                                       ||31/05/2025 8:43 AM|
+|IronCoders-IOT/Backend|feat/dashboard|6103ea7|                                   feature: Add query in subscription to get all by provider                                    ||31/05/2025 9:58 AM|
+|IronCoders-IOT/Backend|feat/dashboard|25c33ee|                                          feature: Add update water request controller                                          ||1/06/2025 2:40 PM|
+|IronCoders-IOT/Backend|feat/dashboard|25c33ee|                                           feature: Add provider detail in controller                                           ||1/06/2025 2:48 PM|
+|IronCoders-IOT/Backend|feat/dashboard|f530402|                                              feature: Add request post controller                                              ||1/06/2025 3:25 PM|
+|IronCoders-IOT/Backend|feat/dashboard|5eb5e81|                                              feature: Add get request by provider                                              ||1/06/2025 3:36 PM|
+|IronCoders-IOT/Backend|feat/dashboard|d80b5ed|                                              feature: Add get request by resident                                              ||1/06/2025 3:36 PM|
+|IronCoders-IOT/Backend|feat/dashboard|2346442|                           feat: Update username generation for resident and resident retrieval logic                           ||1/06/2025 3:46 PM|
+|IronCoders-IOT/Backend|feat/dashboard|95523fb|                                                 feature: Add events to sensor                                                  ||1/06/2025 3:47 PM|
+|IronCoders-IOT/Backend|feat/dashboard|c7afb16|                                                 feature: Add events controller                                                 ||1/06/2025 3:47 PM|
+|IronCoders-IOT/Backend|feat/dashboard|139e5b6|                                                  feature: Add sensor queries                                                   ||1/06/2025 4:16 PM|
+|IronCoders-IOT/Backend|feat/dashboard|1c5e5bb|                                                 feature: Add sensor repository                                                 ||1/06/2025 4:16 PM|
+|IronCoders-IOT/Backend|feat/dashboard|b0dac4b|                                                 feature: Add sensor controller                                                 ||1/06/2025 4:17 PM|
+|IronCoders-IOT/Backend|feat/dashboard|27811a3|                                             feature: Add sensor with subscription                                              ||1/06/2025 4:38 PM|
+|IronCoders-IOT/Backend|feat/dashboard|6e2d601|                                         feature: Add create resident with subscription                                         ||1/06/2025 4:38 PM|
+|IronCoders-IOT/Backend|feat/dashboard|28ecba7|                                                   feature: Add role provider                                                   ||1/06/2025 4:40 PM|
+|IronCoders-IOT/Backend|feat/dashboard|423a451|                                                   feature: Add role provider                                                   ||1/06/2025 5:06 PM|
+|IronCoders-IOT/Backend|feat/dashboard|947e3df|                                                   feature: Add admin to init                                                   ||1/06/2025 5:06 PM|
+|IronCoders-IOT/Backend|feat/dashboard|3bebff9|                                               feature: merge feature/management                                                ||1/06/2025 5:09 PM|
+|IronCoders-IOT/Backend|feat/dashboard|3e476dd|                                          feat: Implemented restrictions to endpoints                                           ||2/06/2025 12:22 AM|
+|IronCoders-IOT/Backend|feat/dashboard|076b2a8|                           chore: Update .gitignore and add API endpoints restrictions documentation                            ||2/06/2025 12:31 AM|
+|IronCoders-IOT/Backend|feat/dashboard|2a2ee41|                                                   feature: Fix reisdent role                                                   ||5/06/2025 3:50 PM|
+|IronCoders-IOT/Backend|feat/dashboard|b7797e6|                                                   feature: Fix SignUpHandler                                                   ||5/06/2025 6:04 PM|
+|IronCoders-IOT/Backend|feat/dashboard|0701a0e|                                                 feature: Fix Update residents                                                  ||5/06/2025 8:10 PM|
+|IronCoders-IOT/Backend|feat/dashboard|89e2ab9|                                            feature: Fix get resident in controller                                             ||7/06/2025 9:20 AM|
+|IronCoders-IOT/Backend|feat/dashboard|f2c5c0b|                                                feature: Fix sensor restrictions                                                ||7/06/2025 9:21 AM|
+|IronCoders-IOT/Backend|feat/dashboard|de1f732|                                             feature: Fix subscription restrictions                                             ||7/06/2025 9:21 AM|
+|IronCoders-IOT/Backend|feat/dashboard|c2d1de1|                                           feature: Add restriction to supply request                                           ||7/06/2025 10:13 AM|
+|IronCoders-IOT/Backend|feat/dashboard|187e21d|                                         feature: Add resident information to resource                                          ||7/06/2025 7:13 PM|
+|IronCoders-IOT/Backend|feat/dashboard|043539d|                                             feature: Add resident document number                                              ||7/06/2025 7:56 PM|
+|IronCoders-IOT/Backend|feat/dashboard|9cb8dd1|                                          feature: Add emission date to supply request                                          ||7/06/2025 8:14 PM|
+|IronCoders-IOT/Backend|feat/dashboard|b55aef5|                                          feature: Add emission date to report request                                          ||7/06/2025 10:31 PM|
+|IronCoders-IOT/Backend|feat/dashboard|98894c9|                                       feature: Fix restriction to create a new resident                                        ||8/06/2025 9:24 AM|
+|IronCoders-IOT/Backend|feat/dashboard|1eee556|                                              feature: Fix resident id to request                                               ||8/06/2025 9:32 AM|
+|IronCoders-IOT/Backend|feat/dashboard|74302db|                                                feature: Add provider to request                                                ||8/06/2025 10:21 AM|
+|IronCoders-IOT/Backend|feat/dashboard|c86951e|                                                feature: Add dashboard endpoint                                                 ||8/06/2025 11:22 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|760b0c0|                                                 feature: added profile updated                                                 ||24/05/2025 10:47 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|300cdd4|                                               feature: added provider controller                                               ||24/05/2025 12:18 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|22759f7|                                           feature: added update provider controller                                            ||24/05/2025 12:54 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|12f74ce|                                                    feat: added request crud                                                    ||26/05/2025 12:47 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|889f3fa|                                                    feat: added request crud                                                    ||26/05/2025 1:05 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|a8ad3fa|                                                   feat: update Request crud                                                    ||26/05/2025 11:44 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|3defba8|                                                  feat: Add WaterRequest crud                                                   ||27/05/2025 1:30 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|f20206a|                                                      feat: Add Event crud                                                      ||27/05/2025 2:08 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|62e7257|                                                    feat: update Event crud                                                     ||27/05/2025 4:47 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|567598f|                                          feature: fix event aggregate and controller                                           ||27/05/2025 5:32 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|c4c71f4|                                               feature: added resident controller                                               ||27/05/2025 9:44 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|04a7b2d|                                                  feat: fix request controller                                                  ||28/05/2025 2:39 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|e985d98|                                               feat: fix waterRequest controller                                                ||28/05/2025 4:09 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|677526f|                                           feature: added query services to resident                                            ||29/05/2025 6:26 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|3930e50|                                               feature: added subscription entity                                               ||29/05/2025 9:45 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|1a67523|                                               feature: added subscription entity                                               ||30/05/2025 1:34 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|272e8e0|                                               feature: added query subscriptions                                               ||30/05/2025 2:10 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|8039cfa|                                                   feature: fix water request                                                   ||30/05/2025 6:20 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|69d4794|                       feature: added GetProfileByUserIdQuery and updated related services and controller                       ||30/05/2025 6:42 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|2dc9671|                                      feature: Add resident with profile and subscription                                       ||31/05/2025 8:43 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|6103ea7|                                   feature: Add query in subscription to get all by provider                                    ||31/05/2025 9:58 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|bab30a9|                                      feature: Update endpoints to residents and provider                                       ||1/06/2025 10:28 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|25c33ee|                                          feature: Add update water request controller                                          ||1/06/2025 2:40 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|e42e44c|                                           feature: Add provider detail in controller                                           ||1/06/2025 2:48 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|f530402|                                              feature: Add request post controller                                              ||1/06/2025 3:25 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|5eb5e81|                                              feature: Add get request by provider                                              ||1/06/2025 3:36 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|d80b5ed|                                              feature: Add get request by resident                                              ||1/06/2025 3:36 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|2346442|                           feat: Update username generation for resident and resident retrieval logic                           ||1/06/2025 3:46 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|95523fb|                                                 feature: Add events to sensor                                                  ||1/06/2025 3:47 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|c7afb16|                                                 feature: Add events controller                                                 ||1/06/2025 3:47 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|139e5b6|                                                  feature: Add sensor queries                                                   ||1/06/2025 4:16 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|1c5e5bb|                                                 feature: Add sensor repository                                                 ||1/06/2025 4:16 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|b0dac4b|                                                 feature: Add sensor controller                                                 ||1/06/2025 4:17 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|27811a3|                                             feature: Add sensor with subscription                                              ||1/06/2025 4:38 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|6e2d601|                                         feature: Add create resident with subscription                                         ||1/06/2025 4:38 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|28ecba7|                                                   feature: Add role provider                                                   ||1/06/2025 4:40 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|423a451|                                                   feature: Add role provider                                                   ||1/06/2025 5:06 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|947e3df|                                                   feature: Add admin to init                                                   ||1/06/2025 5:06 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|3bebff9|                                               feature: merge feature/management                                                ||1/06/2025 5:09 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|3e476dd|                                          feat: Implemented restrictions to endpoints                                           ||2/06/2025 12:22 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|076b2a8|                           chore: Update .gitignore and add API endpoints restrictions documentation                            ||2/06/2025 12:31 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|2a2ee41|                                                   feature: Fix reisdent role                                                   ||5/06/2025 3:50 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|b7797e6|                                                   feature: Fix SignUpHandler                                                   ||5/06/2025 6:04 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|0701a0e|                                                 feature: Fix Update residents                                                  ||5/06/2025 8:10 PM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|89e2ab9|                                            feature: Fix get resident in controller                                             ||7/06/2025 9:20 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|f2c5c0b|                                                feature: Fix sensor restrictions                                                ||7/06/2025 9:21 AM|
+|IronCoders-IOT/Backend|feat/endpoints-restrictions|de1f732|                                             feature: Fix subscription restrictions                                             ||7/06/2025 9:21 AM|
+|IronCoders-IOT/Backend|feat/iam|760b0c0|                                                 feature: added profile updated                                                 ||24/05/2025 10:47 AM|
+|IronCoders-IOT/Backend|feat/iam|300cdd4|                                               feature: added provider controller                                               ||24/05/2025 12:18 PM|
+|IronCoders-IOT/Backend|feat/iam|22759f7|                                           feature: added update provider controller                                            ||24/05/2025 12:54 PM|
+|IronCoders-IOT/Backend|feat/iam|c4c71f4|                                               feature: added resident controller                                               ||27/05/2025 9:44 PM|
+|IronCoders-IOT/Backend|feat/iam|677526f|                                           feature: added query services to resident                                            ||29/05/2025 6:26 AM|
+|IronCoders-IOT/Backend|feat/iam|3930e50|                                               feature: added subscription entity                                               ||29/05/2025 9:45 AM|
+|IronCoders-IOT/Backend|feat/iam|69d4794|                       feature: added GetProfileByUserIdQuery and updated related services and controller                       ||30/05/2025 6:42 PM|
+|IronCoders-IOT/Backend|feat/management|760b0c0|                                                 feature: added profile updated                                                 ||24/05/2025 10:47 AM|
+|IronCoders-IOT/Backend|feat/management|300cdd4|                                               feature: added provider controller                                               ||24/05/2025 12:18 PM|
+|IronCoders-IOT/Backend|feat/management|22759f7|                                           feature: added update provider controller                                            ||24/05/2025 12:54 PM|
+|IronCoders-IOT/Backend|feat/management|12f74ce|                                                    feat: added request crud                                                    ||26/05/2025 12:47 AM|
+|IronCoders-IOT/Backend|feat/management|889f3fa|                                                    feat: added request crud                                                    ||26/05/2025 1:05 AM|
+|IronCoders-IOT/Backend|feat/management|a8ad3fa|                                                   feat: update Request crud                                                    ||26/05/2025 11:44 PM|
+|IronCoders-IOT/Backend|feat/management|3defba8|                                                  feat: Add WaterRequest crud                                                   ||27/05/2025 1:30 AM|
+|IronCoders-IOT/Backend|feat/management|f20206a|                                                      feat: Add Event crud                                                      ||27/05/2025 2:08 AM|
+|IronCoders-IOT/Backend|feat/management|62e7257|                                                    feat: update Event crud                                                     ||27/05/2025 4:47 PM|
+|IronCoders-IOT/Backend|feat/management|567598f|                                          feature: fix event aggregate and controller                                           ||27/05/2025 5:32 PM|
+|IronCoders-IOT/Backend|feat/management|c4c71f4|                                               feature: added resident controller                                               ||27/05/2025 9:44 PM|
+|IronCoders-IOT/Backend|feat/management|04a7b2d|                                                  feat: fix request controller                                                  ||28/05/2025 2:39 PM|
+|IronCoders-IOT/Backend|feat/management|e985d98|                                               feat: fix waterRequest controller                                                ||28/05/2025 4:09 AM|
+|IronCoders-IOT/Backend|feat/management|677526f|                                           feature: added query services to resident                                            ||29/05/2025 6:26 AM|
+|IronCoders-IOT/Backend|feat/management|3930e50|                                               feature: added subscription entity                                               ||29/05/2025 9:45 AM|
+|IronCoders-IOT/Backend|feat/management|1a67523|                                               feature: added subscription entity                                               ||30/05/2025 1:34 AM|
+|IronCoders-IOT/Backend|feat/management|272e8e0|                                               feature: added query subscriptions                                               ||30/05/2025 2:10 AM|
+|IronCoders-IOT/Backend|feat/management|8039cfa|                                                   feature: fix water request                                                   ||30/05/2025 6:20 PM|
+|IronCoders-IOT/Backend|feat/management|69d4794|                       feature: added GetProfileByUserIdQuery and updated related services and controller                       ||30/05/2025 6:42 PM|
 
 
 ### 6.2.2.5. Testing Suite Evidence for Sprint Review.
@@ -3963,7 +3980,7 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
         </tr>
         <tr>
             <td>Time</td>
-            <td> 18:30 PM</td>
+            <td>5:00 PM</td>
         </tr>
         <tr>
             <td>Location</td>
@@ -3976,12 +3993,12 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
         <tr>
             <td>Attendees (to planning meeting)</td>
             <td>
-                Párraga Gamarra, Paolo Gonzalo / Aguilar Castillo, Rodrigo / Carmelino Dueñas, Michael Stefano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+                - Párraga Gamarra, Paolo Gonzalo <br> -  Aguilar Castillo, Rodrigo <br> -  Carmelino Dueñas, Michael Stefano <br> -  Cortez Quezada, Joaquin Antonio <br> -  Periche Quiroga, Piero Fernando
             </td>
         </tr>
         <tr>
             <td>Sprint 3 Review Summary</td>
-            <td>En este sprint hemos logrado armar y programar el prototipo SP32, usando sensores y cableado para poder conectarlo. Así como tambien se desarrolló el backend.</td>
+            <td>En este sprint 3, se ha logrado culminar la última versión de los artefactos. Teniendo en cuenta Web Appplication, Mobile Application, Backend, Edge Application y Embedded Application. Alogrando enviar datos tanto a la  Web Appplication y Mobile Application.</td>
         </tr>
         <tr>
             <td>Sprint 3 Retrospective Summary</td>
@@ -4010,6 +4027,7 @@ Esto se confirmará cuando los habitantes puedan consultar el estado de su consu
 ### 6.2.3.2. Aspect Leaders and Collaborators
 
 La sección presentada se muestra el artefacto Leadership-andCollaboration Matrix (LACX). Dentro de ella se indica todoslos bounded context que se encuetran en la solución los líderes y colaboradores de cada uno de ellos para brindar mayor claridad y establecer mejor comunicación.
+
 |Team Member (Last Name, First Name)|GitHub Username|Operation and Monitoring|Subscriptions and Payments|Dashboard and Analytics|Profile and Preferences|Asset and Resource Management|Identity and Access Management|
 | :- | :- | :- | :- | :- | :- | :- | :-: |
 |Aguilar Castillo, Rodrigo|Rodrag0lvr|C|C|C|C|C|L|
@@ -4020,6 +4038,11 @@ La sección presentada se muestra el artefacto Leadership-andCollaboration Matri
 |Ramos Argüelles, Alexandra Belen|AleRamosA|C|C|C|C|C|L|
 
 ### 6.2.3.3. Sprint Backlog 3
+Dentro de este entregable se comtempló realizar las correcciones necesarias tanto en el informe como en el desarrollo de los artefactos a presentar. 
+
+Para ello hemos utilizado Trello para la distribución y seguimiento de tareas.
+
+Link del Trello: [https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog](https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog)
 
 ### 6.2.3.4. Development Evidence for Sprint Review
 
@@ -4044,9 +4067,59 @@ Durante el desarrollo del entregable se implementaron pruebas unitarias e integr
 
 ### 6.2.3.6. Execution Evidence for Sprint Review
 
+En nuestro video de exposicion, hemos incluido una demostracion completa de la aplicación AquaConecta, donde se muestran todas las funcionalidades planteadas desde el inicio del proyecto, como la gestión de servicios por parte de los proveedores, el monitoreo del consumo de agua por parte de los residentes, y la integración con dispositivos IoT para el monitoreo en tiempo real. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
+
+
+Codigo frontend de AquaConecta:
+![back1](assets/img/codefront.png)
+
+Capturas de pantalla de la aplicación web:
+![back1](assets/img/front1.png)
+![back1](assets/img/front2.png)
+![back1](assets/img/front3.png)
+
+
+Capturas de pantalla del la aplicación mobile:
+![back1](assets/img/mobilefinal0.png)
+![back1](assets/img/mobilefinal1.png)
+![back1](assets/img/mobilefinal2.png)
+![back1](assets/img/mobilefinal3.png)
+![back1](assets/img/mobilefinal4.png)
+![back1](assets/img/mobilefinal5.png)
+![back1](assets/img/mobilefinal6.png)
+![back1](assets/img/mobilefinal7.png)
+![back1](assets/img/mobilefinal8.png)
+
+
+
+Captura del embedded:
+![back1](assets/img/ESP32NEW.png)
+
+
+- **Link de YouTube:**
+  [https://youtu.be/iF1jSQHOsnc](https://youtu.be/iF1jSQHOsnc)
+
 ### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
+Se usó Swagger para la documentación de los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
+
+![back1](assets/img/newSwagger1.png)
+
+![back2](assets/img/newSwagger2.png)
+
+![back3](assets/img/newSwagger3.png)
+
+![back4](assets/img/newSwagger4.png)
+
+![back5](assets/img/newSwagger5.png)
+
+![back5](assets/img/newSwagger6.png)
+
 ### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+La aplicación AquaConecta ha sido desplegada en netlify, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Netlify:
+![netlify1](assets/img/netlify1.png)
+
 
 ### 6.2.3.9. Team Collaboration Insights during Sprint.
 
@@ -4344,6 +4417,21 @@ Además, se fortaleció la colaboración entre los miembros del equipo, lo cual 
 
 En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
 
+
+### Conclusiones – TF
+
+El trabajo realizado durante el Sprint 3 permitió al equipo afianzar la dinámica de colaboración, logrando que la comunicación y el intercambio de ideas fueran más fluidos y efectivos que en etapas previas.
+
+La implementación de nuevas funcionalidades y la mejora de las existentes se realizó de manera más organizada, lo que facilitó el seguimiento de tareas y la integración de los aportes individuales en el proyecto general.
+
+Se evidenció un avance significativo en la calidad del código, tanto por la adopción de mejores prácticas como por la revisión y ajustes continuos hechos por los miembros del equipo.
+
+El proceso de pruebas fue más riguroso en este sprint, permitiendo detectar y corregir errores de manera oportuna, lo cual se reflejó en un producto más estable y confiable.
+
+Las sesiones de retrospectiva y revisión fueron fundamentales para identificar oportunidades de mejora y ajustar la metodología de trabajo, fortaleciendo la capacidad de respuesta ante los desafíos presentados.
+
+Finalmente, la experiencia acumulada hasta este punto permitió al equipo sentirse más seguro y motivado para afrontar los siguientes retos del proyecto, evidenciando un crecimiento tanto a nivel técnico como en las habilidades de trabajo en equipo.
+
 ### Conclusiones – TB2
 
 A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
@@ -4353,6 +4441,10 @@ Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applica
 Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
 
 Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
+
+### Video About-the-Team
+
+**Link del video:** 
 
 # Bibliografía
 
