@@ -2251,7 +2251,7 @@ Constructores:
 
 ##  `Commands`
 
-### `Water Management Commands`
+### `Water Monitoring Commands`
 
 | Comando                             | Descripción                                                        |
 |-------------------------------------|--------------------------------------------------------------------|
@@ -2368,7 +2368,7 @@ El diagrama muestra cómo la aplicación web sirve como interfaz para proveedore
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan las **solicitudes generales** y **solicitudes de agua** en el sistema. Las **Request** representan las solicitudes generales de los residentes, mientras que **WaterRequest** se refiere a las solicitudes específicas de agua. Los servicios de comando (**IRequestCommandService** y **IWaterRequestCommandService**) permiten crear y actualizar estas solicitudes, mientras que los repositorios (**IRequestRepository** y **IWaterRequestRepository**) gestionan su persistencia. También hay servicios de consulta (**IRequestQueryService** y **IWaterRequestQueryService**) para obtener solicitudes según diferentes criterios, como estado o residente.
 
-![alt text](<./assets/img/requests.png>)
+![alt text](<./assets/img/lucid1.png>)
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 El diagrama muestra dos tablas: **requests** y **water\_requests**. La tabla **requests** almacena solicitudes generales de los residentes, incluyendo información como el `title`, `description`, y el `status`, junto con las relaciones a los residentes y proveedores. La tabla **water\_requests** contiene solicitudes específicas de agua, incluyendo el número de litros solicitados (`request_liters`), el estado de la solicitud y la fecha de entrega (`delivered_at`). Ambas tablas están relacionadas a través de los campos `resident_id` y `provider_id`.
 
