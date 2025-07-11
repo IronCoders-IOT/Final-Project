@@ -2251,7 +2251,7 @@ Constructores:
 
 ##  `Commands`
 
-### `Water Operation Commands`
+### `Water Monitoring Commands`
 
 | Comando                             | Descripción                                                        |
 |-------------------------------------|--------------------------------------------------------------------|
