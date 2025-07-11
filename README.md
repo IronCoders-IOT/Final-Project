@@ -94,6 +94,9 @@
 |3.7|14/06/2025|Joaquin Antonio Cortez Quezada|     Actualización de bounded context canvas y diagramas de clases para Operation and monitoring     |
 |3.8|15/06/2025|Piero Periche Quiroga|      Actualización de documentación de arquitectura, diagramas de despliegue y base de datos.       |
 |3.9|16/06/2025|Rodrigo Aguilar Castillo|     Revisión y actualización de la tabla de registro de versiones y ajustes finales de formato.     |
+|4.0|10/07/2025|Rodrigo Aguilar Castillo| Integración y validación de funcionalidades en frontend y backend, corrección de endpoints, mejoras en la visualización de métricas en tiempo real, documentación de servicios con Swagger y despliegue en Netlify. Coordinación de integración entre dispositivos IoT y aplicaciones, y revisión final del informe.|
+|4.0|10/07/2025|Paolo Gonzalo Párraga Gamarra| Implementación y pruebas de servicios backend, validación de integración con frontend y mobile, ajustes en la base de datos y endpoints, despliegue en Netlify, y documentación técnica de APIs. Apoyo en la integración de dispositivos IoT y pruebas integrales.|
+
 
 
 
@@ -120,21 +123,22 @@
 
 
 
-### TB2
+### TF1
 
-Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+Para la entrega del TF1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
-Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe.
+Se muestran evidencias de los commits realizados en la entrega de la TF1 en el informe.
 
 
 [Colaboraciones del repositorio]
 
-![alt text](assets/img/tb2-1.png)
-![alt text](assets/img/tb2-2.png)
+![alt text](assets/team-collaboration/report-iot.png)
+
+![alt text](assets/team-collaboration/report-iot2.png)
 
 [Registro de los commits donde se realizaron la mayor cantidad]
 ![alt text](assets/img/commits-ironcoders.png)
-En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias jueves y una cantidad mayor de cambios que commits durante esos días.
+En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias jueves y viernes. también se aprecia una cantidad mayor de cambios que commits durante esos días.
 
 ---
 
@@ -4182,7 +4186,7 @@ Capturas de pantalla de la aplicación web:
 ![back1](assets/img/front3.png)
 
 
-Capturas de pantalla del la aplicación mobile:
+Capturas de pantalla de la mobile application:
 ![back1](assets/img/mobilefinal0.png)
 ![back1](assets/img/mobilefinal1.png)
 ![back1](assets/img/mobilefinal2.png)
@@ -4195,8 +4199,12 @@ Capturas de pantalla del la aplicación mobile:
 
 
 
-Captura del embedded:
-![back1](assets/img/ESP32NEW.png)
+Captura del embedded application: En este sección colocaremos capturas de la aplicación embebida contado la versión simulada y en arduino.
+- **Simulado**
+  ![alt text](assets/embedded-app/wokwi-image.jpg)
+  Asimismo, se adjunta el enlace para acceder al proyecto de en wokwi: [https://wokwi.com/projects/435504158682370049](https://wokwi.com/projects/435504158682370049)
+- **Arduino**
+![alt text](assets/embedded-app/arduino-image.jpg)
 
 
 - **Link de YouTube:**
@@ -4226,6 +4234,17 @@ La aplicación AquaConecta ha sido desplegada en netlify, lo que permite a los u
 
 ### 6.2.3.9. Team Collaboration Insights during Sprint.
 
+En esta sección se presentan los insights de la colaboración del equipo para el Sprint 3. Esto refleja cómo el equipo ha trabajado de acuerdo las tareas delegadas dentro del tiempo establecido para los diversos productos y servicios.
+
+- Fronted: Se agregaron nuveas funcionalidades como la de agregar una nueva suscripción para los proveedores hacendo uso del sistema externo de Mercado Pago. Además, se implementó i18n en toda la aplicación web y se ajustaron algunos aspectos estéticos.
+![alt text](assets/team-collaboration/frontend-iot.png)
+- Backend: Se realizaron las correcciones mencionadas anteriomente, se cambiaron algunas endpoints para luego conectarlo con los productos.
+Mobile: Se reorganizaron las carpetas del proyecto y se aplicaron variables de entorno con el propósito de mantener un órden y facilitar el desarrollo de la app. Además, se implementó i18n dentro de la aplicación móvil. 
+![alt text](assets/team-collaboration/backend-iot.png)
+Edge: Se aseguró la conexión estable entre el backend y la aplicación Edge, además de gestionar eficientemente la recolección de datos desde los dispositivos IoT durante la implementación.
+![alt text](assets/team-collaboration/edge-iot.png)
+- Embedded: Al haber implementado la aplicación embebida en el microcontrolador ESP32 para esta entrega se realizaron las mejoras necesarias para lograr una comunicación óptima con el Edge y de esta manera obtener la data necesaria que es recolectada por los sensores.
+![alt text](assets/team-collaboration/embedded-iot.png)
 
 
 # 6.3 Validation Interviews
