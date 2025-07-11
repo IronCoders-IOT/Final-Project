@@ -117,21 +117,9 @@
 
 - Landing Page: [https://github.com/IronCoders-IOT/Landing-Page](https://github.com/IronCoders-IOT/Landing-Page)
 
+### TF1
 
-
-Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
-
-Backend: [https://github.com/IronCoders-IOT/Backend](https://github.com/IronCoders-IOT/Backend)
-
-Mobile: [https://github.com/IronCoders-IOT/mobile_iot](https://github.com/IronCoders-IOT/mobile_iot)
-
-Edge: [https://github.com/IronCoders-IOT/Edge](https://github.com/IronCoders-IOT/Edge)
-
-Embedded: [https://github.com/IronCoders-IOT/Embedded](https://github.com/IronCoders-IOT/Embedded)
-
-### TB2
-
-Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+Para la entrega del TF1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
 Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe.
 
@@ -4418,7 +4406,17 @@ Además, se fortaleció la colaboración entre los miembros del equipo, lo cual 
 En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
 
 
-### Conclusiones – TF
+### Conclusiones – TB2
+
+A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
+
+Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applications y una primera versión funcional de otras aplicaciones que forman parte del alcance del proyecto.
+
+Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
+
+Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
+
+### Conclusiones – TF1
 
 El trabajo realizado durante el Sprint 3 permitió al equipo afianzar la dinámica de colaboración, logrando que la comunicación y el intercambio de ideas fueran más fluidos y efectivos que en etapas previas.
 
@@ -4469,8 +4467,8 @@ Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las 
 
 # Anexos
 - **Link del video de exposición TB1:** [https://acortar.link/0RLUZm](https://acortar.link/0RLUZm)
-
 - **Link del video de exposición TB2:** [https://acortar.link/EKH6Nd](https://acortar.link/EKH6Nd)
-- **Link del video  About the Team:** [https://acortar.link/PLhMDt](https://acortar.link/PLhMDt)
+- **Link del video de exposición TF1:** []()
+- **Link del video  About the Team:** [https://acortar.link/znOIlf](https://acortar.link/znOIlf)
 - **Link dek video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
 
