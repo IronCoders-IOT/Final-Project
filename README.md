@@ -3996,7 +3996,7 @@ Desde el lado del backend, se implementaron los endpoints seguros y necesarios p
             <td>En este sprint 3, se ha logrado culminar la última versión de los artefactos. Teniendo en cuenta Web Appplication, Mobile Application, Backend, Edge Application y Embedded Application. Alogrando enviar datos tanto a la  Web Appplication y Mobile Application.</td>
         </tr>
         <tr>
-            <td>Sprint 3 Retrospective Summary</td>
+            <td>Sprint 2 Retrospective Summary</td>
             <td>Se destacó una buena comunicacion y coordinacion durante el sprint. Se designaron lideres y colaboradores para cada bounded context. Se identificó como mejora la necesidad de definir muy bien los criterios de aceptacion antes de empezar a hacer las tareas.
 Hubo un pequeño problema en la entrega de tareas por temas de tiempos e inconvenientes en el desarrollo.</td>
         </tr>
@@ -4627,4 +4627,4 @@ El video se encuentra dentro de la Landing Page, se adjunta una imagen la secci�
 - **Link del video de exposición TB2:** [https://acortar.link/EKH6Nd](https://acortar.link/EKH6Nd)
 - **Link del video  About the Team:** [https://acortar.link/PLhMDt](https://acortar.link/PLhMDt)
 - **Link dek video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
-
+- **Link del video de exposición TF1:** [https://acortar.link/OcxJXA](https://acortar.link/OcxJXA)
