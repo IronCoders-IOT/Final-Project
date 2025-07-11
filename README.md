@@ -2189,7 +2189,7 @@ El diagrama muestra las relaciones entre las tablas **providers**, **residents**
 
 ##  `Aggregates`
 
-### `WaterRequest`
+### `WatterSupplyRequest`
 
 Representa una solicitud específica de agua realizada por un residente.
 
@@ -2209,7 +2209,7 @@ Constructores:
 
 ---
 
-### `Request`
+### `Issue Report`
 
 Representa una solicitud general realizada por un residente a un proveedor.
 
@@ -2230,7 +2230,7 @@ Constructores:
 
 ## `Enumerados (Enums)`
 
-### `WaterRequestStatus`
+### `WatterSupplyRequestStatus`
 
 | Valor       | Descripción                                |
 |-------------|--------------------------------------------|
@@ -2238,7 +2238,7 @@ Constructores:
 | DELIVERED | Agua entregada                             |
 | CANCELLED | Solicitud cancelada                        |
 
-### `RequestStatus`
+### `IssueReportStatus`
 
 | Valor         | Descripción                                  |
 |---------------|----------------------------------------------|
@@ -2255,47 +2255,47 @@ Constructores:
 
 | Comando                             | Descripción                                                        |
 |-------------------------------------|--------------------------------------------------------------------|
-| CreateWaterRequestCommand         | Crea una solicitud de agua                                         |
-| UpdateWaterRequestStatusCommand   | Actualiza el estado de una solicitud de agua                       |
+| CreateWatterSupplyRequestCommand         | Crea una solicitud de agua                                         |
+| UpdateWatterSupplyRequestStatusCommand   | Actualiza el estado de una solicitud de agua                       |
 
 ### `General Request Commands`
 
 | Comando                        | Descripción                                                        |
 |--------------------------------|--------------------------------------------------------------------|
-| CreateRequestCommand         | Crea una nueva solicitud general                                   |
-| UpdateRequestStatusCommand   | Cambia el estado de una solicitud general                          |
+| CreateIssueReportCommand       | Crea una nueva solicitud general                                   |
+| UpdateIssueReportStatusCommand | Cambia el estado de una solicitud general                          |
 
 ---
 
 ## `Query`
 
-| Query                                  | Descripción                                                               |
-|----------------------------------------|---------------------------------------------------------------------------|
-| GetWaterRequestsByResidentIdQuery    | Solicitudes de agua por residente                                         |
-| GetPendingWaterRequestsQuery         | Solicitudes de agua pendientes                                            |
-| GetDeliveredWaterRequestsByDateQuery | Solicitudes de agua entregadas en un rango de fechas                     |
-| GetRequestsByStatusQuery             | Lista de solicitudes generales por estado                                |
-| GetRequestsByResidentIdQuery         | Solicitudes generales hechas por un residente                            |
+| Query                                      | Descripción                                                               |
+|--------------------------------------------|---------------------------------------------------------------------------|
+| GetWatterSupplyRequestsByResidentIdQuery   | Solicitudes de agua por residente                                         |
+| GetPendingWatterSupplyRequestQuery         | Solicitudes de agua pendientes                                            |
+| GetDeliveredWatterSupplyRequestByDateQuery | Solicitudes de agua entregadas en un rango de fechas                     |
+| GetIssueReportByStatusQuery                | Lista de solicitudes generales por estado                                |
+| GetIssueReportByResidentIdQuery            | Solicitudes generales hechas por un residente                            |
 
 ---
 
 ###  `Repositories (Interfaces)`
 
-| Archivo                          | Descripción                                                         |
-|----------------------------------|---------------------------------------------------------------------|
-| IWaterRequestRepository.cs     | Persistencia y consultas sobre solicitudes de agua                 |
-| IRequestRepository.cs          | Persistencia y consultas sobre solicitudes generales               |
+| Archivo                           | Descripción                                                         |
+|-----------------------------------|---------------------------------------------------------------------|
+| IWatterSupplyRequestRepository.cs | Persistencia y consultas sobre solicitudes de agua                 |
+| IIssueReportRepository.cs         | Persistencia y consultas sobre solicitudes generales               |
 
 ---
 
 ###  `Services`
 
-| Archivo                          | Descripción                                                         |
-|----------------------------------|---------------------------------------------------------------------|
-| IWaterRequestCommandService.cs | Comandos de solicitudes de agua                                    |
-| IWaterRequestQueryService.cs   | Consultas de solicitudes de agua                                   |
-| IRequestCommandService.cs      | Comandos de solicitudes generales                                  |
-| IRequestQueryService.cs        | Consultas de solicitudes generales                                 |
+| Archivo                               | Descripción                                                         |
+|---------------------------------------|---------------------------------------------------------------------|
+| IWatterSupplyRequestCommandService.cs | Comandos de solicitudes de agua                                    |
+| IWatterSupplyRequestQueryService.cs   | Consultas de solicitudes de agua                                   |
+| IIssueReportCommandService.cs         | Comandos de solicitudes generales                                  |
+| IIssueReportQueryService.cs           | Consultas de solicitudes generales                                 |
 
 ---
 
@@ -2303,59 +2303,59 @@ Constructores:
 
 ## `Resources`
 
-| Archivo                          | Descripción                                                             |
-|----------------------------------|-------------------------------------------------------------------------|
-| CreateWaterRequestResource.cs | Para registrar solicitud de agua                                       |
-| WaterRequestResource.cs       | JSON de solicitud de agua                                              |
-| CreateRequestResource.cs      | Para registrar solicitud general                                       |
-| RequestResource.cs            | JSON de solicitud general                                              |
+| Archivo                              | Descripción                                                             |
+|--------------------------------------|-------------------------------------------------------------------------|
+| CreateWatterSupplyRequestResource.cs | Para registrar solicitud de agua                                       |
+| WatterSupplyRequestResource.cs       | JSON de solicitud de agua                                              |
+| CreateIssueReportResource.cs         | Para registrar solicitud general                                       |
+| IssueReportResource.cs               | JSON de solicitud general                                              |
 
 ---
 
 ##  `Transform / Assemblers`
 
-| Archivo                                          | Función                                                              |
-|--------------------------------------------------|----------------------------------------------------------------------|
-| CreateWaterRequestCommandFromResourceAssembler.cs | De recurso a comando de agua                                     |
-| WaterRequestResourceFromEntityAssembler.cs     | De entidad WaterRequest a recurso JSON                          |
-| CreateRequestCommandFromResourceAssembler.cs   | De recurso a comando de solicitud general                          |
-| RequestResourceFromEntityAssembler.cs          | De entidad Request a recurso JSON                                |
+| Archivo                                                  | Función                                                              |
+|----------------------------------------------------------|----------------------------------------------------------------------|
+| CreateWatterSupplyRequestCommandFromResourceAssembler.cs | De recurso a comando de agua                                     |
+| WatterSupplyRequestResourceFromEntityAssembler.cs        | De entidad WaterRequest a recurso JSON                          |
+| CreateIssueReportCommandFromResourceAssembler.cs         | De recurso a comando de solicitud general                          |
+| IssueReportResourceFromEntityAssembler.cs                | De entidad Request a recurso JSON                                |
 
 ---
 
 ## `Controllers`
 
-| Controlador              | Ruta Base             | Descripción                                                           |
-|--------------------------|-----------------------|-----------------------------------------------------------------------|
-| WaterRequestController.cs | /api/water-requests | Manejo de solicitudes de agua                                         |
-| RequestController.cs      | /api/requests       | Manejo de solicitudes generales                                       |
+| Controlador                      | Ruta Base                 | Descripción                                                           |
+|----------------------------------|---------------------------|-----------------------------------------------------------------------|
+| WatterSupplyRequestController.cs | /api/water-supply-request | Manejo de solicitudes de agua                                         |
+| IssueReportController.cs         | /api/issue-report         | Manejo de solicitudes generales                                       |
 
 ---
 ##### 4.2.3.3. Application Layer.
 
 ## `Command Services`
 
-| Archivo                      | Descripción                                                |
-|------------------------------|------------------------------------------------------------|
-| WaterRequestCommandService.cs | Implementa lógica de comandos para solicitudes de agua |
-| RequestCommandService.cs      | Implementa lógica de comandos para solicitudes generales|
+| Archivo                              | Descripción                                                |
+|--------------------------------------|------------------------------------------------------------|
+| WatterSupplyRequestCommandService.cs | Implementa lógica de comandos para solicitudes de agua |
+| IssueReportCommandService.cs         | Implementa lógica de comandos para solicitudes generales|
 
 ## `Query Services`
 
-| Archivo                     | Descripción                                                  |
-|-----------------------------|--------------------------------------------------------------|
-| WaterRequestQueryService.cs | Consultas específicas de agua                             |
-| RequestQueryService.cs      | Consultas generales de solicitudes                        |
+| Archivo                           | Descripción                                                  |
+|-----------------------------------|--------------------------------------------------------------|
+| WatterSupplyRequestQueryService.cs | Consultas específicas de agua                             |
+| IssueReportQueryService.cs        | Consultas generales de solicitudes                        |
 
 #### 4.2.3.4. Infrastructure Layer.
 
 
 ## `Implementación de Repositories`
 
-| Clase                    | Interfaz implementada      | Función principal                                                                 |
-|--------------------------|----------------------------|------------------------------------------------------------------------------------|
-| `WaterRequestRepository.cs` | `IWaterRequestRepository`   | Gestiona la persistencia y consultas de solicitudes de agua por residente, estado o fecha. |
-| `RequestRepository.cs`      | `IRequestRepository`        | Administra solicitudes generales, permitiendo crear, consultar y actualizar por residente o estado. |
+| Clase                              | Interfaz implementada            | Función principal                                                                 |
+|------------------------------------|----------------------------------|------------------------------------------------------------------------------------|
+| `WatterSupplyRequestRepository.cs` | `IWatterSupplyRequestRepository` | Gestiona la persistencia y consultas de solicitudes de agua por residente, estado o fecha. |
+| `IssueReportRepository.cs`         | `IIssueReportRepository`         | Administra solicitudes generales, permitiendo crear, consultar y actualizar por residente o estado. |
 
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
