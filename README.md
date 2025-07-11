@@ -2385,14 +2385,14 @@ El diagrama muestra dos tablas: **requests** y **water\_requests**. La tabla **r
 
 Representa un evento individual registrado por un sensor de monitoreo ambiental.
 
-| Atributo       | Tipo     | Descripción                                                           |
-|----------------|----------|------------------------------------------------------------------------|
-| `id`           | Int      | Identificador único del evento                                        |
-| `sensorId`     | Int      | Identificador del sensor asociado                                     |
-| `value`        | Float    | Valor registrado por el sensor (ej. nivel de agua)                    |
-| `type`         | Enum     | Tipo de evento: `WATER_LEVEL`, `WATER_QUALITY`, `PRESSURE`, etc.      |
-| `status`       | Enum     | Estado del evento: `NORMAL`, `ALERT`, `CRITICAL`                      |
-| `created_at`   | DateTime | Fecha de creación del evento                                          |
+| Atributo     | Tipo     | Descripción                                                           |
+|--------------|----------|------------------------------------------------------------------------|
+| `id`         | Int      | Identificador único del evento                                        |
+| `deviceId`   | Int      | Identificador del sensor asociado                                     |
+| `value`      | Float    | Valor registrado por el sensor (ej. nivel de agua)                    |
+| `type`       | Enum     | Tipo de evento: `WATER_LEVEL`, `WATER_QUALITY`, `PRESSURE`, etc.      |
+| `status`     | Enum     | Estado del evento: `NORMAL`, `ALERT`, `CRITICAL`                      |
+| `created_at` | DateTime | Fecha de creación del evento                                          |
 
 **Constructores:**
 
@@ -2401,7 +2401,7 @@ Representa un evento individual registrado por un sensor de monitoreo ambiental.
 
 ---
 
-## `SensorManagement`
+## `Device Monitoring`
 
 Representa la administración y configuración de un sensor en campo.
 
@@ -2417,7 +2417,7 @@ Representa la administración y configuración de un sensor en campo.
 **Constructores:**
 
 - Por parámetros individuales
-- A partir de `InstallSensorCommand`
+- A partir de `InstallDeviceCommand`
 
 
 ## ` Enumerados (Enums)`
@@ -2439,7 +2439,7 @@ Representa la administración y configuración de un sensor en campo.
 | `PRESSURE`       | Presión                         |
 | `TEMPERATURE`    | Temperatura                     |
 
-### `SensorStatus`
+### `DeviceStatus`
 
 | Valor        | Descripción                                       |
 |--------------|---------------------------------------------------|
@@ -2458,33 +2458,33 @@ Representa la administración y configuración de un sensor en campo.
 | `RegisterEventCommand`      | Registra un nuevo evento generado por un sensor           |
 | `UpdateEventStatusCommand`  | Actualiza el estado de un evento específico               |
 
-### `Management Commands`
+### `Monitoring Commands`
 
 | Comando                     | Descripción                                                |
 |-----------------------------|------------------------------------------------------------|
-| `InstallSensorCommand`      | Instala un sensor en un lugar determinado                 |
-| `UpdateSensorStatusCommand` | Modifica el estado operativo de un sensor                 |
+| `InstallDeviceCommand`      | Instala un sensor en un lugar determinado                 |
+| `UpdateDeviceStatusCommand` | Modifica el estado operativo de un sensor                 |
 
 
 ## `Queries`
 
 ### `Analytics Queries`
 
-| Query                                  | Descripción                                                                 |
-|----------------------------------------|-----------------------------------------------------------------------------|
-| `GetEventsBySensorIdQuery`            | Lista todos los eventos registrados por un sensor específico               |
-| `GetRecentCriticalEventsQuery`        | Devuelve eventos recientes con estado crítico                              |
-| `GetMonthlyEventsBySensorQuery`       | Devuelve eventos agrupados por mes para un sensor                          |
-| `GenerateSensorReportQuery`           | Genera reporte consolidado con estadísticas de eventos de un sensor        |
-| `GetEventsByDateRangeQuery`           | Lista eventos registrados entre dos fechas (`created_at`)                  |
-| `GetEventsByStatusAndSensorIdQuery`   | Lista eventos filtrados por estado (`status`) y sensor específico          |
+| Query                               | Descripción                                                                 |
+|-------------------------------------|-----------------------------------------------------------------------------|
+| `GetEventsByDeviceIdQuery`          | Lista todos los eventos registrados por un sensor específico               |
+| `GetRecentCriticalEventsQuery`      | Devuelve eventos recientes con estado crítico                              |
+| `GetMonthlyEventsByDeviceQuery`     | Devuelve eventos agrupados por mes para un sensor                          |
+| `GenerateSDeviceReportQuery`         | Genera reporte consolidado con estadísticas de eventos de un sensor        |
+| `GetEventsByDateRangeQuery`         | Lista eventos registrados entre dos fechas (`created_at`)                  |
+| `GetEventsByStatusAndDeviceIdQuery` | Lista eventos filtrados por estado (`status`) y sensor específico          |
 
-### `Management Queries`
+### `Monitoring Queries`
 
-| Query                             | Descripción                                                                 |
-|-----------------------------------|-----------------------------------------------------------------------------|
-| `GetSensorsByLocationQuery`       | Lista sensores instalados en una ubicación específica                      |
-| `GetSensorStatusByIdQuery`        | Devuelve el estado actual de un sensor                                     |
+| Query                            | Descripción                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| `GetDeviceByLocationQuery`       | Lista sensores instalados en una ubicación específica                      |
+| `GetDeviceStatusByIdQuery`       | Devuelve el estado actual de un sensor                                     |
 
 
 ### ` Repositories (Interfaces)`
@@ -2492,11 +2492,11 @@ Representa la administración y configuración de un sensor en campo.
 | Archivo                          | Descripción                                                                  |
 |----------------------------------|------------------------------------------------------------------------------|
 | `IEventRepository.cs`            | Operaciones sobre eventos:                                                   |
-|                                  | - `FindBySensorIdAsync`                                                     |
+|                                  | - `FindByDeviceIdAsync`                                                     |
 |                                  | - `FindByDateRangeAsync`                                                    |
-|                                  | - `FindByStatusAndSensorIdAsync`                                            |
+|                                  | - `FindByStatusAndDeviceIdAsync`                                            |
 |                                  | - `FindMonthlyAsync`, `SaveAsync`                                           |
-| `ISensorManagementRepository.cs` | Operaciones sobre sensores:                                                 |
+| `IDeviceMonitoringRepository.cs` | Operaciones sobre sensores:                                                 |
 |                                  | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
 
 
@@ -2513,8 +2513,8 @@ Representa la administración y configuración de un sensor en campo.
 
 | Archivo                      | Descripción                                                             |
 |------------------------------|-------------------------------------------------------------------------|
-| `ISensorCommandService.cs`    | Comandos para instalación y actualización de sensores                   |
-| `ISensorQueryService.cs`      | Consultas por ubicación o ID del sensor                                |
+| `IDeviceCommandService.cs`    | Comandos para instalación y actualización de sensores                   |
+| `IDeviceQueryService.cs`      | Consultas por ubicación o ID del sensor                                |
 
 
 #### 4.2.4.2. Interface Layer.
@@ -2525,9 +2525,9 @@ Representa la administración y configuración de un sensor en campo.
 | `RegisterEventResource.cs`       | Recurso para registrar nuevos eventos                                  |
 | `EventResource.cs`               | Recurso JSON para listar eventos                                       |
 | `MonthlyEventsResource.cs`       | Agrupación de eventos por mes                                          |
-| `SensorReportResource.cs`        | Resumen estadístico de sensor                                          |
-| `InstallSensorResource.cs`       | Recurso para registrar un sensor nuevo                                 |
-| `SensorManagementResource.cs`    | Estado, descripción y ubicación del sensor                             |
+| `DeviceReportResource.cs`        | Resumen estadístico de sensor                                          |
+| `InstallDeviceResource.cs`       | Recurso para registrar un sensor nuevo                                 |
+| `DeviceManagementResource.cs`    | Estado, descripción y ubicación del sensor                             |
 
 
 ### `Transform / Assemblers`
@@ -2537,9 +2537,9 @@ Representa la administración y configuración de un sensor en campo.
 | `RegisterEventCommandFromResourceAssembler.cs`   | Transforma recurso en `RegisterEventCommand`                             |
 | `EventResourceFromEntityAssembler.cs`            | Convierte entidad `Event` a recurso JSON                                 |
 | `MonthlyEventsResourceFromEntityAssembler.cs`    | Agrupa eventos y los transforma a recurso mensual                        |
-| `SensorReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte                     |
-| `InstallSensorCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallSensorCommand`                             |
-| `SensorResourceFromEntityAssembler.cs`           | Convierte `SensorManagement` en recurso JSON                             |
+| `DeviceReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte                     |
+| `InstallDeviceCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallDeviceCommand`                             |
+| `DeviceResourceFromEntityAssembler.cs`           | Convierte `DeviceManagement` en recurso JSON                             |
 
 ---
 
@@ -2561,15 +2561,15 @@ Representa la administración y configuración de un sensor en campo.
 
 ### `Query Services`
 
-| Archivo                    | Descripción                                                                 |
-|----------------------------|-----------------------------------------------------------------------------|
-| `EventQueryService.cs`      | Consultas sobre eventos incluyendo:                                         |
-|                            | - Por sensorId                                                              |
-|                            | - Por rango de fechas                                                       |
-|                            | - Por estado y sensorId                                                     |
-|                            | - Agrupados por mes                                                         |
-|                            | - Generación de reporte                                                     |
-| `SensorQueryService.cs`     | Consultas por ubicación, ID o estado de sensor                             |
+| Archivo                    | Descripción                                    |
+|----------------------------|------------------------------------------------|
+| `EventQueryService.cs`      | Consultas sobre eventos incluyendo:            |
+|                            | - Por deviceId                                 |
+|                            | - Por rango de fechas                          |
+|                            | - Por estado y deviceId                        |
+|                            | - Agrupados por mes                            |
+|                            | - Generación de reporte                        |
+| `SensorQueryService.cs`     | Consultas por ubicación, ID o estado de sensor |
 
 ---
 #### 4.2.4.4. Infrastructure Layer.
@@ -2579,7 +2579,7 @@ Representa la administración y configuración de un sensor en campo.
 | Clase                          | Interfaz implementada         | Función principal                                                                 |
 |-------------------------------|-------------------------------|------------------------------------------------------------------------------------|
 | `EventRepository.cs`          | `IEventRepository`            | Gestiona la persistencia de eventos generados por sensores, incluyendo búsqueda por sensor, fechas o estado. |
-| `SensorManagementRepository.cs` | `ISensorManagementRepository` | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
+| `DeviceManagementRepository.cs` | `IDeviceManagementRepository` | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -2589,10 +2589,10 @@ En este diagrama, el REST API actúa como punto de entrada para recibir solicitu
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
-Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **SensorManagement** y su **SensorStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
+Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **Devices**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **SensorManagement** y su **SensorStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
 ![alt text](<./assets/img/events.png>)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
-Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
+Este diagrama muestra las relaciones entre las tablas **events** y **Device**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
 
 ![alt text](<./assets/img/dashboard.png>)
 
