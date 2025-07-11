@@ -2282,7 +2282,7 @@ El diagrama muestra las relaciones entre las tablas **providers**, **residents**
 
 ##  `Aggregates`
 
-### `WaterRequest`
+### `WatterSupplyRequest`
 
 Representa una solicitud específica de agua realizada por un residente.
 
@@ -2302,7 +2302,7 @@ Constructores:
 
 ---
 
-### `Request`
+### `Issue Report`
 
 Representa una solicitud general realizada por un residente a un proveedor.
 
@@ -2323,7 +2323,7 @@ Constructores:
 
 ## `Enumerados (Enums)`
 
-### `WaterRequestStatus`
+### `WatterSupplyRequestStatus`
 
 | Valor       | Descripción                                |
 |-------------|--------------------------------------------|
@@ -2331,7 +2331,7 @@ Constructores:
 | DELIVERED | Agua entregada                             |
 | CANCELLED | Solicitud cancelada                        |
 
-### `RequestStatus`
+### `IssueReportStatus`
 
 | Valor         | Descripción                                  |
 |---------------|----------------------------------------------|
@@ -2344,51 +2344,52 @@ Constructores:
 
 ##  `Commands`
 
-### `Water Operation Commands`
+### `Water Monitoring Commands`
+
 
 | Comando                             | Descripción                                                        |
 |-------------------------------------|--------------------------------------------------------------------|
-| CreateWaterRequestCommand         | Crea una solicitud de agua                                         |
-| UpdateWaterRequestStatusCommand   | Actualiza el estado de una solicitud de agua                       |
+| CreateWatterSupplyRequestCommand         | Crea una solicitud de agua                                         |
+| UpdateWatterSupplyRequestStatusCommand   | Actualiza el estado de una solicitud de agua                       |
 
 ### `General Request Commands`
 
 | Comando                        | Descripción                                                        |
 |--------------------------------|--------------------------------------------------------------------|
-| CreateRequestCommand         | Crea una nueva solicitud general                                   |
-| UpdateRequestStatusCommand   | Cambia el estado de una solicitud general                          |
+| CreateIssueReportCommand       | Crea una nueva solicitud general                                   |
+| UpdateIssueReportStatusCommand | Cambia el estado de una solicitud general                          |
 
 ---
 
 ## `Query`
 
-| Query                                  | Descripción                                                               |
-|----------------------------------------|---------------------------------------------------------------------------|
-| GetWaterRequestsByResidentIdQuery    | Solicitudes de agua por residente                                         |
-| GetPendingWaterRequestsQuery         | Solicitudes de agua pendientes                                            |
-| GetDeliveredWaterRequestsByDateQuery | Solicitudes de agua entregadas en un rango de fechas                     |
-| GetRequestsByStatusQuery             | Lista de solicitudes generales por estado                                |
-| GetRequestsByResidentIdQuery         | Solicitudes generales hechas por un residente                            |
+| Query                                      | Descripción                                                               |
+|--------------------------------------------|---------------------------------------------------------------------------|
+| GetWatterSupplyRequestsByResidentIdQuery   | Solicitudes de agua por residente                                         |
+| GetPendingWatterSupplyRequestQuery         | Solicitudes de agua pendientes                                            |
+| GetDeliveredWatterSupplyRequestByDateQuery | Solicitudes de agua entregadas en un rango de fechas                     |
+| GetIssueReportByStatusQuery                | Lista de solicitudes generales por estado                                |
+| GetIssueReportByResidentIdQuery            | Solicitudes generales hechas por un residente                            |
 
 ---
 
 ###  `Repositories (Interfaces)`
 
-| Archivo                          | Descripción                                                         |
-|----------------------------------|---------------------------------------------------------------------|
-| IWaterRequestRepository.cs     | Persistencia y consultas sobre solicitudes de agua                 |
-| IRequestRepository.cs          | Persistencia y consultas sobre solicitudes generales               |
+| Archivo                           | Descripción                                                         |
+|-----------------------------------|---------------------------------------------------------------------|
+| IWatterSupplyRequestRepository.cs | Persistencia y consultas sobre solicitudes de agua                 |
+| IIssueReportRepository.cs         | Persistencia y consultas sobre solicitudes generales               |
 
 ---
 
 ###  `Services`
 
-| Archivo                          | Descripción                                                         |
-|----------------------------------|---------------------------------------------------------------------|
-| IWaterRequestCommandService.cs | Comandos de solicitudes de agua                                    |
-| IWaterRequestQueryService.cs   | Consultas de solicitudes de agua                                   |
-| IRequestCommandService.cs      | Comandos de solicitudes generales                                  |
-| IRequestQueryService.cs        | Consultas de solicitudes generales                                 |
+| Archivo                               | Descripción                                                         |
+|---------------------------------------|---------------------------------------------------------------------|
+| IWatterSupplyRequestCommandService.cs | Comandos de solicitudes de agua                                    |
+| IWatterSupplyRequestQueryService.cs   | Consultas de solicitudes de agua                                   |
+| IIssueReportCommandService.cs         | Comandos de solicitudes generales                                  |
+| IIssueReportQueryService.cs           | Consultas de solicitudes generales                                 |
 
 ---
 
@@ -2396,72 +2397,72 @@ Constructores:
 
 ## `Resources`
 
-| Archivo                          | Descripción                                                             |
-|----------------------------------|-------------------------------------------------------------------------|
-| CreateWaterRequestResource.cs | Para registrar solicitud de agua                                       |
-| WaterRequestResource.cs       | JSON de solicitud de agua                                              |
-| CreateRequestResource.cs      | Para registrar solicitud general                                       |
-| RequestResource.cs            | JSON de solicitud general                                              |
+| Archivo                              | Descripción                                                             |
+|--------------------------------------|-------------------------------------------------------------------------|
+| CreateWatterSupplyRequestResource.cs | Para registrar solicitud de agua                                       |
+| WatterSupplyRequestResource.cs       | JSON de solicitud de agua                                              |
+| CreateIssueReportResource.cs         | Para registrar solicitud general                                       |
+| IssueReportResource.cs               | JSON de solicitud general                                              |
 
 ---
 
 ##  `Transform / Assemblers`
 
-| Archivo                                          | Función                                                              |
-|--------------------------------------------------|----------------------------------------------------------------------|
-| CreateWaterRequestCommandFromResourceAssembler.cs | De recurso a comando de agua                                     |
-| WaterRequestResourceFromEntityAssembler.cs     | De entidad WaterRequest a recurso JSON                          |
-| CreateRequestCommandFromResourceAssembler.cs   | De recurso a comando de solicitud general                          |
-| RequestResourceFromEntityAssembler.cs          | De entidad Request a recurso JSON                                |
+| Archivo                                                  | Función                                                              |
+|----------------------------------------------------------|----------------------------------------------------------------------|
+| CreateWatterSupplyRequestCommandFromResourceAssembler.cs | De recurso a comando de agua                                     |
+| WatterSupplyRequestResourceFromEntityAssembler.cs        | De entidad WaterRequest a recurso JSON                          |
+| CreateIssueReportCommandFromResourceAssembler.cs         | De recurso a comando de solicitud general                          |
+| IssueReportResourceFromEntityAssembler.cs                | De entidad Request a recurso JSON                                |
 
 ---
 
 ## `Controllers`
 
-| Controlador              | Ruta Base             | Descripción                                                           |
-|--------------------------|-----------------------|-----------------------------------------------------------------------|
-| WaterRequestController.cs | /api/water-requests | Manejo de solicitudes de agua                                         |
-| RequestController.cs      | /api/requests       | Manejo de solicitudes generales                                       |
+| Controlador                      | Ruta Base                 | Descripción                                                           |
+|----------------------------------|---------------------------|-----------------------------------------------------------------------|
+| WatterSupplyRequestController.cs | /api/water-supply-request | Manejo de solicitudes de agua                                         |
+| IssueReportController.cs         | /api/issue-report         | Manejo de solicitudes generales                                       |
 
 ---
 ##### 4.2.3.3. Application Layer.
 
 ## `Command Services`
 
-| Archivo                      | Descripción                                                |
-|------------------------------|------------------------------------------------------------|
-| WaterRequestCommandService.cs | Implementa lógica de comandos para solicitudes de agua |
-| RequestCommandService.cs      | Implementa lógica de comandos para solicitudes generales|
+| Archivo                              | Descripción                                                |
+|--------------------------------------|------------------------------------------------------------|
+| WatterSupplyRequestCommandService.cs | Implementa lógica de comandos para solicitudes de agua |
+| IssueReportCommandService.cs         | Implementa lógica de comandos para solicitudes generales|
 
 ## `Query Services`
 
-| Archivo                     | Descripción                                                  |
-|-----------------------------|--------------------------------------------------------------|
-| WaterRequestQueryService.cs | Consultas específicas de agua                             |
-| RequestQueryService.cs      | Consultas generales de solicitudes                        |
+| Archivo                           | Descripción                                                  |
+|-----------------------------------|--------------------------------------------------------------|
+| WatterSupplyRequestQueryService.cs | Consultas específicas de agua                             |
+| IssueReportQueryService.cs        | Consultas generales de solicitudes                        |
 
 #### 4.2.3.4. Infrastructure Layer.
 
 
 ## `Implementación de Repositories`
 
-| Clase                    | Interfaz implementada      | Función principal                                                                 |
-|--------------------------|----------------------------|------------------------------------------------------------------------------------|
-| `WaterRequestRepository.cs` | `IWaterRequestRepository`   | Gestiona la persistencia y consultas de solicitudes de agua por residente, estado o fecha. |
-| `RequestRepository.cs`      | `IRequestRepository`        | Administra solicitudes generales, permitiendo crear, consultar y actualizar por residente o estado. |
+| Clase                              | Interfaz implementada            | Función principal                                                                 |
+|------------------------------------|----------------------------------|------------------------------------------------------------------------------------|
+| `WatterSupplyRequestRepository.cs` | `IWatterSupplyRequestRepository` | Gestiona la persistencia y consultas de solicitudes de agua por residente, estado o fecha. |
+| `IssueReportRepository.cs`         | `IIssueReportRepository`         | Administra solicitudes generales, permitiendo crear, consultar y actualizar por residente o estado. |
 
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 
 El diagrama muestra cómo la aplicación web sirve como interfaz para proveedores y administradores, permitiéndoles configurar el sistema, visualizar análisis y gestionar usuarios y sensores. Esta aplicación se comunica con el Request Controller (implementado en Spring Boot), que maneja las solicitudes entrantes para crear, actualizar y gestionar solicitudes. El controlador delega estas operaciones al Request Command Service, que se encarga de realizar los cambios necesarios y almacenar los datos mediante el Request Repository (basado en Spring Data JPA), o al Request Query Service, que filtra y recupera datos según criterios como estado o tipo de solicitud. El Request Repository actúa como puente entre los servicios y la base de datos MySQL, donde se almacenan las solicitudes junto con información de usuarios, suscripciones, sensores, alertas y registros administrativos.
 
-![alt text](<./assets/img/structurizr-101355-RequestManagement.png>)
+![alt text](<./assets/img/issue1.png>)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan las **solicitudes generales** y **solicitudes de agua** en el sistema. Las **Request** representan las solicitudes generales de los residentes, mientras que **WaterRequest** se refiere a las solicitudes específicas de agua. Los servicios de comando (**IRequestCommandService** y **IWaterRequestCommandService**) permiten crear y actualizar estas solicitudes, mientras que los repositorios (**IRequestRepository** y **IWaterRequestRepository**) gestionan su persistencia. También hay servicios de consulta (**IRequestQueryService** y **IWaterRequestQueryService**) para obtener solicitudes según diferentes criterios, como estado o residente.
 
-![alt text](<./assets/img/requests.png>)
+![alt text](<./assets/img/lucid1.png>)
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 El diagrama muestra dos tablas: **requests** y **water\_requests**. La tabla **requests** almacena solicitudes generales de los residentes, incluyendo información como el `title`, `description`, y el `status`, junto con las relaciones a los residentes y proveedores. La tabla **water\_requests** contiene solicitudes específicas de agua, incluyendo el número de litros solicitados (`request_liters`), el estado de la solicitud y la fecha de entrega (`delivered_at`). Ambas tablas están relacionadas a través de los campos `resident_id` y `provider_id`.
 
@@ -2478,14 +2479,14 @@ El diagrama muestra dos tablas: **requests** y **water\_requests**. La tabla **r
 
 Representa un evento individual registrado por un sensor de monitoreo ambiental.
 
-| Atributo       | Tipo     | Descripción                                                           |
-|----------------|----------|------------------------------------------------------------------------|
-| `id`           | Int      | Identificador único del evento                                        |
-| `sensorId`     | Int      | Identificador del sensor asociado                                     |
-| `value`        | Float    | Valor registrado por el sensor (ej. nivel de agua)                    |
-| `type`         | Enum     | Tipo de evento: `WATER_LEVEL`, `WATER_QUALITY`, `PRESSURE`, etc.      |
-| `status`       | Enum     | Estado del evento: `NORMAL`, `ALERT`, `CRITICAL`                      |
-| `created_at`   | DateTime | Fecha de creación del evento                                          |
+| Atributo     | Tipo     | Descripción                                                           |
+|--------------|----------|------------------------------------------------------------------------|
+| `id`         | Int      | Identificador único del evento                                        |
+| `deviceId`   | Int      | Identificador del sensor asociado                                     |
+| `value`      | Float    | Valor registrado por el sensor (ej. nivel de agua)                    |
+| `type`       | Enum     | Tipo de evento: `WATER_LEVEL`, `WATER_QUALITY`, `PRESSURE`, etc.      |
+| `status`     | Enum     | Estado del evento: `NORMAL`, `ALERT`, `CRITICAL`                      |
+| `created_at` | DateTime | Fecha de creación del evento                                          |
 
 **Constructores:**
 
@@ -2494,7 +2495,8 @@ Representa un evento individual registrado por un sensor de monitoreo ambiental.
 
 ---
 
-## `DeviceMonitoring`
+## `Device Monitoring`
+
 
 Representa la administración y configuración de un sensor en campo.
 
@@ -2510,7 +2512,7 @@ Representa la administración y configuración de un sensor en campo.
 **Constructores:**
 
 - Por parámetros individuales
-- A partir de `InstallSensorCommand`
+- A partir de `InstallDeviceCommand`
 
 
 ## ` Enumerados (Enums)`
@@ -2532,7 +2534,7 @@ Representa la administración y configuración de un sensor en campo.
 | `PRESSURE`       | Presión                         |
 | `TEMPERATURE`    | Temperatura                     |
 
-### `SensorStatus`
+### `DeviceStatus`
 
 | Valor        | Descripción                                       |
 |--------------|---------------------------------------------------|
@@ -2555,42 +2557,44 @@ Representa la administración y configuración de un sensor en campo.
 
 | Comando                     | Descripción                                                |
 |-----------------------------|------------------------------------------------------------|
-| `InstallSensorCommand`      | Instala un sensor en un lugar determinado                 |
-| `UpdateSensorStatusCommand` | Modifica el estado operativo de un sensor                 |
+| `InstallDeviceCommand`      | Instala un sensor en un lugar determinado                 |
+| `UpdateDeviceStatusCommand` | Modifica el estado operativo de un sensor                 |
 
 
 ## `Queries`
 
 ### `Analytics Queries`
 
-| Query                                  | Descripción                                                                 |
-|----------------------------------------|-----------------------------------------------------------------------------|
-| `GetEventsBySensorIdQuery`            | Lista todos los eventos registrados por un sensor específico               |
-| `GetRecentCriticalEventsQuery`        | Devuelve eventos recientes con estado crítico                              |
-| `GetMonthlyEventsBySensorQuery`       | Devuelve eventos agrupados por mes para un sensor                          |
-| `GenerateSensorReportQuery`           | Genera reporte consolidado con estadísticas de eventos de un sensor        |
-| `GetEventsByDateRangeQuery`           | Lista eventos registrados entre dos fechas (`created_at`)                  |
-| `GetEventsByStatusAndSensorIdQuery`   | Lista eventos filtrados por estado (`status`) y sensor específico          |
+| Query                               | Descripción                                                                 |
+|-------------------------------------|-----------------------------------------------------------------------------|
+| `GetEventsByDeviceIdQuery`          | Lista todos los eventos registrados por un sensor específico               |
+| `GetRecentCriticalEventsQuery`      | Devuelve eventos recientes con estado crítico                              |
+| `GetMonthlyEventsByDeviceQuery`     | Devuelve eventos agrupados por mes para un sensor                          |
+| `GenerateSDeviceReportQuery`         | Genera reporte consolidado con estadísticas de eventos de un sensor        |
+| `GetEventsByDateRangeQuery`         | Lista eventos registrados entre dos fechas (`created_at`)                  |
+| `GetEventsByStatusAndDeviceIdQuery` | Lista eventos filtrados por estado (`status`) y sensor específico          |
 
 ### `Monitoring Queries`
 
-| Query                             | Descripción                                                                 |
-|-----------------------------------|-----------------------------------------------------------------------------|
-| `GetSensorsByLocationQuery`       | Lista sensores instalados en una ubicación específica                      |
-| `GetSensorStatusByIdQuery`        | Devuelve el estado actual de un sensor                                     |
+| Query                            | Descripción                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| `GetDeviceByLocationQuery`       | Lista sensores instalados en una ubicación específica                      |
+| `GetDeviceStatusByIdQuery`       | Devuelve el estado actual de un sensor                                     |
 
 
 ### ` Repositories (Interfaces)`
 
-| Archivo                | Descripción                                                                |
-|------------------------|----------------------------------------------------------------------------|
-| `IEventRepository.cs`  | Operaciones sobre eventos:                                                 |
-|                        | - `FindBySensorIdAsync`                                                    |
-|                        | - `FindByDateRangeAsync`                                                   |
-|                        | - `FindByStatusAndSensorIdAsync`                                           |
-|                        | - `FindMonthlyAsync`, `SaveAsync`                                          |
-| `IDeviceRepository.cs` | Operaciones sobre devices:                                                 |
-|                        | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
+
+| Archivo                          | Descripción                                                                  |
+|----------------------------------|------------------------------------------------------------------------------|
+| `IEventRepository.cs`            | Operaciones sobre eventos:                                                   |
+|                                  | - `FindByDeviceIdAsync`                                                     |
+|                                  | - `FindByDateRangeAsync`                                                    |
+|                                  | - `FindByStatusAndDeviceIdAsync`                                            |
+|                                  | - `FindMonthlyAsync`, `SaveAsync`                                           |
+| `IDeviceMonitoringRepository.cs` | Operaciones sobre sensores:                                                 |
+|                                  | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
+
 
 
 ## `Services`
@@ -2606,33 +2610,34 @@ Representa la administración y configuración de un sensor en campo.
 
 | Archivo                      | Descripción                                                             |
 |------------------------------|-------------------------------------------------------------------------|
-| `ISensorCommandService.cs`    | Comandos para instalación y actualización de sensores                   |
-| `ISensorQueryService.cs`      | Consultas por ubicación o ID del sensor                                |
+| `IDeviceCommandService.cs`    | Comandos para instalación y actualización de sensores                   |
+| `IDeviceQueryService.cs`      | Consultas por ubicación o ID del sensor                                |
 
 
 #### 4.2.4.2. Interface Layer.
 ### `Resources`
 
-| Archivo                       | Descripción                                                            |
-|-------------------------------|------------------------------------------------------------------------|
-| `RegisterEventResource.cs`    | Recurso para registrar nuevos eventos                                  |
-| `EventResource.cs`            | Recurso JSON para listar eventos                                       |
-| `MonthlyEventsResource.cs`    | Agrupación de eventos por mes                                          |
-| `SensorReportResource.cs`     | Resumen estadístico de sensor                                          |
-| `InstallSensorResource.cs`    | Recurso para registrar un sensor nuevo                                 |
-| `SensorMonitoringResource.cs` | Estado, descripción y ubicación del sensor                             |
+| Archivo                          | Descripción                                                            |
+|----------------------------------|------------------------------------------------------------------------|
+| `RegisterEventResource.cs`       | Recurso para registrar nuevos eventos                                  |
+| `EventResource.cs`               | Recurso JSON para listar eventos                                       |
+| `MonthlyEventsResource.cs`       | Agrupación de eventos por mes                                          |
+| `DeviceReportResource.cs`        | Resumen estadístico de sensor                                          |
+| `InstallDeviceResource.cs`       | Recurso para registrar un sensor nuevo                                 |
+| `DeviceManagementResource.cs`    | Estado, descripción y ubicación del sensor                             |
 
 
 ### `Transform / Assemblers`
 
-| Archivo                                           | Función                                              |
-|--------------------------------------------------|------------------------------------------------------|
-| `RegisterEventCommandFromResourceAssembler.cs`   | Transforma recurso en `RegisterEventCommand`         |
-| `EventResourceFromEntityAssembler.cs`            | Convierte entidad `Event` a recurso JSON             |
-| `MonthlyEventsResourceFromEntityAssembler.cs`    | Agrupa eventos y los transforma a recurso mensual    |
-| `SensorReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte |
-| `InstallSensorCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallSensorCommand`         |
-| `SensorResourceFromEntityAssembler.cs`           | Convierte `Monitoring` en recurso JSON               |
+| Archivo                                           | Función                                                                  |
+|--------------------------------------------------|---------------------------------------------------------------------------|
+| `RegisterEventCommandFromResourceAssembler.cs`   | Transforma recurso en `RegisterEventCommand`                             |
+| `EventResourceFromEntityAssembler.cs`            | Convierte entidad `Event` a recurso JSON                                 |
+| `MonthlyEventsResourceFromEntityAssembler.cs`    | Agrupa eventos y los transforma a recurso mensual                        |
+| `DeviceReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte                     |
+| `InstallDeviceCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallDeviceCommand`                             |
+| `DeviceResourceFromEntityAssembler.cs`           | Convierte `DeviceManagement` en recurso JSON                             |
+
 
 ---
 
@@ -2654,25 +2659,26 @@ Representa la administración y configuración de un sensor en campo.
 
 ### `Query Services`
 
-| Archivo                    | Descripción                                                                 |
-|----------------------------|-----------------------------------------------------------------------------|
-| `EventQueryService.cs`      | Consultas sobre eventos incluyendo:                                         |
-|                            | - Por sensorId                                                              |
-|                            | - Por rango de fechas                                                       |
-|                            | - Por estado y sensorId                                                     |
-|                            | - Agrupados por mes                                                         |
-|                            | - Generación de reporte                                                     |
-| `SensorQueryService.cs`     | Consultas por ubicación, ID o estado de sensor                             |
+| Archivo                    | Descripción                                    |
+|----------------------------|------------------------------------------------|
+| `EventQueryService.cs`      | Consultas sobre eventos incluyendo:            |
+|                            | - Por deviceId                                 |
+|                            | - Por rango de fechas                          |
+|                            | - Por estado y deviceId                        |
+|                            | - Agrupados por mes                            |
+|                            | - Generación de reporte                        |
+| `SensorQueryService.cs`     | Consultas por ubicación, ID o estado de sensor |
 
 ---
 #### 4.2.4.4. Infrastructure Layer.
 
 ### `Implementación de Repositories`
 
-| Clase                 | Interfaz implementada | Función principal                                                                 |
-|-----------------------|-----------------------|------------------------------------------------------------------------------------|
-| `EventRepository.cs`  | `IEventRepository`    | Gestiona la persistencia de eventos generados por sensores, incluyendo búsqueda por sensor, fechas o estado. |
-| `DeviceRepository.cs` | `IDeviceRepository`   | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
+| Clase                          | Interfaz implementada         | Función principal                                                                 |
+|-------------------------------|-------------------------------|------------------------------------------------------------------------------------|
+| `EventRepository.cs`          | `IEventRepository`            | Gestiona la persistencia de eventos generados por sensores, incluyendo búsqueda por sensor, fechas o estado. |
+| `DeviceManagementRepository.cs` | `IDeviceManagementRepository` | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
+
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -2682,10 +2688,12 @@ En este diagrama, el REST API actúa como punto de entrada para recibir solicitu
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
-Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **DeviceMonitoring** y su **DeviceStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
+
+Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **Devices**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **SensorManagement** y su **SensorStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
+
 ![alt text](<./assets/img/events.png>)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
-Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
+Este diagrama muestra las relaciones entre las tablas **events** y **Device**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
 
 ![alt text](<./assets/img/dashboard.png>)
 
