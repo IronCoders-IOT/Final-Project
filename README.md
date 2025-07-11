@@ -4037,6 +4037,118 @@ Link del Trello: [https://trello.com/b/IWmXfHJs/aquaconecta-product-backlog](htt
 
 ### 6.2.3.4. Development Evidence for Sprint Review
 
+Para este último entregable se logró realizar las correccionesmencionadas anteriormente. Logrando que os datos que se muestran en las aplciaciones tengan corcondancia con los datos que maneja la Edge application. Implementamos la opción de manejar los datos de varios dispositivos por habitante.
+
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
+| :-: | :-: | :-: | :-: | :-: | :-: |
+|IronCoders-IOT/Landing-Page|main|275222d|fix: Update video links for product and team demos||26/06/2025 1:21 PM|
+|IronCoders-IOT/Frontend|main|9227df0|feat(sensor-monitoring): Implement sensor monitoring dashboard with real-time data display||28/06/2025 10:20 PM|
+|IronCoders-IOT/Frontend|main|a31ee8f|chore: Clean up unused code and improve component structure||29/06/2025 12:33 AM|
+|IronCoders-IOT/Frontend|main|c7ab6f5|feat: Enhance admin dashboard with real-time sensor metrics and improved translations||01/07/2025 2:34 PM|
+|IronCoders-IOT/Frontend|main|4e92bf3|feat(sensor-monitoring): Update sensor events display and data handling in home component||01/07/2025 10:54 PM|
+|IronCoders-IOT/Frontend|main|69cd6dd|fix: Update serverBasePath to production URL in environment configuration||03/07/2025 11:41 AM|
+|IronCoders-IOT/Frontend|main|52f2aab|feat: Remove language toggle component from various pages for cleaner UI||01/07/2025 6:05 PM|
+|IronCoders-IOT/Frontend|develop|9227df0|feat(sensor-monitoring): Implement sensor monitoring dashboard with real-time data display||28/06/2025 11:15 PM|
+|IronCoders-IOT/Frontend|develop|a31ee8f|chore: Clean up unused code and improve component structure||29/06/2025 12:33 AM|
+|IronCoders-IOT/Frontend|develop|c7ab6f5|feat: Enhance admin dashboard with real-time sensor metrics and improved translations||01/07/2025 2:34 AM|
+|IronCoders-IOT/Frontend|develop|4e92bf3|feat(sensor-monitoring): Update sensor events display and data handling in home component||01/07/2025 10:54 PM|
+|IronCoders-IOT/Frontend|develop|69cd6dd|fix: Update serverBasePath to production URL in environment configuration||03/07/202511:41 AM|
+|IronCoders-IOT/Frontend|develop|52f2aab|feat: Remove language toggle component from various pages for cleaner UI||03/07/2025 6:05 PM|
+|IronCoders-IOT/Frontend|develop|9e0d08e|feat: Add Page Not Found component with 404 handling and redirection logic||04/07/2025 12:26 PM|
+|IronCoders-IOT/Frontend|develop|4661aff|fix: Update endpoints for issue reports||06/07/2025 2:22 PM|
+|IronCoders-IOT/Frontend|develop|6258068|feature: Update endpoints for water requests||06/07/2025 3:26 PM|
+|IronCoders-IOT/Frontend|develop|97e6dd1|refactor: Rename files and update import paths for improved structure||06/07/2025 8:12 PM|
+|IronCoders-IOT/Frontend|develop|39eeeaf|feat(sensor-monitoring): enhance sensor monitoring functionality with detailed views and improved data handling||07/07/2025 11:00 AM|
+|IronCoders-IOT/Frontend|develop|f61c5e2|refactor: rename files and update imports to follow naming conventions||07/07/2025 12:03 PM|
+|IronCoders-IOT/Frontend|develop|fc64a0c|fix profile id from refactor: rename components and update imports for consistency and clarity||07/07/2025 12:35 PM|
+|IronCoders-IOT/Frontend|develop|47956f3|refactor: update CSS class names from 'example -\* ' to module-specific naming||07/07/2025 10:31 PM|
+|IronCoders-IOT/Frontend|develop|be4f37f|feat: enhance environment configuration and add new environment variables for better API management||07/07/2025 11:12 PM|
+|IronCoders-IOT/Frontend|develop|3a28e3c|refactor: remove unused environment configuration files||07/07/2025 11:14 PM|
+|IronCoders-IOT/Frontend|develop|ffc663f|fix: provide default values for serverBasePath and appName in environment configurations||08/07/2025 12:12 AM|
+|IronCoders-IOT/Frontend|develop|86ebb53|feat: update water quality mapping and enhance water request display logic||08/07/2025 1:00 PM|
+|IronCoders-IOT/Frontend|develop|e923f6a|refactor: update import paths and variable names for water requests and issue reports||08/07/2025 1:30 PM|
+|IronCoders-IOT/Frontend|develop|ae63606|refactor: update navigation links and routing for issue reports||07/07/2025 1:48 PM|
+|IronCoders-IOT/Frontend|develop|b7087d5|feature: Update endpoints for dashboard||09/07/2025 2:19 AM|
+|IronCoders-IOT/Frontend|develop|6a71b31|refactor: Add subscription creation||09/07/2025 3:11 PM|
+|IronCoders-IOT/Frontend|develop|cf45ee6|Refactor: Add subscription creation||09/07/2025 3:12 PM|
+|IronCoders-IOT/Frontend|develop|614812e|refactor: Updated water quality mapping and improved reporting and water request display logic.||09/07/2025 6:11 PM|
+|IronCoders-IOT/Frontend|develop|0d905e6|refactor: Replace SensordataApiService with WaterRequestApiService and update related imports||09/07/2025 7:01 PM|
+|IronCoders-IOT/Frontend|develop|6486070|refactor: Rename sensor references to device in monitoring components and update related logic||09/07/2025 8:30 PM|
+|IronCoders-IOT/Frontend|develop|b36c0e1|refactor: Rename sensor monitoring to device monitoring and update related components||09/07/2025 8:35 PM|
+|IronCoders-IOT/Frontend|develop|ba12864|refactor: Improved subscription creation and updated payment interface||10/07/2025 12:25 AM|
+|IronCoders-IOT/Frontend|develop|5d675ed|refactor: Update translations and titles related to problem reports||10/07/2025 12:48 AM|
+|IronCoders-IOT/Frontend|develop|5ae4de3|feat: Enhance login component with animated particles and improved UI||10/07/2025 8:08 AM|
+|IronCoders-IOT/Frontend|develop|b36c0e1|Refactor CSS styles for resident and water request components||10/07/2025 8:42 AM|
+|IronCoders-IOT/Frontend|develop|87bc0c5|Refactor CSS styles across multiple components for improved responsiveness and consistency||10/07/2025 9:31 AM|
+|IronCoders-IOT/Frontend|develop|f0ec05f|refactor: simplify login component by removing unused features and optimizing form handling||10/07/2025 9:31 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|9227df0|feat(sensor-monitoring): Implement sensor monitoring dashboard with real-time data display||28/06/2025 11:15 PM|
+|IronCoders-IOT/Frontend|feature/bounded-context|a31ee8f|chore: Clean up unused code and improve component structure||29/07/2025 12:33 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|c7ab6f5|feat: Enhance admin dashboard with real-time sensor metrics and improved translations||01/07/2025 2:34 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|4e92bf3|feat(sensor-monitoring): Update sensor events display and data handling in home component||01/07/2025 10:54 AM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|4661aff|fix: Update endpoints for issue reports||06/07/2025 2:22 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|6258068|feature: Update endpoints for water requests||06/07/2025 3:26 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|97e6dd1|refactor: Rename files and update import paths for improved structure||06/07/2025 8:12 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|fc64a0c|refactor: rename components and update imports for consistency and clarity||07/07/2025 12:03 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|47956f3|refactor: update CSS class names from 'example -\* ' to module-specific naming||07/07/2025 12:35 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|b4f250c|feat: enhance environment configuration and add new environment variables for better API management||07/07/2025 10:31 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|3a28e3c|refactor: remove unused environment configuration files||07/07/2025 11:12 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|ffc663f|fix: provide default values for serverBasePath and appName in environment configurations||08/07/2025 12:12 AM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|86ebb53|feat: update water quality mapping and enhance water request display logic||08/07/2025 1:00 PM|
+|IronCoders-IOT/Frontend|feature/bounded-context|e923f6a|refactor: update import paths and variable names for water requests and issue reports||08/07/2025 1:30 PM|
+|<p>IronCoders-IOT/Frontend</p><p></p>|feature/bounded-context|ae63606|refactor: update navigation links and routing for issue reports||08/07/2025 1:48 PM|
+|IronCoders-IOT/Frontend|feature/bounded-context|b7087d5|feature: Update endpoints for dashboard||09/07/202511:03 PM|
+|IronCoders-IOT/Frontend|feature/bounded-context|6a71b31|refactor: Add subscription creation||09/07/2025 8:48 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|cf45ee6|Refactor: Add subscription creation||09/07/20259:00 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|0d905e6|refactor: Updated water quality mapping and improved reporting and water request display logic.||09/07/2025 9:01 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|6486070|refactor: Replace SensordataApiService with WaterRequestApiService and update related imports||09/07/2025 9:01 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|ba0d0fa|refactor: Rename sensor references to device in monitoring components and update related logic||09/07/2025 9:07 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|ba12864|refactor: Improved subscription creation and updated payment interface||10/07/2025 12:25 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|5d675ed|refactor: Update translations and titles related to problem reports||10/07/2025 12:48 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|5ae4de3|feat: Enhance login component with animated particles and improved UI||10/07/2025 8:08 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|b36c0e1|Refactor CSS styles for resident and water request components||10/07/2025 8:42 AM|
+|IronCoders-IOT/Frontend|feature/bounded-context|87bc0c5|Refactor CSS styles across multiple components for improved responsiveness and consistency||10/07/2025 9:31 AM|
+|IronCoders-IOT/Frontend|feature/page-not-found|9227df0|feat(sensor-monitoring): Implement sensor monitoring dashboard with real-time data display||28/06/2025 11:15 PM|
+|IronCoders-IOT/Frontend|feature/page-not-found|a31ee8f|chore: Clean up unused code and improve component structure||29/06/2025 12:33 AM|
+|IronCoders-IOT/Frontend|feature/page-not-found|c7ab6f5|feat: Enhance admin dashboard with real-time sensor metrics and improved translations||01/07/20252:34 PM|
+|IronCoders-IOT/Frontend|feature/page-not-found|4e92bf3|feat(sensor-monitoring): Update sensor events display and data handling in home component||01/07/2025 10:54 PM|
+|IronCoders-IOT/Frontend|feature/page-not-found|69cd6dd|fix: Update serverBasePath to production URL in environment configuration||03/07/2025 11:41 AM|
+|IronCoders-IOT/Frontend|feature/page-not-found|52f2aab|feat: Remove language toggle component from various pages for cleaner UI||03/07/20256:05 PM|
+|IronCoders-IOT/Frontend|feature/page-not-found|9e0d08e|feat: Add Page Not Found component with 404 handling and redirection logic||04/07/2025 12:26 PM|
+|IronCoders-IOT/Frontend|feature/page-not-found|534e5a9|update README.md to enhance project structure and provide detailed module descriptions||28/05/2025 9:00 AM|
+|IronCoders-IOT/mobile\_iot|main|c81b97d|feat: implement splash screen and refactor navigation||26/06/2025 10:30 AM|
+|IronCoders-IOT/mobile\_iot|main|e621bef|feat: implement report management functionality||02/07/2025 11:30 PM|
+|IronCoders-IOT/mobile\_iot|main|d872c19|feat: DDD structure||03/07/2025 5:31 PM|
+|IronCoders-IOT/mobile\_iot|main|0c108a7|fix: environment variables||04/07/2025 4:40 PM|
+|IronCoders-IOT/mobile\_iot|main|fc2afba|feat: set build and prebuild sh||04/07/2025 5:53 PM|
+|IronCoders-IOT/mobile\_iot|main|1168608|feat: refactor widgets||04/07/2025 9:52 PM|
+|IronCoders-IOT/mobile\_iot|main|8d6dee9|feat: widget for specific feature||05/07/2025 1:24 AM|
+|IronCoders-IOT/mobile\_iot|main|8499853|feat: analytics documentation||06/07/2025 7:30 PM|
+|IronCoders-IOT/Edge|main|3210fbc|feat: enable navigation to reports screen from dashboard||28/05/2025 3:36 AM|
+|IronCoders-IOT/Edge|main|f332a45|feat: implement authentication with user sign-in and token storage||28/05/2025 1:49 PM|
+|IronCoders-IOT/Edge|feature/monitoring|4d7c756|Refactor: Translate to english||26/06/2025 2:34 PM|
+|IronCoders-IOT/Edge|feature/monitoring|8ced9a7|feat: logic to send data to cloud||03/07/2025 10:15 PM|
+|IronCoders-IOT/Edge|feature/monitoring|4d0a25f|feat: remove comment||03/07/2025 12:30 AM|
+|IronCoders-IOT/Edge|feature/monitoring|15c905€|feat: Add calibration for sensors||04/07/2025 1:02 AM|
+|IronCoders-IOT/Edge|feature/monitoring|2745002|feat: Add events for HC||04/07/2025 10:47 AM|
+|IronCoders-IOT/Edge|feature/monitoring|367d8ec|feat: Update HC calibration||04/07/2025 12:18 PM|
+|IronCoders-IOT/Edge|feature/monitoring|f5a0ca5|feat: english translation||04/07/2025 10:40 AM|
+|IronCoders-IOT/Edge|feature/monitoring|a8ad3fa|feat : change water to monitoring bounded context||08/07/2025 1:56 PM|
+|IronCoders-IOT/Edge|main|540b55c|feat: Delete water file||09/07/2025 14:20 PM|
+|IronCoders-IOT/Embedded|main|b031426|feat: Translate to english||26/06/2025 9:38 PM|
+|IronCoders-IOT/Embedded|main|3defba8|Add comments||11/07/2025 1:30 AM|
+|IronCoders-IOT/Embedded|main|c3b6107|Update README.md||11/07/2025 2:08 AM|
+|IronCoders-IOT/Backend|main|fa0ea3d|feature: Add endpoints updated||4/07/2025 4:40 PM|
+|IronCoders-IOT/Backend|main|6f2652f|feature: Add IAM and Profile preferences||4/07/2025 5:06 PM|
+|IronCoders-IOT/Backend|main|0fa8ca9|faeture: Update endpoints for resident||5/07/2025 5:06 PM|
+|IronCoders-IOT/Backend|main|3074f5c|feature: Add subscription for resident||6/07/2025 5:09 PM|
+|IronCoders-IOT/Backend|main|3074f5c|feature: Add subscription for resident||6/07/202512:22 AM|
+|IronCoders-IOT/Backend|main|13ba15c|feature: Add devices for residents||6/07/2025 11:20 AM|
+|IronCoders-IOT/Backend|main|e2e0721|feature: Add resident enpoint for admin||6/07/2025 1:51 PM|
+|IronCoders-IOT/Backend|main|7450227|feature: Add endpoints for dashboard||6/07/2025 6:01 PM|
+
+
+
 ### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
 Durante el desarrollo del entregable se implementaron pruebas unitarias e integrales para validar el comportamiento de las clases de negocio. Esto ayuda a asegurarnos que cada componente funcione correctamente, cumpliendo con su responsabilidad.
@@ -4058,7 +4170,7 @@ Durante el desarrollo del entregable se implementaron pruebas unitarias e integr
 
 ### 6.2.3.6. Execution Evidence for Sprint Review
 
-En nuestro video de exposicion, hemos incluido una demostracion completa de la aplicación AquaConecta, donde se muestran todas las funcionalidades planteadas desde el inicio del proyecto, como la gestión de servicios por parte de los proveedores, el monitoreo del consumo de agua por parte de los residentes, y la integración con dispositivos IoT para el monitoreo en tiempo real. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
+En nuestro video de exposición, hemos incluído una demostración completa de la aplicación AquaConecta, donde se muestran todas las funcionalidades planteadas desde el inicio del proyecto, como la gestión de servicios por parte de los proveedores, el monitoreo del consumo de agua por parte de los residentes, y la integración con dispositivos IoT para el monitoreo en tiempo real. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
 
 
 Codigo frontend de AquaConecta:
@@ -4088,7 +4200,7 @@ Captura del embedded:
 
 
 - **Link de YouTube:**
-  [https://youtu.be/iF1jSQHOsnc](https://youtu.be/iF1jSQHOsnc)
+  [https://youtu.be/716_axd5wHw](https://youtu.be/716_axd5wHw)
 
 ### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
@@ -4375,6 +4487,10 @@ En esta sección colocamos el video de About the Product. En este video se puede
 Para poder implementarlo a la Landing Page se ha publicado el video en YouTube y se puede acceder por medio de este enlace:
 [https://youtu.be/nvWwxpBI8HM](https://youtu.be/nvWwxpBI8HM)
 
+**Se adjunta imagen en la que se demuestra la implemnetación del video en la Landing Page:**
+
+![alt text](assets/about-the-product/about-the-product-image.png)
+
 Asimismo, se adjunta el link de la Landing Page.
 [https://aquaconecta.netlify.app/](https://aquaconecta.netlify.app/)
 
@@ -4409,6 +4525,16 @@ Además, se fortaleció la colaboración entre los miembros del equipo, lo cual 
 En resumen, esta entrega representó un avance significativo hacia la construcción de una solución sólida, alineada a las necesidades del usuario.
 
 
+### Conclusiones – TB2
+
+A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
+
+Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applications y una primera versión funcional de otras aplicaciones que forman parte del alcance del proyecto.
+
+Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
+
+Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
+
 ### Conclusiones – TF
 
 El trabajo realizado durante el Sprint 3 permitió al equipo afianzar la dinámica de colaboración, logrando que la comunicación y el intercambio de ideas fueran más fluidos y efectivos que en etapas previas.
@@ -4423,19 +4549,18 @@ Las sesiones de retrospectiva y revisión fueron fundamentales para identificar 
 
 Finalmente, la experiencia acumulada hasta este punto permitió al equipo sentirse más seguro y motivado para afrontar los siguientes retos del proyecto, evidenciando un crecimiento tanto a nivel técnico como en las habilidades de trabajo en equipo.
 
-### Conclusiones – TB2
-
-A lo largo del desarrollo de este entregable, el equipo ha demostrado un alto nivel de compromiso y responsabilidad compartida.
-
-Se ha logrado desplegar las versiones actualizadas del Landing Page, Web Applications y una primera versión funcional de otras aplicaciones que forman parte del alcance del proyecto.
-
-Logramos presentar una versión corregida y mejorada de los artefactos previamente entregados, en respuesta al feedback recibido y a la revisión continua del producto.
-
-Hemos diseñado, realizado y registrado entrevistas de validación, jutto a las evaluaciones basadas en heurísticas,  lo que nos brindó información clave para mejorar el producto con un enfoque centrado en las necesidades del usuario.
-
 ### Video About-the-Team
+Mediante un video de equipo cada integrante brinda su testimonio, comenta cómo percibió el proceso de desarrollo de la solución y cómo pusieron en práctica tanto lo aprendido en el presente curso como en los cursos anteriores.
 
-**Link del video:** 
+![alt text](assets/about-the-team/about-the-team-image.png)
+
+**Link del video:** [https://acortar.link/PLhMDt](https://acortar.link/PLhMDt)
+
+**Link del video en YouTube:** [https://youtu.be/rcIVwziqHk8](https://youtu.be/rcIVwziqHk8)
+
+El video se encuentra dentro de la Landing Page, se adjunta una imagen la sección presentada posteriormente.
+
+![alt text](assets/about-the-team/about-the-team-image2.png)
 
 # Bibliografía
 
