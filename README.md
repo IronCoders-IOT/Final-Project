@@ -2362,7 +2362,7 @@ Constructores:
 
 El diagrama muestra cómo la aplicación web sirve como interfaz para proveedores y administradores, permitiéndoles configurar el sistema, visualizar análisis y gestionar usuarios y sensores. Esta aplicación se comunica con el Request Controller (implementado en Spring Boot), que maneja las solicitudes entrantes para crear, actualizar y gestionar solicitudes. El controlador delega estas operaciones al Request Command Service, que se encarga de realizar los cambios necesarios y almacenar los datos mediante el Request Repository (basado en Spring Data JPA), o al Request Query Service, que filtra y recupera datos según criterios como estado o tipo de solicitud. El Request Repository actúa como puente entre los servicios y la base de datos MySQL, donde se almacenan las solicitudes junto con información de usuarios, suscripciones, sensores, alertas y registros administrativos.
 
-![alt text](<./assets/img/structurizr-101355-RequestManagement.png>)
+![alt text](<./assets/img/issue1.png>)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
